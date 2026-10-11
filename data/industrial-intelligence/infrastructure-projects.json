@@ -1,465 +1,1166 @@
 {
-  "version": "1.0",
-  "note": "Pilot tracker: only projects that change connectivity for a pilot industrial node. The differentiator is the 'strategic_significance' line — project → industrial consequence — which is Techadyant analysis.",
-  "projects": [
+ "version": "1.0",
+ "note": "Pilot tracker: only projects that change connectivity for a pilot industrial node. The differentiator is the 'strategic_significance' line — project → industrial consequence — which is Techadyant analysis.",
+ "projects": [
+  {
+   "id": "proj:ne8-ahmedabad-dholera-expressway",
+   "name": "Ahmedabad–Dholera Greenfield Expressway (NE-8)",
+   "sector": "road",
+   "project_type": "Greenfield access-controlled expressway",
+   "states": [
+    "Gujarat"
+   ],
+   "districts": [
+    "Ahmedabad",
+    "Bhavnagar"
+   ],
+   "implementing_agency": "Ministry of Road Transport & Highways / NHAI",
+   "estimated_cost_cr": 5800,
+   "cost_note": "Total project cost per PIB (Feb 2026)",
+   "status": "trial",
+   "status_note": "Opened to the public for testing; final operational readiness being assessed (27 Feb 2026).",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
+   "infra_ids": [
+    "infra:ne8-ahmedabad-dholera-expressway"
+   ],
+   "affected_node_ids": [
+    "inode:dholera"
+   ],
+   "affected_sectors": [
+    "sector:semiconductors",
+    "Solar manufacturing",
+    "Data centres"
+   ],
+   "strategic_significance": "Turns Dholera from a two-hour drive into a ~45-minute extension of Ahmedabad and puts an expressway interchange at the airport gate — the first connectivity piece that makes the fab’s workforce, construction and air-cargo logistics practical before rail arrives.",
+   "itla_appraisal_tier": true,
+   "facts": [
     {
-      "id": "proj:ne8-ahmedabad-dholera-expressway",
-      "name": "Ahmedabad–Dholera Greenfield Expressway (NE-8)",
-      "sector": "road",
-      "project_type": "Greenfield access-controlled expressway",
-      "states": [
-        "Gujarat"
-      ],
-      "districts": [
-        "Ahmedabad",
-        "Bhavnagar"
-      ],
-      "implementing_agency": "Ministry of Road Transport & Highways / NHAI",
-      "estimated_cost_cr": 5800,
-      "cost_note": "Total project cost per PIB (Feb 2026)",
-      "status": "trial",
-      "status_note": "Opened to the public for testing; final operational readiness being assessed (27 Feb 2026).",
-      "approval_date": null,
-      "expected_completion": null,
-      "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
-      "infra_ids": [
-        "infra:ne8-ahmedabad-dholera-expressway"
-      ],
-      "affected_node_ids": [
-        "inode:dholera"
-      ],
-      "affected_sectors": [
-        "sector:semiconductors",
-        "Solar manufacturing",
-        "Data centres"
-      ],
-      "strategic_significance": "Turns Dholera from a two-hour drive into a ~45-minute extension of Ahmedabad and puts an expressway interchange at the airport gate — the first connectivity piece that makes the fab’s workforce, construction and air-cargo logistics practical before rail arrives.",
-      "itla_appraisal_tier": true,
-      "facts": [
-        {
-          "label": "Length",
-          "value": "109.019 km",
-          "as_of": "2026-02-27",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:pib-ne8-expressway-2026"
-            }
-          ]
-        },
-        {
-          "label": "Travel time",
-          "value": "Ahmedabad–Dholera: 100 km / 2 h 15 min → 83 km / 45 min",
-          "as_of": "2026-02-27",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:pib-ne8-expressway-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:pib-ne8-expressway-2026"
-        }
-      ],
-      "last_verified": "2026-10-08",
-      "programme_links": [
-        {
-          "programme_id": "bharatmala",
-          "type": "built_under",
-          "provenance": [
-            {
-              "source_id": "src:pib-ne8-expressway-2026"
-            }
-          ]
-        }
-      ]
+     "label": "Length",
+     "value": "109.019 km",
+     "as_of": "2026-02-27",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-ne8-expressway-2026"
+      }
+     ]
     },
     {
-      "id": "proj:sarkhej-dholera-semi-hsr",
-      "name": "Ahmedabad (Sarkhej)–Dholera semi high-speed double line",
-      "sector": "rail",
-      "project_type": "New semi high-speed double line",
-      "states": [
-        "Gujarat"
-      ],
-      "districts": [
-        "Ahmedabad"
-      ],
-      "implementing_agency": "Ministry of Railways",
-      "estimated_cost_cr": 20667,
-      "cost_note": "Approximate cost per Cabinet release",
-      "status": "approved",
-      "status_note": "Approved by CCEA on 13 May 2026.",
-      "approval_date": "2026-05-13",
-      "expected_completion": "2030-31",
-      "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
-      "infra_ids": [
-        "infra:rail-sarkhej-dholera"
-      ],
-      "affected_node_ids": [
-        "inode:dholera"
-      ],
-      "affected_sectors": [
-        "sector:semiconductors"
-      ],
-      "strategic_significance": "Closes Dholera’s multimodal gap, but only from 2030-31 — after the fab’s production target. Until then, chemicals, gases and equipment move by road; that timing gap is what the node’s near-term logistics market prices in.",
-      "itla_appraisal_tier": true,
-      "facts": [
-        {
-          "label": "Network addition",
-          "value": "About 134 km",
-          "as_of": "2026-05-13",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:pib-sarkhej-dholera-rail-2026"
-            }
-          ]
-        },
-        {
-          "label": "Connects",
-          "value": "Ahmedabad, Dholera SIR, Dholera Airport and the Lothal National Maritime Heritage Complex",
-          "as_of": "2026-05-13",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:pib-sarkhej-dholera-rail-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:pib-sarkhej-dholera-rail-2026"
-        }
-      ],
-      "last_verified": "2026-10-08",
-      "programme_links": [
-        {
-          "programme_id": "pm-gati-shakti",
-          "type": "planned_on",
-          "provenance": [
-            {
-              "source_id": "src:pib-sarkhej-dholera-rail-2026"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "proj:dholera-international-airport",
-      "name": "Dholera International Airport",
-      "sector": "aviation",
-      "project_type": "Greenfield international airport",
-      "states": [
-        "Gujarat"
-      ],
-      "districts": [
-        "Ahmedabad"
-      ],
-      "implementing_agency": null,
-      "estimated_cost_cr": null,
-      "cost_note": "Total cost not recorded from a primary source.",
-      "status": "under_construction",
-      "status_note": "~80% complete; operations targeted Sep–Oct 2026 per the Civil Aviation Minister as reported (single trade-press source; unconfirmed).",
-      "approval_date": null,
-      "expected_completion": "2026 (targeted, unconfirmed)",
-      "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
-      "infra_ids": [
-        "infra:airport-dholera"
-      ],
-      "affected_node_ids": [
-        "inode:dholera"
-      ],
-      "affected_sectors": [
-        "sector:semiconductors"
-      ],
-      "strategic_significance": "For a fab, air cargo is the critical mode: spares, specialty materials and finished wafers are high-value and time-sensitive. An operational cargo hub at the SIR would cut the ~105 km straight-line dependence on Ahmedabad.",
-      "itla_appraisal_tier": null,
-      "facts": [
-        {
-          "label": "Planned facilities",
-          "value": "25,000 sq m passenger terminal; 2,500 sq m cargo hub",
-          "as_of": "2026-07-15",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:whalesbook-dholera-airport-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:whalesbook-dholera-airport-2026"
-        },
-        {
-          "source_id": "src:pib-ne8-expressway-2026"
-        }
-      ],
-      "last_verified": "2026-10-08"
-    },
-    {
-      "id": "proj:wdfc-final-sections-2026",
-      "name": "Western DFC final sections (New Sanand N–New Makarpura; New Umbergaon–New Saphale; New Saphale–New JNPT)",
-      "sector": "freight_rail",
-      "project_type": "Dedicated freight corridor completion",
-      "states": [
-        "Gujarat",
-        "Maharashtra"
-      ],
-      "districts": [
-        "Ahmedabad",
-        "Vadodara"
-      ],
-      "implementing_agency": "DFCCIL (Ministry of Railways)",
-      "estimated_cost_cr": 20700,
-      "cost_note": "Aggregate for the three sections (326 route km), 'more than ₹20,700 crore'",
-      "status": "operational",
-      "status_note": "Dedicated 8 Sep 2026; WDFC completed and fully operational.",
-      "approval_date": null,
-      "expected_completion": "2026-09-08",
-      "corridor": "Western Dedicated Freight Corridor",
-      "infra_ids": [
-        "infra:wdfc",
-        "infra:dfc-new-sanand-north"
-      ],
-      "affected_node_ids": [
-        "inode:sanand",
-        "inode:jewar-yeida"
-      ],
-      "affected_sectors": [
-        "sector:semiconductors",
-        "Automotive",
-        "Engineering"
-      ],
-      "strategic_significance": "Puts a dedicated freight-rail station inside India’s first operating chip-packaging cluster and completes the Dadri–JNPA spine that also serves the Jewar side. Rail does not carry chips — it carries the gases, chemicals, packaging materials and containerised output that make a cluster cheaper to run.",
-      "itla_appraisal_tier": true,
-      "facts": [
-        {
-          "label": "Route km dedicated",
-          "value": "326 km across three sections",
-          "as_of": "2026-09-08",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:pmindia-wdfc-2026"
-            },
-            {
-              "source_id": "src:jica-wdfc-2026"
-            }
-          ]
-        },
-        {
-          "label": "Full corridor",
-          "value": "WDFC 1,506 km Dadri–JNPT completed and fully operational",
-          "as_of": "2026-09-08",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:jica-wdfc-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:pmindia-wdfc-2026"
-        },
-        {
-          "source_id": "src:jica-wdfc-2026"
-        }
-      ],
-      "last_verified": "2026-10-08",
-      "programme_links": [
-        {
-          "programme_id": "dfc",
-          "type": "operated_under",
-          "provenance": [
-            {
-              "source_id": "src:pmindia-wdfc-2026"
-            },
-            {
-              "source_id": "src:jica-wdfc-2026"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "proj:noida-international-airport-phase1",
-      "name": "Noida International Airport, Jewar — Phase 1",
-      "sector": "aviation",
-      "project_type": "Greenfield international airport with integrated cargo terminal",
-      "states": [
-        "Uttar Pradesh"
-      ],
-      "districts": [
-        "Gautam Buddha Nagar"
-      ],
-      "implementing_agency": null,
-      "estimated_cost_cr": 11200,
-      "cost_note": "Approximate total investment for Phase 1 per AIR",
-      "status": "operational",
-      "status_note": "Phase 1 inaugurated 28 Mar 2026; first cargo flight 17 Jun 2026.",
-      "approval_date": null,
-      "expected_completion": "2026-03-28",
-      "corridor": null,
-      "infra_ids": [
-        "infra:airport-noida-jewar"
-      ],
-      "affected_node_ids": [
-        "inode:jewar-yeida"
-      ],
-      "affected_sectors": [
-        "sector:semiconductors",
-        "Electronics manufacturing"
-      ],
-      "strategic_significance": "Gives the India Chip OSAT an operating cargo airport next door before the plant ships its first unit — inverting the usual Indian sequence in which factories wait years for logistics.",
-      "itla_appraisal_tier": null,
-      "facts": [
-        {
-          "label": "Phase 1 capacity",
-          "value": "12 million passengers/yr; > 2.5 lakh t cargo/yr (expandable to ~18 lakh t)",
-          "as_of": "2026-03-27",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:air-noida-airport-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:air-noida-airport-2026"
-        },
-        {
-          "source_id": "src:fpj-noida-cargo-2026"
-        }
-      ],
-      "last_verified": "2026-10-08"
-    },
-    {
-      "id": "proj:deendayal-rob-lc235",
-      "name": "Road over bridge at LC-235, Deendayal Port (Kandla)",
-      "sector": "port",
-      "project_type": "Port-connectivity road over bridge at a rail level crossing",
-      "states": [
-        "Gujarat"
-      ],
-      "districts": [
-        "Kutch"
-      ],
-      "implementing_agency": "Deendayal Port Authority / MoPSW",
-      "estimated_cost_cr": 132.51,
-      "cost_note": "Estimated cost as approved (Apr 2026)",
-      "status": "approved",
-      "status_note": "Approved by MoPSW after appraisal by its Delegated Investment Board (reported 4 Apr 2026).",
-      "approval_date": null,
-      "expected_completion": null,
-      "corridor": null,
-      "infra_ids": [
-        "infra:port-deendayal-kandla"
-      ],
-      "affected_node_ids": [],
-      "affected_sectors": [
-        "Port logistics"
-      ],
-      "strategic_significance": "A small project with a specific aim: removing a rail–road conflict point at a major port gate. Sagarmala’s port-connectivity pillar works at this level of grain, and a port’s effective capacity depends on it as much as on berths.",
-      "itla_appraisal_tier": false,
-      "facts": [
-        {
-          "label": "Cost",
-          "value": "₹132.51 crore (Sagarmala-funded)",
-          "as_of": "2026-04-04",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:theweek-deendayal-rob-2026"
-            }
-          ]
-        }
-      ],
-      "programme_links": [
-        {
-          "programme_id": "sagarmala",
-          "type": "funded_under",
-          "provenance": [
-            {
-              "source_id": "src:theweek-deendayal-rob-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:theweek-deendayal-rob-2026"
-        }
-      ],
-      "last_verified": "2026-10-08"
-    },
-    {
-      "id": "proj:bengaluru-chennai-expressway",
-      "name": "Bengaluru–Chennai Expressway (greenfield)",
-      "sector": "road",
-      "project_type": "Greenfield access-controlled expressway",
-      "states": [
-        "Karnataka"
-      ],
-      "districts": [],
-      "implementing_agency": "NHAI / MoRTH",
-      "estimated_cost_cr": null,
-      "cost_note": null,
-      "status": "under_construction",
-      "status_note": "Described as being developed under Bharatmala Pariyojana Phase-I (Jun 2026); construction progress and opening date not stated. States beyond the Karnataka section are not recorded here.",
-      "approval_date": null,
-      "expected_completion": null,
-      "corridor": "Chennai–Bengaluru Industrial Corridor",
-      "infra_ids": [
-        "infra:bengaluru-chennai-expressway"
-      ],
-      "affected_node_ids": [],
-      "affected_sectors": [
-        "Electronics",
-        "Aerospace & defence",
-        "Logistics"
-      ],
-      "strategic_significance": "Bharatmala’s economic-corridor logic, visible on the ground: an expressway named as a priority corridor of an industrial corridor, with industrial areas and a proposed MMLP along its Karnataka section.",
-      "itla_appraisal_tier": null,
-      "facts": [
-        {
-          "label": "Karnataka section",
-          "value": "~71 km in three packages",
-          "as_of": "2026-06-14",
-          "evidence": "fact",
-          "provenance": [
-            {
-              "source_id": "src:ians-blr-chennai-expressway-2026"
-            }
-          ]
-        }
-      ],
-      "programme_links": [
-        {
-          "programme_id": "bharatmala",
-          "type": "built_under",
-          "provenance": [
-            {
-              "source_id": "src:ians-blr-chennai-expressway-2026"
-            }
-          ]
-        }
-      ],
-      "provenance": [
-        {
-          "source_id": "src:ians-blr-chennai-expressway-2026"
-        }
-      ],
-      "last_verified": "2026-10-08"
+     "label": "Travel time",
+     "value": "Ahmedabad–Dholera: 100 km / 2 h 15 min → 83 km / 45 min",
+     "as_of": "2026-02-27",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-ne8-expressway-2026"
+      }
+     ]
     }
-  ]
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-ne8-expressway-2026"
+    }
+   ],
+   "last_verified": "2026-10-08",
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:pib-ne8-expressway-2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "proj:sarkhej-dholera-semi-hsr",
+   "name": "Ahmedabad (Sarkhej)–Dholera semi high-speed double line",
+   "sector": "rail",
+   "project_type": "New semi high-speed double line",
+   "states": [
+    "Gujarat"
+   ],
+   "districts": [
+    "Ahmedabad"
+   ],
+   "implementing_agency": "Ministry of Railways",
+   "estimated_cost_cr": 20667,
+   "cost_note": "Approximate cost per Cabinet release",
+   "status": "approved",
+   "status_note": "Approved by CCEA on 13 May 2026.",
+   "approval_date": "2026-05-13",
+   "expected_completion": "2030-31",
+   "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
+   "infra_ids": [
+    "infra:rail-sarkhej-dholera"
+   ],
+   "affected_node_ids": [
+    "inode:dholera"
+   ],
+   "affected_sectors": [
+    "sector:semiconductors"
+   ],
+   "strategic_significance": "Closes Dholera’s multimodal gap, but only from 2030-31 — after the fab’s production target. Until then, chemicals, gases and equipment move by road; that timing gap is what the node’s near-term logistics market prices in.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Network addition",
+     "value": "About 134 km",
+     "as_of": "2026-05-13",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-sarkhej-dholera-rail-2026"
+      }
+     ]
+    },
+    {
+     "label": "Connects",
+     "value": "Ahmedabad, Dholera SIR, Dholera Airport and the Lothal National Maritime Heritage Complex",
+     "as_of": "2026-05-13",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-sarkhej-dholera-rail-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-sarkhej-dholera-rail-2026"
+    }
+   ],
+   "last_verified": "2026-10-08",
+   "programme_links": [
+    {
+     "programme_id": "pm-gati-shakti",
+     "type": "planned_on",
+     "provenance": [
+      {
+       "source_id": "src:pib-sarkhej-dholera-rail-2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "proj:dholera-international-airport",
+   "name": "Dholera International Airport",
+   "sector": "aviation",
+   "project_type": "Greenfield international airport",
+   "states": [
+    "Gujarat"
+   ],
+   "districts": [
+    "Ahmedabad"
+   ],
+   "implementing_agency": null,
+   "estimated_cost_cr": null,
+   "cost_note": "Total cost not recorded from a primary source.",
+   "status": "under_construction",
+   "status_note": "~80% complete; operations targeted Sep–Oct 2026 per the Civil Aviation Minister as reported (single trade-press source; unconfirmed).",
+   "approval_date": null,
+   "expected_completion": "2026 (targeted, unconfirmed)",
+   "corridor": "Delhi–Mumbai Industrial Corridor (Dholera SIR)",
+   "infra_ids": [
+    "infra:airport-dholera"
+   ],
+   "affected_node_ids": [
+    "inode:dholera"
+   ],
+   "affected_sectors": [
+    "sector:semiconductors"
+   ],
+   "strategic_significance": "For a fab, air cargo is the critical mode: spares, specialty materials and finished wafers are high-value and time-sensitive. An operational cargo hub at the SIR would cut the ~105 km straight-line dependence on Ahmedabad.",
+   "itla_appraisal_tier": null,
+   "facts": [
+    {
+     "label": "Planned facilities",
+     "value": "25,000 sq m passenger terminal; 2,500 sq m cargo hub",
+     "as_of": "2026-07-15",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:whalesbook-dholera-airport-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:whalesbook-dholera-airport-2026"
+    },
+    {
+     "source_id": "src:pib-ne8-expressway-2026"
+    }
+   ],
+   "last_verified": "2026-10-08"
+  },
+  {
+   "id": "proj:wdfc-final-sections-2026",
+   "name": "Western DFC final sections (New Sanand N–New Makarpura; New Umbergaon–New Saphale; New Saphale–New JNPT)",
+   "sector": "freight_rail",
+   "project_type": "Dedicated freight corridor completion",
+   "states": [
+    "Gujarat",
+    "Maharashtra"
+   ],
+   "districts": [
+    "Ahmedabad",
+    "Vadodara"
+   ],
+   "implementing_agency": "DFCCIL (Ministry of Railways)",
+   "estimated_cost_cr": 20700,
+   "cost_note": "Aggregate for the three sections (326 route km), 'more than ₹20,700 crore'",
+   "status": "operational",
+   "status_note": "Dedicated 8 Sep 2026; WDFC completed and fully operational.",
+   "approval_date": null,
+   "expected_completion": "2026-09-08",
+   "corridor": "Western Dedicated Freight Corridor",
+   "infra_ids": [
+    "infra:wdfc",
+    "infra:dfc-new-sanand-north"
+   ],
+   "affected_node_ids": [
+    "inode:sanand",
+    "inode:jewar-yeida"
+   ],
+   "affected_sectors": [
+    "sector:semiconductors",
+    "Automotive",
+    "Engineering"
+   ],
+   "strategic_significance": "Puts a dedicated freight-rail station inside India’s first operating chip-packaging cluster and completes the Dadri–JNPA spine that also serves the Jewar side. Rail does not carry chips — it carries the gases, chemicals, packaging materials and containerised output that make a cluster cheaper to run.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Route km dedicated",
+     "value": "326 km across three sections",
+     "as_of": "2026-09-08",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pmindia-wdfc-2026"
+      },
+      {
+       "source_id": "src:jica-wdfc-2026"
+      }
+     ]
+    },
+    {
+     "label": "Full corridor",
+     "value": "WDFC 1,506 km Dadri–JNPT completed and fully operational",
+     "as_of": "2026-09-08",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:jica-wdfc-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pmindia-wdfc-2026"
+    },
+    {
+     "source_id": "src:jica-wdfc-2026"
+    }
+   ],
+   "last_verified": "2026-10-08",
+   "programme_links": [
+    {
+     "programme_id": "dfc",
+     "type": "operated_under",
+     "provenance": [
+      {
+       "source_id": "src:pmindia-wdfc-2026"
+      },
+      {
+       "source_id": "src:jica-wdfc-2026"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "proj:noida-international-airport-phase1",
+   "name": "Noida International Airport, Jewar — Phase 1",
+   "sector": "aviation",
+   "project_type": "Greenfield international airport with integrated cargo terminal",
+   "states": [
+    "Uttar Pradesh"
+   ],
+   "districts": [
+    "Gautam Buddha Nagar"
+   ],
+   "implementing_agency": null,
+   "estimated_cost_cr": 11200,
+   "cost_note": "Approximate total investment for Phase 1 per AIR",
+   "status": "operational",
+   "status_note": "Phase 1 inaugurated 28 Mar 2026; first cargo flight 17 Jun 2026.",
+   "approval_date": null,
+   "expected_completion": "2026-03-28",
+   "corridor": null,
+   "infra_ids": [
+    "infra:airport-noida-jewar"
+   ],
+   "affected_node_ids": [
+    "inode:jewar-yeida"
+   ],
+   "affected_sectors": [
+    "sector:semiconductors",
+    "Electronics manufacturing"
+   ],
+   "strategic_significance": "Gives the India Chip OSAT an operating cargo airport next door before the plant ships its first unit — inverting the usual Indian sequence in which factories wait years for logistics.",
+   "itla_appraisal_tier": null,
+   "facts": [
+    {
+     "label": "Phase 1 capacity",
+     "value": "12 million passengers/yr; > 2.5 lakh t cargo/yr (expandable to ~18 lakh t)",
+     "as_of": "2026-03-27",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:air-noida-airport-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:air-noida-airport-2026"
+    },
+    {
+     "source_id": "src:fpj-noida-cargo-2026"
+    }
+   ],
+   "last_verified": "2026-10-08"
+  },
+  {
+   "id": "proj:deendayal-rob-lc235",
+   "name": "Road over bridge at LC-235, Deendayal Port (Kandla)",
+   "sector": "port",
+   "project_type": "Port-connectivity road over bridge at a rail level crossing",
+   "states": [
+    "Gujarat"
+   ],
+   "districts": [
+    "Kutch"
+   ],
+   "implementing_agency": "Deendayal Port Authority / MoPSW",
+   "estimated_cost_cr": 132.51,
+   "cost_note": "Estimated cost as approved (Apr 2026)",
+   "status": "approved",
+   "status_note": "Approved by MoPSW after appraisal by its Delegated Investment Board (reported 4 Apr 2026).",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": null,
+   "infra_ids": [
+    "infra:port-deendayal-kandla"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Port logistics"
+   ],
+   "strategic_significance": "A small project with a specific aim: removing a rail–road conflict point at a major port gate. Sagarmala’s port-connectivity pillar works at this level of grain, and a port’s effective capacity depends on it as much as on berths.",
+   "itla_appraisal_tier": false,
+   "facts": [
+    {
+     "label": "Cost",
+     "value": "₹132.51 crore (Sagarmala-funded)",
+     "as_of": "2026-04-04",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:theweek-deendayal-rob-2026"
+      }
+     ]
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "sagarmala",
+     "type": "funded_under",
+     "provenance": [
+      {
+       "source_id": "src:theweek-deendayal-rob-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:theweek-deendayal-rob-2026"
+    }
+   ],
+   "last_verified": "2026-10-08"
+  },
+  {
+   "id": "proj:bengaluru-chennai-expressway",
+   "name": "Bengaluru–Chennai Expressway (greenfield)",
+   "sector": "road",
+   "project_type": "Greenfield access-controlled expressway",
+   "states": [
+    "Karnataka",
+    "Andhra Pradesh",
+    "Tamil Nadu"
+   ],
+   "districts": [
+    "Kolar (Karnataka)",
+    "Chittoor (Andhra Pradesh)",
+    "Vellore / Ranipet (Tamil Nadu)",
+    "Kancheepuram (Tamil Nadu)",
+    "Tiruvallur (Tamil Nadu)"
+   ],
+   "implementing_agency": "NHAI / MoRTH",
+   "estimated_cost_cr": 17900,
+   "cost_note": "Rs 17,900 crore estimate (India Infra Hub, Feb 2020); current sanctioned package costs not captured.",
+   "status": "under_construction",
+   "status_note": "Described as being developed under Bharatmala Pariyojana Phase-I (Jun 2026); construction progress and opening date not stated. Alignment begins at Hoskote (Karnataka) and ends at Sriperumbudur (Tamil Nadu), with last-mile to Chennai via two elevated connectors.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": "Chennai–Bengaluru Industrial Corridor",
+   "infra_ids": [
+    "infra:bengaluru-chennai-expressway"
+   ],
+   "affected_node_ids": [
+    "inode:sriperumbudur-oragadam"
+   ],
+   "affected_sectors": [
+    "Electronics",
+    "Aerospace & defence",
+    "Logistics"
+   ],
+   "strategic_significance": "Bharatmala’s economic-corridor logic, visible on the ground: an expressway named as a priority corridor of an industrial corridor, with industrial areas and a proposed MMLP along its Karnataka section.",
+   "itla_appraisal_tier": null,
+   "facts": [
+    {
+     "label": "Karnataka section",
+     "value": "~71 km in three packages",
+     "as_of": "2026-06-14",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:ians-blr-chennai-expressway-2026"
+      }
+     ]
+    },
+    {
+     "label": "Alignment",
+     "value": "262 km six-lane access-controlled greenfield; Hoskote (Karnataka) → Sriperumbudur (Tamil Nadu); last-mile to Chennai via two elevated expressways",
+     "as_of": "2020-02-02",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiainfrahub-blrchn-2020"
+      }
+     ]
+    },
+    {
+     "label": "State-wise length",
+     "value": "75.64 km Karnataka · 88.30 km Andhra Pradesh · 98.32 km Tamil Nadu",
+     "as_of": "2020-02-02",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiainfrahub-blrchn-2020"
+      }
+     ]
+    },
+    {
+     "label": "Phases",
+     "value": "Five: Bengaluru–Kolar; Kolar–Palamaner; Palamaner–Chittoor; Chittoor–Kanchipuram; Kanchipuram–Sriperumbudur",
+     "as_of": "2020-02-02",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiainfrahub-blrchn-2020"
+      }
+     ]
+    },
+    {
+     "label": "District names",
+     "value": "Districts as named in the 2020 source include Vellore; the district has since been bifurcated (Ranipet carved out, 2019)",
+     "as_of": "2020-02-02",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiainfrahub-blrchn-2020"
+      }
+     ]
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:ians-blr-chennai-expressway-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:ians-blr-chennai-expressway-2026"
+    },
+    {
+     "source_id": "src:indiainfrahub-blrchn-2020"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:delhi-mumbai-expressway",
+   "name": "Delhi–Mumbai Expressway (Delhi–Vadodara–Mumbai Greenfield Expressway)",
+   "sector": "road",
+   "project_type": "Greenfield access-controlled expressway (8-lane, expandable to 12)",
+   "states": [
+    "Delhi",
+    "Haryana",
+    "Rajasthan",
+    "Madhya Pradesh",
+    "Gujarat",
+    "Maharashtra"
+   ],
+   "districts": [],
+   "implementing_agency": "NHAI / MoRTH",
+   "estimated_cost_cr": 100000,
+   "cost_note": "Approximately Rs 1 lakh crore per PIB (Jun 2026); Rs 1.10 lakh crore reported Jul 2026.",
+   "status": "under_construction",
+   "status_note": "~80% complete per the Road Transport Minister (Jul 2026), with full completion signalled within two years. Sections opened progressively since Feb 2023.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": "Delhi–Mumbai freight axis (Bharatmala flagship; road-side complement to the Western DFC)",
+   "infra_ids": [
+    "infra:delhi-mumbai-expressway",
+    "infra:dme-jnpt-spur"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Road freight",
+    "Logistics",
+    "Warehousing"
+   ],
+   "strategic_significance": "India’s longest access-controlled expressway compresses the Delhi–Mumbai trunk onto a 1,386 km 8-lane corridor with a dedicated JNPT spur — the road-side complement to the Western DFC that will shape where North–South warehousing and distribution capacity consolidates.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Planned length",
+     "value": "1,386 km (PIB, Jun 2026; a Mar-2026 Rajya Sabha reply gives 1,445 km incl. spurs)",
+     "as_of": "2026-06-14",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-highways-viksit-2026"
+      }
+     ]
+    },
+    {
+     "label": "Estimated cost",
+     "value": "around Rs 1 lakh crore",
+     "as_of": "2026-06-14",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-highways-viksit-2026"
+      }
+     ]
+    },
+    {
+     "label": "Progress",
+     "value": "~80% complete; completion signalled within two years (Jul 2026)",
+     "as_of": "2026-07-09",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:magicbricks-dme-2026"
+      }
+     ]
+    },
+    {
+     "label": "Contracting structure",
+     "value": "52 packages awarded to around 20 construction companies (undated trade-press count; parliamentary replies give 53 packages / 1,386 km in Jul 2024 and 54 packages / 1,445 km in Mar 2026 \u2014 unreconciled)",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:wiki-dme"
+      }
+     ]
+    },
+    {
+     "label": "Port interface",
+     "value": "Package 13: ~3 km dedicated spur to Jawaharlal Nehru Port (JNPT)",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:nhai-dme-packages-2022"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-highways-viksit-2026"
+    },
+    {
+     "source_id": "src:magicbricks-dme-2026"
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:pib-highways-viksit-2026"
+      }
+     ]
+    }
+   ],
+   "contractors": [
+    {
+     "name": "G R Infraprojects Ltd",
+     "role": "EPC/HAM contractor",
+     "scope": "8 packages (~290 km); corridor package total disputed \u2014 see Contracting structure",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiainfrahub-dme"
+      }
+     ]
+    },
+    {
+     "name": "H G Infra Engineering",
+     "role": "EPC contractor",
+     "scope": "package award holder",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiainfrahub-dme"
+      }
+     ]
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:delhi-amritsar-katra-expressway",
+   "name": "Delhi–Amritsar–Katra Expressway",
+   "sector": "road",
+   "project_type": "Greenfield access-controlled expressway",
+   "states": [
+    "Punjab",
+    "Haryana",
+    "Jammu & Kashmir"
+   ],
+   "districts": [],
+   "implementing_agency": "NHAI / MoRTH",
+   "estimated_cost_cr": 38905,
+   "cost_note": "Estimated around Rs 38,905 crore (NDTV, Jul 2026); commonly cited planning figure ~Rs 40,000 crore.",
+   "status": "under_construction",
+   "status_note": "First 157.92 km (Packages 1–5, ~Rs 9,680 crore) dedicated to the nation on 17 Jul 2026; balance under construction.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": "North-west border belt (Delhi–Punjab–Jammu & Kashmir)",
+   "infra_ids": [
+    "infra:delhi-amritsar-katra-expressway"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Road freight",
+    "Agro-industrial logistics",
+    "Pilgrimage & tourism traffic"
+   ],
+   "strategic_significance": "Gives the Punjab agro-industrial belt and the Jammu–Katra pilgrimage economy a high-speed access-controlled spine toward NCR; its Katra leg doubles as border-region connectivity. The Bharatmala classification rests on secondary sources — upgrade when a sanction document is captured.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Total length",
+     "value": "667 km greenfield access-controlled corridor",
+     "as_of": "2026-07-17",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:swarajya-dak-2026"
+      }
+     ]
+    },
+    {
+     "label": "First stretch",
+     "value": "157.92 km (Packages 1–5) dedicated 17 Jul 2026 at ~Rs 9,680 crore",
+     "as_of": "2026-07-17",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:ddnews-dak-2026"
+      }
+     ]
+    },
+    {
+     "label": "Estimated cost",
+     "value": "~Rs 38,905 crore",
+     "as_of": "2026-07-17",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:ndtv-dak-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:ddnews-dak-2026"
+    },
+    {
+     "source_id": "src:ndtv-dak-2026"
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:wiki-dak-expressway"
+      }
+     ]
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:amritsar-jamnagar-expressway",
+   "name": "Amritsar–Jamnagar Expressway (Economic Corridor EC-3)",
+   "sector": "road",
+   "project_type": "Greenfield six-lane access-controlled economic corridor",
+   "states": [
+    "Punjab",
+    "Haryana",
+    "Rajasthan",
+    "Gujarat"
+   ],
+   "districts": [],
+   "implementing_agency": "NHAI / MoRTH",
+   "estimated_cost_cr": null,
+   "cost_note": "Total corridor cost not captured from a primary source. The dedicated Rajasthan section alone was built at around Rs 11,125 crore (PIB, Jul 2023).",
+   "status": "under_construction",
+   "status_note": "Rajasthan section (>500 km) dedicated 8 Jul 2023; a further 27.1 km Deogarh–Gujarat border stretch opened Sep 2026; remaining sections under construction.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": "EC-3 Amritsar–Jamnagar (Bharatmala Phase-I economic corridor)",
+   "infra_ids": [
+    "infra:amritsar-jamnagar-expressway"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Road freight",
+    "Agro-industrial logistics",
+    "Energy & petrochemical cargo"
+   ],
+   "strategic_significance": "A north-west freight axis linking Punjab’s agro-industrial belt to Gujarat’s refinery-and-port coast; its Jamnagar end sits near India’s largest refining complex, giving the corridor a natural energy-cargo and export rationale.",
+   "itla_appraisal_tier": null,
+   "facts": [
+    {
+     "label": "Length",
+     "value": "1,256.95 km, six lanes",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:wiki-aj-expressway"
+      }
+     ]
+    },
+    {
+     "label": "Component designation",
+     "value": "EC-3 of the 44 Phase-I economic corridors",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:wiki-bharatmala"
+      }
+     ]
+    },
+    {
+     "label": "Rajasthan section",
+     "value": "Jakhrawali (Hanumangarh) to Khetlawas (Jalore), >500 km, ~Rs 11,125 crore — dedicated 8 Jul 2023",
+     "as_of": "2023-07-08",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-aj-rajasthan-2023"
+      }
+     ]
+    },
+    {
+     "label": "Latest opening",
+     "value": "27.1 km Deogarh–Gujarat border stretch opened",
+     "as_of": "2026-09",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:indiatoday-aj-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-aj-rajasthan-2023"
+    },
+    {
+     "source_id": "src:wiki-aj-expressway"
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:wiki-bharatmala"
+      },
+      {
+       "source_id": "src:pib-aj-rajasthan-2023"
+      }
+     ]
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:raipur-visakhapatnam-ec",
+   "name": "Raipur–Visakhapatnam Economic Corridor (NH-130CD, EC-15)",
+   "sector": "road",
+   "project_type": "Greenfield six-lane access-controlled economic corridor",
+   "states": [
+    "Chhattisgarh",
+    "Odisha",
+    "Andhra Pradesh"
+   ],
+   "districts": [],
+   "implementing_agency": "Ministry of Road Transport & Highways",
+   "estimated_cost_cr": 16482,
+   "cost_note": "Total cost Rs 16,482 crore (PIB, Dec 2025).",
+   "status": "under_construction",
+   "status_note": "Expected completion December 2026 (PIB, Dec 2025).",
+   "approval_date": null,
+   "expected_completion": "2026-12",
+   "corridor": "EC-15 Raipur–Visakhapatnam (Bharatmala Phase-I economic corridor)",
+   "infra_ids": [
+    "infra:raipur-visakhapatnam-ec"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Mining & metals freight",
+    "Port exports",
+    "Road freight"
+   ],
+   "strategic_significance": "Connects the mineral belt of Chhattisgarh–Odisha (coal, iron ore, steel) to Visakhapatnam Port; PIB’s own framing is port-and-industrial-hub connectivity with faster exports — the clearest Phase-I example of a highway priced for export logistics rather than passenger traffic.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Length",
+     "value": "465 km, six-lane greenfield",
+     "as_of": "2025-12-07",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-rv-corridor-2025"
+      }
+     ]
+    },
+    {
+     "label": "Distance saving",
+     "value": "597 km (existing NH-26) → 465 km; ~132 km and nearly 7 hours saved",
+     "as_of": "2025-12-07",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-rv-corridor-2025"
+      }
+     ]
+    },
+    {
+     "label": "Port link",
+     "value": "“will directly be linked to the Visakhapatnam Port and the Chennai-Kolkata National Highway” — improved connectivity to ports and industrial hubs",
+     "as_of": "2025-12-07",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-rv-corridor-2025"
+      }
+     ]
+    },
+    {
+     "label": "Component designation",
+     "value": "EC-15 of the 44 Phase-I economic corridors",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:wiki-bharatmala"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-rv-corridor-2025"
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:wiki-bharatmala"
+      },
+      {
+       "source_id": "src:pib-rv-corridor-2025"
+      }
+     ]
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:dwarka-expressway",
+   "name": "Dwarka Expressway (Delhi–Gurugram elevated urban expressway)",
+   "sector": "road",
+   "project_type": "India’s first grade-separated (elevated) urban expressway",
+   "states": [
+    "Delhi",
+    "Haryana"
+   ],
+   "districts": [
+    "Dwarka (Delhi)",
+    "Gurugram"
+   ],
+   "implementing_agency": "NHAI",
+   "estimated_cost_cr": 8662,
+   "cost_note": "Rs 8,662 crore (PIB, Mar 2021).",
+   "status": "operational",
+   "status_note": "Haryana section (19 km) inaugurated 11 Mar 2024 (PIB).",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": "Delhi NCR urban corridor (NH-48 decongestion)",
+   "infra_ids": [
+    "infra:dwarka-expressway"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Urban logistics",
+    "Airport traffic (IGI)"
+   ],
+   "strategic_significance": "The programme’s urban-decongestion face: grade-separating Delhi–Gurugram through traffic (including IGI-airport and NH-48 freight flows) off local roads — chokepoint relief on the Delhi end of the Delhi–Mumbai axis rather than a new industrial corridor.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Length",
+     "value": "29 km",
+     "as_of": "2021-03-04",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-dwarka-2021"
+      }
+     ]
+    },
+    {
+     "label": "Cost",
+     "value": "Rs 8,662 crore",
+     "as_of": "2021-03-04",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-dwarka-2021"
+      }
+     ]
+    },
+    {
+     "label": "Programme classification",
+     "value": "“being constructed under the Bharatmala Project”",
+     "as_of": "2021-03-04",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-dwarka-2021"
+      }
+     ]
+    },
+    {
+     "label": "Inauguration",
+     "value": "Haryana section (19 km) inaugurated",
+     "as_of": "2024-03-11",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-dwarka-2024"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-dwarka-2021"
+    },
+    {
+     "source_id": "src:pib-dwarka-2024"
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:pib-dwarka-2021"
+      }
+     ]
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:zojila-tunnel",
+   "name": "Zojila Tunnel (NH-1 Srinagar–Leh)",
+   "sector": "road",
+   "project_type": "High-altitude bi-directional road tunnel (13.153 km)",
+   "states": [
+    "Jammu & Kashmir",
+    "Ladakh"
+   ],
+   "districts": [
+    "Ganderbal (J&K)",
+    "Kargil / Drass (Ladakh)"
+   ],
+   "implementing_agency": "NHIDCL / MoRTH",
+   "estimated_cost_cr": 6809.69,
+   "cost_note": "Total project cost Rs 6,809.69 crore (PIB, Aug 2024).",
+   "status": "under_construction",
+   "status_note": "Final breakthrough achieved 9 Jun 2026; opening targeted around February 2028 (reported).",
+   "approval_date": null,
+   "expected_completion": "2028-02 (reported target, unconfirmed)",
+   "corridor": "Border & international connectivity (NH-1 Srinagar–Leh axis)",
+   "infra_ids": [
+    "infra:zojila-tunnel"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Border logistics",
+    "Tourism",
+    "Road freight"
+   ],
+   "strategic_significance": "The programme’s border-connectivity face: converting a seasonally blocked Himalayan pass into an all-weather Srinagar–Leh freight and personnel axis for Ladakh — strategic access first, with civilian logistics and tourism as second-order effects.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Length",
+     "value": "13.153 km — world’s longest single-tube bi-directional road tunnel",
+     "as_of": "2026-06-09",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:meil-zojila-2026"
+      }
+     ]
+    },
+    {
+     "label": "Cost and progress",
+     "value": "TPC Rs 6,809.69 crore; 52.13% progress at the Aug 2024 release",
+     "as_of": "2024-08-08",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-zojila-2024"
+      }
+     ]
+    },
+    {
+     "label": "Milestone",
+     "value": "Final breakthrough achieved",
+     "as_of": "2026-06-09",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:meil-zojila-2026"
+      }
+     ]
+    },
+    {
+     "label": "Opening",
+     "value": "Likely to open for public in February 2028",
+     "as_of": "2026-06-09",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:bs-zojila-2026"
+      }
+     ]
+    },
+    {
+     "label": "Programme classification",
+     "value": "Listed by NHIDCL among projects per Bharatmala Pariyojana (Z-Morh–Zojila connecting road, 18.475 km)",
+     "as_of": "2026-05",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:nhidcl-projects-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-zojila-2024"
+    },
+    {
+     "source_id": "src:meil-zojila-2026"
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "bharatmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:nhidcl-projects-2026"
+      }
+     ]
+    }
+   ],
+   "contractors": [
+    {
+     "name": "Megha Engineering & Infrastructures Ltd (MEIL)",
+     "role": "design & construction contractor",
+     "scope": "Zojila tunnel civil works",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:bs-zojila-2026"
+      },
+      {
+       "source_id": "src:meil-zojila-2026"
+      }
+     ]
+    }
+   ],
+   "last_verified": "2026-10-09"
+  }
+ ]
 }

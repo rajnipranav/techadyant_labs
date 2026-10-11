@@ -128,6 +128,25 @@ export interface MatchRule {
   exclude: string[];
 }
 
+/** One row of a programme's state-wise coverage matrix (optional field). */
+export interface StateCoverageRow {
+  state: string;
+  total_km: number;
+  awarded_km: number;
+  constructed_km: number;
+  under_construction_km: number;
+}
+
+/** Optional state-wise coverage matrix — from a single dated primary source (e.g. a parliament
+ *  annexure). Columns are the programme's own published categories at one reporting date;
+ *  rows are reproduced exactly as published, including any cross-footing artefacts. */
+export interface StateCoverage {
+  as_of: string;                    // reporting date of the matrix
+  note: string;                     // scope definition + any transcription/cross-foot notes
+  provenance: ProvenanceRef[];
+  rows: StateCoverageRow[];         // last row may be a declared 'Total' row
+}
+
 export interface ProgrammeIntel {
   id: string;                       // prog:<slug>
   logistics_id: string;             // FK → SID logistics.programmes.id
@@ -159,6 +178,8 @@ export interface ProgrammeIntel {
   related_programmes: RelatedProgramme[];
   /** Industrial-corridor refs (/corridors/<slug>/) with the evidence for the link. */
   corridor_refs: { corridor: string; note: string; provenance: ProvenanceRef[] }[];
+  /** Optional state-wise coverage matrix (single dated primary source). */
+  state_coverage?: StateCoverage;
   signal_match: MatchRule;
   report_match: MatchRule;
   data_gaps: string[];

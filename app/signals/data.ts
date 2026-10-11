@@ -5417,6 +5417,126 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Army has reportedly ordered 225 seven-inch FPV drones from Aerodrone Robotics after trials up to 17,500 feet.', 'The route was a GeM bid under the Department of Military Affairs; Abhyuday Bharat Projects, IG Strategic Systems and Droneyards Aerial Solutions were other finalists.', 'RNA Media reports a bid value of about Rs 1.97 crore, roughly Rs 87,500 per drone on our arithmetic, and notes it is not necessarily the final contract amount.', 'Strike configuration, receiving unit, delivery timeline and component origin are not disclosed in the reports.', 'The 17,500-foot figure is a trial altitude, not a certified operational ceiling.'],
   sources: ['The Week (7 Oct 2026): https://www.theweek.in/news/defence/2026/10/07/indian-armys-high-altitude-warfare-capabilities-set-for-a-major-boost-as-force-adds-225-fpv-drones.html', 'RNA Media (8 Oct 2026): https://www.rnamedia.in/army/indian-army-orders-225-fpv-drones-after-high-altitude-trials-at-17500-feet/23912', 'Raksha Samachar (Oct 2026): https://www.rakshasamachar.com/indian-army-news/indian-army-fpv-drones-orders-225-indigenous-after-17500-feet-trials/']
+}, {
+  slug: 'revised-mod-test-range-sop-indian-defence-industry-2026',
+  no: 'S-147',
+  title: 'India Removes a Hidden Defence-Tech Bottleneck: Testing Access Gets Cheaper and More Predictable',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-10',
+  dateLabel: '10 Oct 2026',
+  status: 'live',
+  excerpt: 'Defence Minister Rajnath Singh has approved a revised SOP for industry use of MoD proof ranges, field-firing ranges and laboratories. Proof and testing charges are waived for iDEX, TDF, Make and other developmental projects, a three-day proof-firing slot is reserved each quarter, and arbitration gives way to conciliation.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 7 October the Ministry of Defence announced that Defence Minister Rajnath Singh had approved a revised Standard Operating Procedure for the Indian defence industry\'s use of MoD proof ranges, field-firing ranges and laboratory test facilities. The ministry described the aim as simpler, transparent and industry-friendly access. The SOP lists the facilities held by DRDO, government quality-assurance agencies and the three Services, and sets out the procedure and formats for allotment and use, including how charges are calculated and paid where they apply.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Proof and testing charges are waived for iDEX, the Technology Development Fund, Make and other Ministry developmental projects.', 'A three-day slot every quarter is reserved at proof ranges for proof firing of government-sponsored developmental projects, including work that industry undertakes on its own initiative.', 'The arbitration provision in the earlier SOP is replaced by a conciliation agreement clause, intended to resolve disputes faster.']
+}, {
+  text: 'Why testing access is an industrial constraint',
+  type: 'h'
+}, {
+  text: 'A defence prototype cannot move to qualification and induction without proof firing, field trials and safety validation. A start-up or MSME may have the design but not the range, instrumentation, schedule or budget to produce the evidence a procurement system accepts. Delay at this stage burns runway and leaves the Services leaning on imported systems that already have a test record. The SOP does not create a new range; it changes price, scheduling, paperwork and dispute terms for the existing government test base.',
+  type: 'p'
+}, {
+  text: 'What the reports do not say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Eligibility conditions or limits for the fee waiver, and the amounts normally charged.', 'How the quarterly slot is booked, whether slots carry charges, or what happens when demand exceeds three days.', 'How the conciliation clause works in practice, and any timelines.', 'Any change in range capacity, staffing or instrumentation. The SOP document itself was not available to us; this signal rests on the ministry release as reported by the Deccan Chronicle and IANS (via NewKerala).']
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a quiet but real reform. Earlier coverage looked at converting designs into repeatable production (S-094, the DRDO Missile ToT Scale Node) and at specific hardware milestones such as S-138 (JWALA) and S-146 (FPV drone procurement). This SOP sits before all of them, at the validation step where many private designs stall. It matters if it produces shorter queues, more repeat trials and faster qualification. A fee waiver alone cannot fix calibration, safety preparation or range congestion. Watch for utilisation of the quarterly slots, time from application to test, and repeat-test turnaround.',
+  type: 'p'
+}],
+  takeaways: ['The Defence Minister has approved a revised SOP for industry use of MoD proof ranges, field-firing ranges and laboratories.', 'Proof and testing charges are waived for iDEX, TDF, Make and other MoD developmental projects.', 'A three-day proof-firing slot is reserved each quarter, including for industry\'s self-initiated work.', 'A conciliation clause replaces arbitration in the facility-use framework.', 'Waiver eligibility, slot booking mechanics and any capacity increase were not detailed in the coverage we read.'],
+  sources: ['Press Information Bureau, Ministry of Defence (7 Oct 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2320195&reg=48&lang=1', 'Deccan Chronicle (7 Oct 2026): https://www.deccanchronicle.com/nation/defense-ministry-simplifies-access-to-proof-and-firing-ranges-1993882', 'IANS via NewKerala (7 Oct 2026): https://www.newkerala.com/news/a/revised-sop-using-proof-ranges-field-firing-ranges-607.htm']
+}, {
+  slug: 'defence-secretary-sidm-drdo-research-role-procurement-overhaul-2026',
+  no: 'S-148',
+  title: 'Defence Secretary Sketches the Next Defence-Industry Reset: DRDO as a Research Body, Missile Technology to Industry by November 2027',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-10',
+  dateLabel: '10 Oct 2026',
+  status: 'live',
+  excerpt: 'At the SIDM annual conference on 9 October, Defence Secretary Rajesh Kumar Singh outlined a reset: DRDO focused on research, conventional missile technology moved to private industry by November 2027, and a revised Defence Acquisition Procedure targeted before year-end. Most of it is stated intent, not decided policy.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Speaking at the Society of Indian Defence Manufacturers (SIDM) annual conference in Delhi on 9 October, Defence Secretary Rajesh Kumar Singh set out where the ministry wants the industrial base to go, according to reports from Defence Watch and Indian Masterminds. Both paraphrase his remarks and carry no verbatim quotes.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['DRDO would become primarily a research and development body, with production moving to industry except in specialised strategic areas. Reforms were described as initiated; the VijayRaghavan Committee\'s recommendation to consolidate the lab network into about 33-35 core centres is a recommendation, not a final decision.', 'Technology for conventional missile systems is to transfer to private industry for commercial production by November 2027. Techadyant covered the earlier opening of DRDO conventional-missile technologies to industry in S-074.', 'Final approval of changes to the Defence Acquisition Procedure is targeted before the end of 2026, aimed at cutting delay in trials, evaluations and cost negotiations.', 'Major programmes, including the Multi-Role Fighter Aircraft effort, are under consideration at senior levels, and some contracts could be signed before the end of 2026.']
+}, {
+  text: 'The numbers, and what they are',
+  type: 'h'
+}, {
+  text: 'Both reports carry an estimated $20-25 billion annual opportunity for domestic defence industry over the next decade, tied to the capital budget and the 75 per cent domestic share of capital procurement. Indian Masterminds says the basis of the estimate is not explained. It is a projection of what industry could address, not committed spending. Private industry is reported to account for about 24 per cent of defence production by value. Only Indian Masterminds reports a government wish for at least 50 per cent over time and a proposal to reimburse trial costs for start-ups and MSMEs; Defence Watch does not carry either, so we treat them as single-source.',
+  type: 'p'
+}, {
+  text: 'Decided versus intended',
+  type: 'h'
+}, {
+  text: 'The domestic share of capital procurement and private-sector ammunition licensing are already in place. The DRDO role change, the missile technology timeline, DAP revisions and any contracts are intentions with dates attached. None has been notified in the reports we read.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The useful part is the sequence: a clearer role for DRDO, test access for private firms (see S-147 on the revised test-range SOP), faster acquisition rules and then production technology. If the November 2027 date and the DAP timeline hold, that is a coherent path from design to production in private hands. The test is whether the DAP is actually approved this year and whether the missile transfer names recipients and terms. Until then this is a roadmap.',
+  type: 'p'
+}],
+  takeaways: ['Defence Secretary Rajesh Kumar Singh told the SIDM conference on 9 October that DRDO should focus on R&D, with production moving to industry except in specialised strategic areas.', 'Conventional missile technology is targeted to transfer to private industry for commercial production by November 2027.', 'Final approval of revised Defence Acquisition Procedure changes is targeted before the end of 2026; some major contracts could be signed by then.', 'The reported $20-25 billion annual opportunity is a projection with no stated basis, not committed spending; private industry is about 24 per cent of defence production by value.', 'The 50 per cent private-share wish and trial-cost reimbursement appear in one report only, and the 33-35 lab consolidation is a committee recommendation.'],
+  sources: ['Defence Watch (9 Oct 2026): https://www.defencewatch.in/ministry-of-defence/drdo/defence-secretary-signals-procurement-overhaul-drdo-reforms-and-25-billion-annual-industry-opportunity', 'Indian Masterminds (10 Oct 2026): https://indianmasterminds.com/news/rajesh-kumar-singh-25-billion-indian-defence-industry-opportunity-240950/']
+}, {
+  slug: 'drdo-ahap-high-altitude-parachute-maiden-live-jump-2026',
+  no: 'S-149',
+  title: 'DRDO\'s 16,000-Foot AHAP Jump Tests the High-Altitude Insertion Layer India Rarely Talks About',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-11',
+  dateLabel: '11 Oct 2026',
+  status: 'live',
+  excerpt: 'DRDO has completed the maiden live jump of its indigenous Advanced High-Altitude Parachute at Nyoma, Ladakh: released at 16,000 feet, deployed at 15,500 feet, landed at 13,700 feet. It is a validation milestone for a static-line system, not an induction order.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 6 October the Ministry of Defence announced that DRDO had completed the maiden live jump of the Advanced High-Altitude Parachute (AHAP) at Nyoma (Mudh drop zone) in Ladakh. The jump was made from 16,000 feet above mean sea level, the parachute deployed at 15,500 feet and the landing zone sits at 13,700 feet. PTI via ThePrint and DD India carry the same figures. None of the reports we read gives the date of the jump itself.',
+  type: 'p'
+}, {
+  text: 'AHAP is described as a static-line parachute system for the mass drop of paratroopers, with an operational altitude range of up to 18,000 feet, multiple deployment modes and a rate of descent suited to tactical use. The release names the chain behind it: designed by the Aerial Delivery Research and Development Establishment (ADRDE), Agra; manufactured by the Ordnance Parachute Factory, Kanpur; inspected by the Directorate General of Aeronautical Quality Assurance; and certified by CEMILAC\'s regional centre at Kanpur.',
+  type: 'p'
+}, {
+  text: 'Why the insertion layer matters',
+  type: 'h'
+}, {
+  text: 'Airborne operations depend on the parachute as much as on the aircraft. At altitude, thin air changes descent behaviour and static-line opening shock becomes a design risk; DD India notes that static-line jumps at such heights are difficult for those reasons. A system designed, built, inspected and certified inside India\'s own defence chain is a small but real piece of high-altitude mobility, in terrain where roads and runways are limited.',
+  type: 'p'
+}, {
+  text: 'What the reports do not say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the Services have accepted the system, ordered it, or set a production quantity or delivery schedule.', 'Which imported parachute system, if any, AHAP is meant to replace. The reports do not say, so we draw no import-substitution conclusion.', 'How many jumps were made, with what loads and in what weather. This is described as a maiden live jump, not a trial campaign.', 'The 18,000-foot figure is the ministry\'s stated operating range, not something demonstrated by this jump, which released at 16,000 feet.']
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The signal is the completed chain from design to certification for a safety-critical subsystem, announced with test altitudes rather than adjectives. It becomes industrial evidence only if repeat jumps follow, the Services accept it, and the Ordnance Parachute Factory is given production orders. Watch for user trials, induction approval and quantities.',
+  type: 'p'
+}],
+  takeaways: ['DRDO announced on 6 October the maiden live jump of the indigenous Advanced High-Altitude Parachute at Nyoma, Ladakh.', 'The jump was released at 16,000 feet, with deployment at 15,500 feet and landing at 13,700 feet; the stated operating range is up to 18,000 feet.', 'AHAP is a static-line system for mass paratrooper drops, designed by ADRDE, built by the Ordnance Parachute Factory, inspected by DGAQA and certified by CEMILAC.', 'The date of the jump, the number of jumps and any induction or order are not stated in the reports.', 'The reports do not name an imported system AHAP replaces, so this signal draws no import-substitution conclusion.'],
+  sources: ['PTI via ThePrint (6 Oct 2026): https://theprint.in/india/drdo-conducts-maiden-live-jump-of-advanced-high-altitude-parachute-system/3063748/', 'DD India (6 Oct 2026): https://ddindia.co.in/2026/10/drdo-conducts-maiden-live-jump-of-indigenous-advanced-high-altitude-parachute-in-ladakh/', 'Press Information Bureau, Ministry of Defence (6 Oct 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2319589&reg=6&lang=1']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

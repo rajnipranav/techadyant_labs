@@ -247,6 +247,14 @@ for (const p of projects) {
   // A project must lead somewhere: an industrial node, or (Programme Intelligence) an evidenced programme link.
   if (!p.affected_node_ids?.length && !p.programme_links?.length) err(`${w}: must affect an industrial node or carry a programme link`);
   (p.programme_links ?? []).forEach((l, i) => checkProv(l.provenance, `${w}.programme_links[${i}]`, { required: true }));
+  (p.contractors ?? []).forEach((c, i) => {
+    const ww = `${w}.contractors[${i}]`;
+    if (!c.name) err(`${ww}: name required`);
+    if (!c.role) err(`${ww}: role required`);
+    if (!EVIDENCE.has(c.evidence)) err(`${ww}: invalid evidence "${c.evidence}"`);
+    if (c.evidence === 'fact') checkProv(c.provenance, ww, { required: true });
+    else checkProv(c.provenance, ww);
+  });
   p.affected_node_ids.forEach((id) => { if (!ids.has(id)) err(`${w}: unknown node ${id}`); });
   p.infra_ids.forEach((id) => { if (!ids.has(id)) err(`${w}: unknown infra ${id}`); });
   p.affected_sectors.filter((s) => s.startsWith('sector:')).forEach((s) => { if (!resolves(s)) err(`${w}: unknown sector ${s}`); });

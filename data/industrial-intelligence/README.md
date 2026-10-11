@@ -8,7 +8,7 @@ Architecture: `docs/industrial-intelligence-integration.md` · Scores: `docs/ind
 | `sources.json` | Source registry (provenance + data-governance terms per programme/platform) |
 | `industrial-nodes.json` | Pilot nodes: facts, linked Atlas players (by SID id), ICS inputs, CGI assessments, gaps |
 | `infrastructure-nodes.json` | Only infrastructure a pilot node references (not a national inventory) |
-| `infrastructure-projects.json` | Projects → industrial consequence; `itla_appraisal_tier` for ≥ ₹500 cr GoI projects |
+| `infrastructure-projects.json` | Projects → industrial consequence; `itla_appraisal_tier` for ≥ ₹500 cr GoI projects; optional `contractors[]` (documented commercial participants — recorded only where a source names them on the project, never inferred from sector or geography) |
 | `relationships.json` | Explicit typed edges (fact / derived / analysis). The loader synthesises the rest |
 | `opportunity-surfaces.json` | Analytical hypotheses: sourced trigger → labelled effect chain → constraints |
 | `signal-links.json` | Signal → entity links (CMS signals are regenerated; this side map is not) |

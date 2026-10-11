@@ -98,6 +98,38 @@ for (const p of file.programmes) {
     claim({ ...r, text: r.note }, `${w}.related_programmes[${i}]`);
   });
   p.corridor_refs.forEach((c, i) => { if (!nicdp.has(c.corridor)) err(`${w}.corridor_refs[${i}]: unknown corridor "${c.corridor}"`); prov(c.provenance, `${w}.corridor_refs[${i}]`, { required: true }); });
+  if (p.state_coverage) {
+    const sc = p.state_coverage;
+    const sw = `${w}.state_coverage`;
+    date(sc.as_of, `${sw}.as_of`);
+    if (!sc.note) err(`${sw}: note required (scope definition)`);
+    prov(sc.provenance, sw, { required: true });
+    if (!sc.rows?.length) err(`${sw}: rows required`);
+    const seenStates = new Set();
+    sc.rows.forEach((r, i) => {
+      if (!r.state) err(`${sw}.rows[${i}]: state required`);
+      if (seenStates.has(r.state)) err(`${sw}.rows[${i}]: duplicate state "${r.state}"`); seenStates.add(r.state);
+      ['total_km', 'awarded_km', 'constructed_km', 'under_construction_km'].forEach((k) => {
+        if (typeof r[k] !== 'number' || r[k] < 0) err(`${sw}.rows[${i}].${k}: non-negative number required`);
+      });
+    });
+    // Cross-foot: the declared Total row (if present) must match the column sums, with a small
+    // tolerance for source-side rounding artefacts (documented in sc.note when tolerance is used).
+    const states = sc.rows.filter((r) => !/^total$/i.test(r.state));
+    const totalRow = sc.rows.find((r) => /^total$/i.test(r.state));
+    if (totalRow) {
+      for (const k of ['total_km', 'awarded_km', 'constructed_km', 'under_construction_km']) {
+        const sum = states.reduce((a, r) => a + r[k], 0);
+        if (sum !== totalRow[k]) {
+          if (Math.abs(sum - totalRow[k]) <= 2) warn(`${sw}.${k}: states sum to ${sum} vs declared total ${totalRow[k]} (source rounding artefact — must be documented in the note)`);
+          else err(`${sw}.${k}: states sum to ${sum} vs declared total ${totalRow[k]}`);
+        }
+      }
+      if (Math.abs(states.reduce((a, r) => a + r.total_km, 0) - totalRow.total_km) > 2 && !/rounding/i.test(sc.note)) {
+        warn(`${sw}: rounding artefact present but the note does not document it`);
+      }
+    }
+  }
   for (const k of ['signal_match', 'report_match']) {
     const m = p[k];
     if (!m) { err(`${w}: ${k} required`); continue; }

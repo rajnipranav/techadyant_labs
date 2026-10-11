@@ -13,7 +13,7 @@ import {
 } from '../data';
 import {
   C, fmtDate, StageChip, VerifChip, SectionHead, StageLadder, NodePaths, LogisticsSystem, SupplyPath,
-  Consequences, OppCard, SignalCards, ProjectTable, RelatedProgrammes, CrossCuttingDiagram, type SystemItem,
+  Consequences, OppCard, SignalCards, ProjectTable, StateCoverageTable, RelatedProgrammes, CrossCuttingDiagram, type SystemItem,
 } from '../ui';
 import { STAGE_LABEL } from '../types';
 
@@ -40,7 +40,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const TOC = [
   ['glance', 'At a glance'], ['why', 'Why it matters'], ['footprint', 'Footprint'], ['components', 'Components'],
   ['nodes', 'Industrial nodes'], ['system', 'Logistics system'], ['consequences', 'Consequences'], ['supply', 'Supply chain'],
-  ['opportunities', 'Opportunities'], ['projects', 'Projects'], ['signals', 'Signals'], ['research', 'Research'], ['record', 'Delivery record'], ['sources', 'Sources'],
+  ['opportunities', 'Opportunities'], ['projects', 'Projects'], ['coverage', 'State coverage'], ['signals', 'Signals'],
+  ['research', 'Research'], ['record', 'Delivery record'], ['sources', 'Sources'],
 ];
 
 export default async function ProgrammePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -192,9 +193,17 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
         <SectionHead id="projects" kicker="10 · Related projects" title="Projects linked to the programme" cls="fact" note="Projects in the Atlas that carry a sourced link to this programme. New linked projects appear here automatically." />
         <ProjectTable rows={projs} idx={idx} />
 
+        {p.state_coverage && (
+          <>
+            <SectionHead id="coverage" kicker="11 · Geographic coverage" title="State-wise coverage matrix" cls="fact"
+              note="Reproduced from a single dated primary source at one reporting date. Columns are the programme’s own published categories — they are state programme totals, not attributable to a single scheme, and are not summed with figures from other dates. Rows are as published, including any cross-footing artefacts." />
+            <StateCoverageTable coverage={p.state_coverage} programme={p.slug} idx={idx} />
+          </>
+        )}
+
         <div className="pi-two">
           <div>
-            <SectionHead id="companies" kicker="11 · Related companies" title="Companies at connected nodes" cls="derived" />
+            <SectionHead id="companies" kicker="12 · Related companies" title="Companies at connected nodes" cls="derived" />
             {comps.length ? (
               <ul className="pi-links">
                 {comps.map((c) => <li key={c.link.id}>{c.link.href ? <Link href={c.link.href}>{c.link.name}</Link> : <b>{c.link.name}</b>}<span className="pi-l-meta">{c.role} · {c.node.short_name}</span></li>)}
@@ -203,23 +212,23 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
             <p className="pi-caveat">Location context only. No company listed here is claimed to hold a contract, grant or role under the programme.</p>
           </div>
           <div>
-            <SectionHead id="related" kicker="12 · Related programmes" title="How it connects to other programmes" />
+            <SectionHead id="related" kicker="13 · Related programmes" title="How it connects to other programmes" />
             <RelatedProgrammes p={p} idx={idx} />
           </div>
         </div>
 
-        <SectionHead id="signals" kicker="13 · Related signals" title={`Latest ${p.short_name} signals`}
+        <SectionHead id="signals" kicker="14 · Related signals" title={`Latest ${p.short_name} signals`}
           note="Surfaced automatically when a Signal names the programme, is linked to it by Techadyant, or covers a node or project it reaches. The reason is shown on each card." />
         <SignalCards items={sigs} programme={p.short_name} />
 
-        <SectionHead id="research" kicker="14 · Related research" title="Reports and briefings" />
+        <SectionHead id="research" kicker="15 · Related research" title="Reports and briefings" />
         {reps.length ? (
           <ul className="pi-links">
             {reps.map((r) => <li key={r.link.id}><Link href={r.link.href!}>{r.link.name}</Link><span className="pi-l-meta">{r.link.meta} · {r.reasons.join(' · ')}</span></li>)}
           </ul>
         ) : <p className="pi-empty">No linked report yet.</p>}
 
-        <SectionHead id="record" kicker="15 · Delivery record" title="Timeline, gaps and delays" cls="fact" />
+        <SectionHead id="record" kicker="16 · Delivery record" title="Timeline, gaps and delays" cls="fact" />
         <div className="pi-two">
           <ol className="pi-timeline">
             {p.timeline.map((t) => <li key={t.date + t.label}><time dateTime={t.date}>{fmtDate(t.date)}</time><span>{t.label} <C p={t.provenance} idx={idx} /></span></li>)}

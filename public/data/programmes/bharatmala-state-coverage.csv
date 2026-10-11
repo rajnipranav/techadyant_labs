@@ -1,0 +1,35 @@
+# Bharatmala Pariyojana — state-wise coverage matrix
+# reporting_date,2026-05-31
+# source,src:rs-au414-bharatmala-2026
+# note,State-wise Bharatmala Pariyojana lengths from the Rajya Sabha annexure (22 Jul 2026). Columns are state totals for the whole programme — lengths under different national-highway schemes are not separable at this resolution. Transcription note: state figures are reproduced exactly as published and do not cross-foot perfectly to the declared national totals (states sum to 34,801 total / 22,708 constructed / 3,717 under construction against the declared 34,800 / 22,709 / 3,716) — a rounding artefact in the annexure itself; the awarded column cross-foots exactly.
+# generated_by,scripts/export-bharatmala-csv.mjs
+state,total_km,awarded_km,constructed_km,under_construction_km
+Andhra Pradesh,2525,1936,1554,382
+Assam,433,431,414,17
+Bihar,1572,1159,815,344
+Chhattisgarh,571,471,422,49
+Delhi,203,203,195,8
+Goa,26,26,26,0
+Gujarat,1577,1194,1068,126
+Haryana,1058,1058,1011,47
+Himachal Pradesh,167,167,117,50
+Jammu & Kashmir,433,251,179,72
+Jharkhand,1000,801,557,244
+Karnataka,2059,1603,1269,334
+Kerala,1126,708,584,124
+Madhya Pradesh,3063,2017,1826,191
+Maharashtra,3029,2174,2000,174
+Manipur,635,635,570,65
+Meghalaya,170,170,153,17
+Mizoram,593,593,542,51
+Nagaland,208,208,168,40
+Odisha,1586,967,948,19
+Punjab,1764,1553,881,672
+Rajasthan,2503,2360,2264,96
+Tamil Nadu,2414,1476,1357,119
+Telangana,1719,1026,955,71
+Tripura,94,94,69,25
+Uttar Pradesh,3126,2495,2196,299
+Uttarakhand,273,264,204,60
+West Bengal,874,385,364,21
+Total,34800,26425,22709,3716

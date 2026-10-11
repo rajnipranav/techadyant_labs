@@ -6,7 +6,7 @@ import type { EvidenceClass, ProvenanceRef } from '../industrial/types';
 import { LOG_VERIFICATION_LABEL, LOG_VERIFICATION_COLOR, type VerificationStatus } from '../logistics/data';
 import {
   STAGE_LABEL, STAGE_ORDER, DIMENSION_LABEL, SUPPLY_STAGE_LABEL, RELATION_LABEL, LINK_LABEL, OPP_CONFIDENCE_LABEL,
-  type ProgrammeIntel, type ProgrammeStage,
+  type ProgrammeIntel, type ProgrammeStage, type StateCoverage,
 } from './types';
 import type { ConnectedNode, MatchedSignal, ProgrammeProject, FlagshipCard } from './data';
 import { programmeRef, relLabel } from './data';
@@ -219,7 +219,7 @@ export function ProjectTable({ rows, idx }: { rows: ProgrammeProject[]; idx: Idx
   return (
     <div className="pi-table-wrap">
       <table className="pi-table">
-        <thead><tr><th>Project</th><th>Link</th><th>Status</th><th>Cost</th><th>Industrial node</th></tr></thead>
+        <thead><tr><th>Project</th><th>Link</th><th>Status</th><th>Cost</th><th>Contractors</th><th>Industrial node</th></tr></thead>
         <tbody>
           {rows.map(({ project: x, link }) => (
             <tr key={x.id}>
@@ -227,11 +227,59 @@ export function ProjectTable({ rows, idx }: { rows: ProgrammeProject[]; idx: Idx
               <td>{LINK_LABEL[link.type]} <C p={link.provenance} idx={idx} /></td>
               <td><span className="pi-td-status">{x.status.replace(/_/g, ' ')}</span><span className="pi-td-sub">{x.status_note}</span></td>
               <td className="pi-nowrap">{inrCr(x.estimated_cost_cr)}</td>
+              <td>{x.contractors?.length
+                ? <span className="pi-td-sub">{x.contractors.map((c) => <span key={c.name} className="pi-contr"><b>{c.name}</b> — {c.role}{c.scope ? ` (${c.scope})` : ''} <C p={c.provenance} idx={idx} /></span>)}</span>
+                : <span className="pi-td-sub">Not documented</span>}</td>
               <td>{x.affected_node_ids.length ? x.affected_node_ids.map((n) => <Link key={n} href={`/research/industrial-nodes/${n.slice(6)}/`}>{n.slice(6)}</Link>) : <span className="pi-td-sub">None directly</span>}</td>
             </tr>
           ))}
         </tbody>
       </table>
+      <p className="pi-caveat">Contractors are listed only where a source names them on this project — never inferred from sector or geography. “Not documented” means no source on file yet, not that none exists.</p>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ state coverage */
+
+/** Optional state-wise coverage matrix, reproduced as published (including cross-footing
+ *  artefacts), with a download link when a CSV extract exists for the programme. */
+export function StateCoverageTable({ coverage, programme, idx }: { coverage: StateCoverage; programme: string; idx: Idx }) {
+  const total = coverage.rows.find((r) => /^total$/i.test(r.state));
+  const states = coverage.rows.filter((r) => !/^total$/i.test(r.state));
+  const maxAwarded = Math.max(...states.map((r) => r.awarded_km), 1);
+  const slug = programme.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  return (
+    <div className="pi-scov">
+      <div className="pi-table-wrap">
+        <table className="pi-table pi-scov-table">
+          <thead><tr><th>State / UT</th><th className="pi-num">Total (km)</th><th className="pi-num">Awarded (km)</th><th className="pi-num">Constructed (km)</th><th className="pi-num">Under construction (km)</th><th aria-label="Share of awarded length"></th></tr></thead>
+          <tbody>
+            {states.map((r) => (
+              <tr key={r.state}>
+                <td>{r.state}</td>
+                <td className="pi-num">{r.total_km.toLocaleString('en-IN')}</td>
+                <td className="pi-num">{r.awarded_km.toLocaleString('en-IN')}</td>
+                <td className="pi-num">{r.constructed_km.toLocaleString('en-IN')}</td>
+                <td className="pi-num">{r.under_construction_km.toLocaleString('en-IN')}</td>
+                <td className="pi-scov-bar" aria-hidden="true"><span style={{ width: `${Math.round((r.awarded_km / maxAwarded) * 100)}%` }} /></td>
+              </tr>
+            ))}
+            {total && (
+              <tr className="pi-scov-total">
+                <td>{total.state}</td>
+                <td className="pi-num">{total.total_km.toLocaleString('en-IN')}</td>
+                <td className="pi-num">{total.awarded_km.toLocaleString('en-IN')}</td>
+                <td className="pi-num">{total.constructed_km.toLocaleString('en-IN')}</td>
+                <td className="pi-num">{total.under_construction_km.toLocaleString('en-IN')}</td>
+                <td className="pi-scov-bar" aria-hidden="true" />
+              </tr>
+            )}
+          </tbody>
+        </table>
+      </div>
+      <p className="pi-scov-note">{coverage.note} <C p={coverage.provenance} idx={idx} /></p>
+      <p className="pi-scov-dl">Reporting date: {fmtDate(coverage.as_of)} · <a href={`/data/programmes/${slug}-state-coverage.csv`} download>Download the state coverage matrix (CSV)</a></p>
     </div>
   );
 }

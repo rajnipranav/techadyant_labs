@@ -279,3 +279,15 @@
 .lg-tiles { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
 .lg-watch .pi-l-meta { font-weight: 400; margin-left: 6px; }
 .pi-signal p { display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* state coverage matrix (11 · Geographic coverage) */
+.pi-scov-table { min-width: 720px; }
+.pi-scov-table td.pi-num, .pi-scov-table th.pi-num { text-align: right; font-variant-numeric: tabular-nums; }
+.pi-scov-table th:last-child, .pi-scov-table td:last-child { width: 120px; }
+.pi-scov-bar { position: relative; min-width: 90px; }
+.pi-scov-bar span { position: absolute; left: 0; top: 50%; transform: translateY(-50%); height: 5px; background: var(--brass, #b08d3e); opacity: .55; border-radius: 2px; }
+.pi-scov-total td { font-weight: 700; background: var(--bg-2); border-top: 2px solid var(--border); }
+.pi-scov-note { font-size: 12.5px; color: var(--text-dim); line-height: 1.6; margin: 10px 0 4px; max-width: 980px; }
+.pi-scov-dl { font-size: 12.5px; color: var(--text-muted); margin: 0 0 6px; }
+.pi-scov-dl a { color: var(--brass, #b08d3e); }
+.pi-contr { display: block; padding: 2px 0; }

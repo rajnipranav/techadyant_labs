@@ -213,9 +213,24 @@ export interface InfrastructureProject {
   itla_appraisal_tier: boolean | null; // ≥ ₹500 cr GoI project; null when cost unknown
   /** Programme Intelligence edges (typed, evidenced) — see app/research/programmes/types.ts. */
   programme_links?: { programme_id: string; type: 'built_under' | 'funded_under' | 'planned_on' | 'operated_under'; provenance: ProvenanceRef[] }[];
+  /**
+   * Documented commercial participants on this project (EPC contractor, concessionaire, etc.).
+   * Optional: recorded only where a source names the participant — never inferred from sector
+   * or geography. See validate-industrial.mjs (contractors) for the rules.
+   */
+  contractors?: ProjectContractor[];
   facts: Fact[];
   provenance: ProvenanceRef[];
   last_verified: string;
+}
+
+/** One named participant on a project, with its own evidence. */
+export interface ProjectContractor {
+  name: string;
+  role: string;                      // 'EPC contractor' | 'concessionaire' | 'subcontractor' | ...
+  scope: string | null;              // package/scope note (e.g. "8 of 52 packages (~290 km)")
+  evidence: EvidenceClass;
+  provenance: ProvenanceRef[];
 }
 
 export type OpportunityType =
