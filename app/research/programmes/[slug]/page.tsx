@@ -7,6 +7,9 @@ import { IndustrialMap } from '../../industrial/IndustrialMap';
 import { INDIA_OUTLINE } from '../../../corridors/data';
 import { EvidenceTag, SourceList } from '../../industrial/ui';
 import { metricRows } from '../../logistics/data';
+import { sagarmalaFor, sourcesWithDatabase } from '../sagarmala-data';
+import { GCT_PATH, GCT_PROGRAMME_ID, gctCoverage } from '../cargo-terminals-data';
+import { SagarmalaSections, SgOpportunityRegister, SgCoverage } from '../sagarmala-ui';
 import {
   programmes, programmeBySlug, sidFor, projectsFor, infraFor, nodesFor, opportunitiesFor, companiesFor,
   signalsFor, reportsFor, corridorLinks, footprintPoints, sourcesFor, sidCorridorsFor, sidNodesFor,
@@ -37,11 +40,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
-const TOC = [
+const TOC: [string, string][] = [
   ['glance', 'At a glance'], ['why', 'Why it matters'], ['footprint', 'Footprint'], ['components', 'Components'],
   ['nodes', 'Industrial nodes'], ['system', 'Logistics system'], ['consequences', 'Consequences'], ['supply', 'Supply chain'],
-  ['opportunities', 'Opportunities'], ['projects', 'Projects'], ['coverage', 'State coverage'], ['signals', 'Signals'],
+  ['opportunities', 'Opportunities'], ['projects', 'Projects'], ['signals', 'Signals'],
   ['research', 'Research'], ['record', 'Delivery record'], ['sources', 'Sources'],
+];
+const COVERAGE_TOC: [string, string] = ['coverage', 'State coverage'];
+const SG_TOC: [string, string][] = [
+  ['pillars', 'Pillar database'], ['ports', 'Ports'], ['performance', 'Performance'],
+  ['industrialisation', 'Industrialisation'], ['community', 'Community'], ['companies-sg', 'Maritime companies'],
 ];
 
 export default async function ProgrammePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -50,8 +58,19 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
   if (!p) notFound();
 
   const sid = sidFor(p);
-  const srcs = sourcesFor(p);
+  const sg = sagarmalaFor(p);
+  const srcs = sourcesWithDatabase(p, sourcesFor(p));
   const idx = new Map(srcs.map((s, i) => [s.id, i + 1]));
+  // Section numbers run 01-16. Two optional blocks shift the tail:
+  //   the Sagarmala database inserts six sections after Components;
+  //   the state-coverage matrix inserts one after Projects.
+  const sgShift = sg ? 6 : 0;
+  const kn = (n: number) => String(n + sgShift).padStart(2, '0');
+  const kc = (n: number) => String(n + sgShift - (p.state_coverage ? 0 : 1)).padStart(2, '0');
+  const toc: [string, string][] = [
+    ...TOC.slice(0, 4), ...(sg ? SG_TOC : []), ...TOC.slice(4, 10),
+    ...(p.state_coverage ? [COVERAGE_TOC] : []), ...TOC.slice(10),
+  ];
   const projs = projectsFor(p);
   const nodes = nodesFor(p);
   const opps = opportunitiesFor(p);
@@ -114,7 +133,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
         </div>
       </header>
 
-      <nav className="pi-toc" aria-label="On this page"><ul>{TOC.map(([id, l]) => <li key={id}><a href={`#${id}`}>{l}</a></li>)}</ul></nav>
+      <nav className="pi-toc" aria-label="On this page"><ul>{toc.map(([id, l]) => <li key={id}><a href={`#${id}`}>{l}</a></li>)}</ul></nav>
 
       <main className="wrap pi-body">
         <SectionHead id="glance" kicker="01 · Programme at a glance" title="What is verifiably true today" cls="fact"
@@ -134,6 +153,12 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
             <Link href={`/research/logistics/#${sid.id}`}>Source record →</Link>
           </div>
         )}
+        {p.logistics_id === GCT_PROGRAMME_ID && (
+          <p className="pi-ctas">
+            <Link className="pi-btn" href={GCT_PATH}>Cargo terminal register — {gctCoverage.total_records} verified GCTs →</Link>
+          </p>
+        )}
+
         <h3 className="pi-h3" style={{ margin: '26px 0 10px', fontSize: 15 }}>Announced → approved → under implementation → completed → operational</h3>
         <StageLadder p={p} idx={idx} />
 
@@ -171,31 +196,41 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
           ))}
         </div>
 
-        <SectionHead id="nodes" kicker="05 · Connected industrial nodes" title="Industrial nodes affected" cls="derived"
+        {sg && <SagarmalaSections sg={sg} idx={idx} />}
+
+        <SectionHead id="nodes" kicker={`${kn(5)} · Connected industrial nodes`} title="Industrial nodes affected" cls="derived"
           note="Each card shows the evidence path from programme to node. A node appears only when a sourced project links them; two locations being close is not enough." />
         <NodePaths p={p} nodes={nodes} />
 
-        <SectionHead id="system" kicker="06 · Connected logistics system" title="The connected logistics system" cls="derived"
+        <SectionHead id="system" kicker={`${kn(6)} · Connected logistics system`} title="The connected logistics system" cls="derived"
           note="Road → rail → DFC → logistics parks → ports → air cargo → industrial nodes. Filled only from records linked to this programme (Atlas projects and the SID logistics layer). An empty row means no linked record yet, not that nothing exists." />
         <LogisticsSystem items={system} nodes={nodes} />
 
-        <SectionHead id="consequences" kicker="07 · Industrial consequences" title={`What ${p.short_name} changes for industry`} cls="analysis" note="Each statement is tagged Fact (sourced) or Analysis (Techadyant interpretation)." />
+        <SectionHead id="consequences" kicker={`${kn(7)} · Industrial consequences`} title={`What ${p.short_name} changes for industry`} cls="analysis" note="Each statement is tagged Fact (sourced) or Analysis (Techadyant interpretation)." />
         <Consequences p={p} idx={idx} />
 
-        <SectionHead id="supply" kicker="08 · Supply-chain implications" title="Where the programme sits in the supply chain" note="Input → manufacturing node → freight network → logistics node → port / airport → market." />
+        <SectionHead id="supply" kicker={`${kn(8)} · Supply-chain implications`} title="Where the programme sits in the supply chain" note="Input → manufacturing node → freight network → logistics node → port / airport → market." />
         <SupplyPath p={p} idx={idx} />
 
-        <SectionHead id="opportunities" kicker="09 · Opportunity surfaces" title="Where new opportunity may appear" cls="opportunity"
+        <SectionHead id="opportunities" kicker={`${kn(9)} · Opportunity surfaces`} title="Where new opportunity may appear" cls="opportunity"
           note="Analytical hypotheses with a sourced trigger, stated constraints and a confidence label (High / Medium / Emerging). Not forecasts, and not procurement signals." />
         {opps.length ? <div className="pi-opps">{opps.map(({ opp, why }) => <OppCard key={opp.id} opp={opp} why={why} idx={idx} />)}</div> : <p className="pi-empty">No opportunity surface recorded yet.</p>}
+        {sg && (
+          <>
+            <h3 className="pi-h3" style={{ margin: '30px 0 12px' }}>Sagarmala opportunity intelligence register</h3>
+            <p className="pi-sec-note" style={{ marginBottom: 14 }}>The programme-level register classifies each opportunity as documented demand, emerging opportunity, analytical hypothesis or research lead — with the trigger sourced and the reasoning labelled.</p>
+            <SgOpportunityRegister db={sg} idx={idx} />
+          </>
+        )}
+
         <p className="pi-caveat">Programme scorecard (industrial connectivity, supply-chain impact, strategic importance, opportunity potential): not published. Techadyant shows a score only once its methodology is documented and the inputs exist — see the <Link href="/research/industrial-nodes/methodology/">node-level methodology</Link>.</p>
 
-        <SectionHead id="projects" kicker="10 · Related projects" title="Projects linked to the programme" cls="fact" note="Projects in the Atlas that carry a sourced link to this programme. New linked projects appear here automatically." />
+        <SectionHead id="projects" kicker={`${kn(10)} · Related projects`} title="Projects linked to the programme" cls="fact" note="Projects in the Atlas that carry a sourced link to this programme. New linked projects appear here automatically." />
         <ProjectTable rows={projs} idx={idx} />
 
         {p.state_coverage && (
           <>
-            <SectionHead id="coverage" kicker="11 · Geographic coverage" title="State-wise coverage matrix" cls="fact"
+            <SectionHead id="coverage" kicker={`${kn(11)} · Geographic coverage`} title="State-wise coverage matrix" cls="fact"
               note="Reproduced from a single dated primary source at one reporting date. Columns are the programme’s own published categories — they are state programme totals, not attributable to a single scheme, and are not summed with figures from other dates. Rows are as published, including any cross-footing artefacts." />
             <StateCoverageTable coverage={p.state_coverage} programme={p.slug} idx={idx} />
           </>
@@ -203,7 +238,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
 
         <div className="pi-two">
           <div>
-            <SectionHead id="companies" kicker="12 · Related companies" title="Companies at connected nodes" cls="derived" />
+            <SectionHead id="companies" kicker={`${kc(12)} · Related companies`} title="Companies at connected nodes" cls="derived" />
             {comps.length ? (
               <ul className="pi-links">
                 {comps.map((c) => <li key={c.link.id}>{c.link.href ? <Link href={c.link.href}>{c.link.name}</Link> : <b>{c.link.name}</b>}<span className="pi-l-meta">{c.role} · {c.node.short_name}</span></li>)}
@@ -212,23 +247,23 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
             <p className="pi-caveat">Location context only. No company listed here is claimed to hold a contract, grant or role under the programme.</p>
           </div>
           <div>
-            <SectionHead id="related" kicker="13 · Related programmes" title="How it connects to other programmes" />
+            <SectionHead id="related" kicker={`${kc(13)} · Related programmes`} title="How it connects to other programmes" />
             <RelatedProgrammes p={p} idx={idx} />
           </div>
         </div>
 
-        <SectionHead id="signals" kicker="14 · Related signals" title={`Latest ${p.short_name} signals`}
+        <SectionHead id="signals" kicker={`${kc(14)} · Related signals`} title={`Latest ${p.short_name} signals`}
           note="Surfaced automatically when a Signal names the programme, is linked to it by Techadyant, or covers a node or project it reaches. The reason is shown on each card." />
         <SignalCards items={sigs} programme={p.short_name} />
 
-        <SectionHead id="research" kicker="15 · Related research" title="Reports and briefings" />
+        <SectionHead id="research" kicker={`${kc(15)} · Related research`} title="Reports and briefings" />
         {reps.length ? (
           <ul className="pi-links">
             {reps.map((r) => <li key={r.link.id}><Link href={r.link.href!}>{r.link.name}</Link><span className="pi-l-meta">{r.link.meta} · {r.reasons.join(' · ')}</span></li>)}
           </ul>
         ) : <p className="pi-empty">No linked report yet.</p>}
 
-        <SectionHead id="record" kicker="16 · Delivery record" title="Timeline, gaps and delays" cls="fact" />
+        <SectionHead id="record" kicker={`${kc(16)} · Delivery record`} title="Timeline, gaps and delays" cls="fact" />
         <div className="pi-two">
           <ol className="pi-timeline">
             {p.timeline.map((t) => <li key={t.date + t.label}><time dateTime={t.date}>{fmtDate(t.date)}</time><span>{t.label} <C p={t.provenance} idx={idx} /></span></li>)}
@@ -241,7 +276,9 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
         <SectionHead id="gaps" kicker="Data gaps" title="What this page does not yet know" />
         <ul className="pi-datagaps">{p.data_gaps.map((g) => <li key={g}>{g}</li>)}</ul>
 
-        <SectionHead id="sources" kicker="Sources" title="Source record" note={`Data as of ${fmtDate(p.data_as_of)} · verified ${fmtDate(p.last_verified)}. Numbers in brackets throughout the page refer to this list.`} />
+        {sg && <SgCoverage db={sg} />}
+
+        <SectionHead id="sources" kicker="Sources" title="Source record" note={`Data as of ${fmtDate(p.data_as_of)} · verified ${fmtDate(p.last_verified)}${sg ? ` · Sagarmala database verified ${fmtDate(sg.dossier.programme.last_verified)}` : ''}. Numbers in brackets throughout the page refer to this list.`} />
         <SourceList items={srcs.map((s, i) => ({ n: i + 1, name: s.source_name, publisher: s.publisher, url: s.source_url, date: s.publication_date, type: s.source_type, confidence: s.confidence }))} />
 
         <SectionHead id="method" kicker="Method" title="How this page is built" />

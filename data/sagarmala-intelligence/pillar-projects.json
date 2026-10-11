@@ -1,0 +1,391 @@
+{
+  "version": "1.0",
+  "note": "Sagarmala five-pillar project database. Two scopes are held separately and never summed: (1) the whole programme portfolio (845 projects as of 24 Mar 2026) identified under Sagarmala, and (2) the 128 projects funded under the Sagarmala scheme (MoPSW financial assistance). Flagship projects carry cost, capacity, status, implementing agency and sources; planned capacity is kept separate from commissioned capacity and actual throughput (see ports.json / port-performance.json). Projects marked scheme_funded received MoPSW financial assistance; the rest are programme-portfolio projects implemented by ports, states, SPVs or the private sector.",
+  "pillar_keys": ["port_modernisation", "port_connectivity", "port_led_industrialisation", "coastal_community", "coastal_shipping_iwt"],
+  "portfolio": {
+    "snapshots": [
+      {
+        "as_of": null,
+        "projects": 802,
+        "cost_lakh_cr": 5.53,
+        "completed": { "count": 172, "cost_cr": 88235 },
+        "scope": "whole programme portfolio",
+        "verification": "undated MoPSW publication mirrored secondarily; treat as approximate 2023 position",
+        "provenance": [{ "source_id": "src:wiki-sagarmala-project" }]
+      },
+      {
+        "as_of": "2025-03-27",
+        "projects": 839,
+        "cost_lakh_cr": 5.79,
+        "completed": { "count": 272, "cost_lakh_cr": 1.41 },
+        "scope": "whole programme portfolio",
+        "verification": "PIB 10-years backgrounder",
+        "provenance": [
+          { "source_id": "src:pib-sagarmala-priority-2025" },
+          { "source_id": "src:pib-maritime-backgrounder-2025" }
+        ]
+      },
+      {
+        "as_of": "2026-03-24",
+        "projects": 845,
+        "cost_lakh_cr": 6.06,
+        "completed": { "count": 315, "cost_lakh_cr": 1.57 },
+        "under_implementation": { "count": 210 },
+        "planning": { "count": 320 },
+        "scope": "whole programme portfolio",
+        "verification": "PIB backgrounder, corroborated by DD News",
+        "provenance": [{ "source_id": "src:pib-sagarmala-2026" }]
+      }
+    ],
+    "pillar_split_839": {
+      "as_of": "2025-03",
+      "scope": "whole programme portfolio (839 projects)",
+      "verification": "secondary source mirroring sagarmala.gov.in (site WAF-blocked for capture); sums to ₹5.80 lakh crore, consistent with the ₹5.79 lakh crore total",
+      "rows": [
+        { "pillar_key": "port_modernisation", "projects": 234, "cost_cr": 291622 },
+        { "pillar_key": "port_connectivity", "projects": 279, "cost_cr": 206363 },
+        { "pillar_key": "port_led_industrialisation", "projects": 14, "cost_cr": 55887 },
+        { "pillar_key": "coastal_community", "projects": 81, "cost_cr": 11573 },
+        { "pillar_key": "coastal_shipping_iwt", "projects": 231, "cost_cr": 14526 }
+      ],
+      "provenance": [{ "source_id": "src:wiki-sagarmala-project" }]
+    },
+    "scheme_funded": {
+      "as_of": "2026-02-13",
+      "scope": "projects sanctioned for MoPSW financial assistance under the Sagarmala scheme",
+      "sanctioned_total": 186,
+      "withdrawn": 58,
+      "funded": 128,
+      "completed": 78,
+      "under_implementation": 50,
+      "yearwise_sanctions": { "2015-16": 9, "2016-17": 34, "2017-18": 20, "2018-19": 23, "2019-20": 6, "2020-21": 17, "2021-22": 29, "2022-23": 30, "2023-24": 4, "2024-25": 2, "2025-26": 12 },
+      "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }]
+    },
+    "scheme_funded_pillar_split": {
+      "as_of": "2026-07-24",
+      "scope": "completed and under-implementation projects under the Sagarmala scheme (financial assistance)",
+      "verification": "Lok Sabha reply annexure I",
+      "rows": [
+        { "pillar_key": "coastal_shipping_iwt", "completed": { "count": 25, "cost_cr": 1178.5 }, "under_implementation": { "count": 17, "cost_cr": 1167.7 } },
+        { "pillar_key": "coastal_community", "completed": { "count": 19, "cost_cr": 1912.6 }, "under_implementation": { "count": 28, "cost_cr": 3008.4 } },
+        { "pillar_key": "port_modernisation", "completed": { "count": 18, "cost_cr": 870.2 }, "under_implementation": { "count": 6, "cost_cr": 160.8 } },
+        { "pillar_key": "port_connectivity", "completed": { "count": 17, "cost_cr": 1413.2 }, "under_implementation": { "count": 3, "cost_cr": 201.3 } }
+      ],
+      "grand_total": { "completed": { "count": 79, "cost_cr": 5374.5 }, "under_implementation": { "count": 54, "cost_cr": 4538.2 } },
+      "note": "No row exists for port-led industrialisation: no project has been sanctioned for financial assistance under that pillar of the Sagarmala scheme (confirmed separately on 11 Aug 2026).",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-pillars-ls-2026" },
+        { "source_id": "src:pib-sagarmala-rs-2026" }
+      ]
+    }
+  },
+  "projects": [
+    {
+      "id": "sgpr:vadhavan-port",
+      "name": "Vadhavan Port (greenfield major port, artificial island)",
+      "pillar_key": "port_modernisation",
+      "scheme_funded": false,
+      "location": "Vadhavan, Dahanu, Palghar district, Maharashtra",
+      "port_id": "sgport:vadhavan",
+      "scope": "All-weather greenfield deep-draft major port built on an artificial island off Vadhavan; natural depth of ~20 m available at 10 km; harbour designed for container ships up to 233,000 DWT; landlord-port model.",
+      "cost_cr": 76220,
+      "planned_capacity": { "value": 298, "unit": "MTPA" },
+      "status": "under_construction",
+      "agency": "Vadhavan Port Project Ltd (VPPL) — SPV of Jawaharlal Nehru Port Authority (74%) and Maharashtra Maritime Board (26%); VPPL incorporated 14 September 2016",
+      "contractors": [
+        { "name": "Afcons Infrastructure", "role": "Breakwater EPC — ₹5,301 crore, 10.14 km, awarded June 2026", "provenance": [{ "source_id": "src:prnewswire-afcons-vadhvan-2026" }] },
+        { "name": "ITD Cementation with DEME and Jan De Nul (JV)", "role": "Dredging and land reclamation — letter of award March 2025; DEME share up to €50 million", "provenance": [{ "source_id": "src:wiki-vadhavan-port" }] }
+      ],
+      "milestones": [
+        { "date": "2020-02-19", "label": "Notified as a Major Port in the Government Gazette.", "provenance": [{ "source_id": "src:vppl-about" }] },
+        { "date": "2024-06-19", "label": "Union Cabinet approves development at ₹76,220 crore.", "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "date": "2024-08-30", "label": "Foundation stone laid by the Prime Minister.", "provenance": [{ "source_id": "src:wiki-vadhavan-port" }] },
+        { "date": "2026-06-09", "label": "₹5,301 crore breakwater contract awarded to Afcons.", "provenance": [{ "source_id": "src:prnewswire-afcons-vadhvan-2026" }] }
+      ],
+      "operational_consequences": "Designed as India's first offshore port; the deepest-draft capacity addition of the programme, aimed at ultra-large container vessels that currently bypass Indian gateways.",
+      "consequence_evidence": "analysis",
+      "provenance": [
+        { "source_id": "src:vppl-about" },
+        { "source_id": "src:shipmin-bps-2024-25" },
+        { "source_id": "src:wiki-vadhavan-port" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:vizhinjam-phase1",
+      "name": "Vizhinjam International Seaport, Phase 1 (deepwater transshipment port)",
+      "pillar_key": "port_modernisation",
+      "scheme_funded": false,
+      "location": "Vizhinjam, Thiruvananthapuram, Kerala",
+      "port_id": "sgport:vizhinjam",
+      "scope": "India's first dedicated deepwater container transshipment port; natural depth ~24 m; Kerala-owned, Adani-operated under a 40-year concession; designed to accommodate ~50% of India's container transshipment currently handled at Dubai, Colombo and Singapore.",
+      "cost_cr": 8867,
+      "planned_capacity": { "value": 1, "unit": "M TEU (Phase 1 design)" },
+      "actual_throughput": { "value": 1, "unit": "M TEU crossed in the first year of operations (FY 2025-26)", "provenance": [{ "source_id": "src:adaniports-website", "notes": "Company annual-report filing: record first-year performance crossing 1 million TEUs, the fastest pace set by any Indian port." }] },
+      "status": "operational",
+      "agency": "Vizhinjam International Seaport Ltd (Kerala government) with Adani Ports & SEZ as concessionaire",
+      "contractors": [
+        { "name": "Adani Ports & SEZ", "role": "40-year operating concession (sole bidder, 2015), ~₹6,000 crore superstructure", "provenance": [{ "source_id": "src:themaritimestandard-vizhinjam-2015" }] },
+        { "name": "ZPMC", "role": "24 RMG cranes (10 double-cantilever + 14 single-cantilever) plus quay cranes; third batch shipped 5 January 2024", "provenance": [{ "source_id": "src:zpmc-vizhinjam-2024" }] }
+      ],
+      "milestones": [
+        { "date": "2023-10-12", "label": "First cargo vessel (Zhen Hua 15, crane carrier) docks.", "provenance": [{ "source_id": "src:wiki-vizhinjam-port" }] },
+        { "date": "2024-07-11", "label": "First container ship (San Fernando) on trial run; limited-scale operations begin.", "provenance": [{ "source_id": "src:wiki-vizhinjam-port" }] },
+        { "date": "2024-12-03", "label": "Commercial operations of Phase 1 commence with a designed capacity of 1 million TEUs.", "provenance": [{ "source_id": "src:pib-sagarmala-2026" }] },
+        { "date": "2025-04", "label": "MSC Türkiye (24,346 TEU) calls — largest vessel handled to date.", "provenance": [{ "source_id": "src:wiki-vizhinjam-port" }] },
+        { "date": "2025-05-02", "label": "Port dedicated by the Prime Minister (~₹8,800 crore).", "provenance": [{ "source_id": "src:wiki-vizhinjam-port" }] }
+      ],
+      "operational_consequences": "Keeps Indian-bound transshipment cargo in Indian terminals instead of Colombo/Dubai/Singapore; anchor for a port-adjacent services economy in Thiruvananthapuram.",
+      "consequence_evidence": "analysis",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-2026" },
+        { "source_id": "src:wiki-vizhinjam-port" },
+        { "source_id": "src:keralaports-vizhinjam" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:deendayal-rob-lc235",
+      "name": "Road over bridge at level crossing LC-235, Deendayal Port",
+      "pillar_key": "port_connectivity",
+      "scheme_funded": true,
+      "location": "Kandla, Gujarat",
+      "port_id": "sgport:deendayal",
+      "scope": "Road over bridge to ease the rail-crossing bottleneck and speed cargo evacuation from the port gate; appraised by MoPSW's Delegated Investment Board.",
+      "cost_cr": 132.51,
+      "status": "approved",
+      "agency": "Deendayal Port Authority",
+      "milestones": [
+        { "date": "2026-04-04", "label": "Project cleared under the Sagarmala Programme.", "provenance": [{ "source_id": "src:theweek-deendayal-rob-2026" }] }
+      ],
+      "operational_consequences": "Port-gate works like this affect node logistics for port-linked industry (including the Sanand semiconductor node served by Deendayal) without ever naming the node.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:theweek-deendayal-rob-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:obulavaripalle-krishnapatnam-rail",
+      "name": "Obulavaripalle–Venkatachalam (Krishnapatnam) new rail line",
+      "pillar_key": "port_connectivity",
+      "scheme_funded": false,
+      "location": "Andhra Pradesh (Nellore district)",
+      "port_id": "sgport:krishnapatnam",
+      "scope": "Port rail connectivity line connecting the Chennai–Guntakal/Krishnapatnam hinterland to the Krishnapatnam port gate; identified by the Ministry of Railways; concession signed 22 November 2005.",
+      "cost_cr": null,
+      "cost_note": "Cost not captured from a primary source; SDCL's ₹125 crore equity contribution into KRCL is documented.",
+      "status": "completed",
+      "agency": "Krishnapatnam Railway Company Ltd (KRCL) with Sagarmala Development Company Ltd equity",
+      "contractors": [
+        { "name": "Sagarmala Development Company Ltd", "role": "₹125 crore equity investment into KRCL for the line (November 2018)", "provenance": [{ "source_id": "src:wiki-sagarmala-project", "notes": "SDCL equity into KRCL reported by TOI/ITLN, mirrored in the secondary programme record." }] }
+      ],
+      "milestones": [
+        { "date": "2018-11-13", "label": "SDCL invests ₹125 crore equity in KRCL for the line.", "provenance": [{ "source_id": "src:wiki-sagarmala-project" }] },
+        { "date": "2021-11-10", "label": "The entire line is completed (South Central Railway announcement).", "provenance": [{ "source_id": "src:wiki-sagarmala-project", "notes": "SCR completion announcement mirrored in the secondary programme record." }] }
+      ],
+      "operational_consequences": "Rail evacuation capacity for one of the largest private ports on the east coast; enables bulk exports (iron ore, coal) and container movement between the hinterland and the port.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:wiki-sagarmala-project" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:haridaspur-paradip-rail",
+      "name": "Haridaspur–Paradip rail line and doubling",
+      "pillar_key": "port_connectivity",
+      "scheme_funded": false,
+      "location": "Odisha (Jajpur–Paradip)",
+      "port_id": "sgport:paradip",
+      "scope": "Port rail connectivity for Paradip: the new Haridaspur–Paradip line (original estimate ₹1,365 crore) and its doubling (₹2,542 crore), listed among Odisha's 29 port-connectivity projects.",
+      "cost_cr": 2542,
+      "cost_note": "₹2,542 crore is the doubling cost; the original new line estimate was ₹1,365 crore. HPRCL authorised capital is ₹1,500 crore with SDCL holding 25.91%.",
+      "status": "under_construction",
+      "status_note": "New line completed; doubling under implementation per the February 2026 Odisha connectivity reply.",
+      "agency": "Haridaspur Paradip Railway Company Ltd (HPRCL) with Sagarmala Development Company Ltd equity (₹33.68 crore = 25.91%)",
+      "provenance": [
+        { "source_id": "src:hprcl-about" },
+        { "source_id": "src:pib-odisha-connectivity-2026" }
+      ],
+      "operational_consequences": "Raises rail evacuation throughput for Paradip's dry-bulk and cargo flows; a listed bottleneck-removal project for the Odisha port cluster.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:pib-odisha-connectivity-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:nw1-mmts",
+      "name": "Jal Marg Vikas Project — NW-1 multimodal terminals",
+      "pillar_key": "coastal_shipping_iwt",
+      "scheme_funded": false,
+      "location": "National Waterway 1 (Ganga: Haldia–Varanasi, 1,390 km)",
+      "port_id": "sgport:haldia-hdc",
+      "scope": "Three multimodal terminals (Varanasi, Sahibganj, Haldia region) and one intermodal terminal on NW-1, with fairway development and navigation aids; JMVP total ₹5,369.18 crore shared equally between the Government of India and the World Bank.",
+      "cost_cr": 5369.18,
+      "planned_capacity": { "value": 1.26, "unit": "MTPA (Varanasi MMT)" },
+      "status": "completed",
+      "agency": "Inland Waterways Authority of India",
+      "milestones": [
+        { "date": "2018-11-12", "label": "Varanasi multimodal terminal inaugurated by the Prime Minister.", "provenance": [{ "source_id": "src:iwai-national-waterways" }] },
+        { "date": "2019-09", "label": "Sahibganj multimodal terminal inaugurated.", "provenance": [{ "source_id": "src:iwai-national-waterways" }] },
+        { "date": "2026-07-24", "label": "3 MMTs and 1 intermodal terminal completed on NW-1 (Lok Sabha reply).", "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }] }
+      ],
+      "operational_consequences": "Adds a water leg for bulk and container movement in the Gangetic hinterland; NW-1 carries ~4 million tonnes, growing from a near-zero base.",
+      "consequence_evidence": "analysis",
+      "provenance": [
+        { "source_id": "src:iwai-national-waterways" },
+        { "source_id": "src:iwai-nw1-offerings" },
+        { "source_id": "src:pib-sagarmala-pillars-ls-2026" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:nw2-nw3-nw4-terminals",
+      "name": "NW-2, NW-3 and NW-4 terminal programme",
+      "pillar_key": "coastal_shipping_iwt",
+      "scheme_funded": false,
+      "location": "Brahmaputra (NW-2), West Coast Canal Kerala (NW-3), Kakinada–Puducherry canals/Godavari (NW-4)",
+      "port_id": null,
+      "scope": "One MMT and three IWT terminals on NW-2 (Pandu MMT plus floating terminals incl. Dhubri and Jogighopa); nine IWT terminals and two Ro-Ro terminals in Ernakulam on NW-3; one Ro-Ro terminal on NW-4.",
+      "cost_cr": null,
+      "cost_note": "Individual terminal costs not published in captured sources.",
+      "status": "completed",
+      "agency": "Inland Waterways Authority of India",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-pillars-ls-2026" },
+        { "source_id": "src:iwai-national-waterways" }
+      ],
+      "operational_consequences": "Extends waterway freight and passenger capacity beyond the Ganga corridor; NW-2 carries ~2 million tonnes and NW-3 ~1 million tonne.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:iwai-national-waterways" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:nw5-phase1",
+      "name": "NW-5 Phase-1 (Talcher–Dhamra–Paradip–Pankapal)",
+      "pillar_key": "coastal_shipping_iwt",
+      "scheme_funded": false,
+      "location": "Odisha (Brahmani–Mahanadi system)",
+      "port_id": "sgport:paradip",
+      "scope": "Phase-1 development of National Waterway-5 connecting the mineral-rich Talcher–Angul belt with Kalinga Nagar and the ports of Paradip and Dhamra; announced in the Union Budget 2026-27 as the first of 20 new waterways to be developed.",
+      "cost_cr": null,
+      "cost_note": "Cost not published in captured sources.",
+      "status": "under_construction",
+      "agency": "Inland Waterways Authority of India",
+      "provenance": [
+        { "source_id": "src:pib-odisha-connectivity-2026" },
+        { "source_id": "src:indiabudget-speech-2026-27" }
+      ],
+      "operational_consequences": "Potential modal shift for thermal coal and minerals from road to water in Odisha's mining belt.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:indiabudget-speech-2026-27" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:ghogha-hazira-ropax",
+      "name": "Ghogha–Hazira Ro-Pax ferry service",
+      "pillar_key": "coastal_shipping_iwt",
+      "scheme_funded": true,
+      "location": "Gulf of Khambhat, Gujarat",
+      "port_id": null,
+      "scope": "Ro-Pax ferry across the Gulf of Khambhat replacing a ~10-hour road haul with a ~4-hour sea crossing; part of 29 Ro-Pax projects worth ₹1,233 crore taken up under Sagarmala.",
+      "cost_cr": null,
+      "cost_note": "Individual cost not isolated from the 29-project Ro-Pax package (₹1,233 crore).",
+      "status": "operational",
+      "status_note": "Hazira Ro-Pax facility completed in CY2023; vessels have moved ~36,000 trucks, 61,000 cars and ~4 lakh passengers.",
+      "agency": "Gujarat Maritime Board with MoPSW support",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-2026" },
+        { "source_id": "src:wiki-sagarmala-project" }
+      ],
+      "operational_consequences": "Removes a coastal-road leg for Saurashtra truck traffic and anchors the Ghogha coastal cluster.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:coastal-berths",
+      "name": "Coastal berth programme",
+      "pillar_key": "port_modernisation",
+      "scheme_funded": true,
+      "location": "Multiple states (Visakhapatnam, JNPT, Kollam, Old Mangaluru, VOCPT among others)",
+      "port_id": null,
+      "scope": "Dedicated coastal-cargo berths for coastal shipping induction; seven completed projects valued at ₹494 crore have added 9.84 MTPA of cargo-handling capacity.",
+      "cost_cr": 494,
+      "planned_capacity": { "value": 9.84, "unit": "MTPA (seven completed berths)" },
+      "status": "partially_operational",
+      "status_note": "Seven berths completed; more sanctioned in the 128-project scheme list (Visakhapatnam coastal berth completed 30/09/2017 at ₹43 crore; JNPT, Kollam, Old Mangaluru and VOCPT berths in the list).",
+      "agency": "Respective port authorities with MoPSW financial assistance",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-2026" },
+        { "source_id": "src:ls-sagarmala-scheme-2026" }
+      ],
+      "operational_consequences": "Dedicated coastal berths lower the cost and dwell of coastal transshipment, the policy basis for raising coastal shipping's modal share.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:fishing-harbour-programme",
+      "name": "Fishing harbour and fish landing centre programme",
+      "pillar_key": "coastal_community",
+      "scheme_funded": true,
+      "location": "Multiple coastal states (Malpe and Kulai in Karnataka; Juvvaladinne and Visakhapatnam in AP; Chennai, Mookaiyur, Kunthukal, Poompuhar and Chinnamuttom in Tamil Nadu; Cochin, Thalai, Chettuva and Chellanam in Kerala; Sassoon Dock, Mallet Bunder, Karanja, Anandwadi, Mirkawada in Maharashtra; Mangrol in Gujarat; Paradip and Chandipur in Odisha)",
+      "port_id": null,
+      "scope": "New and modernised fishing harbours and fish landing centres for the coastal-community pillar. Eleven projects costing ₹1,057 crore are completed, directly benefiting more than 30,000 fishermen; scheme-funded examples include Juvvaladinne (₹288 crore, completed 30/01/2025) and Visakhapatnam modernisation (₹178.51 crore, under implementation, MoPSW share ₹50 crore).",
+      "cost_cr": 1057,
+      "status": "partially_operational",
+      "status_note": "11 completed; several others under implementation in the 128-project scheme list.",
+      "agency": "Port authorities, state maritime boards and state fisheries departments",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-2026" },
+        { "source_id": "src:ls-sagarmala-scheme-2026" }
+      ],
+      "operational_consequences": "Landing-centre infrastructure is the base of the coastal cold chain; its industrial relevance depends on downstream cold-storage and processing investment.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:cems",
+      "name": "Centre of Excellence in Maritime and Shipbuilding (CEMS)",
+      "pillar_key": "coastal_community",
+      "scheme_funded": true,
+      "location": "Visakhapatnam (Andhra Pradesh) and Mumbai (Maharashtra)",
+      "port_id": null,
+      "scope": "24 advanced labs (18 at Visakhapatnam, 6 at Mumbai) for maritime and shipbuilding skill training; the Andhra Pradesh centre (₹574 crore, MoPSW share ₹36.76 crore) was completed on 30/12/2018; implementer Indian Register of Shipping.",
+      "cost_cr": 574,
+      "status": "operational",
+      "agency": "Indian Register of Shipping with MoPSW support",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-pillars-ls-2026" },
+        { "source_id": "src:ls-sagarmala-scheme-2026" }
+      ],
+      "operational_consequences": "Training capacity for shipbuilding-adjacent trades; the only scheme-funded skills asset of scale captured so far.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpr:lighthouse-tourism",
+      "name": "Lighthouse tourism programme",
+      "pillar_key": "coastal_community",
+      "scheme_funded": false,
+      "location": "Nationwide (Directorate General of Lighthouses and Lightships)",
+      "port_id": null,
+      "scope": "Conversion of lighthouses into tourist attractions: 75 lighthouses already developed and 205 identified for future tourism under Maritime India Vision 2030.",
+      "cost_cr": null,
+      "cost_note": "Programme cost not published in captured sources.",
+      "status": "operational",
+      "status_note": "75 lighthouses operational as tourist attractions.",
+      "agency": "Directorate General of Lighthouses and Lightships (MoPSW)",
+      "provenance": [{ "source_id": "src:shipmin-sagarmala-division" }],
+      "operational_consequences": "Coastal-tourism infrastructure with local employment effects that are not independently measured on file.",
+      "consequence_evidence": "analysis",
+      "provenance": [{ "source_id": "src:shipmin-sagarmala-division" }],
+      "last_verified": "2026-10-10"
+    }
+  ],
+  "cpcp": {
+    "text": "Comprehensive Port Connectivity Plan: DPIIT's 2022 assessment led MoPSW, with MoRTH and the Ministry of Railways, to identify 294 rail and road port-connectivity projects — 84 completed (63 rail, 21 road), 66 under implementation (27 rail, 39 road) and 144 under planning (42 rail, 102 road). Projects within port limits are taken up by the port authorities; beyond port limits by the railways, MoRTH or state governments.",
+    "as_of": "2026-07-24",
+    "evidence": "fact",
+    "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }]
+  }
+}

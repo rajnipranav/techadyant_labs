@@ -1734,6 +1734,19 @@
    ],
    "glance": [
     {
+     "label": "Port capacity",
+     "value": "Major ports 1,681 MTPA (FY25) · combined 2,818 MTPA (Mar 2026)",
+     "as_of": "2026-07-24",
+     "provenance": [
+      {
+       "source_id": "src:pib-maritime-infra-2026"
+      },
+      {
+       "source_id": "src:pib-sagarmala-pillars-ls-2026"
+      }
+     ]
+    },
+    {
      "label": "Launch",
      "value": "March 2015",
      "as_of": "2026-04-11",
@@ -1790,6 +1803,16 @@
      "provenance": [
       {
        "source_id": "src:sagarmala-cez"
+      }
+     ]
+    },
+    {
+     "label": "Non-major ports",
+     "value": "742.41 MT in FY25 · Gujarat 65.7% of it",
+     "as_of": "2026-04",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-bps-2024-25"
       }
      ]
     }
@@ -1879,10 +1902,16 @@
      "description": "Capacity, mechanisation and new ports.",
      "scale": null,
      "stage": "under_implementation",
-     "progress": "Seven completed coastal-berth projects (₹494 crore) added 9.84 MTPA",
+     "progress": "Seven coastal-berth projects (₹494 crore) added 9.84 MTPA; Vadhavan (₹76,220 crore, 298 MTPA planned) under construction after the June 2024 Cabinet approval; Vizhinjam Phase 1 operational since 3 December 2024 and past 1 M TEU in its first year.",
      "provenance": [
       {
        "source_id": "src:pib-sagarmala-2026"
+      },
+      {
+       "source_id": "src:shipmin-bps-2024-25"
+      },
+      {
+       "source_id": "src:wiki-vizhinjam-port"
       }
      ]
     },
@@ -1892,10 +1921,10 @@
      "description": "Road, rail and other links between ports and hinterland.",
      "scale": null,
      "stage": "under_implementation",
-     "progress": "e.g. ₹132.51 crore road over bridge at Deendayal Port approved (Apr 2026)",
+     "progress": "Comprehensive Port Connectivity Plan: 294 rail/road projects identified — 84 completed, 66 under implementation, 144 under planning (Jul 2026); e.g. ₹132.51 crore road over bridge at Deendayal Port approved (Apr 2026).",
      "provenance": [
       {
-       "source_id": "src:pib-sagarmala-2026"
+       "source_id": "src:pib-sagarmala-pillars-ls-2026"
       },
       {
        "source_id": "src:theweek-deendayal-rob-2026"
@@ -1908,10 +1937,10 @@
      "description": "Industrial clusters and Coastal Economic Zones near ports.",
      "scale": "14 CEZs proposed",
      "stage": "announced",
-     "progress": "Perspective plans prepared for all 14 CEZs",
+     "progress": "Perspective plans prepared for all 14 CEZs; no project sanctioned for financial assistance under this pillar of the Sagarmala scheme (Rajya Sabha reply, 11 Aug 2026).",
      "provenance": [
       {
-       "source_id": "src:pib-sagarmala-2026"
+       "source_id": "src:pib-sagarmala-rs-2026"
       },
       {
        "source_id": "src:sagarmala-cez"
@@ -1924,10 +1953,13 @@
      "description": "Skills and livelihoods in coastal communities.",
      "scale": null,
      "stage": "under_implementation",
-     "progress": null,
+     "progress": "11 fishing-harbour projects (₹1,057 crore) completed, benefiting 30,000+ fishermen; 7,600+ trained under DDU-GKY convergence; 75 lighthouses developed as tourist attractions.",
      "provenance": [
       {
        "source_id": "src:pib-sagarmala-2026"
+      },
+      {
+       "source_id": "src:shipmin-sagarmala-division"
       }
      ]
     },
@@ -1937,8 +1969,11 @@
      "description": "Moving cargo to coastal and river routes.",
      "scale": null,
      "stage": "operational",
-     "progress": "Inland-waterway cargo 18.10 MT (FY14) → 145.5 MT (FY25)",
+     "progress": "3 multimodal terminals and 1 intermodal terminal completed on NW-1; NW-2/3/4 terminal programmes completed (Jul 2026); 29 Ro-Pax projects (₹1,233 crore) taken up; inland-waterway cargo 18.10 MT (FY14) → 145.5 MT (FY25).",
      "provenance": [
+      {
+       "source_id": "src:pib-sagarmala-pillars-ls-2026"
+      },
       {
        "source_id": "src:pib-sagarmala-2026"
       }
@@ -1969,8 +2004,56 @@
      ]
     },
     {
+     "date": "2016-04-14",
+     "label": "National Perspective Plan released by the Prime Minister at the Maritime India Summit 2016.",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-sagarmala-division"
+      },
+      {
+       "source_id": "src:pmo-mis-2016-speech"
+      }
+     ]
+    },
+    {
      "date": "2016-08",
      "label": "Sagarmala Development Company set up",
+     "provenance": [
+      {
+       "source_id": "src:pib-sagarmala-2026"
+      }
+     ]
+    },
+    {
+     "date": "2021-03-02",
+     "label": "Maritime India Vision 2030 launched at the Maritime India Summit 2021.",
+     "provenance": [
+      {
+       "source_id": "src:pib-yer-mopsw-2021"
+      }
+     ]
+    },
+    {
+     "date": "2023-10-17",
+     "label": "Maritime Amrit Kaal Vision 2047 unveiled at the Global Maritime India Summit 2023.",
+     "provenance": [
+      {
+       "source_id": "src:pmo-gmis-2023"
+      }
+     ]
+    },
+    {
+     "date": "2024-06-19",
+     "label": "Union Cabinet approves the ₹76,220 crore Vadhavan major-port development (298 MTPA planned).",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-bps-2024-25"
+      }
+     ]
+    },
+    {
+     "date": "2024-12-03",
+     "label": "Vizhinjam International Seaport Phase 1 commences commercial operations (1 M TEU design).",
      "provenance": [
       {
        "source_id": "src:pib-sagarmala-2026"
@@ -1983,6 +2066,15 @@
      "provenance": [
       {
        "source_id": "src:pib-sagarmala-2026"
+      }
+     ]
+    },
+    {
+     "date": "2025-09-24",
+     "label": "Cabinet clears the ₹69,725 crore shipbuilding package (SBFAS, Maritime Development Fund, dock support).",
+     "provenance": [
+      {
+       "source_id": "src:pib-shipbuilding-package-2025"
       }
      ]
     },
@@ -2036,21 +2128,24 @@
     },
     {
      "title": "CEZs are still plans",
-     "detail": "The 14 Coastal Economic Zones are proposed with perspective plans; notification and land status are not documented here.",
+     "detail": "The 14 Coastal Economic Zones remain proposals with perspective plans; in August 2026 Parliament was told that no project has been sanctioned for financial assistance under the port-led industrialisation pillar of the Sagarmala scheme.",
      "evidence": "fact",
      "provenance": [
+      {
+       "source_id": "src:pib-sagarmala-rs-2026"
+      },
       {
        "source_id": "src:sagarmala-cez"
       }
      ]
     },
     {
-     "title": "Pillar-wise progress",
-     "detail": "The latest release gives no project or value split by pillar.",
+     "title": "Pillar-wise portfolio values",
+     "detail": "The 839-project pillar-wise value split (Mar 2025) is held via a secondary mirror of the ministry page; the primary table could not be captured because sagarmala.gov.in blocks automated access.",
      "evidence": "fact",
      "provenance": [
       {
-       "source_id": "src:pib-sagarmala-2026"
+       "source_id": "src:wiki-sagarmala-project"
       }
      ]
     }
@@ -2110,9 +2205,13 @@
        ]
       },
       {
-       "text": "If CEZs move to notified land, import-heavy processing (energy, chemicals, metals) is the most likely early mover. None is documented as a CEZ unit here.",
-       "evidence": "analysis",
-       "provenance": []
+       "text": "14 CEZs are proposed with perspective plans, and in August 2026 Parliament confirmed that no project has been sanctioned for financial assistance under the port-led industrialisation pillar — the unbuilt-pillar reading is now official.",
+       "evidence": "fact",
+       "provenance": [
+        {
+         "source_id": "src:pib-sagarmala-rs-2026"
+        }
+       ]
       }
      ]
     },
@@ -2279,13 +2378,15 @@
     "exclude": []
    },
    "data_gaps": [
-    "Pillar-wise project counts and values are not captured.",
-    "CEZ notification, land and anchor-unit status are not documented.",
-    "Port coordinates for Mumbai and JNPA are not yet in the infrastructure registry.",
-    "Which Sagarmala projects serve this Atlas’s industrial nodes is documented only for Deendayal Port."
+    "The full 845-project portfolio is not itemised here; the ministry does not publish a machine-readable list and sagarmala.gov.in blocks automated capture. Portfolio statistics and pillar splits are held with dates and scopes.",
+    "Terminal-level inventories for all major ports are not yet captured; port-level and terminal-level throughput are kept separate to prevent double counting.",
+    "Anchor-unit status for the 14 CEZs is a verified absence (no sanction), not missing data.",
+    "Kamarajar Port's proposed second container terminal has no URL-bearing source on file and is excluded from the project database.",
+    "Employment figures (~1 crore jobs projected) are ministry projections, not measured outcomes.",
+    "The scheme-funding lifecycle (186 sanctioned, 58 withdrawn, 128 funded) rests solely on the Lok Sabha AU2431 annexure of 13 Feb 2026. The PDF could not be independently re-retrieved on 2026-10-11 (sansad.in returned no content), and secondary coverage corroborates only the 78-completed figure. Treat the sanction and withdrawal counts as single-source pending re-capture."
    ],
-   "last_verified": "2026-10-08",
-   "data_as_of": "2026-04-11"
+   "last_verified": "2026-10-10",
+   "data_as_of": "2026-08-12"
   }
  ]
 }

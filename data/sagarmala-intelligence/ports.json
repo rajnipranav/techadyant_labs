@@ -1,0 +1,1316 @@
+{
+  "version": "1.0",
+  "note": "Indian port and maritime asset registry for the Sagarmala Intelligence layer. 12 operational major ports (11 Port Authorities under the Major Port Authorities Act 2021 plus Kamarajar Port Ltd, a government-owned company) and the 217 notified non-major ports per Basic Port Statistics 2024-25; two notified major ports are under construction (Vadhavan, Galathea Bay). Only the Tier-B core of the non-major system is registered here — the largest ports and those with documented Sagarmala linkage; this is not a copy of the ministry's full 217-port notification list. Throughput figures keep their reporting period and source; port-level totals are kept separate from any terminal-level figures cited in company records to prevent double counting. Port-wide throughput and terminal-level throughput are never combined. sagarmala_project_ids link to sgpr: records; absence of a link means no documented Sagarmala project on file, not absence of programme relevance.",
+  "counts": {
+    "major_ports": 12,
+    "under_construction_major_ports": 2,
+    "non_major_registered_here": 12
+  },
+  "ports": [
+    {
+      "id": "sgport:deendayal",
+      "name": "Deendayal Port Authority (Kandla)",
+      "aliases": [
+        "Kandla Port",
+        "Deendayal Port"
+      ],
+      "type": "major",
+      "state": "Gujarat",
+      "authority": "Deendayal Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 23.017,
+        "lng": 70.217,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 23°01'N, 70°13'E (all-weather tidal port); Vadinar outer terminal at 22.45N, 69.14E."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 150.157,
+        "fy2025_26_mt": 160.11
+      },
+      "rank_fy26": 1,
+      "sagarmala_project_ids": [
+        "sgpr:deendayal-rob-lc235"
+      ],
+      "facts": [
+        {
+          "text": "Largest major port by cargo in FY 2025-26 at 160.11 MT, regaining the top rank from Paradip.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-major-ports-fy26"
+            },
+            {
+              "source_id": "src:maritimegateway-deendayal-fy26"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:pib-major-ports-fy26"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:paradip",
+      "name": "Paradip Port Authority",
+      "aliases": [
+        "Paradip Port"
+      ],
+      "type": "major",
+      "state": "Odisha",
+      "authority": "Paradip Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 20.266,
+        "lng": 86.674,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 20°15'58.63\"N, 86°40'27.34\"E."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 150.408,
+        "fy2025_26_mt": 156.451
+      },
+      "rank_fy26": 2,
+      "sagarmala_project_ids": [
+        "sgpr:haridaspur-paradip-rail",
+        "sgpr:nw5-phase1"
+      ],
+      "facts": [
+        {
+          "text": "Top major port by cargo in FY 2024-25 at 150.41 MT; the port's dry-bulk and coal flows are supported by the Haridaspur-Paradip rail corridor and its doubling.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            },
+            {
+              "source_id": "src:pib-odisha-connectivity-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:jnpa",
+      "name": "Jawaharlal Nehru Port Authority (JNPA, Nhava Sheva)",
+      "aliases": [
+        "JNPT",
+        "Nhava Sheva Port"
+      ],
+      "type": "major",
+      "state": "Maharashtra",
+      "authority": "Jawaharlal Nehru Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 18.945,
+        "lng": 72.94,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 18°56'43\"N, 72°56'24\"E. Approximate centroid."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 92.115,
+        "fy2025_26_mt": 102.008
+      },
+      "container_throughput": {
+        "fy2024_25_mteu": 7.3,
+        "fy2025_26_mteu": 8.17
+      },
+      "rank_fy26": 3,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "India's leading container gateway: a record 8.17 million TEUs (+11.94%) and 102.01 MT (+10.74%) in FY 2025-26; ranked 22nd in the World Bank Container Port Performance Index 2025. Five container terminals: NSICT (DP World), NSIGT (DP World), GTI (APM Terminals–CONCOR JV), BMCT (PSA) and NSFT (J.M. Baxi–CMA Terminals JV).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-major-ports-fy26"
+            },
+            {
+              "source_id": "src:jnport-container-terminals"
+            },
+            {
+              "source_id": "src:pib-sagarmala-rs-2026"
+            }
+          ]
+        },
+        {
+          "text": "JNPA holds 74% of Vadhavan Port Project Ltd, the SPV building the ₹76,220 crore Vadhavan major port.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:vppl-about"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:visakhapatnam",
+      "name": "Visakhapatnam Port Authority",
+      "aliases": [
+        "Vizag Port",
+        "Visakhapatnam Port"
+      ],
+      "type": "major",
+      "state": "Andhra Pradesh",
+      "authority": "Visakhapatnam Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 17.698,
+        "lng": 83.279,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate centroid per public port references; BPS Table 1.3 gives inner/outer harbour geometry without a single lat/long."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 82.623,
+        "fy2025_26_mt": 91.166
+      },
+      "rank_fy26": 4,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Among the nine Indian ports in the world top-100; in the top-20 for container traffic per the April 2026 PIB feature.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            }
+          ]
+        },
+        {
+          "text": "Approximate site coordinates are taken from public port references; the official BPS topography table gives harbour geometry only.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:wiki-visakhapatnam-port"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:mumbai",
+      "name": "Mumbai Port Authority",
+      "aliases": [
+        "Mumbai Port",
+        "MbPT"
+      ],
+      "type": "major",
+      "state": "Maharashtra",
+      "authority": "Mumbai Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 18.918,
+        "lng": 72.866,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 18°55'05\"N, 72°51'57\"E (approximate centroid of the dock system)."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 68.625,
+        "fy2025_26_mt": 75.148
+      },
+      "rank_fy26": 5,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Highest-ever throughput in FY 2024-25 (68.63 MT) followed by a further jump to 75.15 MT in FY 2025-26; scheme-funded works on file include the third chemical berth at Pirpau, SCADA/PLC automation at the Marine Oil Terminal and firefighting augmentation at Pir Pau (₹52.69 crore, under implementation).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:ls-sagarmala-scheme-2026"
+            },
+            {
+              "source_id": "src:shipmin-majorports-march2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:kolkata-smp",
+      "name": "Syama Prasad Mookerjee Port Authority, Kolkata (KDS + Haldia)",
+      "aliases": [
+        "Kolkata Port Trust",
+        "SMP Kolkata",
+        "Haldia Dock Complex"
+      ],
+      "type": "major",
+      "state": "West Bengal",
+      "authority": "Syama Prasad Mookerjee Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 22.55,
+        "lng": 88.3,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: Kolkata Dock System 22°33'N, 88°18'E; Haldia Dock Complex 22°02'N, 88°06'E."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 63.951,
+        "fy2025_26_mt": 70.698
+      },
+      "throughput_note": "FY25: KDS 16.641 + HDC 47.310; FY26 advance: KDS 18.843 + HDC 51.855. Kolkata Dock System grew 14.28% in FY26, the fastest dock system after Mormugao.",
+      "rank_fy26": 6,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Renamed from Kolkata Port Trust to Syama Prasad Mookerjee Port (Cabinet approval June 2020); the riverine port system serves the eastern hinterland and is the anchor for NW-1 cargo via Haldia.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            },
+            {
+              "source_id": "src:pib-major-ports-fy26"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:haldia-hdc",
+      "name": "Haldia Dock Complex (part of SMP Kolkata)",
+      "aliases": [
+        "Haldia Port",
+        "HDC"
+      ],
+      "type": "major_dock_system",
+      "state": "West Bengal",
+      "authority": "Syama Prasad Mookerjee Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 22.033,
+        "lng": 88.1,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 22°02'N, 88°06'E."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 47.31,
+        "fy2025_26_mt": 51.855
+      },
+      "throughput_note": "Haldia's throughput is included in the SMP Kolkata port-level total; recorded separately here only as the NW-1 maritime gateway — never summed with sgport:kolkata-smp.",
+      "sagarmala_project_ids": [
+        "sgpr:nw1-mmts"
+      ],
+      "facts": [
+        {
+          "text": "Haldia is the maritime anchor terminal of NW-1 (Ganga) waterway freight; the JMVP terminal chain (Varanasi–Sahibganj–Haldia region) feeds the dock complex.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:iwai-national-waterways"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:chennai",
+      "name": "Chennai Port Authority",
+      "aliases": [
+        "Chennai Port",
+        "Madras Port"
+      ],
+      "type": "major",
+      "state": "Tamil Nadu",
+      "authority": "Chennai Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 13.1,
+        "lng": 80.3,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 13°06'N, 80°18'E (artificial harbour)."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 54.962,
+        "fy2025_26_mt": 57.903
+      },
+      "rank_fy26": 7,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Container operations include the PSA Chennai (CITPL) terminal — three berths across an 832-metre quay, licensed to PSA in 2007 and fully owned since 2010.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:psa-chennai-citpl"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:new-mangalore",
+      "name": "New Mangalore Port Authority",
+      "aliases": [
+        "New Mangalore Port",
+        "NMPA"
+      ],
+      "type": "major",
+      "state": "Karnataka",
+      "authority": "New Mangalore Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 12.933,
+        "lng": 74.817,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 12°56'N, 74°49'E (artificial lagoon port)."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 46.014,
+        "fy2025_26_mt": 50.049
+      },
+      "rank_fy26": 8,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "JSW Infrastructure operates coal and container terminals at the port; iron-ore and petroleum dominate the cargo profile.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:jswinfrastructure-website"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:kamarajar",
+      "name": "Kamarajar Port Ltd (Ennore)",
+      "aliases": [
+        "Ennore Port",
+        "KPL"
+      ],
+      "type": "major",
+      "state": "Tamil Nadu",
+      "authority": "Kamarajar Port Ltd — the only major port administered as a wholly government-owned company rather than a Port Authority",
+      "coordinates": {
+        "lat": 13.252,
+        "lng": 80.327,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 13°15'5.9\"N, 80°19'36.59\"E."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 48.407,
+        "fy2025_26_mt": 49.081
+      },
+      "rank_fy26": 9,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "First corporatised major port (formerly Ennore Port Ltd). Terminal concessions on file: Adani Ennore Container Terminal (CA 1 March 2014, ₹1,270 crore, operations from 19 March 2018), Chettinad CIBTPL multi-cargo terminal (CA 28 March 2014), ETTPL marine liquid terminal and the IOCL LNG terminal SPV (CA 31 July 2015).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:kamarajarport-projects"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:voc-tuticorin",
+      "name": "V.O. Chidambaranar Port Authority (Tuticorin)",
+      "aliases": [
+        "Tuticorin Port",
+        "VOCPA",
+        "V.O. Chidambaranar Port"
+      ],
+      "type": "major",
+      "state": "Tamil Nadu",
+      "authority": "V.O. Chidambaranar Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 8.75,
+        "lng": 78.217,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 8°45'N, 78°13'E (artificial harbour)."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 41.724,
+        "fy2025_26_mt": 43.21
+      },
+      "rank_fy26": 10,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "The PSA SICAL container terminal (JV formed December 1999) was wound up early by PSA in March 2025 — a documented concession exit.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:sical-website"
+            },
+            {
+              "source_id": "src:loadstar-psa-exit-2025"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:cochin",
+      "name": "Cochin Port Authority",
+      "aliases": [
+        "Kochi Port",
+        "Cochin Port"
+      ],
+      "type": "major",
+      "state": "Kerala",
+      "authority": "Cochin Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 9.97,
+        "lng": 76.258,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 9°58.2'N, 76°15.5'E (riverine port)."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 37.745,
+        "fy2025_26_mt": 38.063
+      },
+      "rank_fy26": 11,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Vallarpadam International Container Transshipment Terminal is operated by DP World under a 30-year concession that reverts to the port thereafter.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:dpworld-website"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:mormugao",
+      "name": "Mormugao Port Authority",
+      "aliases": [
+        "Mormugao Port",
+        "MPA"
+      ],
+      "type": "major",
+      "state": "Goa",
+      "authority": "Mormugao Port Authority (MoPSW)",
+      "coordinates": {
+        "lat": 15.429,
+        "lng": 73.786,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "BPS 2024-25 Table 1.3: 15°25'46\"N, 73°47'11\"E."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 18.126,
+        "fy2025_26_mt": 20.837
+      },
+      "rank_fy26": 12,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Fastest-growing major port in FY 2025-26 (+15.91%); iron-ore exports dominate.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-major-ports-fy26"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:shipmin-majorports-march2026"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:vadhavan",
+      "name": "Vadhavan Port (under construction)",
+      "aliases": [
+        "Vadhavan Port Project"
+      ],
+      "type": "major_under_construction",
+      "state": "Maharashtra",
+      "authority": "Vadhavan Port Project Ltd — JNPA (74%) + Maharashtra Maritime Board (26%)",
+      "coordinates": {
+        "lat": 19.93,
+        "lng": 72.66,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate site coordinates for the offshore artificial-island port (Palghar/Dahanu coast)."
+      },
+      "status": "under_construction",
+      "throughput": null,
+      "planned_capacity": {
+        "value": 298,
+        "unit": "MTPA"
+      },
+      "sagarmala_project_ids": [
+        "sgpr:vadhavan-port"
+      ],
+      "facts": [
+        {
+          "text": "Notified as a Major Port on 19 February 2020; development approved by the Union Cabinet on 19 June 2024 at ₹76,220 crore; foundation laid 30 August 2024. Breakwater EPC of ₹5,301 crore (10.14 km) awarded to Afcons in June 2026; dredging and reclamation to an ITD Cementation–DEME–Jan De Nul JV.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:vppl-about"
+            },
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            },
+            {
+              "source_id": "src:prnewswire-afcons-vadhvan-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:vppl-about"
+        },
+        {
+          "source_id": "src:wiki-vadhavan-port"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:galathea-bay",
+      "name": "Galathea Bay Port, Great Nicobar (under construction)",
+      "aliases": [
+        "Galathea Bay transshipment port"
+      ],
+      "type": "major_under_construction",
+      "state": "Andaman & Nicobar Islands",
+      "authority": null,
+      "authority_note": "Administering authority for the notified port not captured in on-file sources.",
+      "coordinates": null,
+      "status": "under_construction",
+      "throughput": null,
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Notified on 4 September 2024 as an international transshipment port; under construction per Basic Port Statistics 2024-25.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:mundra",
+      "name": "Mundra Port (Gujarat Adani Port)",
+      "aliases": [
+        "Mundra",
+        "GAPL"
+      ],
+      "type": "non_major",
+      "state": "Gujarat",
+      "authority": "Adani Ports and SEZ Ltd",
+      "coordinates": {
+        "lat": 22.746,
+        "lng": 69.7,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 199.54
+      },
+      "throughput_note": "India's largest single port by cargo; 85.5% of FY25 volume was container cargo. FY26 port-wise figure not published; APSEZ group FY26 cargo was 500.8 MMT (+11%) across all its ports.",
+      "container_throughput": {
+        "fy2025_26_mteu": 8.5
+      },
+      "container_note": "~8.5-8.57 million TEUs in FY 2025-26 per trade-press reporting of company results; no official port-wise publication.",
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Four container terminals with a combined capacity of 7.5 million TEUs; the non-major system's container anchor.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:adaniports-website"
+            },
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            }
+          ]
+        },
+        {
+          "text": "Container-league context: Mundra and JNPA are India's two largest container ports (~8.5 and 8.17 M TEUs in FY 2025-26).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:wiki-list-ports-india"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:wiki-mundra-port"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:sikka",
+      "name": "Sikka Port and Terminals",
+      "aliases": [
+        "Sikka"
+      ],
+      "type": "non_major",
+      "state": "Gujarat",
+      "authority": "Reliance Industries Ltd",
+      "coordinates": null,
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 136.24
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Captive crude and product port serving the Jamnagar refining complex; the second-largest non-major cargo point after Mundra.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:krishnapatnam",
+      "name": "Krishnapatnam Port",
+      "aliases": [
+        "KPCL"
+      ],
+      "type": "non_major",
+      "state": "Andhra Pradesh",
+      "authority": "Adani Ports and SEZ Ltd (100% since 2021)",
+      "coordinates": {
+        "lat": 14.25,
+        "lng": 80.133,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 54.99
+      },
+      "throughput_note": "52.72% of Andhra Pradesh's non-major cargo in FY25.",
+      "sagarmala_project_ids": [
+        "sgpr:obulavaripalle-krishnapatnam-rail"
+      ],
+      "facts": [
+        {
+          "text": "Acquired by Adani Ports (75% in October 2020, EV ₹13,675 crore; increased to 100% by acquiring Vishwasamudra Holdings' 25% for ₹2,800 crore); connected by the completed Obulavaripalle–Venkatachalam rail line built by KRCL with SDCL equity.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:adaniports-website"
+            },
+            {
+              "source_id": "src:wiki-adani-ports"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:dhamra",
+      "name": "Dhamra Port",
+      "aliases": [
+        "Dhamra"
+      ],
+      "type": "non_major",
+      "state": "Odisha",
+      "authority": "Adani Ports and SEZ Ltd",
+      "coordinates": {
+        "lat": 20.778,
+        "lng": 86.86,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 46.08
+      },
+      "sagarmala_project_ids": [
+        "sgpr:nw5-phase1"
+      ],
+      "facts": [
+        {
+          "text": "Cargo commenced May 2011; now part of the Adani portfolio and one of the two Paradip-area gateways targeted by NW-5 Phase-1 connectivity.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            },
+            {
+              "source_id": "src:pib-odisha-connectivity-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        },
+        {
+          "source_id": "src:wiki-dhamra-port"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:dahej",
+      "name": "Dahej Port",
+      "aliases": [
+        "Dahej"
+      ],
+      "type": "non_major",
+      "state": "Gujarat",
+      "authority": "Dahej Port Ltd (PCPIR region; Adani-operated terminal)",
+      "coordinates": null,
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 36.08
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Coal and POL commodities dominate; serves the Dahej PCPIR petroleum-chemicals belt.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:magdalla",
+      "name": "Magdalla Port",
+      "aliases": [
+        "Magdalla"
+      ],
+      "type": "non_major",
+      "state": "Gujarat",
+      "authority": "Gujarat Maritime Board (private berth operators)",
+      "coordinates": null,
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 35.0
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Iron & steel and coal dominate; the largest GMB-operated non-major cargo point after Sikka and Mundra.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:dharamtar",
+      "name": "Dharamtar Port",
+      "aliases": [
+        "Dharamtar"
+      ],
+      "type": "non_major",
+      "state": "Maharashtra",
+      "authority": "Private berth operators",
+      "coordinates": null,
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 28.24
+      },
+      "throughput_note": "40.05% of Maharashtra's non-major cargo in FY25.",
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Bulk cargo point on the Amba river serving the Raigad industrial belt.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:gangavaram",
+      "name": "Gangavaram Port",
+      "aliases": [
+        "Gangavaram"
+      ],
+      "type": "non_major",
+      "state": "Andhra Pradesh",
+      "authority": "Adani Ports and SEZ Ltd (100% since 2021-22)",
+      "coordinates": {
+        "lat": 17.689,
+        "lng": 83.219,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 26.97
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Adani acquired 31.5% from Warburg Pincus for ₹1,954 crore (March 2021), the Raju family stake for ₹3,604 crore (March 2021), and the remaining 58.1% in 2022 (deal valued ~₹6,200 crore).",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:warburgpincus-gangavaram-2021"
+            },
+            {
+              "source_id": "src:wiki-gangavaram-port"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:kakinada-dw",
+      "name": "Kakinada Deep Water Port",
+      "aliases": [
+        "Kakinada"
+      ],
+      "type": "non_major",
+      "state": "Andhra Pradesh",
+      "authority": "Kakinada Seaports Ltd",
+      "coordinates": null,
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 17.81
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Deep-water berth complex serving the Konaseema gas and agri belt; NW-4 Ro-Ro terminal development touches the Kakinada canal system.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:shipmin-bps-2024-25"
+            },
+            {
+              "source_id": "src:pib-sagarmala-pillars-ls-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:pipavav",
+      "name": "Pipavav Port (Gujarat Pipavav Port Ltd)",
+      "aliases": [
+        "Pipavav",
+        "GPPL"
+      ],
+      "type": "non_major",
+      "state": "Gujarat",
+      "authority": "APM Terminals (A.P. Moller–Maersk), majority shareholder and operator",
+      "coordinates": {
+        "lat": 20.919,
+        "lng": 71.504,
+        "coord_source": "gazetteer",
+        "confidence": "high",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 13.93
+      },
+      "container_throughput": {
+        "fy2025_26_mteu": 0.66
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "MoU with the Gujarat Maritime Board for a ~US$2 billion expansion signed 30 October 2025.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:maersk-india-ties-2025"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:kattupalli",
+      "name": "Kattupalli Port",
+      "aliases": [
+        "Kattupalli"
+      ],
+      "type": "non_major",
+      "state": "Tamil Nadu",
+      "authority": "Port built by L&T Shipbuilding; container terminal operated by Adani Kattupalli Port",
+      "coordinates": {
+        "lat": 13.319,
+        "lng": 80.345,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 11.48
+      },
+      "throughput_note": "96.49% of Tamil Nadu's non-major cargo in FY25.",
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Co-located with the L&T Kattupalli shipyard — India's leading private shipbuilding and US-Navy ship-repair location.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:wiki-kattupalli-port"
+            },
+            {
+              "source_id": "src:larsentoubro-samarthak-2026"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:vizhinjam",
+      "name": "Vizhinjam International Seaport",
+      "aliases": [
+        "Vizhinjam",
+        "VISL"
+      ],
+      "type": "non_major",
+      "state": "Kerala",
+      "authority": "Vizhinjam International Seaport Ltd (Kerala government) — Adani Ports & SEZ concessionaire",
+      "coordinates": {
+        "lat": 8.379,
+        "lng": 76.978,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": null,
+      "throughput_note": "Tonnage not separately published in BPS (Kerala non-major total 0.10 MT FY25); container performance is the material metric.",
+      "container_throughput": {
+        "fy2025_26_mteu": 1.3
+      },
+      "container_note": "Crossed 1 million TEUs in its first year (FY 2025-26) — the fastest pace set by any Indian port; ~1.3 M TEUs per trade-press compilation.",
+      "sagarmala_project_ids": [
+        "sgpr:vizhinjam-phase1"
+      ],
+      "facts": [
+        {
+          "text": "Phase 1 (1 M TEU design) commenced commercial operations on 3 December 2024; dedicated by the Prime Minister on 2 May 2025; later phases to raise capacity towards 5.7 M TEUs.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:pib-sagarmala-2026"
+            },
+            {
+              "source_id": "src:wiki-vizhinjam-port"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:wiki-vizhinjam-port"
+        },
+        {
+          "source_id": "src:keralaports-vizhinjam"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:jaigarh",
+      "name": "Jaigarh Port (JSW Jaigarh Port Ltd)",
+      "aliases": [
+        "Jaigad",
+        "Jaigarh"
+      ],
+      "type": "non_major",
+      "state": "Maharashtra",
+      "authority": "JSW Infrastructure",
+      "coordinates": {
+        "lat": 17.317,
+        "lng": 73.2,
+        "coord_source": "approximate",
+        "confidence": "medium",
+        "note": "Approximate centroid from public port references."
+      },
+      "status": "operational",
+      "throughput": null,
+      "throughput_note": "Within Maharashtra 'Others' in BPS FY25 — not separately published.",
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "JSW's Ratnagiri-area deep-water port; listed among LPPI participant terminals.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:jswinfrastructure-website"
+            },
+            {
+              "source_id": "src:shipmin-lppi-2024-25"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:jswinfrastructure-website"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgport:gopalpur",
+      "name": "Gopalpur Port",
+      "aliases": [
+        "Gopalpur"
+      ],
+      "type": "non_major",
+      "state": "Odisha",
+      "authority": "Adani Ports and SEZ Ltd (acquired March 2024)",
+      "coordinates": null,
+      "status": "operational",
+      "throughput": {
+        "fy2024_25_mt": 6.0
+      },
+      "sagarmala_project_ids": [],
+      "facts": [
+        {
+          "text": "Acquired by Adani Ports for ₹3,500 crore in March 2024.",
+          "evidence": "fact",
+          "provenance": [
+            {
+              "source_id": "src:wiki-adani-ports"
+            }
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source_id": "src:shipmin-bps-2024-25"
+        }
+      ],
+      "last_verified": "2026-10-10"
+    }
+  ],
+  "non_major_system": {
+    "text": "217 notified non-major ports across the coastal states and UTs; 69 under 11 state maritime boards/directorates report on the Port Data Monitoring Platform. Non-major ports handled 742.41 MT in FY 2024-25 (747.71 MT provisional alternative) and 753.07 MMT in FY 2025-26 (advance). Gujarat alone accounted for 487.73 MT (65.70%) in FY25. All-ports (major + non-major) throughput was 1,597.27 MT in FY25 — major ports 53.52%.",
+    "evidence": "fact",
+    "provenance": [
+      {
+        "source_id": "src:shipmin-bps-2024-25"
+      },
+      {
+        "source_id": "src:shipmin-nonmajor-march2026"
+      }
+    ]
+  }
+}

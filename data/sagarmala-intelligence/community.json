@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "note": "Coastal community development dataset — the human and regional-development dimension of Sagarmala. Planned outputs, completed facilities, actual participation and measured outcomes are kept distinct. Employment figures published as programme projections are recorded as projections and never treated as measured outcomes. No social-impact estimate is invented.",
+  "coastal_context": {
+    "text": "Approximately 18 percent of India's population lives in the 72 coastal districts that comprise 12 percent of India's mainland. Under the holistic development of coastal districts, a total of 567 projects with an estimated cost of around ₹58,000 crore have been identified (secondary source mirroring ministry figures; date unpinned).",
+    "evidence": "fact",
+    "provenance": [
+      { "source_id": "src:shipmin-sagarmala-division" },
+      { "source_id": "src:wiki-sagarmala-project" }
+    ]
+  },
+  "initiatives": [
+    {
+      "id": "sgcc:fishing-harbours",
+      "name": "Fishing harbour and fish landing centre programme",
+      "category": "fisheries_infrastructure",
+      "locations": "Malpe and Kulai (Karnataka); Juvvaladinne and Visakhapatnam (AP); Chennai, Mookaiyur, Kunthukal, Poompuhar, Chinnamuttom (Tamil Nadu); Cochin, Thalai, Chettuva, Chellanam (Kerala); Sassoon Dock, Mallet Bunder, Karanja, Anandwadi, Mirkawada (Maharashtra); Mangrol (Gujarat); Paradip and Chandipur (Odisha)",
+      "cost_cr": 1057,
+      "completed": { "count": 11, "beneficiaries_note": "directly benefiting more than 30,000 fishermen (ministry statement)" },
+      "under_implementation_examples": [
+        { "name": "Visakhapatnam fishing harbour modernisation", "cost_cr": 178.51, "mopsw_share_cr": 50, "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }] },
+        { "name": "Chennai fishing harbour modernisation", "sanctioned": "2022-02-22", "target": "2026-06-30", "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }] }
+      ],
+      "scheme_funded_examples": [
+        { "name": "Juvvaladinne fishing harbour (Nellore, AP)", "cost_cr": 288, "status": "completed", "date": "2025-01-30", "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }] },
+        { "name": "Malpe third-stage expansion (Karnataka)", "status": "completed", "provenance": [{ "source_id": "src:pib-sagarmala-2026" }] },
+        { "name": "Kulai fishing harbour (Karnataka)", "status": "under_implementation", "provenance": [{ "source_id": "src:pib-sagarmala-2026" }] }
+      ],
+      "agency": "Port authorities, state maritime boards, state fisheries departments",
+      "evidence": "fact",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-2026" },
+        { "source_id": "src:ls-sagarmala-scheme-2026" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgcc:skill-ddugky",
+      "name": "DDU-GKY convergence skill training",
+      "category": "skill_development",
+      "locations": "11 coastal states (state-wise phases in the scheme list)",
+      "outcomes": { "trained": "more than 7,600 candidates", "placed": "over 3,100 placed in maritime and allied sectors" },
+      "scheme_funded_examples": [
+        { "name": "Andhra Pradesh Phase I", "cost_cr": 0.28, "status": "completed", "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }] },
+        { "name": "Andhra Pradesh Phase II", "cost_cr": 5.98, "status": "under_implementation", "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }] }
+      ],
+      "agency": "Ministry of Rural Development (DDU-GKY) with MoPSW convergence",
+      "evidence": "fact",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgcc:cems",
+      "name": "Centre of Excellence in Maritime and Shipbuilding (CEMS)",
+      "category": "skill_development",
+      "locations": "Visakhapatnam (18 labs) and Mumbai (6 labs)",
+      "cost_cr": 574,
+      "mopsw_share_cr": 36.76,
+      "completed": "2018-12-30 (Andhra Pradesh centre)",
+      "implementer": "Indian Register of Shipping",
+      "evidence": "fact",
+      "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgcc:pmkvy-maritime",
+      "name": "PMKVY maritime orientation and training berths",
+      "category": "skill_development",
+      "outcomes": { "trained": "240 candidates trained/oriented under PMKVY; Training of Trainers implemented" },
+      "training_berths": "96 training berths created on MV Swaraj Dweep (A&N passenger ship) with Shipping Corporation of India support",
+      "agency": "MoPSW with A&N Administration and SCI",
+      "evidence": "fact",
+      "provenance": [
+        { "source_id": "src:pib-hindi-maritime-jobs-2026" }
+      ],
+      "note": "Snippet-level PIB sourcing for the 240-candidate figure; the 96-berth fact is from a full reply.",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgcc:lighthouse-tourism",
+      "name": "Lighthouse tourism",
+      "category": "coastal_tourism",
+      "locations": "Nationwide (DGLL network)",
+      "completed": { "count": 75, "note": "lighthouses developed as tourist attractions" },
+      "identified": { "count": 205, "note": "identified for future tourism under Maritime India Vision 2030" },
+      "agency": "Directorate General of Lighthouses and Lightships (MoPSW)",
+      "evidence": "fact",
+      "provenance": [{ "source_id": "src:shipmin-sagarmala-division" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgcc:cruise-tourism",
+      "name": "Cruise tourism infrastructure",
+      "category": "coastal_tourism",
+      "components": [
+        { "text": "International Cruise Terminal at Indira Dock, Mumbai Port — under implementation in the 128-project scheme list.", "evidence": "fact", "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }] },
+        { "text": "Cruise Bharat Mission coastal circuits in Gujarat, Goa, Mumbai, Kochi and Chennai; MV Ganga Vilas flagship river cruise; National Maritime Heritage Complex at Lothal sanctioned 3 November 2021 (target 31 December 2026).", "evidence": "fact", "provenance": [{ "source_id": "src:shipmin-sagarmala-division" }, { "source_id": "src:ls-sagarmala-scheme-2026" }] }
+      ],
+      "evidence": "fact",
+      "provenance": [
+        { "source_id": "src:shipmin-sagarmala-division" },
+        { "source_id": "src:ls-sagarmala-scheme-2026" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgcc:ropax-community",
+      "name": "Ro-Pax services as community connectivity",
+      "category": "community_connectivity",
+      "outcomes": { "passengers": "about 40 lakh passengers ferried under Sagarmala Ro-Pax services (ministry statement, March 2025 backgrounder series)" },
+      "components": [
+        { "text": "29 Ro-Pax projects worth ₹1,233 crore taken up; Ghogha–Hazira operational with ~36,000 trucks, 61,000 cars and ~4 lakh passengers moved.", "evidence": "fact", "provenance": [{ "source_id": "src:pib-sagarmala-2026" }] },
+        { "text": "Maharashtra Ro-Pax jetty cluster (Vasai, Bhayander, Narangi, Ghodbunder, Malvan, Rewas, Mora, Manori, Arnala) under implementation with MMB and Mumbai Port.", "evidence": "fact", "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }] }
+      ],
+      "evidence": "fact",
+      "provenance": [
+        { "source_id": "src:pib-sagarmala-2026" },
+        { "source_id": "src:ls-sagarmala-scheme-2026" }
+      ],
+      "last_verified": "2026-10-10"
+    }
+  ],
+  "outcome_caveat": {
+    "text": "Beneficiary counts (30,000 fishermen; 40 lakh Ro-Pax passengers; 7,600 trained) are ministry-reported programme outputs, not independently measured outcomes. Techadyant records them as reported values with their sources and dates, and does not infer income or employment effects from infrastructure completion.",
+    "evidence": "analysis",
+    "provenance": []
+  }
+}

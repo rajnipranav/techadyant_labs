@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "note": "Port connectivity and freight network — documented connections between ports and transport assets. Every connection records the actual documented link (concession, SPV, completion announcement, parliament reply); geographic proximity alone is never treated as connectivity. Route geometry is not asserted where unavailable. The Comprehensive Port Connectivity Plan (CPCP) totals are programme-level aggregates held separately from the individual connections listed here.",
+  "cpcp_summary": {
+    "text": "DPIIT's 2022 Comprehensive Port Connectivity Plan assessment led MoPSW with MoRTH and the Ministry of Railways to identify 294 rail and road port-connectivity projects: 84 completed (63 rail, 21 road), 66 under implementation (27 rail, 39 road), 144 under planning (42 rail, 102 road). Within port limits the port authorities execute; beyond port limits the railways, MoRTH or state governments do.",
+    "as_of": "2026-07-24",
+    "evidence": "fact",
+    "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }]
+  },
+  "gatishakti_layers": {
+    "text": "26 data layers with relevant attributes of all operational ports are mapped on the GIS-based PM GatiShakti National Master Plan portal.",
+    "as_of": "2026-02-12",
+    "evidence": "fact",
+    "provenance": [{ "source_id": "src:pib-maritime-infra-2026" }]
+  },
+  "connections": [
+    {
+      "id": "sgx:deendayal-road-rob-lc235",
+      "from_port": "sgport:deendayal",
+      "mode": "road",
+      "connection_type": "port_gate_evacuation",
+      "name": "Road over bridge at LC-235",
+      "directness": "direct",
+      "status": "approved",
+      "cost_cr": 132.51,
+      "agency": "Deendayal Port Authority",
+      "evidence": "funded_under_sagarmala",
+      "provenance": [{ "source_id": "src:theweek-deendayal-rob-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:krishnapatnam-rail",
+      "from_port": "sgport:krishnapatnam",
+      "mode": "rail",
+      "connection_type": "port_rail_connectivity",
+      "name": "Obulavaripalle–Venkatachalam new line (KRCL)",
+      "directness": "direct",
+      "status": "operational",
+      "cost_cr": null,
+      "cost_note": "Line cost not published in captured sources; SDCL equity ₹125 crore documented.",
+      "agency": "Krishnapatnam Railway Company Ltd (SDCL equity partner)",
+      "evidence": "completed_line_announced_by_scr_2021",
+      "provenance": [{ "source_id": "src:wiki-sagarmala-project" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:paradip-rail",
+      "from_port": "sgport:paradip",
+      "mode": "rail",
+      "connection_type": "port_rail_connectivity",
+      "name": "Haridaspur–Paradip line and doubling (HPRCL)",
+      "directness": "direct",
+      "status": "under_construction",
+      "status_note": "New line complete; doubling under implementation (Feb 2026 Odisha reply).",
+      "cost_cr": 2542,
+      "cost_note": "Doubling cost; original line estimate ₹1,365 crore. HPRCL authorised capital ₹1,500 crore, SDCL 25.91%.",
+      "agency": "Haridaspur Paradip Railway Company Ltd (SDCL equity partner)",
+      "evidence": "parliament_reply_and_spv_site",
+      "provenance": [
+        { "source_id": "src:pib-odisha-connectivity-2026" },
+        { "source_id": "src:hprcl-about" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:odisha-connectivity-cluster",
+      "from_port": "sgport:paradip",
+      "mode": "multimodal",
+      "connection_type": "state_port_connectivity_programme",
+      "name": "Odisha port-connectivity cluster (29 projects)",
+      "directness": "programme",
+      "status": "partially_operational",
+      "status_note": "13 completed (incl. Haridaspur–Paradip new line, Jakhapura–Haridaspur 3rd line, Angul–Sukhinda new line); 9 under implementation (incl. NH-53 4-laning Duburi–Chandikhole–Paradip, Bhadrak–Vizianagaram 3rd line, Talcher–Bimlagarh new line, NW-5 Phase-1); 7 under planning (incl. Haridaspur–Paradip doubling, Amarda Road–Subarnarekha Port rail, Tangi–Paradip 4-lane).",
+      "cost_cr": null,
+      "agency": "Ministry of Railways, MoRTH, Odisha government, Paradip Port Authority, IWAI",
+      "evidence": "parliament_reply",
+      "provenance": [{ "source_id": "src:pib-odisha-connectivity-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:visakhapatnam-road",
+      "from_port": "sgport:visakhapatnam",
+      "mode": "road",
+      "connection_type": "port_access_road",
+      "name": "H-7 area–port connectivity grade separator; port road to NH-5 widening (Phase II)",
+      "directness": "direct",
+      "status": "completed",
+      "cost_cr": 137,
+      "cost_note": "₹60 crore (grade separator, MoPSW share ₹23.17 crore) + ₹77 crore (NH-5 Phase II, MoPSW share ₹20 crore) — scheme-funded road projects completed with NHAI.",
+      "agency": "NHAI with MoPSW assistance",
+      "evidence": "lok_sabha_reply_annexure",
+      "provenance": [{ "source_id": "src:pib-sagarmala-pillars-ls-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:nw1-haldia",
+      "from_port": "sgport:haldia-hdc",
+      "mode": "inland_waterway",
+      "connection_type": "port_connected_to_waterway",
+      "name": "NW-1 (Ganga) — Varanasi, Sahibganj and Haldia-region terminals",
+      "directness": "direct",
+      "status": "operational",
+      "capacity": { "text": "Varanasi MMT 1.26 MTPA; Kalughat intermodal terminal 77,000 TEU/yr; NW-1 cargo ~4 MT" },
+      "agency": "Inland Waterways Authority of India",
+      "evidence": "iwai_terminal_inventory",
+      "provenance": [
+        { "source_id": "src:iwai-national-waterways" },
+        { "source_id": "src:iwai-nw1-offerings" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:nw5-paradip-dhamra",
+      "from_port": "sgport:paradip",
+      "mode": "inland_waterway",
+      "connection_type": "port_connected_to_waterway",
+      "name": "NW-5 Phase-1 (Talcher–Dhamra–Paradip–Pankapal)",
+      "directness": "direct",
+      "status": "under_construction",
+      "agency": "Inland Waterways Authority of India",
+      "evidence": "parliament_reply_and_budget_announcement",
+      "provenance": [
+        { "source_id": "src:pib-odisha-connectivity-2026" },
+        { "source_id": "src:indiabudget-speech-2026-27" }
+      ],
+      "also_serves": ["sgport:dhamra"],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:ghogha-hazira-ropax",
+      "from_port": "sgport:mundra",
+      "mode": "coastal_shipping",
+      "connection_type": "port_connected_to_shipping_route",
+      "name": "Ghogha–Hazira Ro-Pax ferry (Gulf of Khambhat)",
+      "directness": "direct",
+      "status": "operational",
+      "capacity": { "text": "~36,000 trucks, 61,000 cars and ~4 lakh passengers moved; part of 29 Ro-Pax projects worth ₹1,233 crore" },
+      "agency": "Gujarat Maritime Board",
+      "evidence": "pib_backgrounder",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgx:mumbai-mandwa-ferry",
+      "from_port": "sgport:mumbai",
+      "mode": "coastal_shipping",
+      "connection_type": "port_connected_to_shipping_route",
+      "name": "Mumbai–Mandwa (Alibag) ferry services",
+      "directness": "direct",
+      "status": "operational",
+      "capacity": { "text": "109-km road route replaced by an 18.5-km sea route; Mandwa breakwater, Ro-Ro Phase 2 and dredging projects in the scheme list" },
+      "agency": "Maharashtra Maritime Board with Mumbai Port",
+      "evidence": "scheme_project_list",
+      "provenance": [{ "source_id": "src:ls-sagarmala-scheme-2026" }],
+      "last_verified": "2026-10-10"
+    }
+  ],
+  "atlas_node_links": [
+    {
+      "text": "Atlas industrial nodes are linked to ports through the shared industrial-intelligence relationship layer (nearest_port / served_by edges), not through this Sagarmala layer. Documented: Sanand→Deendayal and Mundra (GIDC-listed connected ports); Sanand→JNPA (WDFC); Sriperumbudur–Oragadam→Chennai and Kamarajar; Kopparthy→Krishnapatnam. The Sagarmala page derives these automatically through projectsFor/nodesFor graph traversal.",
+      "evidence": "fact",
+      "provenance": [{ "source_id": "src:wiki-krishnapatnam-port", "notes": "Relationship evidence lives in data/industrial-intelligence/relationships.json with its own provenance." }]
+    }
+  ]
+}

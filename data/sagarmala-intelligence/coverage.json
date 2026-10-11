@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "note": "Coverage manifest for the Sagarmala Intelligence Database. Records what is actually covered, at which tier, with what verification, and what remains open. Coverage claims are checkable against the record counts below (enforced by scripts/validate-sagarmala.mjs). Techadyant does not claim complete national coverage: the full 845-project portfolio is not itemised — only portfolio statistics and flagship projects are held, because the ministry does not publish a machine-readable project list and sagarmala.gov.in is WAF-blocked for capture.",
+  "generated": "2026-10-10",
+  "tiers": {
+    "tier_a_programme_foundation": {
+      "status": "complete",
+      "contents": ["Programme dossier with approval, NPP, objectives, pillars, institutions, funding, statistics, Sagarmala 2.0 status, vision links and dated timeline (dossier.json)", "Policy and programme evolution records (policies.json)", "Source registry: 78 new Tier-1/Tier-2/Tier-3 sources merged into the shared registry"]
+    },
+    "tier_b_national_maritime_infrastructure": {
+      "status": "defensible_core",
+      "contents": ["All 12 operational major ports plus Vadhavan and Galathea Bay (under construction) with coordinates, authorities, FY25/FY26 throughput (ports.json)", "12 of the largest non-major ports registered out of 217 notified — deliberately selective", "Portfolio statistics time series (802 → 839 → 845 projects) and scheme-funded lifecycle (pillar-projects.json)", "Cargo time series FY2014-15 to FY2025-26 for major, non-major and all ports; container, capacity, TRT, PBD, IWT and coastal series (port-performance.json)", "Flagship project cards for 13 documented projects across all five pillars"],
+      "not_covered": ["Full itemisation of the 845-project portfolio (not published in machine-readable form)", "Terminal-by-terminal inventories for all major ports", "The remaining ~205 non-major ports"]
+    },
+    "tier_c_industrial_and_commercial_depth": {
+      "status": "seeded",
+      "contents": ["All 14 CEZs with linkage ports, intended sectors and verified 'proposed' status (industrialisation.json)", "24 companies with 40+ evidenced relationships across port operation, terminals, shipping, shipbuilding, dredging, EPC and equipment (companies.json)", "Coastal community dataset: fishing harbours, skilling, tourism, Ro-Pax outcomes (community.json)", "Connectivity records: 9 documented connections plus the CPCP aggregate (connectivity.json)"],
+      "not_covered": ["Company financials beyond cited scale facts", "Anchor-unit status for CEZs (none exists — verified absence)", "State maritime board project inventories"]
+    },
+    "tier_d_analytical_intelligence": {
+      "status": "seeded",
+      "contents": ["Ten opportunity records across all four classifications with sourced triggers and labelled reasoning (opportunities.json)", "Portfolio-versus-delivery gap analysis (value lags count)", "Port-to-hinterland reading through the existing Atlas relationship layer (connectivity.json atlas_node_links)", "Time-series trends with definitional caveats (port-performance.json)"]
+    }
+  },
+  "counts": {
+    "dossier_timeline_entries": 23,
+    "dossier_institutions": 8,
+    "policies": 14,
+    "flagship_projects": 13,
+    "ports_registered": 29,
+    "major_ports": 12,
+    "performance_series": 13,
+    "performance_points": 60,
+    "connectivity_connections": 9,
+    "cezs": 14,
+    "community_initiatives": 7,
+    "companies": 24,
+    "company_relationships": 39,
+    "opportunities": 10,
+    "sources_added": 78
+  },
+  "pillar_coverage": {
+    "port_modernisation": { "projects": 4, "status": "flagship-level coverage" },
+    "port_connectivity": { "projects": 4, "status": "flagship-level coverage plus CPCP aggregate" },
+    "port_led_industrialisation": { "projects": 1, "status": "zone-level coverage (14 CEZs) + verified zero scheme-funded projects" },
+    "coastal_community": { "projects": 3, "status": "programme-level coverage (fishing harbours, skills, tourism)" },
+    "coastal_shipping_iwt": { "projects": 4, "status": "waterway-and-service-level coverage" }
+  },
+  "state_coverage": {
+    "ports_by_state": { "Gujarat": 7, "Maharashtra": 5, "Tamil Nadu": 4, "Andhra Pradesh": 4, "Odisha": 3, "West Bengal": 2, "Karnataka": 1, "Kerala": 2, "Goa": 1, "Puducherry": 0, "Andaman & Nicobar Islands": 1 }
+  },
+  "verification_distribution": {
+    "sources": { "high_confidence": 44, "medium_confidence": 34, "by_type": { "government": 34, "government_agency": 4, "state_government": 1, "psu": 6, "company": 12, "trade_press": 15, "reference": 6 } },
+    "key_facts": { "tier1_parliament_or_pib": "portfolio statistics, pillar splits, port throughput, capacity, IWT cargo", "tier1_ministry_statistics": "BPS/TRW port-wise and time-series data", "tier2_company": "operator relationships, fleet, order books", "tier3_trade_or_reference": "CEZ table (quoting 2016 PIB), acquisition details, secondary mirrors of blocked ministry pages" }
+  },
+  "discrepancies": [
+    {
+      "id": "sgdisc:portfolio-839-vs-845",
+      "subject": "Sagarmala portfolio totals",
+      "observations": "839 projects / ₹5.79 lakh crore (27 Mar 2025 PIB backgrounder) vs 845 projects / ₹6.06 lakh crore (24 Mar 2026 PIB backgrounder). PIB's own August 2026 social posts still cite the older 839 figure.",
+      "resolution": "Both retained with dates; the 845/₹6.06 lakh crore figure (24 Mar 2026) is treated as current."
+    },
+    {
+      "id": "sgdisc:sagarmala2-outlay",
+      "subject": "Sagarmala 2.0 budgetary support",
+      "observations": "₹40,000 crore (March 2025 PIB-derived reports) vs ₹85,482 crore (April 2026 PIB backgrounder).",
+      "resolution": "Superseded-on-file relationship recorded; both observations retained with dates."
+    },
+    {
+      "id": "sgdisc:major-fy26-total",
+      "subject": "Major-port FY 2025-26 total",
+      "observations": "915.17 MT (final PIB release, 5 April 2026) vs 914.73 MT (TRW advance estimate).",
+      "resolution": "Both retained and labelled; the final PIB figure is preferred for citation."
+    },
+    {
+      "id": "sgdisc:trt-series",
+      "subject": "Vessel turnaround time",
+      "observations": "Three incompatible series: 96→49.5 hrs (2014→2025, PIB backgrounder); 94→48.8 hrs (2014→2025-26, PIB factsheet); 52.87→48.84 hrs (FY21-22→FY25-26, RS reply); BPS revised-definition 52.82→58.58 hrs (FY24→FY25).",
+      "resolution": "Series kept separate and labelled; never combined into one trend."
+    },
+    {
+      "id": "sgdisc:iwt-fy26-jump",
+      "subject": "IWT cargo FY 2025-26",
+      "observations": "MoPSW claims 218 MMT for FY26 versus final FY25 statistics of 145.84 MT — a 50% jump with no NW-wise FY26 publication found to cross-check.",
+      "resolution": "Claim recorded with its sources and flagged; not treated as verified."
+    },
+    {
+      "id": "sgdisc:capacity-baselines",
+      "subject": "Port capacity baselines",
+      "observations": "Ministry sources quote 555 MTPA (FY13-14), 873 MMTPA (2014), 1,681 MTPA (FY24-25), 1,680.94 MTPA (BPS FY25) and 1,728 MMTPA (2026) for major ports, and ~1,400 MTPA (2013-14) → 2,818 MTPA (Mar 2026) combined.",
+      "resolution": "Points retained with their own baselines; marked heterogeneous and not strictly comparable."
+    }
+  ],
+  "known_gaps": [
+    "sagarmala.gov.in is WAF-blocked for automated capture — the 14-CEZ table and the 839-project pillar split are held via secondary mirrors (SCC Times quoting the 2016 PIB release; Wikipedia mirroring the ministry page). Re-fetch from a network with government access.",
+    "The PIB release for the 19 June 2024 Vadhavan Cabinet approval could not be pinned to a PRID; the fact is evidenced through BPS 2024-25, the SPV site and the 4 August 2026 Lok Sabha reply instead.",
+    "Kamarajar Port's proposed second container terminal (₹4,288 crore tender, June-August 2026 trade reports) has no URL-bearing source captured — excluded from the flagship project list.",
+    "Per-project cost mapping of all 128 scheme-funded projects is incomplete because the sansad annexure PDF's two-column text flow scrambles some name-to-cost rows; project cards only carry costs verified in clear text.",
+    "No Port Blair '13th major port' designation exists (verified absence per BPS Table 1.1); A&N has 0 major and 24 non-major ports.",
+    "SCI privatisation status (reported on hold, October 2025) and the Mumbai/Kandla container-terminal operator identities could not be verified from URL-bearing sources.",
+    "Employment outcomes (~1 crore jobs projected; 30,000 fishermen benefited) are ministry statements, not audited outcomes — recorded as reported values only.",
+    "The National Productivity Council's third-party impact evaluation of Sagarmala has not been located or captured."
+  ],
+  "update_procedure": {
+    "triggers": ["PIB Sagarmala/MoPSW releases (portfolio updates, new sanctions)", "Monthly TRW cargo reports and the annual BPS edition", "Parliament question sessions (monsoon/winter)", "Union Budget (February) — MoPSW demand and scheme heads", "Vadhavan and Vizhinjam phase milestones", "Cabinet decisions on Sagarmala 2.0"],
+    "procedure": "Add or update the record in the relevant data/sagarmala-intelligence/*.json file with new provenance; append any new source to the shared registry; keep the older observation with its date rather than overwriting; run npm run validate:sagarmala; update coverage.json counts; bump last_verified / data_as_of.",
+    "stale_after_days": 120
+  }
+}

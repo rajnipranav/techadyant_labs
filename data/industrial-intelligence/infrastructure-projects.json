@@ -588,7 +588,7 @@
     },
     {
      "label": "Contracting structure",
-     "value": "52 packages awarded to around 20 construction companies (undated trade-press count; parliamentary replies give 53 packages / 1,386 km in Jul 2024 and 54 packages / 1,445 km in Mar 2026 \u2014 unreconciled)",
+     "value": "52 packages awarded to around 20 construction companies (undated trade-press count; parliamentary replies give 53 packages / 1,386 km in Jul 2024 and 54 packages / 1,445 km in Mar 2026 — unreconciled)",
      "as_of": null,
      "evidence": "fact",
      "provenance": [
@@ -632,7 +632,7 @@
     {
      "name": "G R Infraprojects Ltd",
      "role": "EPC/HAM contractor",
-     "scope": "8 packages (~290 km); corridor package total disputed \u2014 see Contracting structure",
+     "scope": "8 packages (~290 km); corridor package total disputed — 52 per undated trade press vs 53–54 in parliamentary replies",
      "evidence": "fact",
      "provenance": [
       {
@@ -1161,6 +1161,157 @@
     }
    ],
    "last_verified": "2026-10-09"
+  },
+  {
+   "id": "proj:vadhavan-port-development",
+   "name": "Vadhavan Port development (greenfield major port, artificial island)",
+   "sector": "port",
+   "project_type": "Greenfield deep-draft major port on an artificial island off Vadhavan (Palghar, Maharashtra)",
+   "states": [
+    "Maharashtra"
+   ],
+   "districts": [
+    "Palghar"
+   ],
+   "implementing_agency": "Vadhavan Port Project Ltd (JNPA 74% / Maharashtra Maritime Board 26%)",
+   "estimated_cost_cr": 76220,
+   "cost_note": "Union Cabinet approval of 19 June 2024, including land acquisition",
+   "status": "under_construction",
+   "status_note": "Breakwater EPC (₹5,301 crore, Afcons) awarded June 2026; dredging and reclamation to an ITD Cementation–DEME–Jan De Nul JV (LoA March 2025).",
+   "approval_date": "2024-06-19",
+   "expected_completion": null,
+   "corridor": null,
+   "infra_ids": [
+    "infra:port-vadhavan"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Port logistics",
+    "Container shipping"
+   ],
+   "strategic_significance": "The largest single capacity addition in the programme: a 298 MTPA offshore port for ultra-large container vessels that currently bypass Indian gateways, and the deepest-draft answer to transshipment leakage.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Capacity",
+     "value": "298 MTPA planned",
+     "as_of": "2024-06-19",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-bps-2024-25"
+      }
+     ]
+    },
+    {
+     "label": "Major-port status",
+     "value": "Notified in the Government Gazette on 19 February 2020",
+     "as_of": "2020-02-19",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:vppl-about"
+      }
+     ]
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "sagarmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-bps-2024-25"
+      },
+      {
+       "source_id": "src:pib-sagarmala-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:vppl-about"
+    },
+    {
+     "source_id": "src:shipmin-bps-2024-25"
+    }
+   ],
+   "last_verified": "2026-10-10"
+  },
+  {
+   "id": "proj:vizhinjam-phase1",
+   "name": "Vizhinjam International Seaport, Phase 1 (deepwater transshipment port)",
+   "sector": "port",
+   "project_type": "Deepwater container transshipment port, Phase 1 (1 M TEU design)",
+   "states": [
+    "Kerala"
+   ],
+   "districts": [
+    "Thiruvananthapuram"
+   ],
+   "implementing_agency": "Vizhinjam International Seaport Ltd (Kerala government) with Adani Ports & SEZ as 40-year concessionaire",
+   "estimated_cost_cr": 8867,
+   "cost_note": "Phase-1 cost per Kerala Maritime Board; later phases estimated at ₹20,000 crore",
+   "status": "operational",
+   "status_note": "Commercial operations since 3 December 2024; dedicated by the Prime Minister on 2 May 2025; crossed 1 million TEUs in its first year.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": null,
+   "infra_ids": [
+    "infra:port-vizhinjam"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [
+    "Container shipping",
+    "Port logistics"
+   ],
+   "strategic_significance": "India's first dedicated deepwater transshipment terminal — designed to retain the ~50% of India's container transshipment currently handled at Dubai, Colombo and Singapore, and to anchor a port-services economy in Kerala.",
+   "itla_appraisal_tier": true,
+   "facts": [
+    {
+     "label": "Phase 1 capacity",
+     "value": "1 million TEUs design; crossed 1 M TEU in the first year (FY 2025-26)",
+     "as_of": "2026-04-11",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-sagarmala-2026"
+      }
+     ]
+    },
+    {
+     "label": "Concession",
+     "value": "Adani Ports & SEZ, 40-year operating concession awarded 2015 (sole bidder)",
+     "as_of": "2015-06-15",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:themaritimestandard-vizhinjam-2015"
+      }
+     ]
+    }
+   ],
+   "programme_links": [
+    {
+     "programme_id": "sagarmala",
+     "type": "built_under",
+     "provenance": [
+      {
+       "source_id": "src:pib-sagarmala-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:wiki-vizhinjam-port"
+    },
+    {
+     "source_id": "src:keralaports-vizhinjam"
+    }
+   ],
+   "last_verified": "2026-10-10"
   }
  ]
 }

@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "note": "Port performance and capacity intelligence — annual time series, each point carrying its period, source and publication scope. Financial years (April-March) are never mixed with calendar years in the same series. Where official publications disagree (major-port FY26 total: 915.17 MT final PIB release vs 914.73 MT TRW advance estimate), both observations are retained and labelled. Vessel-turnaround series differ by definition (PIB narrative series vs BPS revised-definition series) and are kept as separate labelled series rather than reconciled. Techadyant-derived calculations (growth rates, coastal totals) are labelled 'derived' with their inputs stated.",
+  "series": [
+    {
+      "id": "sgs:major-cargo",
+      "metric": "total_cargo_handled",
+      "unit": "MT",
+      "scope": "12 major ports (annual, financial year)",
+      "points": [
+        { "period": "FY2014-15", "value": 581.34, "provenance": [{ "source_id": "src:shipmin-ports-update-2020" }] },
+        { "period": "FY2015-16", "value": 605.89, "provenance": [{ "source_id": "src:shipmin-ports-update-2021" }] },
+        { "period": "FY2016-17", "value": 648.47, "provenance": [{ "source_id": "src:shipmin-ports-update-2021" }] },
+        { "period": "FY2017-18", "value": 679.47, "provenance": [{ "source_id": "src:shipmin-ports-update-2021" }, { "source_id": "src:shipmin-ports-update-2020" }] },
+        { "period": "FY2018-19", "value": 699.1, "provenance": [{ "source_id": "src:shipmin-ports-update-2021" }], "note": "699.17 in the 2020 edition — minor revision retained here as a note, not a separate point." },
+        { "period": "FY2019-20", "value": 704.93, "provenance": [{ "source_id": "src:shipmin-ports-update-2021" }] },
+        { "period": "FY2020-21", "value": 672.68, "provenance": [{ "source_id": "src:shipmin-ports-update-2025" }], "note": "Final; 672.53 provisional in the 2021 edition." },
+        { "period": "FY2021-22", "value": 720.05, "provenance": [{ "source_id": "src:shipmin-ports-update-2025" }] },
+        { "period": "FY2022-23", "value": 784.31, "provenance": [{ "source_id": "src:shipmin-ports-update-2025" }] },
+        { "period": "FY2023-24", "value": 819.29, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2024-25", "value": 854.86, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2025-26", "value": 915.17, "provenance": [{ "source_id": "src:pib-major-ports-fy26" }], "note": "Final PIB release (+7.06% YoY, 904 MT target). TRW advance estimate: 914.73 MT — retained as a labelled alternative, not averaged." }
+      ],
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:nonmajor-cargo",
+      "metric": "total_cargo_handled",
+      "unit": "MT",
+      "scope": "non-major ports (annual, financial year)",
+      "points": [
+        { "period": "FY2015-16", "value": 465.87, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2016-17", "value": 485.21, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2017-18", "value": 529.09, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2018-19", "value": 582.61, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2019-20", "value": 615.05, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2020-21", "value": 577.3, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2021-22", "value": 603.75, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2022-23", "value": 651.02, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2023-24", "value": 723.58, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2024-25", "value": 742.41, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }], "note": "747.71 MT provisional alternative in the 2025 update." },
+        { "period": "FY2025-26", "value": 753.07, "provenance": [{ "source_id": "src:shipmin-nonmajor-march2026" }], "note": "Advance estimates." }
+      ],
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:allports-cargo",
+      "metric": "total_cargo_handled",
+      "unit": "MT",
+      "scope": "all Indian ports (major + non-major, annual, financial year)",
+      "points": [
+        { "period": "FY2015-16", "value": 1071.76, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2016-17", "value": 1133.69, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2017-18", "value": 1208.56, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2018-19", "value": 1281.78, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2019-20", "value": 1319.97, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2020-21", "value": 1249.99, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2021-22", "value": 1323.8, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2022-23", "value": 1435.32, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2023-24", "value": 1542.88, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2024-25", "value": 1597.27, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] }
+      ],
+      "verification": "official_ministry_series",
+      "note": "FY2025-26 all-ports total is not published as one number; the two official components (major 915.17 final + non-major 753.07 advance) are kept separate and not summed because their finality differs.",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:major-containers",
+      "metric": "container_throughput",
+      "unit": "TEU",
+      "scope": "12 major ports (annual, financial year)",
+      "points": [
+        { "period": "FY2024-25", "value": 13533963, "provenance": [{ "source_id": "src:shipmin-majorports-march2026" }] },
+        { "period": "FY2025-26", "value": 14915896, "provenance": [{ "source_id": "src:shipmin-majorports-march2026" }], "note": "+10.21% YoY." }
+      ],
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:jnpa-containers",
+      "metric": "container_throughput",
+      "unit": "TEU",
+      "scope": "JNPA (annual, financial year)",
+      "points": [
+        { "period": "FY2022-23", "value": 6050912, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2023-24", "value": 6430444, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2024-25", "value": 7301509, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2025-26", "value": 8170000, "provenance": [{ "source_id": "src:pib-major-ports-fy26" }], "note": "8.17 million TEUs (+11.94%) per the PIB release; port-level advance." }
+      ],
+      "verification": "official_series_with_trade_press_rounding",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:major-capacity",
+      "metric": "port_capacity",
+      "unit": "MTPA",
+      "scope": "12 major ports (as-on dates, not a continuous annual series)",
+      "points": [
+        { "period": "FY2013-14", "value": 555, "provenance": [{ "source_id": "src:pib-maritime-infra-2026" }] },
+        { "period": "2014", "value": 873, "provenance": [{ "source_id": "src:pib-infrastructure-factsheet-2026" }], "note": "PIB infrastructure factsheet series (2014 baseline)." },
+        { "period": "FY2024-25", "value": 1681, "provenance": [{ "source_id": "src:pib-maritime-infra-2026" }] },
+        { "period": "2026", "value": 1728, "provenance": [{ "source_id": "src:pib-infrastructure-factsheet-2026" }] }
+      ],
+      "note": "Ministry replies quote capacity through different baselines and as-on dates (555 FY14, 873 in 2014, 1,681 FY25, 1,728 in 2026, 1,680.94 BPS FY25). Points are retained with their own scope; they are indicative and not strictly comparable. Combined major + non-major capacity was quoted at 2,818 MTPA as on March 2026 (from ~1,400 MTPA in 2013-14).",
+      "verification": "official_but_heterogeneous",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:trt-pib-narrative",
+      "metric": "avg_vessel_turnaround_time",
+      "unit": "hours",
+      "scope": "major ports — PIB narrative series (2014 vs 2025)",
+      "points": [
+        { "period": "2014", "value": 96, "provenance": [{ "source_id": "src:pib-sagarmala-2026" }] },
+        { "period": "2025", "value": 49.5, "provenance": [{ "source_id": "src:pib-sagarmala-2026" }] }
+      ],
+      "note": "PIB backgrounder series. A separate PIB factsheet series reads 94 hrs (2014) to 48.8 hrs (2025-26) and a Rajya Sabha reply series reads 52.87 hrs (FY2021-22) to 48.84 hrs (2025-26). The three series use different definitions and dates and are never combined.",
+      "verification": "official_pib_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:trt-bps",
+      "metric": "avg_vessel_turnaround_time",
+      "unit": "hours",
+      "scope": "major ports — BPS revised-definition series",
+      "points": [
+        { "period": "FY2023-24", "value": 52.82, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2024-25", "value": 58.58, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }], "note": "Rise under the revised BPS definition — a definitional artefact, not necessarily an operational deterioration; flag any trend reading." }
+      ],
+      "note": "BPS revised definition. Kept strictly separate from the PIB narrative series.",
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:pbd",
+      "metric": "avg_pre_berthing_detention",
+      "unit": "hours",
+      "scope": "major ports — BPS series",
+      "points": [
+        { "period": "FY2023-24", "value": 14.14, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2024-25", "value": 23.55, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] }
+      ],
+      "note": "Worsening under the revised definition; retained as an official observation without causal interpretation.",
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:iwt-cargo",
+      "metric": "inland_waterway_cargo",
+      "unit": "MT",
+      "scope": "national waterways (annual, financial year)",
+      "points": [
+        { "period": "FY2013-14", "value": 18.1, "provenance": [{ "source_id": "src:pib-iwt-record-fy25" }] },
+        { "period": "FY2014-15", "value": 29, "provenance": [{ "source_id": "src:shipmin-iwt-division" }] },
+        { "period": "FY2023-24", "value": 133.03, "provenance": [{ "source_id": "src:shipmin-iwt-stats-2024-25" }] },
+        { "period": "FY2024-25", "value": 145.84, "provenance": [{ "source_id": "src:shipmin-iwt-stats-2024-25" }], "note": "Final statistics; the PIB release figure is 145.5 MT. NW split (FY25): NW-1 16.38, NW-2 0.90, NW-3 3.49 MT." },
+        { "period": "FY2025-26", "value": 218, "provenance": [{ "source_id": "src:shipmin-iwt-division" }, { "source_id": "src:pib-sagarmala-rs-2026" }], "note": "MoPSW claim (CAGR 20.13%, surpassing the MIV 2030 target of 200 MMT). No detailed FY26 NW-wise statistics publication was found to cross-check the jump from 145.84; flagged in the discrepancies register." }
+      ],
+      "verification": "official_with_flagged_jump",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:coastal-cargo-major",
+      "metric": "coastal_cargo",
+      "unit": "MT",
+      "scope": "major ports, coastal cargo component (annual, financial year)",
+      "points": [
+        { "period": "FY2023-24", "value": 190.91, "provenance": [{ "source_id": "src:shipmin-ports-update-2025" }] },
+        { "period": "FY2024-25", "value": 197.14, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] },
+        { "period": "FY2025-26", "value": 213.45, "provenance": [{ "source_id": "src:shipmin-majorports-march2026" }], "note": "+8.27% YoY; coastal share of major-port cargo 23.33% in FY26." }
+      ],
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:coastal-cargo-all",
+      "metric": "coastal_cargo",
+      "unit": "MT",
+      "scope": "all ports, coastal cargo (Techadyant-derived from official components)",
+      "points": [
+        { "period": "FY2024-25", "value": 339, "evidence": "derived", "derivation": "Major ports 197.14 (final) + non-major 142.22 (provisional) — components published separately; no single official all-ports coastal figure.", "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }, { "source_id": "src:shipmin-ports-update-2025" }] },
+        { "period": "FY2025-26", "value": 354.5, "evidence": "derived", "derivation": "Major ports 213.45 (advance) + non-major 141.05 (advance).", "provenance": [{ "source_id": "src:shipmin-majorports-march2026" }, { "source_id": "src:shipmin-nonmajor-march2026" }] }
+      ],
+      "verification": "techadyant_derived",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgs:output-berthday",
+      "metric": "output_per_ship_berth_day",
+      "unit": "tonnes",
+      "scope": "major ports (annual, financial year)",
+      "points": [
+        { "period": "FY2024-25", "value": 22326, "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }] }
+      ],
+      "verification": "official_ministry_series",
+      "last_verified": "2026-10-10"
+    }
+  ],
+  "benchmarks": [
+    {
+      "text": "Nine Indian ports feature in the world top-100; Visakhapatnam is in the top-20 for container traffic (April 2026 PIB feature). JNPA is ranked 22nd in the World Bank Container Port Performance Index 2025.",
+      "evidence": "fact",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }, { "source_id": "src:pib-infrastructure-factsheet-2026" }]
+    },
+    {
+      "text": "Sagar Aankalan / LPPI FY 2024-25: 12 major and 35 non-major port terminals participated; the container category was led by Mundra with JNPA second.",
+      "evidence": "fact",
+      "provenance": [{ "source_id": "src:shipmin-lppi-2024-25" }]
+    }
+  ]
+}

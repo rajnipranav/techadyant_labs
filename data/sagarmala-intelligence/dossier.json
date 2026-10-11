@@ -1,0 +1,674 @@
+{
+  "version": "1.0",
+  "note": "Sagarmala Programme dossier — the canonical Techadyant record of the programme's identity, institutional framework, statistics and evolution. Provenance points at the shared registry (data/industrial-intelligence/sources.json). Facts, derived figures and analysis are labelled with the evidence field. Statistics keep their own as-of dates and scopes: figures published at different times are never summed or compared across dates. Approved facts are distinguished from proposals throughout: Sagarmala 2.0 remains a proposal, not an approved programme.",
+  "programme": {
+    "id": "prog:sagarmala",
+    "logistics_id": "sagarmala",
+    "name": "Sagarmala Programme",
+    "aliases": [
+      "Sagar Mala",
+      "Sagarmala Programme (port-led development programme)"
+    ],
+    "lead_ministry": "Ministry of Ports, Shipping & Waterways",
+    "official_status": "under_implementation",
+    "approval": {
+      "text": "The Union Cabinet approved the Sagarmala concept and institutional framework on 25 March 2015.",
+      "evidence": "fact",
+      "provenance": [
+        {
+          "source_id": "src:shipmin-sagarmala-division"
+        },
+        {
+          "source_id": "src:arthapedia-sagarmala"
+        }
+      ]
+    },
+    "national_perspective_plan": {
+      "released": "2016-04-14",
+      "text": "The National Perspective Plan (NPP) for the comprehensive development of India's coastline and maritime sector was released by the Prime Minister on 14 April 2016 at the Maritime India Summit 2016. The NPP projected 2,500+ MMTPA traffic by 2025; the PM's 2016 vision statement targeted port capacity of 1,400 to 3,000 million tonnes by 2025 with one lakh crore of port-sector investment and five new ports.",
+      "evidence": "fact",
+      "provenance": [
+        {
+          "source_id": "src:shipmin-sagarmala-division"
+        },
+        {
+          "source_id": "src:pmo-mis-2016-speech"
+        }
+      ]
+    },
+    "objectives": [
+      {
+        "text": "As originally framed: integrate the development of ports, industrial clusters and hinterland, and efficient evacuation systems through road, rail, inland and coastal waterways; modernise existing ports to world class and develop new ports; encourage coastal economic development through port-based SEZs and ancillary industries; and promote coastal shipping, envisaging ten coastal economic regions along the coastline.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:arthapedia-sagarmala"
+          }
+        ]
+      }
+    ],
+    "pillars": [
+      {
+        "key": "port_modernisation",
+        "official_name": "Port Modernization & New Port Development",
+        "description": "Capacity expansion, mechanisation, berth construction, dredging and greenfield ports, including the two notified under-construction major ports (Vadhavan, Galathea Bay).",
+        "pillar_letter": "A",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          },
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          }
+        ]
+      },
+      {
+        "key": "port_connectivity",
+        "official_name": "Port Connectivity Enhancement",
+        "description": "Rail, road and last-mile links between ports and their hinterlands, planned through the Comprehensive Port Connectivity Plan with the Ministry of Railways and MoRTH under PM GatiShakti.",
+        "pillar_letter": "B",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          },
+          {
+            "source_id": "src:pib-sagarmala-pillars-ls-2026"
+          }
+        ]
+      },
+      {
+        "key": "port_led_industrialisation",
+        "official_name": "Port-Led Industrialization",
+        "description": "Coastal Economic Zones, Coastal Economic Units and Smart Industrial Port Cities. No project had been sanctioned for financial assistance under this pillar of the Sagarmala scheme as of 11 August 2026.",
+        "pillar_letter": "C",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          },
+          {
+            "source_id": "src:pib-sagarmala-rs-2026"
+          },
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          }
+        ]
+      },
+      {
+        "key": "coastal_community",
+        "official_name": "Coastal Community Development",
+        "description": "Fishing harbours, fish landing centres, skilling, livelihoods and coastal tourism in the 72 coastal districts that hold ~18% of India's population.",
+        "pillar_letter": "D",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          },
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          }
+        ]
+      },
+      {
+        "key": "coastal_shipping_iwt",
+        "official_name": "Coastal Shipping & Inland Waterways Transport",
+        "description": "Coastal shipping infrastructure, national waterways, terminals and Ro-Pax services; policy enablers include the Jalvahak long-haul incentive and the Coastal Cargo Promotion Scheme.",
+        "pillar_letter": "E",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          },
+          {
+            "source_id": "src:pib-sagarmala-rs-2026"
+          }
+        ]
+      }
+    ],
+    "pillar_framing": {
+      "text": "PIB's April 2026 backgrounder describes the programme as divided into 5 pillars and 24 categories. The five-pillar framing used by Techadyant matches the official pillar names.",
+      "evidence": "fact",
+      "provenance": [
+        {
+          "source_id": "src:pib-sagarmala-2026"
+        }
+      ]
+    },
+    "institutions": [
+      {
+        "id": "sginst:nsac",
+        "name": "National Sagarmala Apex Committee (NSAC)",
+        "role": "Apex programme oversight body, constituted May 2015 and chaired by the Minister of Ports, Shipping & Waterways; first meeting held 5 October 2015.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          },
+          {
+            "source_id": "src:pib-sagarmala-priority-2025"
+          }
+        ]
+      },
+      {
+        "id": "sginst:scsc",
+        "name": "Sagarmala Committee / Steering Committee on Sagarmala (SCSC)",
+        "role": "Cabinet-Secretary-chaired steering design of the 2015 institutional framework; documented activity post-2015 has not been captured.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:arthapedia-sagarmala"
+          }
+        ]
+      },
+      {
+        "id": "sginst:msdc",
+        "name": "Maritime States Development Council (MSDC)",
+        "role": "Centre-State coordination body; 20 meetings held by February 2025.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-priority-2025"
+          }
+        ]
+      },
+      {
+        "id": "sginst:mopsw-sagarmala-division",
+        "name": "MoPSW Sagarmala division",
+        "role": "Administrative home of the scheme; appraises and sanctions financial assistance to projects (through the Delegated Investment Board for port-gate works).",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          },
+          {
+            "source_id": "src:theweek-deendayal-rob-2026"
+          }
+        ]
+      },
+      {
+        "id": "sginst:smfcl",
+        "name": "Sagarmala Finance Corporation Ltd (SMFCL)",
+        "role": "India's first maritime-focused NBFC. The Sagarmala Development Company Ltd (Cabinet approval 20 July 2016, incorporated 2016 with ₹1,000 crore authorised and ₹90 crore subscribed capital) was restructured as SMFCL in June 2025 and inaugurated 26 June 2025; it had approved loan sanctions of about ₹4,300 crore by December 2025.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:arthapedia-sagarmala"
+          },
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          },
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      {
+        "id": "sginst:iprcl",
+        "name": "Indian Port Rail Corporation Ltd (IPRCL)",
+        "role": "SPV for port-rail connectivity projects, listed among the Sagarmala institutional framework components on the MoPSW division page.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          }
+        ]
+      },
+      {
+        "id": "sginst:ipa",
+        "name": "Indian Ports Association (IPA)",
+        "role": "Apex body of major ports; compiles Basic Port Statistics of India and hosts SAROD-Ports dispute resolution with IPPTA.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-bps-2024-25"
+          }
+        ]
+      },
+      {
+        "id": "sginst:state-maritime-boards",
+        "name": "State maritime boards and directorates",
+        "role": "Own and regulate the 217 notified non-major ports; 69 non-major ports under 11 state maritime boards/directorates report on the Port Data Monitoring Platform.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-bps-2024-25"
+          },
+          {
+            "source_id": "src:shipmin-nonmajor-march2026"
+          }
+        ]
+      }
+    ],
+    "funding": {
+      "scheme_lifecycle": {
+        "text": "Since the inception of the Sagarmala scheme in March 2015, 186 projects have been sanctioned for financial assistance by MoPSW; 58 sanctions were withdrawn (55 in 2024-25 and 3 in 2025-26); 128 projects are currently funded, of which 78 are completed and 50 under implementation.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:ls-sagarmala-scheme-2026"
+          }
+        ]
+      },
+      "budget_head": {
+        "text": "Union Budget 2026-27: Demand No. 78 (MoPSW) is ₹5,164.80 crore, including the Sagarmala budget head of ₹616.88 crore; new maritime heads include SBFAS/NSM ₹515 crore, Shipbuilding Dock Support ₹250 crore, Maritime Development Fund ₹1,000 crore and Jalvahak ₹30 crore.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:indiabudget-expenditure-2026-27"
+          }
+        ]
+      },
+      "distinction_note": "Scheme-funded projects (128) are only the projects the ministry directly finances; the programme portfolio (845) also includes projects implemented by ports, states and the private sector. The two scopes are never summed.",
+      "evidence": "analysis",
+      "provenance": []
+    },
+    "statistics": [
+      {
+        "id": "sgstat:portfolio-2023",
+        "label": "Portfolio (~2023)",
+        "value": 802,
+        "unit": "projects",
+        "cost_lakh_cr": 5.53,
+        "completed_count": 172,
+        "completed_cost_cr": 88235,
+        "as_of": null,
+        "scope": "whole programme portfolio",
+        "verification": "single_undated_ministry_publication",
+        "provenance": [
+          {
+            "source_id": "src:wiki-sagarmala-project",
+            "notes": "Undated MoPSW publication mirrored in secondary sources; date could not be pinned."
+          }
+        ]
+      },
+      {
+        "id": "sgstat:portfolio-2025-03",
+        "label": "Portfolio (27 March 2025)",
+        "value": 839,
+        "unit": "projects",
+        "cost_lakh_cr": 5.79,
+        "completed_count": 272,
+        "completed_cost_lakh_cr": 1.41,
+        "as_of": "2025-03-27",
+        "scope": "whole programme portfolio",
+        "verification": "pib_backgrounder",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-priority-2025"
+          },
+          {
+            "source_id": "src:pib-maritime-backgrounder-2025"
+          }
+        ]
+      },
+      {
+        "id": "sgstat:portfolio-2026-03",
+        "label": "Portfolio (24 March 2026)",
+        "value": 845,
+        "unit": "projects",
+        "cost_lakh_cr": 6.06,
+        "completed_count": 315,
+        "completed_cost_lakh_cr": 1.57,
+        "under_implementation_count": 210,
+        "planning_count": 320,
+        "as_of": "2026-03-24",
+        "scope": "whole programme portfolio",
+        "verification": "pib_backgrounder_corroborated",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      {
+        "id": "sgstat:scheme-funded-2026-02",
+        "label": "Scheme-funded projects (13 February 2026)",
+        "value": 128,
+        "unit": "funded projects",
+        "completed_count": 78,
+        "under_implementation_count": 50,
+        "as_of": "2026-02-13",
+        "scope": "projects sanctioned for MoPSW financial assistance",
+        "verification": "lok_sabha_annexure",
+        "provenance": [
+          {
+            "source_id": "src:ls-sagarmala-scheme-2026"
+          }
+        ]
+      },
+      {
+        "id": "sgstat:coastal-district-projects",
+        "label": "Coastal district development projects",
+        "value": 567,
+        "unit": "projects",
+        "cost_lakh_cr": 0.58,
+        "as_of": null,
+        "scope": "identified under holistic development of coastal districts (secondary source mirroring ministry figures)",
+        "verification": "secondary_source",
+        "provenance": [
+          {
+            "source_id": "src:wiki-sagarmala-project"
+          }
+        ]
+      },
+      {
+        "id": "sgstat:capacity-2026",
+        "label": "Combined port capacity",
+        "value": 2818,
+        "unit": "MTPA",
+        "as_of": "2026-03",
+        "scope": "major + non-major ports",
+        "verification": "lok_sabha_reply",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-pillars-ls-2026"
+          }
+        ]
+      }
+    ],
+    "sagarmala_2_0": {
+      "status": "proposed",
+      "text": "Sagarmala 2.0 is proposed with a total budgetary support of ₹85,482 crore and total investment of ₹3.6 lakh crore. Preparation includes the Sagarmala Startup & Innovation Initiative (S2I2) launched 19 March 2025 with the Maritime Innovation Fund as anchor vehicle. No Cabinet approval for Sagarmala 2.0 has been captured in any primary source on file — it is a proposal, not an approved programme.",
+      "evidence": "fact",
+      "provenance": [
+        {
+          "source_id": "src:pib-sagarmala-2026"
+        },
+        {
+          "source_id": "src:pib-s2i2-2026"
+        }
+      ],
+      "earlier_figure": {
+        "text": "An earlier March 2025 figure of ₹40,000 crore budgetary support circulated via PIB summaries; the April 2026 backgrounder figure of ₹85,482 crore supersedes it on file, and both are retained as dated observations.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pib-maritime-backgrounder-2025",
+            "notes": "Discrepancy recorded; see the discrepancies register in coverage.json."
+          }
+        ]
+      }
+    },
+    "vision_links": [
+      {
+        "id": "sgvis:miv-2030",
+        "name": "Maritime India Vision 2030",
+        "launched": "2021-03-02",
+        "text": "Launched by the Prime Minister at the Maritime India Summit 2021 (virtual, 2-4 March 2021, with 486 MoUs worth ₹3.39 lakh crore signed). MIV 2030 comprises 150+ initiatives across 10 themes with investment of the order of ₹3-3.5 lakh crore.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pib-yer-mopsw-2021"
+          },
+          {
+            "source_id": "src:pib-miv-2030-reply"
+          },
+          {
+            "source_id": "src:pib-maritime-backgrounder-2025"
+          }
+        ]
+      },
+      {
+        "id": "sgvis:makv-2047",
+        "name": "Maritime Amrit Kaal Vision 2047",
+        "launched": "2023-10-17",
+        "text": "Unveiled by the Prime Minister at the Global Maritime India Summit 2023 in Mumbai (projects worth ~₹23,000 crore inaugurated; 300+ MoUs worth ~₹7 lakh crore). MAKV 2047 comprises 300+ initiatives across 11 themes with an investment pipeline of ~₹80 lakh crore; official targets include port capacity of 10,000+ MMTPA, 3 transshipment hubs, 2 new major ports, Top-10 shipbuilding nation by 2030 and Top-5 by 2047, world-leading ship recycling, waterways cargo above 500 MMTPA and 175 million TEU of containers (base case) by 2047.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pmo-gmis-2023"
+          },
+          {
+            "source_id": "src:shipmin-makv-2047"
+          }
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2015-03-25",
+        "label": "Union Cabinet approves the Sagarmala concept and institutional framework.",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          },
+          {
+            "source_id": "src:arthapedia-sagarmala"
+          }
+        ]
+      },
+      {
+        "date": "2015-05",
+        "label": "National Sagarmala Apex Committee constituted; first meeting 5 October 2015.",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      {
+        "date": "2016-04-14",
+        "label": "National Perspective Plan released by the Prime Minister at the Maritime India Summit 2016.",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          },
+          {
+            "source_id": "src:pmo-mis-2016-speech"
+          }
+        ]
+      },
+      {
+        "date": "2016-07-20",
+        "label": "Cabinet approves the Sagarmala Development Company; SDCL incorporated later in 2016.",
+        "provenance": [
+          {
+            "source_id": "src:arthapedia-sagarmala"
+          }
+        ]
+      },
+      {
+        "date": "2016-12-06",
+        "label": "14 Coastal Economic Zones identified with linkage ports and intended industries.",
+        "provenance": [
+          {
+            "source_id": "src:scconline-cez-2016"
+          }
+        ]
+      },
+      {
+        "date": "2018-11-12",
+        "label": "First multimodal terminal on NW-1 (Varanasi) inaugurated; Sahibganj terminal follows in September 2019.",
+        "provenance": [
+          {
+            "source_id": "src:iwai-national-waterways"
+          }
+        ]
+      },
+      {
+        "date": "2020-02-19",
+        "label": "Vadhavan notified as a Major Port in the Government Gazette.",
+        "provenance": [
+          {
+            "source_id": "src:vppl-about"
+          },
+          {
+            "source_id": "src:shipmin-bps-2024-25"
+          }
+        ]
+      },
+      {
+        "date": "2021-03-02",
+        "label": "Maritime India Vision 2030 launched at the Maritime India Summit 2021.",
+        "provenance": [
+          {
+            "source_id": "src:pib-yer-mopsw-2021"
+          }
+        ]
+      },
+      {
+        "date": "2023-10-17",
+        "label": "Maritime Amrit Kaal Vision 2047 unveiled at the Global Maritime India Summit 2023.",
+        "provenance": [
+          {
+            "source_id": "src:pmo-gmis-2023"
+          },
+          {
+            "source_id": "src:shipmin-makv-2047"
+          }
+        ]
+      },
+      {
+        "date": "2024-02-16",
+        "label": "Sagar Aankalan port-performance index guidelines launched.",
+        "provenance": [
+          {
+            "source_id": "src:psuwatch-sagar-aankalan-2024"
+          }
+        ]
+      },
+      {
+        "date": "2024-06-19",
+        "label": "Union Cabinet approves the ₹76,220 crore Vadhavan major-port development.",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-bps-2024-25"
+          },
+          {
+            "source_id": "src:wiki-vadhavan-port"
+          }
+        ]
+      },
+      {
+        "date": "2024-08-30",
+        "label": "Prime Minister lays the foundation stone of Vadhavan Port.",
+        "provenance": [
+          {
+            "source_id": "src:wiki-vadhavan-port"
+          }
+        ]
+      },
+      {
+        "date": "2024-09-04",
+        "label": "Galathea Bay (Great Nicobar) notified as a port; under construction.",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-bps-2024-25"
+          }
+        ]
+      },
+      {
+        "date": "2024-12-15",
+        "label": "Jalvahak long-haul inland-waterway incentive launched (₹95.42 crore, 35% cargo incentive).",
+        "provenance": [
+          {
+            "source_id": "src:pib-iwt-record-fy25"
+          }
+        ]
+      },
+      {
+        "date": "2025-02-01",
+        "label": "Union Budget 2025-26 announces the Maritime Development Fund corpus of ₹25,000 crore and shipbuilding clusters.",
+        "provenance": [
+          {
+            "source_id": "src:indiabudget-speech-2025-26"
+          }
+        ]
+      },
+      {
+        "date": "2025-03-19",
+        "label": "Sagarmala Startup & Innovation Initiative (S2I2) launched under Sagarmala 2.0 preparation.",
+        "provenance": [
+          {
+            "source_id": "src:pib-s2i2-2026"
+          }
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "label": "Prime Minister dedicates the Vizhinjam International Deepwater Multipurpose Seaport (~₹8,800 crore).",
+        "provenance": [
+          {
+            "source_id": "src:wiki-vizhinjam-port"
+          }
+        ]
+      },
+      {
+        "date": "2025-06-26",
+        "label": "Sagarmala Finance Corporation inaugurated after the June 2025 restructuring of SDCL.",
+        "provenance": [
+          {
+            "source_id": "src:shipmin-sagarmala-division"
+          },
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      {
+        "date": "2025-09-24",
+        "label": "Cabinet clears the ₹69,725 crore shipbuilding package (SBFAS, Maritime Development Fund, Shipbuilding Dock Support).",
+        "provenance": [
+          {
+            "source_id": "src:pib-shipbuilding-package-2025"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-01",
+        "label": "Union Budget 2026-27 announces the Container Manufacturing Scheme, 20 new national waterways from NW-5, and the Coastal Cargo Promotion Scheme.",
+        "provenance": [
+          {
+            "source_id": "src:indiabudget-speech-2026-27"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-24",
+        "label": "845 projects worth ₹6.06 lakh crore taken up; 315 completed worth ₹1.57 lakh crore.",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-05",
+        "label": "Major ports handle a record 915.17 MT in FY 2025-26, surpassing the 904 MT target.",
+        "provenance": [
+          {
+            "source_id": "src:pib-major-ports-fy26"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "label": "Afcons wins the ₹5,301 crore, 10.14 km breakwater contract for Vadhavan Port.",
+        "provenance": [
+          {
+            "source_id": "src:prnewswire-afcons-vadhvan-2026"
+          }
+        ]
+      }
+    ],
+    "parliament_watch": [
+      {
+        "text": "The National Productivity Council carried out the third-party impact evaluation of Sagarmala at the end of the 15th Finance Commission cycle; the evaluation report itself is not yet on file.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-rs-2026"
+          }
+        ]
+      },
+      {
+        "text": "Employment potential of the programme is stated as ~1 crore jobs (40 lakh direct, 60 lakh indirect) in the April 2026 backgrounder; these are projections, not measured outcomes, and Techadyant does not treat them as verified employment.",
+        "evidence": "fact",
+        "provenance": [
+          {
+            "source_id": "src:pib-sagarmala-2026"
+          }
+        ]
+      }
+    ],
+    "last_verified": "2026-10-10",
+    "data_as_of": "2026-08-12"
+  }
+}

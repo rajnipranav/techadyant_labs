@@ -5,7 +5,7 @@
 //
 //   node scripts/validate-industrial.mjs            # errors + warnings
 //   node scripts/validate-industrial.mjs --strict   # warnings also fail
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -347,6 +347,11 @@ nodes.forEach((n) => { if (!rels.some((r) => r.source === n.id || r.target === n
 infra.forEach((i) => { if (!referenced.has(i.id) && !['seaport', 'airport', 'dfc_station'].includes(i.type)) warn(`${i.id}: infrastructure node not referenced by any relationship or project`); });
 // Programme Intelligence cites the same registry (validated in scripts/validate-programmes.mjs).
 for (const m of read('data/programme-intelligence/programmes.json').matchAll(/"(src:[a-z0-9-]+)"/g)) usedSources.add(m[1]);
+// Sagarmala Intelligence cites the same registry (validated in scripts/validate-sagarmala.mjs).
+// Cargo-terminal layer cites the same registry (validated in scripts/validate-cargo-terminals.mjs).
+for (const m of read('data/programme-intelligence/cargo-terminals.json').matchAll(/"(src:[a-z0-9-]+)"/g)) usedSources.add(m[1]);
+const SG_DIR = join(ROOT, 'data/sagarmala-intelligence');
+if (existsSync(SG_DIR)) for (const f of readdirSync(SG_DIR).filter((x) => x.endsWith('.json'))) for (const m of read(`data/sagarmala-intelligence/${f}`).matchAll(/"(src:[a-z0-9-]+)"/g)) usedSources.add(m[1]);
 sources.forEach((s) => { if (!usedSources.has(s.id) && !s.access && !s.context_only) warn(`${s.id}: source not cited by any record`); });
 
 /* ---------------------------------------------------------------- report */

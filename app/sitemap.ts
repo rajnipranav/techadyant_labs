@@ -88,6 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/research/sources/`,       lastModified: now, changeFrequency: 'weekly', priority: 0.75 },
     { url: `${SITE}/research/programmes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     ...programmeFile.programmes.map((p) => ({ url: `${SITE}/research/programmes/${p.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 })),
+    { url: `${SITE}/research/programmes/gati-shakti/cargo-terminals/`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${SITE}/research/industrial-nodes/`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     ...industrialNodeFile.nodes.map((n) => n.slug).map((s) => ({ url: `${SITE}/research/industrial-nodes/${s}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.75 })),
     { url: `${SITE}/research/industrial-nodes/methodology/`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },

@@ -996,6 +996,280 @@
     }
    ],
    "last_verified": "2026-10-09"
+  },
+  {
+   "id": "opp:vadhavan-marine-works-followon",
+   "title": "Vadhavan's successive marine-works and equipment waves (2026-2035)",
+   "location": "Vadhavan, Palghar, Maharashtra",
+   "node_ids": [],
+   "programme_ids": [
+    "sagarmala"
+   ],
+   "sectors": [
+    "Port construction",
+    "Marine equipment"
+   ],
+   "triggering_development": {
+    "text": "The ₹76,220 crore Vadhavan port is under construction: a ₹5,301 crore breakwater EPC awarded to Afcons (June 2026) and a dredging/reclamation letter of award to an ITD Cementation-DEME-Jan De Nul JV (March 2025).",
+    "project_ids": [
+     "proj:vadhavan-port-development"
+    ],
+    "provenance": [
+     {
+      "source_id": "src:prnewswire-afcons-vadhvan-2026"
+     },
+     {
+      "source_id": "src:wiki-vadhavan-port"
+     }
+    ]
+   },
+   "chain": [
+    {
+     "stage": "infrastructure_change",
+     "text": "India's first offshore artificial-island port (298 MTPA planned) moves into its marine-works phase.",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:vppl-about"
+      },
+      {
+       "source_id": "src:shipmin-bps-2024-25"
+      }
+     ]
+    },
+    {
+     "stage": "connectivity_effect",
+     "text": "Reclamation and breakwater works precede quay construction, mechanisation and landside packages.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "industrial_impact",
+     "text": "Successive procurement waves may pull marine civil works, crane supply and maintenance services toward the Palghar coast.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "supply_chain_effect",
+     "text": "A 10.14 km breakwater and a dredged channel create a recurring maintenance regime beyond the construction phase.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "strategic_dependency",
+     "text": "Indian EPC share of the largest marine packages is growing but dredging remains foreign-led.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "opportunity",
+     "text": "Potential demand for follow-on marine works, mechanisation packages, crane integration and long-run maintenance contracts as Vadhavan phases proceed.",
+     "evidence": "analysis"
+    }
+   ],
+   "opportunity_type": "specialised_infrastructure",
+   "horizon": "medium",
+   "confidence": "high",
+   "constraints": [
+    "Award values concentrate in large international EPCs; mid-size Indian suppliers may need consortium routes",
+    "Phase timing depends on reclamation completion"
+   ],
+   "strategic_rationale": "The two documented awards evidence the demand base; every later phase repeats the pattern at smaller ticket sizes, which is where Indian suppliers may enter.",
+   "relevant_player_ids": [],
+   "relevant_project_ids": [
+    "proj:vadhavan-port-development"
+   ],
+   "affected_supply_chains": [
+    "Marine construction",
+    "Port equipment"
+   ],
+   "provenance": [
+    {
+     "source_id": "src:prnewswire-afcons-vadhvan-2026"
+    },
+    {
+     "source_id": "src:vppl-about"
+    }
+   ],
+   "last_verified": "2026-10-10"
+  },
+  {
+   "id": "opp:vizhinjam-transshipment-services",
+   "title": "Transshipment service economy around Vizhinjam's first million TEUs",
+   "location": "Vizhinjam, Thiruvananthapuram, Kerala",
+   "node_ids": [],
+   "programme_ids": [
+    "sagarmala"
+   ],
+   "sectors": [
+    "Container shipping",
+    "Marine services"
+   ],
+   "triggering_development": {
+    "text": "Vizhinjam Phase 1 commenced commercial operations on 3 December 2024 with a designed capacity of 1 million TEUs and crossed 1 million TEUs in its first year — the fastest pace set by any Indian port; later phases target ~5.7 M TEUs.",
+    "project_ids": [
+     "proj:vizhinjam-phase1"
+    ],
+    "provenance": [
+     {
+      "source_id": "src:pib-sagarmala-2026"
+     },
+     {
+      "source_id": "src:wiki-vizhinjam-port"
+     }
+    ]
+   },
+   "chain": [
+    {
+     "stage": "infrastructure_change",
+     "text": "A dedicated deepwater transshipment terminal with ~24 m natural depth is operational.",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:wiki-vizhinjam-port"
+      }
+     ]
+    },
+    {
+     "stage": "connectivity_effect",
+     "text": "Mainline and feeder services can re-slot Indian transshipment cargo that previously moved via Colombo, Dubai and Singapore.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "industrial_impact",
+     "text": "Terminal-adjacent services — CFS/ICD operations, trucking, marine supplies — scale with vessel calls.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "supply_chain_effect",
+     "text": "Kerala's service-sector base could capture bunkering, crew changes, repairs and chandling flows that currently accrue abroad.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "strategic_dependency",
+     "text": "Transshipment cargo is contestable; service-ecosystem depth versus Colombo decides stickiness.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "opportunity",
+     "text": "Potential demand for feeder operations, CFS/ICD capacity, marine services and ship-support industries around Thiruvananthapuram as phases expand.",
+     "evidence": "analysis"
+    }
+   ],
+   "opportunity_type": "logistics_service",
+   "horizon": "medium",
+   "confidence": "medium",
+   "constraints": [
+    "Phase 2+ investment (₹20,000 crore estimate) not yet closed",
+    "Competitive response of Colombo and Jebel Ali"
+   ],
+   "strategic_rationale": "The traffic outcome is documented; the service-economy capture is a reasoned consequence with clear dependencies.",
+   "relevant_player_ids": [],
+   "relevant_project_ids": [
+    "proj:vizhinjam-phase1"
+   ],
+   "affected_supply_chains": [
+    "Container logistics",
+    "Marine services"
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-sagarmala-2026"
+    },
+    {
+     "source_id": "src:wiki-vizhinjam-port"
+    }
+   ],
+   "last_verified": "2026-10-10"
+  },
+  {
+   "id": "opp:shipbuilding-supplier-localisation",
+   "title": "Shipbuilding supplier localisation on the ₹69,725 crore policy base",
+   "location": "Kochi, Kolkata, Visakhapatnam, Vasco da Gama, Kattupalli",
+   "node_ids": [],
+   "programme_ids": [
+    "sagarmala"
+   ],
+   "sectors": [
+    "Shipbuilding",
+    "Marine equipment"
+   ],
+   "triggering_development": {
+    "text": "The Cabinet-approved shipbuilding package (24 September 2025) provides ₹69,725 crore — SBFAS ₹24,736 crore to March 2036, the Maritime Development Fund ₹25,000 crore and Shipbuilding Dock Support ₹19,989 crore — targeting 4.5 million GT of additional capacity, while Cochin Shipyard holds ~74 vessels on order and HSL's order book has grown ten-fold in three years.",
+    "project_ids": [],
+    "provenance": [
+     {
+      "source_id": "src:pib-shipbuilding-package-2025"
+     },
+     {
+      "source_id": "src:financialexpress-csl-lng-2025"
+     },
+     {
+      "source_id": "src:eurasiareview-hsl-2025"
+     }
+    ]
+   },
+   "chain": [
+    {
+     "stage": "infrastructure_change",
+     "text": "Subsidised hull demand plus dock-support funding enters the shipbuilding system.",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-shipbuilding-package-2025"
+      }
+     ]
+    },
+    {
+     "stage": "connectivity_effect",
+     "text": "Yard order books at Cochin, GRSE, HSL, GSL and L&T Kattupalli lengthen.",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:financialexpress-csl-lng-2025"
+      },
+      {
+       "source_id": "src:eurasiareview-hsl-2025"
+      }
+     ]
+    },
+    {
+     "stage": "industrial_impact",
+     "text": "Component and equipment suppliers — engines, deck machinery, electricals, outfitting — may locate near yards to serve the order flow.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "supply_chain_effect",
+     "text": "Import dependence in marine engines and advanced systems could fall if supplier parks form around the PSU yards.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "strategic_dependency",
+     "text": "Benefit capture depends on SBFAS disbursement rules and yard slot availability.",
+     "evidence": "analysis"
+    },
+    {
+     "stage": "opportunity",
+     "text": "Potential demand for marine component manufacturing, outfitting services and yard-adjacent supplier parks under the shipbuilding package.",
+     "evidence": "analysis"
+    }
+   ],
+   "opportunity_type": "supplier_localisation",
+   "horizon": "long",
+   "confidence": "high",
+   "constraints": [
+    "SBFAS guidelines and first disbursements not yet on file",
+    "Deep import dependence in engines and advanced systems persists"
+   ],
+   "strategic_rationale": "Policy intent, order-book evidence and a named funding mechanism make this the best-evidenced supplier-localisation surface in the maritime layer.",
+   "relevant_player_ids": [],
+   "relevant_project_ids": [],
+   "affected_supply_chains": [
+    "Shipbuilding inputs",
+    "Marine equipment"
+   ],
+   "provenance": [
+    {
+     "source_id": "src:pib-shipbuilding-package-2025"
+    }
+   ],
+   "last_verified": "2026-10-10"
   }
  ]
 }

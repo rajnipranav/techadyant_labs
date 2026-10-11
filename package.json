@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/validate-industrial.mjs && node scripts/validate-programmes.mjs && node scripts/sync-cms-to-data.mjs && node scripts/bake-sid.mjs && node scripts/bake-logistics.mjs && node scripts/bake-platform.mjs && node scripts/prune-redirects.mjs && next build && node scripts/indexnow-submit.mjs",
+    "build": "node scripts/validate-industrial.mjs && node scripts/validate-programmes.mjs && node scripts/validate-sagarmala.mjs && node scripts/validate-cargo-terminals.mjs && node scripts/export-sagarmala-csv.mjs && node scripts/sync-cms-to-data.mjs && node scripts/bake-sid.mjs && node scripts/bake-logistics.mjs && node scripts/bake-platform.mjs && node scripts/prune-redirects.mjs && next build && node scripts/indexnow-submit.mjs",
     "build:only": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -19,7 +19,10 @@
     "indexnow": "node scripts/indexnow-submit.mjs",
     "indexnow:all": "node scripts/indexnow-submit.mjs --all",
     "bake": "node scripts/bake-sid.mjs",
-    "bake-platform": "node scripts/bake-platform.mjs"
+    "bake-platform": "node scripts/bake-platform.mjs",
+    "validate:sagarmala": "node scripts/validate-sagarmala.mjs",
+    "export:sagarmala": "node scripts/export-sagarmala-csv.mjs",
+    "validate:gct": "node scripts/validate-cargo-terminals.mjs"
   },
   "dependencies": {
     "aws4fetch": "^1.0.20",

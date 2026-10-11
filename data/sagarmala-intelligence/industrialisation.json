@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "note": "Port-led industrialisation database — the 14 Coastal Economic Zones identified in the National Perspective Plan (April 2016), Coastal Economic Units, and the documented state of the pillar. The critical verified finding: no project has been sanctioned for financial assistance under the port-led industrialisation pillar of the Sagarmala scheme (11 August 2026, Rajya Sabha reply), and no notified or developed CEZ appears in any Tier-1 source on file. Proposed zones are never described as operating clusters. Atlas industrial-node links are derived from the shared relationship layer, not asserted here.",
+  "pillar_status": {
+    "scheme_funded_projects": 0,
+    "as_of": "2026-08-11",
+    "text": "No project has been sanctioned for financial assistance under the port-led industrialisation pillar of the Sagarmala scheme (Rajya Sabha reply, 11 August 2026); consistent with the absence of an industrialisation row in the July 2026 pillar-wise annexure. The 14 CEZ projects (₹55,887 crore) counted in the 839-project portfolio split are identified projects, not scheme-funded ones.",
+    "evidence": "fact",
+    "provenance": [
+      { "source_id": "src:pib-sagarmala-rs-2026" },
+      { "source_id": "src:pib-sagarmala-pillars-ls-2026" }
+    ]
+  },
+  "ceu_definition": {
+    "text": "Each CEZ consists of multiple Coastal Economic Units (CEUs), and more than one industrial cluster can be housed within a CEZ. To accelerate CEU development, locations like Kandla, Paradip, Ennore and Vizag were proposed as priorities where land parcels are available close to a deep-draught port with strong manufacturing potential. CEZs are spatial economic regions spread over multiple coastal districts with strong port linkage.",
+    "evidence": "fact",
+    "provenance": [{ "source_id": "src:shipmin-sagarmala-division" }]
+  },
+  "smart_industrial_port_cities": {
+    "text": "Introduced as a concept alongside CEZs, CEUs and Port-Linked Industrial & Maritime Clusters on the MoPSW division page; no specific project, cost or agency has been captured from a primary source.",
+    "evidence": "fact",
+    "provenance": [{ "source_id": "src:shipmin-sagarmala-division" }]
+  },
+  "cezs": [
+    { "id": "sgcez:1", "name": "CEZ-1 Gujarat (Kandla–Mundra)", "state": "Gujarat", "linkage_ports": ["sgport:deendayal", "sgport:mundra"], "sectors": ["Petrochemicals", "Cement", "Furniture"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:2", "name": "CEZ-2 Gujarat (Pipavav–Sikka)", "state": "Gujarat", "linkage_ports": ["sgport:pipavav", "sgport:sikka"], "sectors": ["Apparel", "Automotive"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:3", "name": "CEZ-3 Gujarat (Dahej–Hazira)", "state": "Gujarat", "linkage_ports": ["sgport:dahej"], "sectors": ["Marine clusters"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:4", "name": "CEZ-4 Maharashtra/Goa (JNPT–Mumbai)", "state": "Maharashtra", "linkage_ports": ["sgport:jnpa", "sgport:mumbai"], "sectors": ["Power", "Electronics", "Apparel"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:5", "name": "CEZ-5 Maharashtra/Goa (Dighi–Jaigarh–Mormugao)", "state": "Maharashtra", "linkage_ports": ["sgport:jaigarh", "sgport:mormugao"], "sectors": ["Refining", "Steel", "Food processing"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:6", "name": "CEZ-6 Karnataka (New Mangalore)", "state": "Karnataka", "linkage_ports": ["sgport:new-mangalore"], "sectors": ["Petrochemicals"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:7", "name": "CEZ-7 Kerala (Cochin)", "state": "Kerala", "linkage_ports": ["sgport:cochin"], "sectors": ["Furniture"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:8", "name": "CEZ-8 Tamil Nadu (VOCPT Tuticorin)", "state": "Tamil Nadu", "linkage_ports": ["sgport:voc-tuticorin"], "sectors": ["Apparel", "Refining"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:9", "name": "CEZ-9 Karaikal", "state": "Puducherry", "linkage_ports": [], "sectors": ["Leather processing", "Power"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:10", "name": "CEZ-10 Tamil Nadu (Chennai–Kamarajar/Ennore–Kattupalli)", "state": "Tamil Nadu", "linkage_ports": ["sgport:chennai", "sgport:kamarajar", "sgport:kattupalli"], "sectors": ["Steel", "Petrochemicals", "Electronics", "Shipbuilding"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:11", "name": "CEZ-11 Andhra Pradesh (Krishnapatnam)", "state": "Andhra Pradesh", "linkage_ports": ["sgport:krishnapatnam"], "sectors": ["Electronics"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:12", "name": "CEZ-12 Andhra Pradesh (Vizag–Kakinada)", "state": "Andhra Pradesh", "linkage_ports": ["sgport:visakhapatnam", "sgport:kakinada-dw"], "sectors": ["Food processing", "Petrochemicals", "Cement", "Apparel"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:13", "name": "CEZ-13 Odisha (Paradip–Dhamra)", "state": "Odisha", "linkage_ports": ["sgport:paradip", "sgport:dhamra"], "sectors": ["Petrochemicals", "Marine processing"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] },
+    { "id": "sgcez:14", "name": "CEZ-14 West Bengal (Kolkata–Haldia)", "state": "West Bengal", "linkage_ports": ["sgport:kolkata-smp", "sgport:haldia-hdc"], "sectors": ["Leather processing"], "status": "proposed", "status_detail": "Perspective plan prepared; no notification or sanctioned project on file.", "provenance": [{ "source_id": "src:scconline-cez-2016" }] }
+  ],
+  "hinterland_reading": [
+    {
+      "text": "The geography the CEZs were meant to capture already exists in partial form: petrochemicals at Dahej and Sikka, refining-steel at the Maharashtra coast, electronics at Sriperumbudur and Kopparthy served by Chennai/Kamarajar and Krishnapatnam. What the pillar has not delivered is the dedicated zone instrument — the land, utilities and single-window apparatus that would pull import-heavy processing to the waterfront.",
+      "evidence": "analysis",
+      "provenance": []
+    },
+    {
+      "text": "If CEZs move to notified land, import-heavy processing (energy, chemicals, metals) is the most likely early mover. None is documented as a CEZ unit on file.",
+      "evidence": "analysis",
+      "provenance": []
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+ "version": "1.0",
+ "note": "PM GatiShakti Cargo Terminals (GCT) — dedicated dataset under Section F of the Techadyant master prompt. Each terminal is a stable entity. Where a terminal's per-terminal capacity is not separately published, the field is null and only the aggregate network figure (224 MTPA as of Jul 2026, PIB PRID 2288380) is used at the summary layer. Commissioning and operational statuses are kept distinct; sanctioned, proposed, and under-construction terminals are not conflated with commissioned ones. Operator identities are recorded when explicitly published; unresolved identities are flagged as constraints, not fabricated.",
+ "coverage": {
+  "tier": "A+B",
+  "tier_a_commissioned_count": 11,
+  "tier_b_sanctioned_count": 2,
+  "tier_a_commissioned_with_full_date": 4,
+  "tier_a_commissioned_with_partial_date": 7,
+  "total_records": 13,
+  "programme_id": "pm-gati-shakti",
+  "network_aggregate_2026_07": {
+   "commissioned_count": 142,
+   "capacity_mtpa": 224,
+   "freight_mt_2025_26": 146,
+   "approved_in_principle_locations": 310,
+   "as_of": "2026-07-22",
+   "source_id": "src:pib-2288380-142gcts-2026"
+  },
+  "network_aggregate_2026_09": {
+   "commissioned_count": 150,
+   "as_of": "2026-09-15",
+   "source_id": "src:ddnews-150-gcts-2026"
+  }
+ },
+ "terminals": [
+  {
+   "id": "gct:shivlakha",
+   "slug": "shivlakha",
+   "canonical_name": "Shivlakha Gati Shakti Cargo Terminal",
+   "alternative_names": [
+    "Shivlakha GCT"
+   ],
+   "state": "Gujarat",
+   "district": "Kachchh",
+   "locality": "Shivlakha (near Gopalpur railway station, Kachchh district)",
+   "railway_zone": "Western Railway",
+   "railway_division": "Bhuj Division (WR)",
+   "operating_entity": "Indian Railways (Western Railway); salt container traffic flagged off to customers including Adani Wilmar",
+   "operator_type": "railway_operated",
+   "commodity_focus": [
+    "Salt (marine)",
+    "Containers"
+   ],
+   "status": "commissioned",
+   "status_note": "Inaugurated by Union Railway Minister on 15 Sep 2026. Salt container train flagged off from Shivlakha GCT on the same day.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": "2026-09-15",
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Specific capacity figure for Shivlakha GCT not separately published in PIB release. Aggregate GCT network capacity is 224 MTPA (PIB Jul 2026)."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Western Railway network; serves Kandla/Mundra port hinterland",
+   "dfc_connectivity": "Western Dedicated Freight Corridor (WDFC) — Kutch-Kandla hinterland connection",
+   "road_port_air_links": "Road access via SH-7 (Bhuj–Naliya); proximity to Kandla Port (~70 km) and Mundra Port",
+   "constraints": [
+    "Per-terminal capacity figure not separately published; only aggregate network capacity is sourced.",
+    "Commodity focus on salt is documented for the inaugural train but the full commodity mix at the terminal is not enumerated in PIB."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:pib-2310608-shivlakha-2026",
+     "notes": "Inauguration by Union Railway Minister; salt container train flagged off"
+    },
+    {
+     "source_id": "src:thenewsmill-shivlakha-2026",
+     "notes": "Confirms Shivlakha location in Kachchh, Gujarat"
+    },
+    {
+     "source_id": "src:ddnews-150-gcts-2026",
+     "notes": "Aggregate 150 GCTs milestone announcement on the same day"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:linch",
+   "slug": "linch",
+   "canonical_name": "Linch Gati Shakti Cargo Terminal",
+   "alternative_names": [
+    "Linch GCT"
+   ],
+   "state": "Gujarat",
+   "district": "Mehsana",
+   "locality": "Linch (Mehsana district, North Gujarat)",
+   "railway_zone": "Western Railway",
+   "railway_division": "Ahmedabad Division (WR)",
+   "operating_entity": "Indian Railways (Western Railway) — implementing agency; developer/operator not separately documented",
+   "operator_type": "railway_operated",
+   "commodity_focus": [],
+   "status": "sanctioned",
+   "status_note": "Foundation stone laid by Union Railway Minister on 15 Sep 2026. Sanctioned; not yet commissioned.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "sanctioned",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Capacity not yet published; sanctioned only."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Western Railway Ahmedabad division; serves Mehsana industrial belt",
+   "dfc_connectivity": "Indirect — Mehsana sits north of the Ahmedabad node on the WDFC spur network",
+   "road_port_air_links": "Road access via NH-51 (Mehsana–Patan–Bhilad); proximity to Dholera SIR (~200 km south)",
+   "constraints": [
+    "Commissioning date and capacity not yet published.",
+    "Commodity focus not yet documented in primary sources.",
+    "Private developer / operator not identified in PIB release."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:pib-2310608-shivlakha-2026",
+     "notes": "Foundation stone laid at Linch GCT on 15 Sep 2026"
+    },
+    {
+     "source_id": "src:theprint-in-gujarat-gct-2026",
+     "notes": "Confirms Linch in Mehsana district"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:maruti-manesar",
+   "slug": "maruti-manesar",
+   "canonical_name": "Maruti Suzuki Manesar Gati Shakti Multi-Modal Cargo Terminal",
+   "alternative_names": [
+    "Maruti Manesar GCT",
+    "India's Largest Automobile GCT",
+    "Maruti Suzuki Manesar siding GCT"
+   ],
+   "state": "Haryana",
+   "district": "Gurugram",
+   "locality": "Manesar (Maruti Suzuki India Ltd. plant siding)",
+   "railway_zone": "North Western Railway (NWR)",
+   "railway_division": "Delhi Division (NWR — ex-Northern Railway)",
+   "operating_entity": "Maruti Suzuki India Ltd (developer/operator at own siding); Indian Railways as infrastructure partner under GCT policy",
+   "operator_type": "private_siding_company_operated",
+   "commodity_focus": [
+    "Automobiles (finished passenger vehicles)"
+   ],
+   "status": "commissioned",
+   "status_note": "Inaugurated by Union Railway Minister on 19 Nov 2024. Recorded as India's largest automobile GCT at the time of commissioning.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": "2024-11-19",
+   "operational_status": "operational",
+   "capacity": {
+    "value": 450000,
+    "unit": "automobiles_per_annum",
+    "as_of": "2024-11-19",
+    "note": "Loading capacity of 4.5 lakh automobiles per annum — one of the highest in India at the time of inauguration."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Delhi–Rewari mainline (Northern Railway); automobile train dispatch from Manesar siding to multiple regional destinations",
+   "dfc_connectivity": "Indirect — connects to WDFC via New Palwal junction southbound",
+   "road_port_air_links": "Direct road: NH-48 (Delhi–Jaipur); proximity to IGI Airport Delhi (~40 km) cargo terminal; Western Dedicated Freight Corridor access via Rewari/Palwal",
+   "constraints": [
+    "Operational since Nov 2024 but actual throughput (vs. capacity) is not publicly reported by PIB or Maruti in primary sources.",
+    "Operator investment figure not separately disclosed in PIB release."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:pib-2136909-manesar-2024",
+     "notes": "Inauguration by Union Railway Minister; 4.5 lakh automobiles per annum capacity"
+    },
+    {
+     "source_id": "src:tribune-manesar-2024",
+     "notes": "Cross-corroborates the loading capacity figure"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:sindi-nagpur-mmlp",
+   "slug": "sindi-nagpur-mmlp",
+   "canonical_name": "Nagpur MMLP GCT — NLGS, Sindi",
+   "alternative_names": [
+    "Sindi GCT",
+    "Nagpur MMLP GCT NLGS Sindi",
+    "Sindi dry port GCT"
+   ],
+   "state": "Maharashtra",
+   "district": "Nagpur",
+   "locality": "Sindi (Nagpur division, near Nagpur dry port)",
+   "railway_zone": "Central Railway (CR)",
+   "railway_division": "Nagpur Division (CR)",
+   "operating_entity": "NLGS (operator) — operating under GCT policy of Indian Railways",
+   "operator_type": "private_operated",
+   "commodity_focus": [
+    "Containers",
+    "Mixed freight"
+   ],
+   "status": "commissioned",
+   "status_note": "Commissioned on 12 March 2024 per Central Railway's June 2026 published roster of 12 GCTs. Listed as serial #7 in the CR document.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": "2024-03-12",
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not published in the CR list or in Maritime Gateway reporting."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Central Railway Nagpur division; on the Howrah–Mumbai mainline; also serves as the crossing point between EDFC (Soni Nagar–Nagpur) and the north–south trunk routes",
+   "dfc_connectivity": "EDFC extension to Nagpur (under construction / proposed) — Sonenagar–Nagpur, Gati Shakti support",
+   "road_port_air_links": "NH-44 (Delhi–Nagpur–Hyderabad) and NH-53 (Mumbai–Nagpur–Kolkata) crossing; proximity to Dr. Babasaheb Ambedkar International Airport, Nagpur (~25 km) which has dedicated cargo facilities",
+   "constraints": [
+    "Per-terminal capacity figure not separately published.",
+    "Developer identity (NLGS expansion) not resolved to a specific company dossier in the Atlas."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:cr-pft-gct-list-2026",
+     "notes": "Central Railway published list of 12 GCTs — entry #7: Nagpur MMLP GCT - NLGS, Sindi, commissioning date 12.03.2024"
+    },
+    {
+     "source_id": "src:maritimegateway-sindi-2026",
+     "notes": "Reports GCT development at Sindi dry port, third in Nagpur division"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:fuelco-washeries-nagpur",
+   "slug": "fuelco-washeries-nagpur",
+   "canonical_name": "M/s Fuelco Washeries (India) GCT — Nagpur Division",
+   "alternative_names": [
+    "Fuelco Washeries GCT"
+   ],
+   "state": "Maharashtra",
+   "district": "Nagpur",
+   "locality": "Nagpur Division (exact locality not specified in CR roster)",
+   "railway_zone": "Central Railway (CR)",
+   "railway_division": "Nagpur Division (CR)",
+   "operating_entity": "M/s Fuelco Washeries (India) — private operator under GCT policy",
+   "operator_type": "private_operated",
+   "commodity_focus": [],
+   "status": "commissioned",
+   "status_note": "Listed in Central Railway's June 2026 published roster of 12 GCTs. Serial #8 in the CR document.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not published; commissioning date not visible in the published roster excerpt."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Central Railway Nagpur division",
+   "dfc_connectivity": "Same EDFC connectivity as Sindi GCT",
+   "road_port_air_links": "Nagpur multi-modal node (NH-44, NH-53, Nagpur airport cargo)",
+   "constraints": [
+    "Exact commissioning date not transcribed in the visible CR roster excerpt.",
+    "Commodity focus not separately published.",
+    "Operator identity (Fuelco Washeries) not resolved to a company dossier in the Atlas."
+   ],
+   "confidence": "medium",
+   "provenance": [
+    {
+     "source_id": "src:cr-pft-gct-list-2026",
+     "notes": "CR list entry #8: M/s Fuelco Washeries (India) in NGP division"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:dmgm-new-makardhokada",
+   "slug": "dmgm-new-makardhokada",
+   "canonical_name": "Gati Shakti Multi Modal Cargo Terminal — DMGM New Makardhokada",
+   "alternative_names": [
+    "DMGM New Makardhokada GCT",
+    "New Makardhokada GCT"
+   ],
+   "state": "Maharashtra",
+   "district": "Nagpur",
+   "locality": "New Makardhokada (Nagpur division)",
+   "railway_zone": "Central Railway (CR)",
+   "railway_division": "Nagpur Division (CR)",
+   "operating_entity": "DMGM (operator) — under GCT policy",
+   "operator_type": "private_operated",
+   "commodity_focus": [],
+   "status": "commissioned",
+   "status_note": "Listed in Central Railway's June 2026 published roster of 12 GCTs.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not published."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Central Railway Nagpur division",
+   "dfc_connectivity": "EDFC proximity",
+   "road_port_air_links": "Nagpur multi-modal node",
+   "constraints": [
+    "Commissioning date not visible in the published CR roster excerpt.",
+    "Operator identity (DMGM) not resolved to a company dossier in the Atlas.",
+    "Commodity focus not documented."
+   ],
+   "confidence": "medium",
+   "provenance": [
+    {
+     "source_id": "src:cr-pft-gct-list-2026",
+     "notes": "CR list entry: Gati Shakti Multi Modal Cargo Terminal - DMGM New Makardhokada"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:navkar-bb",
+   "slug": "navkar-bb",
+   "canonical_name": "M/s Navkar GCT (BB Division)",
+   "alternative_names": [
+    "Navkar Corporation GCT",
+    "M/s Navkar BB GCT"
+   ],
+   "state": "Maharashtra",
+   "district": "Mumbai (BB division area)",
+   "locality": "BB Division (Mumbai region — exact locality not specified in CR roster)",
+   "railway_zone": "Central Railway (CR)",
+   "railway_division": "Mumbai BB Division (CR)",
+   "operating_entity": "M/s Navkar Corporation Ltd — private operator under GCT policy",
+   "operator_type": "private_operated",
+   "commodity_focus": [
+    "Containers"
+   ],
+   "status": "commissioned",
+   "status_note": "Listed as entry #1 in Central Railway's June 2026 published roster of 12 GCTs. Navkar Corporation is a publicly listed container train operator and ICD developer.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not published in CR roster."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Central Railway BB division; Mumbai port-hinterland container corridor",
+   "dfc_connectivity": "WDFC New JNPT spur access",
+   "road_port_air_links": "JNPA (Jawaharlal Nehru Port Authority) hinterland; Mumbai–Pune Expressway access",
+   "constraints": [
+    "Commissioning date not visible in the CR roster excerpt.",
+    "Per-terminal capacity not separately published.",
+    "Company dossier not yet present in Atlas players registry (potential addition for future cycle)."
+   ],
+   "confidence": "medium",
+   "provenance": [
+    {
+     "source_id": "src:cr-pft-gct-list-2026",
+     "notes": "CR list entry #1: M/s Navkar in BB division"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:new-gothangam",
+   "slug": "new-gothangam",
+   "canonical_name": "New Gothangam Gati Shakti Cargo Terminal (WDFC)",
+   "alternative_names": [
+    "New Gothangam GCT",
+    "Surat GCT"
+   ],
+   "state": "Gujarat",
+   "district": "Surat",
+   "locality": "New Gothangam (Surat district, on the WDFC)",
+   "railway_zone": "Western Railway",
+   "railway_division": "Surat Division (WR)",
+   "operating_entity": "Emirates Logistics India Pvt Ltd (developer/operator) under DFCCIL GCT policy",
+   "operator_type": "private_operated",
+   "commodity_focus": [
+    "Containers",
+    "General freight"
+   ],
+   "status": "commissioned",
+   "status_note": "Inaugurated by Shri Praveen Kumar, MD/DFCCIL on 10 Apr 2025. Fourth DFCCIL GCT overall and third in FY 2024-25.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": "2025-04-10",
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not separately published in DFCCIL release."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Western Railway Surat division; WDFC mainline at New Gothangam station",
+   "dfc_connectivity": "Direct — located on the Western Dedicated Freight Corridor (WDFC)",
+   "road_port_air_links": "Road: NH-48 (Delhi–Mumbai); proximity to Hazira Port (~25 km) and Surat airport (~15 km)",
+   "constraints": [
+    "Per-terminal capacity figure not separately published in DFCCIL release.",
+    "Operator investment figure (Emirates Logistics India) not separately disclosed."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:dfccil-new-gothangam-2025",
+     "notes": "DFCCIL MD Praveen Kumar inaugurated New Gothangam GCT on WDFC; developer Emirates Logistics India"
+    },
+    {
+     "source_id": "src:psuconnect-dfccil-7gcts",
+     "notes": "Lists New Gothangam among the 7 commissioned DFCCIL GCTs"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:new-daudkhan",
+   "slug": "new-daudkhan",
+   "canonical_name": "New Daudkhan Gati Shakti Cargo Terminal (EDFC)",
+   "alternative_names": [
+    "New Daudkhan GCT"
+   ],
+   "state": "Uttar Pradesh",
+   "district": "Aligarh",
+   "locality": "New Daudkhan (on the EDFC, Aligarh district)",
+   "railway_zone": "North Central Railway",
+   "railway_division": "Allahabad / Prayagraj Division (likely)",
+   "operating_entity": "DFCCIL (operating authority under GCT policy); private operator not separately documented",
+   "operator_type": "dfccil_operated",
+   "commodity_focus": [],
+   "status": "commissioned",
+   "status_note": "Listed by DFCCIL as one of seven commissioned GCTs across EDFC and WDFC.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not separately published in DFCCIL release."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "EDFC mainline at New Daudkhan",
+   "dfc_connectivity": "Direct — located on the Eastern Dedicated Freight Corridor (EDFC)",
+   "road_port_air_links": "Road: NH-91 (Delhi–Kanpur); rural Aligarh hinterland",
+   "constraints": [
+    "Commissioning date not separately published.",
+    "Commodity focus not documented in primary source.",
+    "Private operator identity not published in DFCCIL release."
+   ],
+   "confidence": "medium",
+   "provenance": [
+    {
+     "source_id": "src:psuconnect-dfccil-7gcts",
+     "notes": "Lists New Daudkhan among the 7 commissioned DFCCIL GCTs"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:new-sanjali",
+   "slug": "new-sanjali",
+   "canonical_name": "New Sanjali Gati Shakti Cargo Terminal (WDFC)",
+   "alternative_names": [
+    "New Sanjali GCT"
+   ],
+   "state": "Gujarat",
+   "district": "Bharuch",
+   "locality": "New Sanjali (Bharuch district, on the WDFC)",
+   "railway_zone": "Western Railway",
+   "railway_division": "Vadodara Division (WR)",
+   "operating_entity": "DFCCIL (operating authority) — first GCT on private land along the WDFC",
+   "operator_type": "dfccil_operated",
+   "commodity_focus": [],
+   "status": "commissioned",
+   "status_note": "Listed by DFCCIL as one of seven commissioned GCTs. Recorded as the first GCT on private land along the WDFC.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not separately published."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Western Railway Vadodara division; WDFC mainline at New Sanjali",
+   "dfc_connectivity": "Direct — located on the Western Dedicated Freight Corridor (WDFC). First GCT on private land along WDFC.",
+   "road_port_air_links": "Road: NH-48; proximity to Hazira, Dahej and Pipavav ports hinterland",
+   "constraints": [
+    "Commissioning date not separately published.",
+    "Commodity focus not documented.",
+    "Specific private land ownership details not separately disclosed in primary source."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:psuconnect-dfccil-7gcts",
+     "notes": "Lists New Sanjali; notes it is the first GCT on private land along the WDFC"
+    },
+    {
+     "source_id": "src:pib-gct-2026",
+     "notes": "PIB Jan 2026 GCT document corroborates New Sanjali as first-on-private-land along WDFC"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:new-saradhana",
+   "slug": "new-saradhana",
+   "canonical_name": "New Saradhana Gati Shakti Cargo Terminal (WDFC)",
+   "alternative_names": [
+    "New Saradhana GCT"
+   ],
+   "state": "Gujarat",
+   "district": "Bharuch",
+   "locality": "New Saradhana (Bharuch district, on the WDFC)",
+   "railway_zone": "Western Railway",
+   "railway_division": "Vadodara Division (WR)",
+   "operating_entity": "DFCCIL (operating authority under GCT policy)",
+   "operator_type": "dfccil_operated",
+   "commodity_focus": [],
+   "status": "commissioned",
+   "status_note": "Listed by DFCCIL as one of seven commissioned GCTs across EDFC and WDFC.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not separately published."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "Western Railway Vadodara division; WDFC mainline at New Saradhana",
+   "dfc_connectivity": "Direct — Western Dedicated Freight Corridor (WDFC)",
+   "road_port_air_links": "Road: NH-48; Dahej, Hazira port hinterland",
+   "constraints": [
+    "Commissioning date not separately published.",
+    "Commodity focus not documented."
+   ],
+   "confidence": "medium",
+   "provenance": [
+    {
+     "source_id": "src:psuconnect-dfccil-7gcts",
+     "notes": "Lists New Saradhana among the 7 commissioned DFCCIL GCTs"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:new-bhaupur",
+   "slug": "new-bhaupur",
+   "canonical_name": "New Bhaupur Gati Shakti Cargo Terminal (EDFC)",
+   "alternative_names": [
+    "New Bhaupur GCT",
+    "Bhaupur GCT (Kanpur Dehat)"
+   ],
+   "state": "Uttar Pradesh",
+   "district": "Kanpur Dehat",
+   "locality": "New Bhaupur (on the EDFC, Kanpur Dehat district)",
+   "railway_zone": "North Central Railway",
+   "railway_division": "Allahabad Division (likely)",
+   "operating_entity": "DFCCIL (operating authority under GCT policy)",
+   "operator_type": "dfccil_operated",
+   "commodity_focus": [],
+   "status": "commissioned",
+   "status_note": "Listed by DFCCIL as one of seven commissioned GCTs across EDFC and WDFC.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "operational",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Per-terminal capacity not separately published."
+   },
+   "associated_node_ids": [],
+   "rail_connectivity": "EDFC mainline at New Bhaupur; NCR trunk routes",
+   "dfc_connectivity": "Direct — Eastern Dedicated Freight Corridor (EDFC)",
+   "road_port_air_links": "Road: NH-19 (Delhi–Kanpur–Kolkata); serves Kanpur industrial hinterland",
+   "constraints": [
+    "Commissioning date not separately published.",
+    "Commodity focus not documented in primary source."
+   ],
+   "confidence": "medium",
+   "provenance": [
+    {
+     "source_id": "src:psuconnect-dfccil-7gcts",
+     "notes": "Lists New Bhaupur among the 7 commissioned DFCCIL GCTs"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  },
+  {
+   "id": "gct:new-boraki",
+   "slug": "new-boraki",
+   "canonical_name": "New Boraki Gati Shakti Multi-Modal Cargo Terminal (DFCCIL tender)",
+   "alternative_names": [
+    "New Boraki GCT",
+    "Boraki Greater Noida GCT"
+   ],
+   "state": "Uttar Pradesh",
+   "district": "Gautam Buddha Nagar",
+   "locality": "New Boraki (Greater Noida / YEIDA region, on the EDFC's New Khurja–New Boraki section)",
+   "railway_zone": "Northern Railway / DFCCIL",
+   "railway_division": "Delhi Division (NR) / DFCCIL Eastern arm",
+   "operating_entity": "DFCCIL (implementing) — tender called for ₹156 crore construction; operator not yet awarded",
+   "operator_type": "tendered_unawarded",
+   "commodity_focus": [],
+   "status": "sanctioned",
+   "status_note": "DFCCIL tendered construction of a ₹156 crore GCT at New Boraki station (UP). Sanctioned/tendered; not yet commissioned.",
+   "approval_date": null,
+   "construction_start_date": null,
+   "commissioning_date": null,
+   "operational_status": "sanctioned",
+   "capacity": {
+    "value": null,
+    "unit": "MTPA",
+    "as_of": null,
+    "note": "Capacity not yet published; sanctioned only. Tender value: ₹156 crore."
+   },
+   "tender_value_cr": 156,
+   "associated_node_ids": [
+    "inode:jewar-yeida"
+   ],
+   "rail_connectivity": "EDFC New Khurja–New Boraki section; Northern Railway Delhi–Aligarh mainline",
+   "dfc_connectivity": "Direct — on the EDFC's New Khurja–New Boraki section",
+   "road_port_air_links": "Road: Yamuna Expressway (Delhi–Agra); proximity to Noida International Airport, Jewar (~20 km); direct intermodal interface with NIA cargo terminal planned",
+   "constraints": [
+    "Tendered but not yet awarded — operator identity and commissioning timeline not yet published.",
+    "Capacity not yet published.",
+    "Intermodal interface with Noida International Airport cargo terminal is announced but not yet operational."
+   ],
+   "confidence": "high",
+   "provenance": [
+    {
+     "source_id": "src:dfccil-new-boraki-tender",
+     "notes": "DFCCIL tender for ₹156 cr GCT at New Boraki station, Uttar Pradesh"
+    },
+    {
+     "source_id": "src:psuconnect-dfccil-7gcts",
+     "notes": "Confirms New Boraki as a sanctioned DFCCIL GCT site"
+    }
+   ],
+   "last_verified": "2026-10-09"
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+  "version": "1.0",
+  "note": "Maritime policy and programme evolution dataset. Proposals, budget announcements, approved schemes, guidelines and operational programmes are kept distinct — a proposal is never labelled approved without a captured Cabinet/authority decision. Each record carries the issuing authority, announcement date, formal approval date where applicable, status, objectives and funding.",
+  "policies": [
+    {
+      "id": "sgpol:nw-act-2016",
+      "name": "National Waterways Act, 2016",
+      "authority": "Parliament of India",
+      "announcement_date": "2016-03-25",
+      "approval_date": "2016-03-25",
+      "status": "operational",
+      "objectives": "Declared 111 national waterways (5 existing + 106 new) totalling 20,187 km, making waterway development a statutory national mandate; IWAI (IWAI Act 1985) is the development agency. 32 waterways operational as of March 2026.",
+      "funding": null,
+      "provenance": [{ "source_id": "src:pib-waterways-feature-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:mpa-act-2021",
+      "name": "Major Port Authorities Act, 2021",
+      "authority": "Parliament of India",
+      "announcement_date": "2021-02-18",
+      "approval_date": "2021-02-18",
+      "status": "operational",
+      "objectives": "Replaced the Major Port Trusts Act 1963; converted 11 of the 12 major ports into port authorities with empowered boards (Kamarajar Port remains a government-owned company).",
+      "funding": null,
+      "provenance": [{ "source_id": "src:shipmin-bps-2024-25" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:miv-2030",
+      "name": "Maritime India Vision 2030",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2021-03-02",
+      "approval_date": "2021-03-02",
+      "status": "operational",
+      "objectives": "150+ initiatives across 10 themes: port capacity to ~1,958 MMT at major ports, container turnaround under 20 hours, berth output above 30,000 tonnes, transshipment share, shipbuilding, Sagarmanthan portal, ViBhaS/NAVIC cells.",
+      "funding": "Investment of the order of ₹3-3.5 lakh crore.",
+      "provenance": [
+        { "source_id": "src:pib-yer-mopsw-2021" },
+        { "source_id": "src:pib-miv-2030-reply" },
+        { "source_id": "src:pib-maritime-backgrounder-2025" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:makv-2047",
+      "name": "Maritime Amrit Kaal Vision 2047",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2023-10-17",
+      "approval_date": "2023-10-17",
+      "status": "operational",
+      "objectives": "300+ initiatives across 11 themes: port capacity 10,000+ MMTPA, 3 transshipment hubs, 2 new major ports, Top-10 shipbuilding nation by 2030 / Top-5 by 2047, world's leading ship-recycling destination, waterways cargo >500 MMTPA, 175 million TEU containers (base case).",
+      "funding": "Investment pipeline of ~₹80 lakh crore; ~₹23,000 crore of projects inaugurated at launch; 300+ MoUs worth ~₹7 lakh crore.",
+      "provenance": [
+        { "source_id": "src:pmo-gmis-2023" },
+        { "source_id": "src:shipmin-makv-2047" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:sagar-aankalan",
+      "name": "Sagar Aankalan (Logistics Port Performance Index)",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2024-02-16",
+      "approval_date": null,
+      "status": "operational",
+      "objectives": "National port-performance index guidelines benchmarking port and terminal efficiency by cargo category; FY 2024-25 edition ranked 12 major and 35 non-major terminals (container category led by Mundra, JNPA second).",
+      "funding": null,
+      "provenance": [
+        { "source_id": "src:psuwatch-sagar-aankalan-2024" },
+        { "source_id": "src:shipmin-lppi-2024-25" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:jalvahak",
+      "name": "Jalvahak long-haul inland-waterway incentive",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2024-12-15",
+      "approval_date": "2024-12-15",
+      "status": "operational",
+      "objectives": "35% cargo incentive for long-haul movement on national waterways to shift freight from road to water; budget head ₹30 crore in 2026-27.",
+      "funding": "₹95.42 crore outlay.",
+      "provenance": [{ "source_id": "src:pib-iwt-record-fy25" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:s2i2",
+      "name": "Sagarmala Startup & Innovation Initiative (S2I2)",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2025-03-19",
+      "approval_date": null,
+      "status": "operational",
+      "objectives": "Startup and innovation pipeline for Sagarmala 2.0: Maritime Innovation Fund as anchor vehicle, Maritime Innovation Hubs at IIT Madras, Bombay, Kharagpur and IMU, MAR-a-THON 2025 hackathon.",
+      "funding": "Anchored in the Maritime Innovation Fund.",
+      "provenance": [{ "source_id": "src:pib-s2i2-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:smfcl-restructuring",
+      "name": "Sagarmala Finance Corporation Ltd (restructuring of SDCL)",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2025-06",
+      "approval_date": null,
+      "status": "operational",
+      "objectives": "India's first maritime-focused NBFC; inaugurated 26 June 2025; ~₹4,300 crore of loan approvals by December 2025.",
+      "funding": "Restructured from SDCL (₹1,000 crore authorised capital).",
+      "provenance": [
+        { "source_id": "src:shipmin-sagarmala-division" },
+        { "source_id": "src:pib-sagarmala-2026" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:shipbuilding-package-2025",
+      "name": "National Shipbuilding and Ship Repair Policy package (₹69,725 crore)",
+      "authority": "Union Cabinet (CCEA)",
+      "announcement_date": "2025-09-24",
+      "approval_date": "2025-09-24",
+      "status": "approved",
+      "objectives": "Four-pillar approach: Shipbuilding Financial Assistance Scheme (SBFAS) ₹24,736 crore to 31 March 2036 including a ₹4,001 crore shipbreaking credit note; Maritime Development Fund ₹25,000 crore (MIF ₹20,000 crore + IIF ₹5,000 crore); Shipbuilding Dock Support ₹19,989 crore; targets 4.5 million GT additional capacity and ~30 lakh jobs.",
+      "funding": "₹69,725 crore total.",
+      "provenance": [{ "source_id": "src:pib-shipbuilding-package-2025" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:ccps",
+      "name": "Coastal Cargo Promotion Scheme",
+      "authority": "Ministry of Ports, Shipping & Waterways / Ministry of Finance",
+      "announcement_date": "2026-02-01",
+      "approval_date": null,
+      "status": "announced",
+      "objectives": "Raise coastal shipping's freight modal share from 6% to 12% by 2047; announced in the Union Budget 2026-27 speech.",
+      "funding": null,
+      "provenance": [
+        { "source_id": "src:indiabudget-speech-2026-27" },
+        { "source_id": "src:pib-sagarmala-rs-2026" }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:container-manufacturing-scheme",
+      "name": "Container Manufacturing Scheme",
+      "authority": "Ministry of Finance (Union Budget 2026-27)",
+      "announcement_date": "2026-02-01",
+      "approval_date": null,
+      "status": "announced",
+      "objectives": "₹10,000 crore scheme to build domestic container manufacturing capacity, reducing dependence on imported containers for EXIM trade.",
+      "funding": "₹10,000 crore.",
+      "provenance": [{ "source_id": "src:indiabudget-speech-2026-27" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:nw-expansion-2026",
+      "name": "20 new national waterways (starting NW-5)",
+      "authority": "Ministry of Finance / MoPSW (Union Budget 2026-27)",
+      "announcement_date": "2026-02-01",
+      "approval_date": null,
+      "status": "announced",
+      "objectives": "Development of 20 new national waterways, starting with NW-5 (Talcher–Paradip/Dhamra) connecting Odisha's mineral belt to the coast; ship-repair clusters at Varanasi and Patna.",
+      "funding": null,
+      "provenance": [{ "source_id": "src:indiabudget-speech-2026-27" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:sagarmala-2",
+      "name": "Sagarmala 2.0",
+      "authority": "Ministry of Ports, Shipping & Waterways",
+      "announcement_date": "2026-04-11",
+      "approval_date": null,
+      "status": "proposed",
+      "status_note": "No Cabinet approval captured in any primary source on file. An earlier ₹40,000 crore budgetary-support figure (March 2025) was superseded by the ₹85,482 crore figure in the April 2026 backgrounder; both retained as dated observations.",
+      "objectives": "Proposed successor phase with total budgetary support of ₹85,482 crore and total investment of ₹3.6 lakh crore; preparation anchored by S2I2 and the Maritime Innovation Fund.",
+      "funding": "₹85,482 crore budgetary support; ₹3.6 lakh crore total investment (proposed).",
+      "provenance": [{ "source_id": "src:pib-sagarmala-2026" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgpol:budget-mopsw-fy27",
+      "name": "Union Budget 2026-27 — MoPSW allocation",
+      "authority": "Ministry of Finance",
+      "announcement_date": "2026-02-01",
+      "approval_date": "2026-02-01",
+      "status": "operational",
+      "objectives": "Demand No. 78 (MoPSW) BE ₹5,164.80 crore: Sagarmala head ₹616.88 crore, SBFAS/NSM ₹515 crore, SbDS ₹250 crore, MDF ₹1,000 crore, Jalvahak ₹30 crore.",
+      "funding": "₹5,164.80 crore.",
+      "provenance": [{ "source_id": "src:indiabudget-expenditure-2026-27" }],
+      "last_verified": "2026-10-10"
+    }
+  ]
+}

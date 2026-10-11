@@ -333,10 +333,11 @@
    "operator": "Jawaharlal Nehru Port Authority",
    "state": "Maharashtra",
    "coordinates": {
-    "lat": 18.95,
-    "lng": 72.95,
-    "coord_source": "approximate",
-    "confidence": "medium"
+    "lat": 18.945,
+    "lng": 72.94,
+    "coord_source": "gazetteer",
+    "confidence": "high",
+    "note": "BPS 2024-25 Table 1.3: 18°56'43\"N, 72°56'24\"E (approximate centroid)."
    },
    "classification": null,
    "cargo_handling": true,
@@ -362,9 +363,12 @@
     },
     {
      "source_id": "src:techadyant-geocoding"
+    },
+    {
+     "source_id": "src:shipmin-bps-2024-25"
     }
    ],
-   "last_verified": "2026-10-08"
+   "last_verified": "2026-10-10"
   },
   {
    "id": "infra:port-kolkata-smp",
@@ -1574,6 +1578,117 @@
     }
    ],
    "last_verified": "2026-10-09"
+  },
+  {
+   "id": "infra:port-mumbai",
+   "name": "Mumbai Port Authority",
+   "type": "seaport",
+   "status": "operational",
+   "operator": "Mumbai Port Authority",
+   "state": "Maharashtra",
+   "coordinates": {
+    "lat": 18.918,
+    "lng": 72.866,
+    "coord_source": "gazetteer",
+    "confidence": "high",
+    "note": "BPS 2024-25 Table 1.3: 18°55'05\"N, 72°51'57\"E (approximate centroid of the dock system)."
+   },
+   "classification": null,
+   "cargo_handling": true,
+   "facts": [
+    {
+     "label": "FY25 throughput",
+     "value": "68.63 MT — highest-ever at the time (FY 2024-25); 75.15 MT in FY 2025-26",
+     "as_of": "2026-04-05",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-majorports-march2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:shipmin-bps-2024-25"
+    }
+   ],
+   "last_verified": "2026-10-10"
+  },
+  {
+   "id": "infra:port-vizhinjam",
+   "name": "Vizhinjam International Seaport (Kerala)",
+   "type": "seaport",
+   "status": "operational",
+   "operator": "Vizhinjam International Seaport Ltd (Kerala) — Adani Ports & SEZ concessionaire",
+   "state": "Kerala",
+   "coordinates": {
+    "lat": 8.379,
+    "lng": 76.978,
+    "coord_source": "approximate",
+    "confidence": "medium",
+    "note": "Approximate site centroid from public port references."
+   },
+   "classification": null,
+   "cargo_handling": true,
+   "facts": [
+    {
+     "label": "Phase 1 operations",
+     "value": "Commercial operations since 3 December 2024; designed capacity 1 million TEUs; crossed 1 M TEU in its first year",
+     "as_of": "2026-04-11",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:pib-sagarmala-2026"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:wiki-vizhinjam-port"
+    }
+   ],
+   "last_verified": "2026-10-10"
+  },
+  {
+   "id": "infra:port-vadhavan",
+   "name": "Vadhavan Port (under construction, Maharashtra)",
+   "type": "seaport",
+   "status": "under_construction",
+   "operator": "Vadhavan Port Project Ltd (JNPA 74% + Maharashtra Maritime Board 26%)",
+   "state": "Maharashtra",
+   "coordinates": {
+    "lat": 19.93,
+    "lng": 72.66,
+    "coord_source": "approximate",
+    "confidence": "medium",
+    "note": "Approximate site coordinates for the offshore artificial-island port (Palghar/Dahanu coast)."
+   },
+   "classification": null,
+   "cargo_handling": false,
+   "facts": [
+    {
+     "label": "Planned capacity",
+     "value": "298 MTPA; ₹76,220 crore development approved by the Union Cabinet on 19 June 2024",
+     "as_of": "2024-06-19",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:shipmin-bps-2024-25"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:vppl-about"
+    },
+    {
+     "source_id": "src:wiki-vadhavan-port"
+    }
+   ],
+   "last_verified": "2026-10-10"
   }
  ]
 }

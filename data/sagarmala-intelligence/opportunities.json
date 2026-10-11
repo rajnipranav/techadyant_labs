@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "note": "Sagarmala opportunity intelligence register — the Techadyant analytical layer. Every opportunity carries a SOURCED trigger, explicitly labelled analytical reasoning, dependencies and constraints, and a classification: documented_demand (contract or procurement already evidenced), emerging (sourced trigger, reasoned effect), hypothesis (analytical construction on sourced foundations) or research_lead (direction needing more evidence). No market size, revenue forecast, return, employment outcome or cargo volume is invented; quantification is limited to what the cited sources state.",
+  "classifications": ["documented_demand", "emerging", "hypothesis", "research_lead"],
+  "opportunities": [
+    {
+      "id": "sgo:vadhavan-marine-works",
+      "title": "Follow-on marine works and equipment demand at Vadhavan (2026-2035)",
+      "classification": "documented_demand",
+      "pillar_key": "port_modernisation",
+      "related": { "project_ids": ["sgpr:vadhavan-port"], "port_ids": ["sgport:vadhavan"], "company_ids": ["sgco:afcons", "sgco:itd-deme-jandenul"] },
+      "trigger": {
+        "text": "The ₹76,220 crore Vadhavan port is under construction: a ₹5,301 crore breakwater EPC awarded to Afcons (June 2026) and a dredging/reclamation letter of award to an ITD Cementation–DEME–Jan De Nul JV (March 2025).",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:prnewswire-afcons-vadhvan-2026" },
+          { "source_id": "src:wiki-vadhavan-port" }
+        ]
+      },
+      "reasoning": "A 298 MTPA offshore port implies successive procurement waves beyond the first two packages: quay-wall and landside civil works, mechanisation packages (ship-to-shore and yard cranes), utilities, and a maintenance regime for the 10.14 km breakwater and dredged channel. The first two awards document the demand; the composition of later waves is analysis.",
+      "customers": ["Port SPV (VPPL)", "EPC majors", "Dredging contractors", "Crane OEMs and integrators"],
+      "dependencies": ["Reclamation completion and phasing", "VPPL procurement calendar", "Cabinet-approved cost schedule holding"],
+      "constraints": ["Award value concentration in large international EPCs may limit Indian supplier share", "Marine works require classification and track record that mid-size Indian firms may lack"],
+      "confidence": "high",
+      "evidence_needed": "VPPL tender calendar; phase-wise procurement plan.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:port-crane-localisation",
+      "title": "Port mechanisation and crane demand — and a localisation gap",
+      "classification": "documented_demand",
+      "pillar_key": "port_modernisation",
+      "related": { "port_ids": ["sgport:vizhinjam", "sgport:mundra"], "company_ids": ["sgco:zpmc", "sgco:konecranes"] },
+      "trigger": {
+        "text": "ZPMC shipped 24 RMG cranes plus quay cranes for Vizhinjam (third batch January 2024); Konecranes booked an order for 30 E-Hybrid RTGs from an Indian greenfield container terminal in Q3 2025 (delivery Q1 2027); Vizhinjam Phase 1 crossed 1 million TEUs in its first year.",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:zpmc-vizhinjam-2024" },
+          { "source_id": "src:logisticsmanager-konecranes-2025" },
+          { "source_id": "src:adaniports-website" }
+        ]
+      },
+      "reasoning": "Container-terminal equipment demand is running at multi-terminal scale (Vizhinjam expansion phases, Kamarajar's second container terminal tender, Mundra programmes). Crane supply is foreign-led today — ZPMC for STS/RMG, Konecranes for RTG. Every new deepwater berth widens the equipment pipeline and the case for local assembly, spares and service capability. The 'make-in-India crane' angle is analysis, not an announced policy.",
+      "customers": ["Terminal operators", "Port authorities", "Crane OEMs' Indian subsidiaries"],
+      "dependencies": ["Terminal construction pipeline (Vadhavan, Vizhinjam later phases, Kamarajar CT2)", "Equipment financing cost"],
+      "constraints": ["No Indian STS-crane OEM of scale exists today; localisation would need a policy push", "Konecranes order does not name its terminal — treated as a demand signal only"],
+      "confidence": "high",
+      "evidence_needed": "Terminal-wise equipment tender pipelines; any duti/export-promotion measures on port equipment.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:vizhinjam-transshipment-ecosystem",
+      "title": "Transshipment ecosystem services around Vizhinjam",
+      "classification": "emerging",
+      "pillar_key": "port_modernisation",
+      "related": { "project_ids": ["sgpr:vizhinjam-phase1"], "port_ids": ["sgport:vizhinjam"], "company_ids": ["sgco:adani-ports"] },
+      "trigger": {
+        "text": "Vizhinjam Phase 1 (1 M TEU design) commenced commercial operations on 3 December 2024 and crossed 1 million TEUs in its first year; later phases target ~5.7 M TEU capacity; the port is designed to capture ~50% of India's container transshipment currently handled at Dubai, Colombo and Singapore.",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:pib-sagarmala-2026" },
+          { "source_id": "src:wiki-vizhinjam-port" }
+        ]
+      },
+      "reasoning": "A transshipment hub changes the local service economy: feeder operators re-slot Indian coastal calls, CFS/ICD operators rebalance gate volumes, and marine services (bunkering, fresh water, crew changes, repairs) scale with vessel calls. Kerala's service-sector base could capture share of these flows. None of this is contracted yet; it is reasoned from the documented traffic outcome.",
+      "customers": ["Feeder and coastal shipping operators", "CFS/ICD and trucking firms", "Marine service providers", "Ship chandlers and bunkering suppliers"],
+      "dependencies": ["Phase 2+ investment decisions (₹20,000 crore estimate)", "Mainline network commitment depth", "Competitive response of Colombo and Jebel Ali"],
+      "constraints": ["Transshipment cargo is contestable — loyalty is not guaranteed", "Service ecosystem depth (bunkering, repairs) currently thin relative to Colombo"],
+      "confidence": "medium",
+      "evidence_needed": "Phase 2 financial closure; mainline call frequency data; marine-services investment announcements in Kerala.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:shipbuilding-supplier-chain",
+      "title": "Shipbuilding supplier localisation under the ₹69,725 crore package",
+      "classification": "documented_demand",
+      "pillar_key": "coastal_shipping_iwt",
+      "related": { "company_ids": ["sgco:cochin-shipyard", "sgco:grse", "sgco:hsl", "sgco:goa-shipyard", "sgco:lt-shipbuilding"], "policy_ids": ["sgpol:shipbuilding-package-2025"] },
+      "trigger": {
+        "text": "The Cabinet-approved shipbuilding package (24 September 2025) provides ₹69,725 crore: SBFAS ₹24,736 crore to March 2036, the Maritime Development Fund ₹25,000 crore and Shipbuilding Dock Support ₹19,989 crore, targeting 4.5 million GT of capacity. Cochin Shipyard holds a ₹2,000 crore LNG-feeder order with ~74 vessels on order; HSL's order book grew from ~₹2,000 crore to ₹20,000+ crore in three years; L&T delivered INS Samarthak (September 2026).",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:pib-shipbuilding-package-2025" },
+          { "source_id": "src:financialexpress-csl-lng-2025" },
+          { "source_id": "src:eurasiareview-hsl-2025" },
+          { "source_id": "src:larsentoubro-samarthak-2026" }
+        ]
+      },
+      "reasoning": "Subsidised hull demand with a credit-note mechanism is designed to pull component and equipment suppliers into the yards: marine engines, deck machinery, electrical systems, piping, outfitting and steel fabrication. The order books documented at the PSU yards give the demand base; the supplier-shift is the intended mechanism of the policy and an analytical inference about who benefits.",
+      "customers": ["Shipyards (hull demand)", "Marine equipment and component makers", "Steel and outfitting suppliers", "Marine electrical system suppliers"],
+      "dependencies": ["SBFAS disbursement rules and uptake", "Yard slot availability", "Classification and navy-civil order mix"],
+      "constraints": ["Deep import dependence in engines and advanced systems persists", "Credit-note benefit for shipbreaking does not itself create component supply"],
+      "confidence": "high",
+      "evidence_needed": "SBFAS guidelines text; first subsidy disbursements; supplier-park announcements near yards.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:coastal-vessel-demand",
+      "title": "Coastal and Ro-Pax vessel demand from modal-share policy",
+      "classification": "emerging",
+      "pillar_key": "coastal_shipping_iwt",
+      "related": { "project_ids": ["sgpr:ghogha-hazira-ropax", "sgpr:coastal-berths"], "policy_ids": ["sgpol:ccps"] },
+      "trigger": {
+        "text": "29 Ro-Pax projects worth ₹1,233 crore taken up (Ghogha–Hazira operational with ~36,000 trucks moved); seven coastal berths completed adding 9.84 MTPA; the Coastal Cargo Promotion Scheme targets raising coastal shipping's modal share from 6% to 12% by 2047; coastal cargo at major ports rose to 213.45 MT in FY26.",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:pib-sagarmala-2026" },
+          { "source_id": "src:indiabudget-speech-2026-27" },
+          { "source_id": "src:shipmin-majorports-march2026" }
+        ]
+      },
+      "reasoning": "Doubling modal share implies a fleet: Ro-Pax vessels, coastal bulkers and feeders, plus terminal-side equipment and service networks. Ghogha–Hazira's truck volumes document the traffic-formation effect; the fleet build-out is the analytical consequence. Indian yards (CSL's feeder orders) are the natural suppliers, connecting this surface to the shipbuilding package.",
+      "customers": ["Shipping lines and coastal operators", "Shipyards", "Terminal operators at coastal berths", "Marine insurers and classifiers"],
+      "dependencies": ["CCPS operational details beyond the budget announcement", "Vessel financing availability (SMFCL role)", "Port-side coastal berth rollout"],
+      "constraints": ["CCPS is an announcement — guidelines and outlay not yet captured", "Coastal economics remain sensitive to fuel and GST treatment"],
+      "confidence": "medium",
+      "evidence_needed": "CCPS scheme guidelines and outlay; SMFCL coastal-vessel lending pipeline.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:connectivity-epc-pipeline",
+      "title": "Port-connectivity EPC pipeline from 144 planning-stage projects",
+      "classification": "documented_demand",
+      "pillar_key": "port_connectivity",
+      "related": { "project_ids": ["sgpr:haridaspur-paradip-rail"], "policy_ids": [] },
+      "trigger": {
+        "text": "The Comprehensive Port Connectivity Plan identifies 294 rail/road projects: 84 completed, 66 under implementation and 144 (42 rail, 102 road) under planning; Odisha's doubling of Haridaspur–Paradip alone is ₹2,542 crore.",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:pib-sagarmala-pillars-ls-2026" },
+          { "source_id": "src:pib-odisha-connectivity-2026" }
+        ]
+      },
+      "reasoning": "144 planning-stage projects are a forward pipeline of rail and road EPC packages concentrated in port-hinterland corridors. The executed examples (Obulavaripalle–Krishnapatnam, Haridaspur–Paradip) document both the delivery model (SPV + SDCL equity) and the scale. Contractors, rail-siding fabricators and signalling suppliers are the plausible capture points; the timing of tenders is not on file.",
+      "customers": ["Rail and road EPC contractors", "SPV partners (SDCL/SMFCL equity)", "Siding and signalling suppliers"],
+      "dependencies": ["Railways/MoRTH budget priority for port links", "GatiShakti network-planning clearances"],
+      "constraints": ["Planning-stage projects may be descoped or delayed", "Land acquisition remains the binding constraint on rail approaches"],
+      "confidence": "medium",
+      "evidence_needed": "Project-wise DPR status for the 144 planning-stage links.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:cez-industrial-development",
+      "title": "CEZ land and industrial-development services — if notification happens",
+      "classification": "hypothesis",
+      "pillar_key": "port_led_industrialisation",
+      "related": { "policy_ids": [], "port_ids": ["sgport:dahej", "sgport:paradip", "sgport:krishnapatnam"] },
+      "trigger": {
+        "text": "14 CEZs were identified with perspective plans prepared for all; CEU priority locations proposed at Kandla, Paradip, Ennore and Vizag; but no project has been sanctioned for financial assistance under the port-led industrialisation pillar (August 2026).",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:scconline-cez-2016" },
+          { "source_id": "src:shipmin-sagarmala-division" },
+          { "source_id": "src:pib-sagarmala-rs-2026" }
+        ]
+      },
+      "reasoning": "If even a few CEZs move to notified land with utilities, the immediate demand is for industrial-development services: master planning, land development, utilities EPC, and then anchor-plant construction in petrochemicals, food processing and electronics. The ports already handling those commodity chains (Dahej, Paradip, Krishnapatnam) are the likely first movers. This is a conditional hypothesis — the trigger evidence documents the absence, not the beginning.",
+      "customers": ["State industrial development corporations", "Industrial-land developers", "Anchor manufacturers in import-heavy sectors", "Utilities EPC firms"],
+      "dependencies": ["Cabinet/State notification of at least one CEZ", "Land assembly and environmental clearance", "Anchor-investor commitments"],
+      "constraints": ["Ten years after identification the pillar remains unfunded at scheme level", "CEZ geography overlaps existing PCPIR/SIR frameworks (e.g. Dahej PCPIR, Dholera SIR) which already deliver industrial land"],
+      "confidence": "low",
+      "evidence_needed": "Any CEZ notification in the Gazette; state CEZ legislation; anchor MoUs tied to CEZ land.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:cold-chain-fisheries",
+      "title": "Cold-chain and processing capacity on completed fishing-harbour infrastructure",
+      "classification": "emerging",
+      "pillar_key": "coastal_community",
+      "related": { "project_ids": ["sgpr:fishing-harbour-programme"] },
+      "trigger": {
+        "text": "Eleven fishing-harbour projects costing ₹1,057 crore are completed, benefiting 30,000+ fishermen (ministry statement); additional harbours are under implementation (Visakhapatnam ₹178.51 crore; Chennai; Kulai).",
+        "evidence": "fact",
+        "provenance": [{ "source_id": "src:pib-sagarmala-2026" }]
+      },
+      "reasoning": "Landing infrastructure creates the precondition, not the cold chain itself: ice plants, cold storage, freezing and processing capacity near harbours is the private investment gap that public landing-centre modernisation could unlock. Kerala and Karnataka harbour clusters are natural first locations. The linkage from harbour completion to cold-chain investment is analytical; no anchor cold-chain investor at a Sagarmala harbour is on file.",
+      "customers": ["Cold-chain operators", "Seafood processors and exporters", "Ice-plant and refrigeration equipment suppliers"],
+      "dependencies": ["Harbour operations and maintenance quality", "Power reliability at landing centres", "Export-demand cycles for seafood"],
+      "constraints": ["Beneficiary counts are programme-reported, not audited outcomes", "Cold-chain economics depend on export prices, not infrastructure alone"],
+      "confidence": "medium",
+      "evidence_needed": "Private cold-storage investments announced near Sagarmala harbours; harbour utilisation data.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:iwt-terminal-operations",
+      "title": "IWT terminal operations and NW-5 mineral freight",
+      "classification": "research_lead",
+      "pillar_key": "coastal_shipping_iwt",
+      "related": { "project_ids": ["sgpr:nw5-phase1", "sgpr:nw1-mmts"], "policy_ids": ["sgpol:nw-expansion-2026"] },
+      "trigger": {
+        "text": "NW-1 carries ~16.38 MT with 3 MMTs and 1 intermodal terminal completed; NW-5 Phase-1 (Talcher–Dhamra–Paradip) is under implementation and named first among 20 new waterways in Budget 2026-27; national-waterway cargo is claimed at 218 MMT for FY26 (flagged — see discrepancies).",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:shipmin-iwt-stats-2024-25" },
+          { "source_id": "src:pib-odisha-connectivity-2026" },
+          { "source_id": "src:indiabudget-speech-2026-27" }
+        ]
+      },
+      "reasoning": "NW-5 would give Odisha's coal and mineral belt a water alternative to congested rail; if the 218 MMT FY26 claim is real, a large unexplained share sits outside NW-1/2/3 and needs identification (possibly coastal shipping reclassification or other NWs). Both the operator economics on NW-5 and the composition of the 218 MMT claim are open questions requiring research before this surface can be graded above research lead.",
+      "customers": ["Thermal coal shippers", "IWT terminal operators", "Barge builders and lessors", "Port-side stockyards"],
+      "dependencies": ["NW-5 fairway completion and dredging reliability", "Verification of the FY26 IWT statistics jump", "Barge financing (SMFCL)"],
+      "constraints": ["IWT share of freight remains ~2%", "Monsoon-season service reliability"],
+      "confidence": "low",
+      "evidence_needed": "NW-wise FY26 statistics publication; NW-5 concession and O&M model; barge-order data.",
+      "last_reviewed": "2026-10-10"
+    },
+    {
+      "id": "sgo:port-digitisation",
+      "title": "Port digitisation and data systems (NNSTC/ONOP direction)",
+      "classification": "research_lead",
+      "pillar_key": "port_modernisation",
+      "related": { "port_ids": ["sgport:jnpa", "sgport:mundra"] },
+      "trigger": {
+        "text": "Sagar Aankalan benchmarking now covers 47 terminals; JNPA is ranked 22nd in the World Bank CPPI; the July 2026 reply references National Nodal Strategy for Transshipment at Ports / One Nation One Port Process without captured dates or costs; 26 port data layers are mapped on GatiShakti.",
+        "evidence": "fact",
+        "provenance": [
+          { "source_id": "src:shipmin-lppi-2024-25" },
+          { "source_id": "src:pib-infrastructure-factsheet-2026" },
+          { "source_id": "src:pib-maritime-infra-2026" }
+        ]
+      },
+      "reasoning": "Performance-index pressure and process-standardisation programmes tend to pull port-community-system software, terminal operating systems and data-integration work. India's TOS base is largely foreign (Zodiac, Navis-class). The direction is real but the procurement specifics are not yet captured — hence a research lead, not an emerging opportunity.",
+      "customers": ["Port authorities", "Terminal operators", "Port IT integrators", "Data-platform vendors"],
+      "dependencies": ["NNSTC/ONOP formal notification and funding", "Port-level IT budgets"],
+      "constraints": ["No captured budget or scheme text for NNSTC/ONOP", "Procurement cycles at ports are long"],
+      "confidence": "low",
+      "evidence_needed": "NNSTC/ONOP scheme documents; port IT tender pipelines.",
+      "last_reviewed": "2026-10-10"
+    }
+  ]
+}

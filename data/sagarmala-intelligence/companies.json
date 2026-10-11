@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "note": "Maritime industry and supplier ecosystem — companies with EVIDENCED relationships to Indian ports, terminals, projects and maritime manufacturing. Every relationship is stated only when a source explicitly documents it (operator, concessionaire, contractor, acquisition, fleet); proximity or general business description is never treated as a relationship. No company is described as an official Sagarmala partner, beneficiary or supplier without evidence for that precise relationship. Port/terminal references point at sgport: registry ids where they exist. Terminal-level facts never feed port-level throughput totals.",
+  "companies": [
+    {
+      "id": "sgco:adani-ports",
+      "name": "Adani Ports and SEZ Ltd (APSEZ)",
+      "category": "port_operator",
+      "hq": "Ahmedabad, Gujarat",
+      "relationships": [
+        { "to": "sgport:mundra", "type": "operates", "detail": "Flagship port with four container terminals (combined 7.5 M TEU capacity); ~199.54 MT FY25.", "provenance": [{ "source_id": "src:adaniports-website" }, { "source_id": "src:shipmin-bps-2024-25" }] },
+        { "to": "sgport:krishnapatnam", "type": "acquired", "detail": "75% in October 2020 (EV ₹13,675 crore), raised to 100% by acquiring Vishwasamudra Holdings' 25% for ₹2,800 crore.", "provenance": [{ "source_id": "src:adaniports-website" }, { "source_id": "src:wiki-adani-ports" }] },
+        { "to": "sgport:gangavaram", "type": "acquired", "detail": "31.5% from Warburg Pincus (₹1,954 crore, March 2021), Raju family stake (₹3,604 crore), remaining 58.1% in 2022 (~₹6,200 crore deal value) — 100% ownership.", "provenance": [{ "source_id": "src:warburgpincus-gangavaram-2021" }, { "source_id": "src:wiki-gangavaram-port" }] },
+        { "to": "sgport:gopalpur", "type": "acquired", "detail": "₹3,500 crore acquisition, March 2024.", "provenance": [{ "source_id": "src:wiki-adani-ports" }] },
+        { "to": "sgport:vizhinjam", "type": "concessionaire", "detail": "Sole-bidder 40-year operating concession (2015), ~₹6,000 crore superstructure; Phase 1 operations from 3 December 2024.", "provenance": [{ "source_id": "src:themaritimestandard-vizhinjam-2015" }, { "source_id": "src:wiki-vizhinjam-port" }] },
+        { "to": "sgport:kattupalli", "type": "operates", "detail": "Container terminal operated by Adani Kattupalli Port under authorisation from L&T Shipbuilding (port owner).", "provenance": [{ "source_id": "src:wiki-kattupalli-port" }] },
+        { "to": "sgport:kamarajar", "type": "concessionaire", "detail": "Adani Ennore Container Terminal — concession agreement 1 March 2014, ₹1,270 crore; operations from 19 March 2018.", "provenance": [{ "source_id": "src:kamarajarport-projects" }] },
+        { "to": "sgport:dhamra", "type": "operates", "detail": "Dhamra Port within the Adani portfolio; 46.08 MT FY25.", "provenance": [{ "source_id": "src:adaniports-website" }, { "source_id": "src:shipmin-bps-2024-25" }] }
+      ],
+      "scale_facts": [
+        { "text": "Company-operated capacity ~653 MMT; FY25 group cargo ~450 MMT (+7% YoY) with PAT of ₹11,061 crore; FY26 group cargo 500.8 MMT (+11%).", "evidence": "fact", "provenance": [{ "source_id": "src:adaniports-website" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:dp-world",
+      "name": "DP World",
+      "category": "terminal_operator",
+      "hq": "Dubai, UAE",
+      "relationships": [
+        { "to": "sgport:jnpa", "type": "operates", "detail": "NSICT — 30-year concession from 1997, India's first port PPP; re-award process underway 2025-26 after tariff-dispute settlement (April 2025).", "provenance": [{ "source_id": "src:dpworld-website" }] },
+        { "to": "sgport:jnpa", "type": "operates", "detail": "NSIGT — Nhava Sheva India Gateway Terminal.", "provenance": [{ "source_id": "src:dpworld-website" }] },
+        { "to": "sgport:cochin", "type": "concessionaire", "detail": "Vallarpadam International Container Transshipment Terminal — 30-year concession, reverting to Cochin Port thereafter; Zodiac terminal operating system.", "provenance": [{ "source_id": "src:dpworld-website" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:psa",
+      "name": "PSA International (PSA India)",
+      "category": "terminal_operator",
+      "hq": "Singapore",
+      "relationships": [
+        { "to": "sgport:chennai", "type": "operates", "detail": "CITPL — licensed 2007, full ownership of the port's second container terminal from 2010; three berths across an 832-metre quay.", "provenance": [{ "source_id": "src:psa-chennai-citpl" }] },
+        { "to": "sgport:jnpa", "type": "operates", "detail": "BMCT — JNPA's fourth container terminal; 4.8 M TEU capacity, 2,000 m quay; 2.6 M TEUs handled in CY2025.", "provenance": [{ "source_id": "src:psa-mumbai-bmct" }] },
+        { "to": "sgport:voc-tuticorin", "type": "exited", "detail": "PSA SICAL container terminal (JV formed December 1999); PSA wound up operations and exited the concession early in March 2025.", "provenance": [{ "source_id": "src:sical-website" }, { "source_id": "src:loadstar-psa-exit-2025" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:apm-terminals",
+      "name": "APM Terminals (A.P. Moller–Maersk)",
+      "category": "terminal_operator",
+      "hq": "The Hague, Netherlands",
+      "relationships": [
+        { "to": "sgport:pipavav", "type": "operates", "detail": "Majority shareholder and operator of Gujarat Pipavav Port Ltd; MoU with Gujarat Maritime Board for a ~US$2 billion expansion (30 October 2025).", "provenance": [{ "source_id": "src:apmterminals-website" }, { "source_id": "src:maersk-india-ties-2025" }] },
+        { "to": "sgport:jnpa", "type": "operates", "detail": "GTI — 74:26 JV with Container Corporation of India, inaugurated January 2007; US$115 million investment announced February 2022.", "provenance": [{ "source_id": "src:apmterminals-website" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:jm-baxi-cma",
+      "name": "Nhava Sheva Free Port Terminal (J.M. Baxi + CMA Terminals JV)",
+      "category": "terminal_operator",
+      "hq": "India",
+      "relationships": [
+        { "to": "sgport:jnpa", "type": "concessionaire", "detail": "NSFT concession signed 29 July with JNPA (J.M. Baxi & CMA Terminals joint venture).", "provenance": [{ "source_id": "src:jnport-container-terminals" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:jsw-infrastructure",
+      "name": "JSW Infrastructure Ltd",
+      "category": "port_operator",
+      "hq": "Mumbai, Maharashtra",
+      "relationships": [
+        { "to": "sgport:jaigarh", "type": "operates", "detail": "JSW Jaigarh Port — the group's Ratnagiri deep-water port.", "provenance": [{ "source_id": "src:jswinfrastructure-website" }] },
+        { "to": "sgport:paradip", "type": "operates", "detail": "Paradip East Quay Coal Terminal.", "provenance": [{ "source_id": "src:jswinfrastructure-website" }] },
+        { "to": "sgport:kamarajar", "type": "operates", "detail": "Ennore coal/bulk terminals.", "provenance": [{ "source_id": "src:jswinfrastructure-website" }] },
+        { "to": "sgport:new-mangalore", "type": "operates", "detail": "Mangalore coal and container terminals.", "provenance": [{ "source_id": "src:jswinfrastructure-website" }] }
+      ],
+      "scale_facts": [
+        { "text": "FY25 cargo 117 MT (+9% YoY, ~49% third-party); 13 Indian terminals; capacity ~170 MTPA targeting 400 MTPA by FY2030; acquired a majority stake in Navkar Corporation (port logistics) in March 2025.", "evidence": "fact", "provenance": [{ "source_id": "src:jswinfrastructure-website" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:chettinad-cibtpl",
+      "name": "Chettinad International Bulk Terminal Pvt Ltd (CIBTPL)",
+      "category": "terminal_operator",
+      "hq": "Chennai, Tamil Nadu",
+      "relationships": [
+        { "to": "sgport:kamarajar", "type": "concessionaire", "detail": "Multi-cargo terminal concession agreement signed 28 March 2014.", "provenance": [{ "source_id": "src:kamarajarport-projects" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:iocl-lng-spv",
+      "name": "Indian Oil LNG Pvt Ltd (SPV)",
+      "category": "terminal_operator",
+      "hq": "New Delhi",
+      "relationships": [
+        { "to": "sgport:kamarajar", "type": "concessionaire", "detail": "LNG terminal concession agreement signed 31 July 2015; construction commenced August 2015.", "provenance": [{ "source_id": "src:kamarajarport-projects" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:sci",
+      "name": "Shipping Corporation of India Ltd (SCI)",
+      "category": "shipping",
+      "hq": "Mumbai, Maharashtra",
+      "fleet": { "vessels": 58, "gt": 2939397, "dwt": 5261097, "profile": "12 crude, 11 product, 3 gas, 5 VLCC, 15 bulk, 2 liners, 10 offshore supply" },
+      "relationships": [
+        { "to": "sgpr:cems", "type": "support", "detail": "Supported creation of 96 training berths on MV Swaraj Dweep with the A&N Administration.", "provenance": [{ "source_id": "src:pib-hindi-maritime-jobs-2026" }] }
+      ],
+      "notes": "Strategic disinvestment approved in principle November 2019; EOI December 2020; privatisation reported on hold as of October 2025 (not captured from a URL-bearing source — flagged in coverage).",
+      "provenance": [{ "source_id": "src:shipindia-fleet" }],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:ge-shipping",
+      "name": "The Great Eastern Shipping Co Ltd",
+      "category": "shipping",
+      "hq": "Mumbai, Maharashtra",
+      "fleet": { "vessels": 44, "gt": 1970000, "as_of": "2023 data" },
+      "provenance": [{ "source_id": "src:mopsw-shipping-stats-2023" }],
+      "notes": "India's largest private shipping company by fleet size (2023 ministry statistics).",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:shreyas",
+      "name": "Shreyas Shipping & Logistics Ltd",
+      "category": "coastal_shipping",
+      "hq": "Mumbai, Maharashtra",
+      "fleet": { "vessels": 17, "as_of": "2023 data" },
+      "provenance": [{ "source_id": "src:mopsw-shipping-stats-2023" }],
+      "notes": "Coastal shipping operator (transshipment feeder services along the coast).",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:cochin-shipyard",
+      "name": "Cochin Shipyard Ltd (CSL)",
+      "category": "shipbuilder",
+      "hq": "Kochi, Kerala",
+      "relationships": [
+        { "to": "sgport:cochin", "type": "co_located", "detail": "₹1,800 crore new dry dock (15 acres, capable of aircraft carriers); land lease with Cochin Port Authority for a new shipbuilding facility (February 2025).", "provenance": [{ "source_id": "src:financialexpress-csl-lng-2025" }] }
+      ],
+      "scale_facts": [
+        { "text": "₹2,000 crore order for six LNG-powered feeder container vessels (October 2025) with ~74 vessels on order; two green tugs under construction; CSOV orders for European offshore-wind clients.", "evidence": "fact", "provenance": [{ "source_id": "src:financialexpress-csl-lng-2025" }, { "source_id": "src:constructionworld-csl-tugs-2025" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:grse",
+      "name": "Garden Reach Shipbuilders & Engineers Ltd (GRSE)",
+      "category": "shipbuilder",
+      "hq": "Kolkata, West Bengal",
+      "relationships": [
+        { "to": "sgport:kolkata-smp", "type": "co_located", "detail": "Defence shipbuilder on the Hooghly; contract for two Coastal Research Vessels signed 11 June 2025; naval orderbook.", "provenance": [{ "source_id": "src:grse-website" }] }
+      ],
+      "notes": "IPO September 2018; multiple Indian Navy warships under construction.",
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:hsl",
+      "name": "Hindustan Shipyard Ltd (HSL)",
+      "category": "shipbuilder",
+      "hq": "Visakhapatnam, Andhra Pradesh",
+      "relationships": [
+        { "to": "sgport:visakhapatnam", "type": "co_located", "detail": "India's first 44,000-tonne Fleet Support Ship project; order book growth from ~₹2,000 crore to ₹20,000+ crore in about three years.", "provenance": [{ "source_id": "src:eurasiareview-hsl-2025" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:goa-shipyard",
+      "name": "Goa Shipyard Ltd (GSL)",
+      "category": "shipbuilder",
+      "hq": "Vasco da Gama, Goa",
+      "relationships": [
+        { "to": "sgport:mormugao", "type": "co_located", "detail": "Mine Counter Measure Vessel collaboration for the Indian Navy.", "provenance": [{ "source_id": "src:goashipyard-website" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:lt-shipbuilding",
+      "name": "L&T Shipbuilding (Kattupalli)",
+      "category": "shipbuilder",
+      "hq": "Chennai, Tamil Nadu",
+      "relationships": [
+        { "to": "sgport:kattupalli", "type": "owner", "detail": "Built and owns Kattupalli port-shipyard complex; INS Samarthak multi-purpose vessel delivered 1 September 2026; part-construction of two Fleet Support Ships; US Navy ship-repair agreements.", "provenance": [{ "source_id": "src:larsentoubro-samarthak-2026" }, { "source_id": "src:wiki-kattupalli-port" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:dci",
+      "name": "Dredging Corporation of India (DCI)",
+      "category": "dredging",
+      "hq": "Visakhapatnam, Andhra Pradesh",
+      "relationships": [
+        { "to": "sgport:visakhapatnam", "type": "ownership", "detail": "GoI approved transfer of DCI to four government-owned major ports — Visakhapatnam, Paradip, JNPT and Kandla (Cabinet approval 8 November 2018).", "provenance": [{ "source_id": "src:wikipedia-dci" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:afcons",
+      "name": "Afcons Infrastructure Ltd",
+      "category": "marine_epc",
+      "hq": "Mumbai, Maharashtra",
+      "relationships": [
+        { "to": "sgpr:vadhavan-port", "type": "contractor", "detail": "₹5,301 crore EPC for the 10.14 km breakwater at Vadhavan Port (June 2026) — described as the second-longest breakwater in the world when completed.", "provenance": [{ "source_id": "src:prnewswire-afcons-vadhvan-2026" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:itd-deme-jandenul",
+      "name": "ITD Cementation with DEME and Jan De Nul (dredging JV)",
+      "category": "dredging",
+      "hq": "Mumbai / Zwijndrecht / Luxembourg",
+      "relationships": [
+        { "to": "sgpr:vadhavan-port", "type": "contractor", "detail": "Letter of award for Vadhavan dredging and land reclamation (March 2025); DEME share valued at up to €50 million.", "provenance": [{ "source_id": "src:wiki-vadhavan-port" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:van-oord",
+      "name": "Van Oord",
+      "category": "dredging",
+      "hq": "Rotterdam, Netherlands",
+      "relationships": [
+        { "to": "sgport:mumbai", "type": "contractor", "detail": "Mumbai Port maintenance-dredging contract (September 2013); Kandla navigation-channel dredging (2008).", "provenance": [{ "source_id": "src:dredgingtoday-vanoord-2013" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:jan-de-nul",
+      "name": "Jan De Nul",
+      "category": "dredging",
+      "hq": "Luxembourg",
+      "relationships": [
+        { "to": "sgport:mumbai", "type": "contractor", "detail": "€250 million JV dredging contract covering the 35.5 km Mumbai access channel, turning basins and anchorages (April 2017).", "provenance": [{ "source_id": "src:chronicle-jandenul-2017" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:zpmc",
+      "name": "Shanghai Zhenhua Heavy Industries (ZPMC)",
+      "category": "equipment_supplier",
+      "hq": "Shanghai, China",
+      "relationships": [
+        { "to": "sgport:vizhinjam", "type": "supplier", "detail": "24 RMG cranes (10 double-cantilever + 14 single-cantilever) plus quay cranes for the Adani terminal; third shipment on 5 January 2024.", "provenance": [{ "source_id": "src:zpmc-vizhinjam-2024" }] },
+        { "to": "sgport:mundra", "type": "supplier", "detail": "Quay-crane and RMG projects reported in the 2024 ZPMC shipment timeline.", "provenance": [{ "source_id": "src:zpmc-vizhinjam-2024", "notes": "Mundra orders appear in the same supplier timeline coverage." }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:konecranes",
+      "name": "Konecranes",
+      "category": "equipment_supplier",
+      "hq": "Hyvinkää, Finland",
+      "relationships": [
+        { "to": "sgport:mundra", "type": "supplier", "detail": "Order for 30 E-Hybrid RTGs booked Q3 2025 for an unnamed Indian greenfield container terminal (delivery Q1 2027) — the terminal is not identified in the source; recorded as a demand signal, not a specific port relationship.", "provenance": [{ "source_id": "src:logisticsmanager-konecranes-2025" }] }
+      ],
+      "last_verified": "2026-10-10"
+    },
+    {
+      "id": "sgco:iwai",
+      "name": "Inland Waterways Authority of India (IWAI)",
+      "category": "iwai_operator",
+      "hq": "Noida, Uttar Pradesh",
+      "relationships": [
+        { "to": "sgpr:nw1-mmts", "type": "implements", "detail": "Built and operates the NW-1 terminal chain — Varanasi MMT (1.26 MTPA), Kalughat intermodal terminal (77,000 TEU/yr), Sahibganj MMT; ran India's first container movement on inland waterways (PepsiCo containers, MV RN Tagore, October 2018).", "provenance": [{ "source_id": "src:iwai-national-waterways" }, { "source_id": "src:iwai-nw1-offerings" }] },
+        { "to": "sgpr:nw2-nw3-nw4-terminals", "type": "implements", "detail": "Terminal programmes on NW-2, NW-3 and NW-4, including Ro-Ro services.", "provenance": [{ "source_id": "src:iwai-national-waterways" }] }
+      ],
+      "last_verified": "2026-10-10"
+    }
+  ],
+  "ecosystem_note": {
+    "text": "The operator map has consolidated fast: Adani (west and east coast private ports plus Vizhinjam), DP World and PSA (JNPA/Cochin/Chennai box terminals), APM Terminals (Pipavav) and JSW (captive-plus-third-party bulk). Equipment supply for new deepwater capacity is currently foreign-led (ZPMC cranes; European dredging majors), while Indian EPC presence in the largest marine works (Afcons breakwater; ITD Cementation dredging JV) is documented and growing. Shipbuilding capacity is concentrated in PSU yards (Cochin, GRSE, HSL, GSL) plus L&T Kattupalli.",
+    "evidence": "analysis",
+    "provenance": []
+  }
+}

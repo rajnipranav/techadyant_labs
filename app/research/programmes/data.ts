@@ -217,7 +217,11 @@ export function sourcesFor(p: ProgrammeIntel): SourceRecord[] {
   p.supply_chain.forEach((c) => add(c.provenance));
   p.related_programmes.forEach((c) => add(c.provenance));
   p.corridor_refs.forEach((c) => add(c.provenance));
-  projectsFor(p).forEach(({ project, link }) => { add(project.provenance); add(link.provenance); });
+  projectsFor(p).forEach(({ project, link }) => {
+    add(project.provenance); add(link.provenance);
+    // contractor citations render in the projects table, so their sources must reach the index
+    (project.contractors ?? []).forEach((c) => add(c.provenance));
+  });
   opportunitiesFor(p).forEach(({ opp }) => add(opp.triggering_development.provenance));
   return sources.filter((s) => ids.has(s.id));
 }
