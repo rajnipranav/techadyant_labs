@@ -18,7 +18,7 @@ import policiesJson from '../../../data/sagarmala-intelligence/policies.json';
 import opportunitiesJson from '../../../data/sagarmala-intelligence/opportunities.json';
 import coverageJson from '../../../data/sagarmala-intelligence/coverage.json';
 import { sources, type MapPoint } from '../industrial/data';
-import { PORT_FALLBACK } from './footprint-geo';
+import { PORT_FALLBACK, LISTED_PORTS } from './footprint-geo';
 import type { ProvenanceRef, SourceRecord } from '../industrial/types';
 import type { ProgrammeIntel } from './types';
 
@@ -197,20 +197,48 @@ export const projectName = (id: string) => db.projects.find((x) => x.id === id)?
 const PORT_TYPE_LABEL: Record<string, string> = {
   major: 'Major port', major_dock_system: 'Major port (dock system)', major_under_construction: 'Major port, under construction', non_major: 'Non-major port',
 };
+const tierOf = (type: string): NonNullable<MapPoint['tier']> =>
+  type === 'major_under_construction' ? 'new' : type === 'non_major' ? 'minor' : 'major';
+/** Short map labels; the card heading keeps the full registry name. */
+const SHORT: Record<string, string> = {
+  'sgport:deendayal': 'Deendayal (Kandla)', 'sgport:jnpa': 'JNPA', 'sgport:kolkata-smp': 'Kolkata (SMP)', 'sgport:haldia-hdc': 'Haldia', 'sgport:visakhapatnam': 'Visakhapatnam',
+  'sgport:kamarajar': 'Kamarajar (Ennore)', 'sgport:voc-tuticorin': 'V.O.C. (Tuticorin)', 'sgport:galathea-bay': 'Galathea Bay',
+};
+const MODE_LABEL: Record<string, string> = { road: 'road', rail: 'rail', inland_waterway: 'waterway', coastal_shipping: 'ferry/coastal', multimodal: 'multimodal' };
 
-/** Every registry port that can be placed on the footprint map. Ports without recorded
- *  coordinates use a town-level fallback and say so on the card. */
+/** Documented connections per port, from the Sagarmala connectivity layer. */
+const connectionsByPort = (): Map<string, string[]> => {
+  const m = new Map<string, string[]>();
+  for (const c of (connectivityJson as unknown as { connections: { from_port: string; mode: string; name: string; status: string }[] }).connections) {
+    const arr = m.get(c.from_port) ?? [];
+    arr.push(`${c.name} (${MODE_LABEL[c.mode] ?? c.mode}, ${c.status.replace(/_/g, ' ')})`);
+    m.set(c.from_port, arr);
+  }
+  return m;
+};
+
+/** Every registry port that can be placed on the footprint map, plus ports named on the Sagarmala
+ *  "String of Ports" slide that the registry does not hold. Ports without recorded coordinates use
+ *  a town-level fallback and say so on the card. */
 export function sagarmalaMapPoints(): MapPoint[] {
-  return db.ports.flatMap((x) => {
+  const conns = connectionsByPort();
+  const reg = db.ports.flatMap((x): MapPoint[] => {
     const c = x.coordinates ?? (PORT_FALLBACK[x.id] ? { lat: PORT_FALLBACK[x.id][0], lng: PORT_FALLBACK[x.id][1] } : null);
     if (!c) return [];
     const mt = x.throughput?.fy2025_26_mt;
     const parts = [PORT_TYPE_LABEL[x.type] ?? x.type, x.authority ? `Authority: ${x.authority}` : '', mt ? `FY 2025-26 throughput ${mt} MT` : '', x.rank_fy26 ? `rank ${x.rank_fy26} among major ports` : '']
       .filter(Boolean);
+    const links = conns.get(x.id);
     return [{
-      id: x.id, kind: 'infra' as const, name: x.name.replace(/ \(.*\)$/, '').replace(/ Port Authority$/, ''), lat: c.lat, lng: c.lng, subtype: 'seaport',
+      id: x.id, kind: 'infra' as const, name: SHORT[x.id] ?? x.name.replace(/ \(.*\)$/, '').replace(/ Port Authority$/, '').replace(/ Port( Ltd)?$/, ''), lat: c.lat, lng: c.lng, subtype: 'seaport', tier: tierOf(x.type),
       status: x.status, state: x.state, href: '/research/programmes/sagarmala/#ports',
-      blurb: `${parts.join(' · ')}.${x.coordinates ? '' : ' Position is town-level (no coordinates on file).'}`, sectors: [],
+      blurb: `${parts.join(' · ')}.${links ? ` Documented connections: ${links.join('; ')}.` : ''}${x.coordinates ? '' : ' Position is town-level (no coordinates on file).'}`, sectors: [],
     }];
   });
+  const have = new Set(reg.map((r) => r.name.toLowerCase()));
+  const listed = LISTED_PORTS.filter((l) => !have.has(l.name.toLowerCase())).map((l): MapPoint => ({
+    id: `listed:${l.name}`, kind: 'infra', name: l.name, lat: l.lat, lng: l.lng, subtype: 'seaport', tier: 'listed', status: 'listed', state: l.state, href: null,
+    blurb: 'Named on the Sagarmala “String of Ports in India” slide (JNPA / PIB Mumbai deck). Not in the Atlas port registry, so no throughput or status is recorded. Position is town-level.', sectors: [],
+  }));
+  return [...reg, ...listed];
 }

@@ -1311,6 +1311,15 @@
       {
         "source_id": "src:shipmin-nonmajor-march2026"
       }
-    ]
+    ],
+    "also_named": {
+      "text": "Minor ports named on the Sagarmala \"String of Ports in India\" slide that this registry does not hold as records (names only, no throughput or status): Jakhau, Mandvi, Salaya, Okha, Pindhara, Bedi, Porbandar, Veraval, Jafrabad, Bhavnagar, Honavar, Malpe, Kozhikode (Calicut), Alappuzha (Alleppey), Neendakara, Kollam (Quilon), Colachel, Cuddalore, Puducherry (Pondicherry), Nagapattinam, Machilipatnam.",
+      "evidence": "fact",
+      "provenance": [
+        {
+          "source_id": "src:pib-mumbai-sagarmala-vision"
+        }
+      ]
+    }
   }
 }

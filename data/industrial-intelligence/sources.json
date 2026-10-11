@@ -2223,6 +2223,17 @@
    "accessed_date": "2026-10-11",
    "confidence": "low",
    "notes": "Undated in the capture. Reports the Railway Minister saying the 10.7 km Vizhinjam port–Balaramapuram line was included in the PM Gati Shakti master plan, after which Railways took over its construction and maintenance. Single press report; completion status and dates not verified."
+  },
+  {
+   "id": "src:pib-mumbai-sagarmala-vision",
+   "source_name": "Revised Final Sagarmala Vision (JNPA slide deck): \"String of Ports in India\"",
+   "publisher": "JNPA / PIB Mumbai",
+   "source_url": "https://cms.pib.gov.in/WriteReadData/userfiles/PIB%20Mumbai/Sagarmala.pdf",
+   "source_type": "government",
+   "publication_date": null,
+   "accessed_date": "2026-10-11",
+   "confidence": "medium",
+   "notes": "Undated slide deck. Slide 2 (\"String of Ports in India\", marked NOT TO SCALE) names major and minor ports along the coast. Used only for the names of ports not already in the Atlas registry; positions on the Techadyant map are town-level, set by Techadyant. No throughput or status is taken from the slide."
   }
  ]
 }
