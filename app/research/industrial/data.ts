@@ -322,7 +322,9 @@ export const inrCr = (cr: number | null) =>
   cr === null ? '—' : cr >= 100000 ? `₹${(cr / 100000).toFixed(2)} lakh cr` : `₹${cr.toLocaleString('en-IN')} cr`;
 
 /** Lightweight map payload — the only data shipped to the client. */
-export interface MapPoint { id: string; kind: 'node' | 'infra'; name: string; lat: number; lng: number; subtype: string; status: string; state: string | null; href: string | null; blurb: string; sectors: string[] }
+export interface MapPoint { id: string; kind: 'node' | 'infra'; name: string; lat: number; lng: number; subtype: string; status: string; state: string | null; href: string | null; blurb: string; sectors: string[];
+  /** Schematic straight-line path [lat, lng][] for linear assets; lat/lng is its first vertex. */
+  path?: [number, number][] }
 export function mapPoints(): MapPoint[] {
   const pts: MapPoint[] = [];
   for (const n of industrialNodes) {

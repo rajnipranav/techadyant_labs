@@ -102,6 +102,9 @@ span.ii-src-meta { display: inline; }
 .light .ii-map-outline { fill: rgba(0,0,0,.03); }
 .ii-map-pt { cursor: pointer; outline: none; }
 .ii-map-pt:focus-visible circle, .ii-map-pt:focus-visible rect { stroke: var(--text); stroke-width: 1.2; }
+.ii-map-route { fill: none; stroke-width: 1.8; stroke-dasharray: 5 3; stroke-linecap: round; opacity: .75; }
+.ii-map-line.is-sel .ii-map-route { stroke-width: 2.8; opacity: 1; }
+.ii-map-hit { fill: none; stroke: transparent; stroke-width: 10; }
 .ii-map-node text { font-size: 9px; fill: var(--text); font-weight: 600; pointer-events: none; }
 .ii-map-node.is-sel circle:first-child { stroke-width: 2; opacity: 1; }
 .ii-map-card { border-left: 1px solid var(--rule); padding: 6px 4px 6px 16px; }

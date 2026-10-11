@@ -17,7 +17,8 @@ import companiesJson from '../../../data/sagarmala-intelligence/companies.json';
 import policiesJson from '../../../data/sagarmala-intelligence/policies.json';
 import opportunitiesJson from '../../../data/sagarmala-intelligence/opportunities.json';
 import coverageJson from '../../../data/sagarmala-intelligence/coverage.json';
-import { sources } from '../industrial/data';
+import { sources, type MapPoint } from '../industrial/data';
+import { PORT_FALLBACK } from './footprint-geo';
 import type { ProvenanceRef, SourceRecord } from '../industrial/types';
 import type { ProgrammeIntel } from './types';
 
@@ -192,3 +193,24 @@ export function sourcesWithDatabase(p: ProgrammeIntel, base: SourceRecord[]): So
 /** Port ids -> port name, for rendering relationship targets inside the company directory. */
 export const portName = (id: string) => db.ports.find((x) => x.id === id)?.name ?? id;
 export const projectName = (id: string) => db.projects.find((x) => x.id === id)?.name ?? id;
+
+const PORT_TYPE_LABEL: Record<string, string> = {
+  major: 'Major port', major_dock_system: 'Major port (dock system)', major_under_construction: 'Major port, under construction', non_major: 'Non-major port',
+};
+
+/** Every registry port that can be placed on the footprint map. Ports without recorded
+ *  coordinates use a town-level fallback and say so on the card. */
+export function sagarmalaMapPoints(): MapPoint[] {
+  return db.ports.flatMap((x) => {
+    const c = x.coordinates ?? (PORT_FALLBACK[x.id] ? { lat: PORT_FALLBACK[x.id][0], lng: PORT_FALLBACK[x.id][1] } : null);
+    if (!c) return [];
+    const mt = x.throughput?.fy2025_26_mt;
+    const parts = [PORT_TYPE_LABEL[x.type] ?? x.type, x.authority ? `Authority: ${x.authority}` : '', mt ? `FY 2025-26 throughput ${mt} MT` : '', x.rank_fy26 ? `rank ${x.rank_fy26} among major ports` : '']
+      .filter(Boolean);
+    return [{
+      id: x.id, kind: 'infra' as const, name: x.name.replace(/ \(.*\)$/, '').replace(/ Port Authority$/, ''), lat: c.lat, lng: c.lng, subtype: 'seaport',
+      status: x.status, state: x.state, href: '/research/programmes/sagarmala/#ports',
+      blurb: `${parts.join(' · ')}.${x.coordinates ? '' : ' Position is town-level (no coordinates on file).'}`, sectors: [],
+    }];
+  });
+}
