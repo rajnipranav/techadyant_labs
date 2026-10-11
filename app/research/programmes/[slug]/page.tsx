@@ -170,7 +170,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
         {p.role === 'cross_cutting' && <div style={{ marginTop: 22 }}><CrossCuttingDiagram /></div>}
 
         <SectionHead id="footprint" kicker="03 · Geographic footprint" title={`Where ${p.short_name} meets India’s industrial geography`} cls="derived"
-          note={<>Shows only industrial nodes and infrastructure reached through an evidenced project link, not the programme’s full national network. Techadyant does not replicate PM GatiShakti’s GIS. National footprint: {p.geography.toLowerCase()}.</>} />
+          note={<>Shows only industrial nodes and infrastructure reached through an evidenced project link, not the programme’s full national network. Techadyant does not replicate PM GatiShakti’s GIS. National footprint: {p.geography.toLowerCase()}.{p.logistics_id === GCT_PROGRAMME_ID && <> The magenta layer plots the {gctCoverage.total_records} Gati Shakti Cargo Terminals verified in the Atlas, a sample of the {gctCoverage.network_aggregate_2026_09.commissioned_count ?? gctCoverage.network_aggregate_2026_07.commissioned_count} commissioned nationally. Positions are district or station centroids (±15–30 km).</>}</>} />
         {points.length ? <IndustrialMap points={points} outline={INDIA_OUTLINE} /> : <p className="pi-empty">No linked node or infrastructure with recorded coordinates yet.</p>}
         {cors.length > 0 && (
           <ul className="pi-links" style={{ marginTop: 14 }}>

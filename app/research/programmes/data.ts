@@ -19,6 +19,7 @@ import { RELATIONSHIP_TYPES } from '../industrial/types';
 import { signals, type SignalMeta } from '../../signals/data';
 import { reports } from '../../reports/data';
 import { corridors as nicdpCorridors } from '../../corridors/data';
+import { GCT_PROGRAMME_ID, gctMapPoints, terminalsForNode } from './cargo-terminals-data';
 import type { ProgrammeFile, ProgrammeIntel, ProgrammeLink, RoadmapProgramme } from './types';
 
 const file = programmesJson as unknown as ProgrammeFile;
@@ -199,7 +200,14 @@ export function corridorLinks(p: ProgrammeIntel): (LinkRef & { note: string; pro
 export function footprintPoints(p: ProgrammeIntel): MapPoint[] {
   const ids = new Set<string>([...nodesFor(p).map((n) => n.node.id), ...infraFor(p).map((i) => i.id)]);
   nodesFor(p).forEach((n) => n.paths.forEach((x) => x.infra && ids.add(x.infra.id)));
-  return mapPoints().filter((m) => ids.has(m.id));
+  const pts: MapPoint[] = mapPoints().filter((m) => ids.has(m.id));
+  if (p.logistics_id !== GCT_PROGRAMME_ID) return pts;
+  // Gati Shakti Cargo Terminals are the programme's own physical footprint. Industrial nodes a
+  // terminal is explicitly associated with join the map too (evidenced via the GCT record).
+  const gct = gctMapPoints();
+  const have = new Set(pts.map((x) => x.id));
+  mapPoints().forEach((m) => { if (m.kind === 'node' && !have.has(m.id) && terminalsForNode(m.id).length) pts.push(m); });
+  return [...pts, ...gct];
 }
 
 /** Every distinct registry source cited on a programme page, in registry order, numbered. */
