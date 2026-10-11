@@ -20,7 +20,9 @@ import { signals, type SignalMeta } from '../../signals/data';
 import { reports } from '../../reports/data';
 import { corridors as nicdpCorridors } from '../../corridors/data';
 import { sagarmalaFor, sagarmalaMapPoints } from './sagarmala-data';
-import { LINEAR_GEO } from './footprint-geo';
+import { LINEAR_GEO, FREIGHT_GEO } from './footprint-geo';
+import { corridorLine } from '../../corridors/geo';
+import routesJson from '../../../data/programme-intelligence/bharatmala-routes.json';
 import { GCT_PROGRAMME_ID, gctMapPoints, terminalsForNode } from './cargo-terminals-data';
 import type { ProgrammeFile, ProgrammeIntel, ProgrammeLink, RoadmapProgramme } from './types';
 
@@ -207,18 +209,33 @@ export function footprintPoints(p: ProgrammeIntel): MapPoint[] {
   for (const i of infraFor(p)) {
     const g = LINEAR_GEO[i.id];
     if (!g) continue;
+    // Prefer the route snapped onto NHAI's Bharatmala map; fall back to the town-to-town guide.
+    const snapped = (routesJson.routes as Record<string, number[][]>)[i.id] as [number, number][] | undefined;
+    const path = snapped && snapped.length > 1 ? snapped : g.path;
     pts.push({
-      id: i.id, kind: 'infra', name: i.name, lat: g.path[0][0], lng: g.path[0][1], subtype: i.type, status: i.status, state: i.state, href: null,
-      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. Drawn as a straight line between termini; not the alignment.`,
-      sectors: [], path: g.path.length > 1 ? g.path : undefined,
+      id: i.id, kind: 'infra', name: i.name, lat: path[0][0], lng: path[0][1], subtype: i.type, status: i.status, state: i.state, href: null,
+      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. ${snapped ? 'Shape follows NHAI’s Bharatmala map' : 'Drawn as straight segments joining the towns on the route'}; schematic, not the surveyed alignment.`,
+      sectors: [], path: path.length > 1 ? path : undefined,
     });
   }
   // The Sagarmala registry is the programme's own port footprint: plot every port, and drop the
   // duplicate project-linked seaport points that the registry already covers.
   const sg = sagarmalaFor(p) ? sagarmalaMapPoints() : [];
   if (sg.length) {
-    const near = (a: MapPoint) => sg.some((b) => Math.abs(a.lat - b.lat) < 0.15 && Math.abs(a.lng - b.lng) < 0.15);
-    return [...pts.filter((x) => !(x.subtype === 'seaport' && near(x))), ...sg];
+    // Backdrop for the port-connectivity pillar: the two dedicated freight corridors and the
+    // industrial corridors already mapped on this site. Context, not Sagarmala-funded assets.
+    const lines: MapPoint[] = [
+      ...Object.entries(FREIGHT_GEO).map(([k, g]): MapPoint => ({
+        id: `freight:${k}`, kind: 'infra', name: g.name, lat: g.path[0][0], lng: g.path[0][1], subtype: 'freight_corridor', status: 'operational', state: null, href: null,
+        blurb: `${g.note} Schematic line through the stations named; not the alignment.`, sectors: [], path: g.path,
+      })),
+      ...nicdpCorridors.filter((c) => corridorLine[c.slug]?.length > 1).map((c): MapPoint => {
+        const path = corridorLine[c.slug].map(([lng, lat]) => [lat, lng] as [number, number]);
+        return { id: `icor:${c.slug}`, kind: 'infra', name: c.name, lat: path[0][0], lng: path[0][1], subtype: 'industrial_corridor', status: c.cls, state: null, href: `/corridors/${c.slug}/`,
+          blurb: `${c.abbr} industrial corridor, shown through its mapped nodes (site corridor geometry). Ports on or near it feed Sagarmala’s port-led industrialisation pillar.`, sectors: [], path };
+      }),
+    ];
+    return [...pts.filter((x) => x.subtype !== 'seaport'), ...sg, ...lines];
   }
   if (p.logistics_id !== GCT_PROGRAMME_ID) return pts;
   // Gati Shakti Cargo Terminals are the programme's own physical footprint. Industrial nodes a

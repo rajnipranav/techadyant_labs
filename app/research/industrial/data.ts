@@ -324,7 +324,9 @@ export const inrCr = (cr: number | null) =>
 /** Lightweight map payload — the only data shipped to the client. */
 export interface MapPoint { id: string; kind: 'node' | 'infra'; name: string; lat: number; lng: number; subtype: string; status: string; state: string | null; href: string | null; blurb: string; sectors: string[];
   /** Schematic straight-line path [lat, lng][] for linear assets; lat/lng is its first vertex. */
-  path?: [number, number][] }
+  path?: [number, number][];
+  /** Port class on Sagarmala's map (drives marker style and layer). */
+  tier?: 'major' | 'minor' | 'new' | 'listed' }
 export function mapPoints(): MapPoint[] {
   const pts: MapPoint[] = [];
   for (const n of industrialNodes) {
