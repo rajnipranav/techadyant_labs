@@ -28,46 +28,12 @@ export interface ReportMeta {
   faq?: { q: string; a: string }[];
   sources?: string[];
   dateModified?: string;
-  author?: string;
-  externalPublication?: boolean;
   seo?: Record<string, any>;
 }
 
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'governing-logistics-s3-logic',
-  title: 'Governing Logistics Under Systemic Disruption',
-  subtitle: 'The S³-LOGIC framework as a governance diagnostic for India’s multimodal infrastructure system',
-  domain: 'Industrial Infrastructure',
-  edition: 'Guest Research Paper · October 2026',
-  published: '2026-10-09',
-  publishedLabel: 'October 2026',
-  readingTime: '~ 75 min read',
-  status: 'published',
-  summary: 'An author-led research paper proposing the S³-LOGIC framework for assessing governance conditions across India’s Western and Eastern Dedicated Freight Corridors and coastal maritime logistics. It examines sustainability, sovereignty and shock-resilience as mutually necessary conditions, and sets out a governance reform agenda for multimodal infrastructure. The methodology, scores and conclusions are those of the named authors.',
-  accent: '#2B7BBB',
-  access: 'free',
-  hasPdf: true,
-  pages: 59,
-  cover: '/covers/governing-logistics-s3-logic.jpg',
-  previewObject: 'https://labs.techadyant.com/previews/governing-logistics-s3-logic.pdf',
-  previewPages: 59,
-  author: 'B. Rama Rao and K. V. Ramakrishna',
-  externalPublication: true,
-  keywords: ['India logistics governance', 'multimodal infrastructure', 'Dedicated Freight Corridor', 'ULIP', 'logistics data governance', 'coastal shipping', 'freight resilience', 'S3-LOGIC'],
-  faq: [],
-  sources: ['Rama Rao, B. and Ramakrishna, K. V. — Governing Logistics Under Systemic Disruption (2026)', 'NITI Aayog, DPIIT, Ministry of Railways, Ministry of Ports Shipping and Waterways, World Bank and OECD material cited by the authors'],
-  dateModified: '2026-10-09',
-  seo: {
-    authors: ['B. Rama Rao', 'K. V. Ramakrishna'],
-    entities: ['India logistics governance', 'Western Dedicated Freight Corridor', 'Eastern Dedicated Freight Corridor', 'coastal maritime logistics', 'ULIP', 'S3-LOGIC'],
-    metaTitle: 'Governing Logistics Under Systemic Disruption | Free Research Paper',
-    schemaType: 'Report',
-    focusKeyword: 'India logistics governance',
-    metaDescription: 'A free author-led research paper on governance risks in India’s freight corridors: sustainability, logistics-data sovereignty and shock resilience.'
-  }
-}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
@@ -190,6 +156,60 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-10-10',
   seo: {
 
+}
+}, {
+  slug: 'governing-logistics-s3-logic',
+  title: 'Governing Logistics Under Systemic Disruption',
+  subtitle: 'The S³-LOGIC framework as a governance diagnostic for India’s multimodal infrastructure system',
+  domain: 'Industrial Infrastructure',
+  edition: 'Guest Research Paper · October 2026',
+  published: '2026-10-09',
+  publishedLabel: 'October 2026',
+  readingTime: '~ 75 min read',
+  status: 'published',
+  summary: 'An author-led research paper proposing the S³-LOGIC framework for assessing governance conditions across India’s Western and Eastern Dedicated Freight Corridors and coastal maritime logistics. It examines sustainability, sovereignty and shock-resilience as mutually necessary conditions, and sets out a governance reform agenda for multimodal infrastructure. The methodology, scores and conclusions are those of the named authors.',
+  accent: '#2B7BBB',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 53,
+  cover: '/covers/governing-logistics-s3-logic.jpg',
+  previewObject: 'https://labs.techadyant.com/previews/governing-logistics-s3-logic.pdf',
+  previewPages: 53,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India logistics governance', 'multimodal infrastructure', 'Dedicated Freight Corridor', 'ULIP', 'logistics data governance', 'coastal shipping', 'freight resilience', 'S3-LOGIC'],
+  faq: [{
+  a: 'A governance diagnostic for multimodal logistics that scores three non-substitutable pillars (Sustainability, Sovereignty, Shock-Resilience) on a 1 to 5 scale, with a composite band set by the weakest pillar.',
+  q: 'What is the S3-LOGIC framework?'
+}, {
+  a: 'All three assessed corridors are Fragile: the Western Dedicated Freight Corridor scores 2.30, the Eastern 2.20 and the Coastal Maritime Corridor 2.10. Sustainability is near 3.0 to 3.2, but sovereignty (1.6 to 1.8) and shock-resilience (1.7 to 1.9) are the binding constraints.',
+  q: 'How do India freight corridors score on governance?'
+}, {
+  a: 'India logistics digitalisation, notably the Unified Logistics Interface Platform (ULIP), is advancing faster than the institutions needed to govern logistics-data stewardship, platform accountability and sovereign control of freight information. The DPDP Act 2023 covers personal data but not operational logistics data.',
+  q: 'Why is sovereignty the weakest governance pillar?'
+}, {
+  a: 'Seven prescriptions, led by a National Logistics Data Sovereignty Act, MSME-accessible ULIP APIs and a National Freight Corridor Resilience Authority, plus a coastal freight governance programme, a freight demand-moderation instrument, annual platform governance audits and port data-sovereignty clauses.',
+  q: 'What governance reforms does the paper recommend?'
+}, {
+  a: 'An author-led guest research paper by B. Rama Rao and K. V. Ramakrishna, published by Techadyant Labs. Free to read and download as a 53-page PDF.',
+  q: 'Who wrote this report and is it free to read?'
+}],
+  sources: ['Rama Rao, B. and Ramakrishna, K. V. — Governing Logistics Under Systemic Disruption (2026)', 'NITI Aayog, DPIIT, Ministry of Railways, Ministry of Ports Shipping and Waterways, World Bank and OECD material cited by the authors'],
+  dateModified: '2026-10-09',
+  seo: {
+  author: 'B. Rama Rao and K. V. Ramakrishna',
+  authors: ['B. Rama Rao', 'K. V. Ramakrishna'],
+  entities: ['India logistics governance', 'Western Dedicated Freight Corridor', 'Eastern Dedicated Freight Corridor', 'Coastal Maritime Corridor', 'Unified Logistics Interface Platform (ULIP)', 'S3-LOGIC framework', 'National Logistics Data Sovereignty Act', 'Sagarmala Programme', 'Digital Personal Data Protection Act 2023', 'National Logistics Policy 2022'],
+  includes: ['Full 53-page research paper (PDF)', 'The S3-LOGIC governance diagnostic and band-classification criteria', 'Corridor-level governance scores for the Western DFC, Eastern DFC and Coastal Maritime corridor', 'Seven-point governance reform programme (G1 to G7)', 'India, China and EU comparative context', 'Full bibliography supplied by the authors'],
+  metaTitle: 'Governing Logistics Under Systemic Disruption | Free Research Paper',
+  schemaType: 'Report',
+  focusKeyword: 'India logistics governance',
+  metaDescription: 'A free author-led research paper on governance risks in India’s freight corridors: sustainability, logistics-data sovereignty and shock resilience.',
+  externalPublication: true
 }
 }, {
   slug: 'india-electronic-warfare-market-2026-2035',
@@ -697,6 +717,37 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
   slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
   title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
   subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
@@ -746,37 +797,6 @@ export const reports: ReportMeta[] = [{
   focusKeyword: 'india autonomous maritime systems market',
   metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
   related_reports: ['indian-navy-autonomous-maritime']
-}
-}, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
 }
 }, {
   slug: 'iaf-autonomous-air-power',
@@ -911,57 +931,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
-  slug: 'indian-navy-autonomous-maritime',
-  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
-  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Intelligence · Edition 1 · v1.0',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
-  accent: '#2E6497',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 153,
-  cover: '/covers/indian-navy-autonomous-maritime.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
-  previewPages: 15,
-  hasData: true,
-  priceWithData: 10900,
-  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
-  faq: [{
-  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
-  q: 'How big is India’s naval autonomous systems market by 2035?'
-}, {
-  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
-  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
-}, {
-  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
-  q: 'What are the binding constraints on India’s naval autonomy?'
-}, {
-  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
-  q: 'Who are the key players in India’s naval autonomous ecosystem?'
-}, {
-  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
-  q: 'Where are the biggest industrial opportunities?'
-}],
-  sources: [],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
-  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
-  schemaType: 'Report',
-  focusKeyword: 'india naval autonomous systems market',
-  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
-  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
-}
-}, {
   slug: 'q-day-india',
   title: 'Q-Day India',
   subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
@@ -1057,6 +1026,57 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'india solar manufacturing',
   metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
+}
+}, {
+  slug: 'indian-navy-autonomous-maritime',
+  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
+  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
+  accent: '#2E6497',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 153,
+  cover: '/covers/indian-navy-autonomous-maritime.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 10900,
+  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
+  faq: [{
+  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
+  q: 'How big is India’s naval autonomous systems market by 2035?'
+}, {
+  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
+  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
+}, {
+  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
+  q: 'What are the binding constraints on India’s naval autonomy?'
+}, {
+  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
+  q: 'Who are the key players in India’s naval autonomous ecosystem?'
+}, {
+  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
+  q: 'Where are the biggest industrial opportunities?'
+}],
+  sources: [],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
+  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
+  schemaType: 'Report',
+  focusKeyword: 'india naval autonomous systems market',
+  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
+  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
 }
 }, {
   slug: 'india-critical-manufacturing-dependencies',

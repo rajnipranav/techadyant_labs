@@ -5377,6 +5377,46 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['PM-SETU marked one year with 850 ITIs identified (172 hubs, 678 spokes) against a target of 1,000 upgraded ITIs.', 'Fourteen ITI clusters have been approved; the scheme\'s outlay is Rs 60,000 crore across Centre (Rs 30,000 crore), states (Rs 20,000 crore) and industry (Rs 10,000 crore).', '36 states and UTs have identified clusters, 35 have set up steering committees and 26 have begun inviting industry participation.', 'The factsheet reports identification and approvals, not trained or placed workers; no enrolment or placement data was given.', 'The Rs 3,446 crore plan value and the 51 per cent anchor-partner stake come from one report (DD India) and were not seen in the IANS coverage.'],
   sources: ['IANS via Morung Express (3 Oct 2026): https://morungexpress.com/pmsetu-identifies-850-itis-and-approves-14-clusters-in-one-year', 'IANS via NewKerala (3 Oct 2026): https://www.newkerala.com/news/a/pmsetu-identifies-850-itis-approves-14-clusters-one-379.htm', 'DD India (5 Oct 2026): https://ddindia.co.in/2026/10/pm-setu-completes-one-year-850-itis-identified-for-transformation/']
+}, {
+  slug: 'army-225-fpv-drones-aerodrone-gem-high-altitude-trials-2026',
+  no: 'S-146',
+  title: 'Army Orders 225 FPV Drones After 17,500-Foot Trials - A Roughly Rs 1.97 Crore GeM Bid Shows How Cheap and Fast Small-Drone Buying Has Become',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-09',
+  dateLabel: '9 Oct 2026',
+  status: 'live',
+  excerpt: 'The Indian Army has reportedly ordered 225 seven-inch FPV drones from Gurugram-based Aerodrone Robotics after high-altitude trials, through a GeM bid under the Department of Military Affairs. The reported bid value is about Rs 1.97 crore; component sourcing and delivery dates are not disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'Reports on 7 and 8 October say the Indian Army has ordered 225 first-person-view (FPV) drones from Aerodrone Robotics Pvt Ltd, a Gurugram-based subsidiary of Innovision Ltd. The Week names Aerodrone as the supplier. RNA Media, which reads the Government e-Marketplace (GeM) result, describes the drones as seven-inch FPV units and Aerodrone as the lowest bidder after competitive evaluation and high-altitude field trials. The other finalists it names are Abhyuday Bharat Projects, IG Strategic Systems and Droneyards Aerial Solutions.',
+  type: 'p'
+}, {
+  text: 'The trials reached 17,500 feet and assessed endurance, accuracy, speed and other operational requirements. RNA Media notes that this is a trial altitude, not a certified operational ceiling. The wider Army evaluation of indigenous unmanned systems is reported to include Ladakh and Spiti, but the exact location of the 17,500-foot trials is not given in the reports we read.',
+  type: 'p'
+}, {
+  text: 'The number worth checking',
+  type: 'h'
+}, {
+  text: 'RNA Media puts the value at about Rs 1.97 crore from a GeM procurement listing and cautions that a bid value does not by itself establish the final signed contract amount. Taken at face value, that is roughly Rs 87,500 per drone, our arithmetic and not a reported unit price. It would make this a small, fast, catalogue-style purchase rather than a programme: no emergency-procurement label, no delivery schedule and no model designation appear in the reports.',
+  type: 'p'
+}, {
+  text: 'What the reports do not say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the drones are configured for strike or only for surveillance, reconnaissance and target observation. The reports do not confirm strike configuration.', 'Which Army formation will receive them, and the delivery timeline.', 'Where the flight controllers, cameras, radios and motors come from. This matters because earlier Techadyant coverage of Indian defence drones found that component origin is rarely disclosed.', 'Trial results or pass criteria, beyond the altitude figure.']
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The signal is the buying pattern, not the quantity. The Army is competing small FPV orders on GeM, testing them at altitude and awarding on price among several Indian vendors. That favours supplier depth in India and quick iteration. But a low bid on a seven-inch FPV drone says nothing about whether the electronics inside are Indian, and these reports give no bill of materials. The next evidence to look for is delivery, a second order, and any disclosure of component sourcing.',
+  type: 'p'
+}],
+  takeaways: ['The Army has reportedly ordered 225 seven-inch FPV drones from Aerodrone Robotics after trials up to 17,500 feet.', 'The route was a GeM bid under the Department of Military Affairs; Abhyuday Bharat Projects, IG Strategic Systems and Droneyards Aerial Solutions were other finalists.', 'RNA Media reports a bid value of about Rs 1.97 crore, roughly Rs 87,500 per drone on our arithmetic, and notes it is not necessarily the final contract amount.', 'Strike configuration, receiving unit, delivery timeline and component origin are not disclosed in the reports.', 'The 17,500-foot figure is a trial altitude, not a certified operational ceiling.'],
+  sources: ['The Week (7 Oct 2026): https://www.theweek.in/news/defence/2026/10/07/indian-armys-high-altitude-warfare-capabilities-set-for-a-major-boost-as-force-adds-225-fpv-drones.html', 'RNA Media (8 Oct 2026): https://www.rnamedia.in/army/indian-army-orders-225-fpv-drones-after-high-altitude-trials-at-17500-feet/23912', 'Raksha Samachar (Oct 2026): https://www.rakshasamachar.com/indian-army-news/indian-army-fpv-drones-orders-225-indigenous-after-17500-feet-trials/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
