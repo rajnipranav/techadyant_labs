@@ -2190,6 +2190,39 @@
    "accessed_date": "2026-10-09",
    "confidence": "high",
    "notes": "Cross-corroborates PIB PRID 2136909: Maruti Manesar GCT loading capacity of 4.5 lakh automobiles per annum. Independent trade-press confirmation of the capacity figure."
+  },
+  {
+   "id": "src:swarajya-npg95-vadhavan-2025",
+   "source_name": "95th NPG meeting under PM GatiShakti: eight-lane NH-248S highway to Vadhavan port among five projects reviewed",
+   "publisher": "Swarajya",
+   "source_url": "https://swarajyamag.com/amp/story/news-brief%2Feight-lane-highway-for-vadhavan-port-connectivity-ahmedabad-metro-extension-among-five-projects-reviewed-at-pm-gatishakti-panel-meet",
+   "source_type": "trade_press",
+   "publication_date": "2025-06-13",
+   "accessed_date": "2026-10-11",
+   "confidence": "medium",
+   "notes": "Secondary reports of the 95th Network Planning Group meeting (chaired by DPIIT Joint Secretary). Reports differ on the weekday; the PIB release itself was not retrieved. Reported: MoRTH proposal for an 8-lane access-controlled highway on NH-248S connecting the proposed Vadhavan port to the Delhi–Mumbai Expressway and NH-48. NPG evaluation is a network-fit review, not a sanction."
+  },
+  {
+   "id": "src:swarajya-gatishakti-airports-2023",
+   "source_name": "PM Gati Shakti: Aviation and Railway Ministries join forces to expedite rail access for three upcoming airports",
+   "publisher": "Swarajya",
+   "source_url": "https://swarajyamag.com/infrastructure/pm-gati-shakti-aviation-and-railway-ministries-join-forces-to-expedite-rail-access-for-three-upcoming-airports",
+   "source_type": "trade_press",
+   "publication_date": "2023-10-01",
+   "accessed_date": "2026-10-11",
+   "confidence": "medium",
+   "notes": "Dated October 2023 (day not captured); cites a Business Standard report. Civil Aviation Minister wrote to the Railways Minister on 8 May and the ministries agreed on 10 July to coordinate rail links to Noida, Navi Mumbai and Dholera airports, identified as high-impact projects under the PM GatiShakti National Master Plan. Timelines in the article are out of date; no current rail-link status is claimed here."
+  },
+  {
+   "id": "src:kerala-kaumudi-vizhinjam-rail",
+   "source_name": "Vizhinjam port rail link to be completed",
+   "publisher": "Kerala Kaumudi",
+   "source_url": "https://keralakaumudi.com/en/kerala/general/vizhinjam-port-rail-link-to-be-completed-1789217",
+   "source_type": "trade_press",
+   "publication_date": null,
+   "accessed_date": "2026-10-11",
+   "confidence": "low",
+   "notes": "Undated in the capture. Reports the Railway Minister saying the 10.7 km Vizhinjam port–Balaramapuram line was included in the PM Gati Shakti master plan, after which Railways took over its construction and maintenance. Single press report; completion status and dates not verified."
   }
  ]
 }

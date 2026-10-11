@@ -126,11 +126,11 @@
    "operator": null,
    "state": "Gujarat",
    "coordinates": {
-    "lat": null,
-    "lng": null,
-    "coord_source": null,
-    "confidence": null,
-    "note": "Not recorded; distance to the SIR is stated by sources (expressway interchange at Ch. 67)."
+    "lat": 22.3,
+    "lng": 72.1,
+    "coord_source": "approximate",
+    "confidence": "low",
+    "note": "Placed near the Dholera SIR (±15 km); exact site not recorded in the sources."
    },
    "classification": "international",
    "cargo_handling": null,
@@ -1689,6 +1689,78 @@
     }
    ],
    "last_verified": "2026-10-10"
+  },
+  {
+   "id": "infra:nh248s-vadhavan-highway",
+   "name": "NH-248S access-controlled highway to Vadhavan port (proposed)",
+   "type": "national_highway",
+   "status": "planned",
+   "operator": "MoRTH",
+   "state": "Maharashtra",
+   "coordinates": {
+    "lat": null,
+    "lng": null,
+    "coord_source": null,
+    "confidence": null,
+    "note": "Linear asset; not point-located."
+   },
+   "classification": null,
+   "cargo_handling": null,
+   "facts": [
+    {
+     "label": "Proposal",
+     "value": "8-lane access-controlled highway connecting the proposed Vadhavan port to the Delhi–Mumbai Expressway and NH-48",
+     "as_of": "2025-06-13",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:swarajya-npg95-vadhavan-2025"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:swarajya-npg95-vadhavan-2025"
+    }
+   ],
+   "last_verified": "2026-10-11"
+  },
+  {
+   "id": "infra:rail-vizhinjam-balaramapuram",
+   "name": "Vizhinjam port–Balaramapuram rail link",
+   "type": "railway_line",
+   "status": "unknown",
+   "operator": "Indian Railways",
+   "state": "Kerala",
+   "coordinates": {
+    "lat": null,
+    "lng": null,
+    "coord_source": null,
+    "confidence": null,
+    "note": "Linear asset; not point-located."
+   },
+   "classification": null,
+   "cargo_handling": null,
+   "facts": [
+    {
+     "label": "Length",
+     "value": "10.7 km, connecting Vizhinjam port with Balaramapuram station (as reported)",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:kerala-kaumudi-vizhinjam-rail"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:kerala-kaumudi-vizhinjam-rail"
+    }
+   ],
+   "last_verified": "2026-10-11"
   }
  ]
 }
