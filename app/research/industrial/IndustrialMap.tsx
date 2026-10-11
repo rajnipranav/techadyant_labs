@@ -9,6 +9,7 @@ import { projectToSvg } from './geo';
 export interface MapPointProp {
   id: string; kind: 'node' | 'infra'; name: string; lat: number; lng: number;
   subtype: string; status: string; state: string | null; href: string | null; blurb: string; sectors: string[];
+  path?: [number, number][];
 }
 
 const LAYERS = [
@@ -16,17 +17,18 @@ const LAYERS = [
   { key: 'seaport', label: 'Seaports', match: (p: MapPointProp) => p.subtype === 'seaport' },
   { key: 'airport', label: 'Cargo airports', match: (p: MapPointProp) => p.subtype === 'airport' },
   { key: 'freight', label: 'DFC stations', match: (p: MapPointProp) => p.subtype === 'dfc_station' },
+  { key: 'road', label: 'Expressways', match: (p: MapPointProp) => p.subtype === 'expressway' || p.subtype === 'national_highway' },
   { key: 'gct', label: 'Cargo terminals', match: (p: MapPointProp) => p.subtype === 'cargo_terminal' },
   { key: 'rail', label: 'Rail', match: (p: MapPointProp) => p.subtype === 'railway_station' },
 ] as const;
 
-const COLOR: Record<string, string> = { node: '#F5B544', seaport: '#2E86C1', airport: '#38E1C4', freight: '#C2603A', rail: '#9AA63A', gct: '#D96FD0' };
+const COLOR: Record<string, string> = { node: '#F5B544', seaport: '#2E86C1', airport: '#38E1C4', freight: '#C2603A', rail: '#9AA63A', gct: '#D96FD0', road: '#8B7CF6' };
 const layerOf = (p: MapPointProp) => LAYERS.find((l) => l.match(p))?.key ?? 'rail';
 
 export function IndustrialMap({ points, outline }: { points: MapPointProp[]; outline: string }) {
-  const [on, setOn] = useState<Record<string, boolean>>({ node: true, seaport: true, airport: true, freight: true, rail: true, gct: true });
+  const [on, setOn] = useState<Record<string, boolean>>({ node: true, seaport: true, airport: true, freight: true, rail: true, gct: true, road: true });
   const [state, setState] = useState<string>('all');
-  const [sel, setSel] = useState<string | null>(points.find((p) => p.kind === 'node')?.id ?? null);
+  const [sel, setSel] = useState<string | null>((points.find((p) => p.kind === 'node') ?? points[0])?.id ?? null);
 
   const states = useMemo(() => Array.from(new Set(points.map((p) => p.state).filter(Boolean) as string[])).sort(), [points]);
   const visible = points.filter((p) => on[layerOf(p)] && (state === 'all' || p.state === state));
@@ -52,7 +54,17 @@ export function IndustrialMap({ points, outline }: { points: MapPointProp[]; out
       <div className="ii-map-body">
         <svg viewBox="30 60 425 470" role="img" aria-label="Schematic map of pilot industrial nodes and the infrastructure they connect to">
           <path d={outline} className="ii-map-outline" />
-          {visible.filter((p) => p.kind === 'infra').map((p) => {
+          {visible.filter((p) => p.path && p.path.length > 1).map((p) => {
+            const d = p.path!.map(([la, ln], i) => { const [x, y] = projectToSvg(la, ln); return `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`; }).join(' ');
+            return (
+              <g key={`${p.id}-line`} className={`ii-map-pt ii-map-line${sel === p.id ? ' is-sel' : ''}`} onClick={() => setSel(p.id)} tabIndex={0} role="button" aria-label={p.name}
+                onKeyDown={(e) => { if (e.key === 'Enter') setSel(p.id); }}>
+                <path d={d} className="ii-map-hit" />
+                <path d={d} stroke={COLOR[layerOf(p)]} className="ii-map-route" />
+              </g>
+            );
+          })}
+          {visible.filter((p) => p.kind === 'infra' && !(p.path && p.path.length > 1)).map((p) => {
             const [x, y] = projectToSvg(p.lat, p.lng);
             return (
               <g key={p.id} className="ii-map-pt" onClick={() => setSel(p.id)} tabIndex={0} role="button" aria-label={p.name}

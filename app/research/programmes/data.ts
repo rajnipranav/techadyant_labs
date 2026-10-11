@@ -19,6 +19,8 @@ import { RELATIONSHIP_TYPES } from '../industrial/types';
 import { signals, type SignalMeta } from '../../signals/data';
 import { reports } from '../../reports/data';
 import { corridors as nicdpCorridors } from '../../corridors/data';
+import { sagarmalaFor, sagarmalaMapPoints } from './sagarmala-data';
+import { LINEAR_GEO } from './footprint-geo';
 import { GCT_PROGRAMME_ID, gctMapPoints, terminalsForNode } from './cargo-terminals-data';
 import type { ProgrammeFile, ProgrammeIntel, ProgrammeLink, RoadmapProgramme } from './types';
 
@@ -201,6 +203,23 @@ export function footprintPoints(p: ProgrammeIntel): MapPoint[] {
   const ids = new Set<string>([...nodesFor(p).map((n) => n.node.id), ...infraFor(p).map((i) => i.id)]);
   nodesFor(p).forEach((n) => n.paths.forEach((x) => x.infra && ids.add(x.infra.id)));
   const pts: MapPoint[] = mapPoints().filter((m) => ids.has(m.id));
+  // Linear assets (expressways, tunnels) have no point in the registry: draw them schematically.
+  for (const i of infraFor(p)) {
+    const g = LINEAR_GEO[i.id];
+    if (!g) continue;
+    pts.push({
+      id: i.id, kind: 'infra', name: i.name, lat: g.path[0][0], lng: g.path[0][1], subtype: i.type, status: i.status, state: i.state, href: null,
+      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. Drawn as a straight line between termini; not the alignment.`,
+      sectors: [], path: g.path.length > 1 ? g.path : undefined,
+    });
+  }
+  // The Sagarmala registry is the programme's own port footprint: plot every port, and drop the
+  // duplicate project-linked seaport points that the registry already covers.
+  const sg = sagarmalaFor(p) ? sagarmalaMapPoints() : [];
+  if (sg.length) {
+    const near = (a: MapPoint) => sg.some((b) => Math.abs(a.lat - b.lat) < 0.15 && Math.abs(a.lng - b.lng) < 0.15);
+    return [...pts.filter((x) => !(x.subtype === 'seaport' && near(x))), ...sg];
+  }
   if (p.logistics_id !== GCT_PROGRAMME_ID) return pts;
   // Gati Shakti Cargo Terminals are the programme's own physical footprint. Industrial nodes a
   // terminal is explicitly associated with join the map too (evidenced via the GCT record).
