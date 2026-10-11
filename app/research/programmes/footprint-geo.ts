@@ -1,4 +1,7 @@
-// Schematic geometry for the programme footprint map. Linear assets (expressways, tunnels) are
+// Fallback geometry for the programme footprint map. Bharatmala roads are drawn from
+// data/programme-intelligence/bharatmala-routes.json (snapped onto NHAI's map by
+// scripts/extract-bharatmala-network.py) when available; these guides seed that snap and
+// cover the rest. Linear assets (expressways, tunnels) are
 // not point-located in the registry, and some Sagarmala ports carry no coordinates. Everything
 // here is a public place-name position, good to roughly ±10–20 km, joined by STRAIGHT SEGMENTS
 // between towns the route is reported to pass through. It is not the surveyed alignment and must never be used for measurement.

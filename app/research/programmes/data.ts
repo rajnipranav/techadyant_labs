@@ -21,6 +21,7 @@ import { reports } from '../../reports/data';
 import { corridors as nicdpCorridors } from '../../corridors/data';
 import { sagarmalaFor, sagarmalaMapPoints } from './sagarmala-data';
 import { LINEAR_GEO } from './footprint-geo';
+import routesJson from '../../../data/programme-intelligence/bharatmala-routes.json';
 import { GCT_PROGRAMME_ID, gctMapPoints, terminalsForNode } from './cargo-terminals-data';
 import type { ProgrammeFile, ProgrammeIntel, ProgrammeLink, RoadmapProgramme } from './types';
 
@@ -207,10 +208,13 @@ export function footprintPoints(p: ProgrammeIntel): MapPoint[] {
   for (const i of infraFor(p)) {
     const g = LINEAR_GEO[i.id];
     if (!g) continue;
+    // Prefer the route snapped onto NHAI's Bharatmala map; fall back to the town-to-town guide.
+    const snapped = (routesJson.routes as Record<string, number[][]>)[i.id] as [number, number][] | undefined;
+    const path = snapped && snapped.length > 1 ? snapped : g.path;
     pts.push({
-      id: i.id, kind: 'infra', name: i.name, lat: g.path[0][0], lng: g.path[0][1], subtype: i.type, status: i.status, state: i.state, href: null,
-      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. Drawn as straight segments joining the towns on the route; not the surveyed alignment.`,
-      sectors: [], path: g.path.length > 1 ? g.path : undefined,
+      id: i.id, kind: 'infra', name: i.name, lat: path[0][0], lng: path[0][1], subtype: i.type, status: i.status, state: i.state, href: null,
+      blurb: `${i.facts[0] ? `${i.facts[0].label}: ${i.facts[0].value}. ` : ''}${g.note}. ${snapped ? 'Shape follows NHAI’s Bharatmala map' : 'Drawn as straight segments joining the towns on the route'}; schematic, not the surveyed alignment.`,
+      sectors: [], path: path.length > 1 ? path : undefined,
     });
   }
   // The Sagarmala registry is the programme's own port footprint: plot every port, and drop the
