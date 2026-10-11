@@ -16,14 +16,15 @@ const LAYERS = [
   { key: 'seaport', label: 'Seaports', match: (p: MapPointProp) => p.subtype === 'seaport' },
   { key: 'airport', label: 'Cargo airports', match: (p: MapPointProp) => p.subtype === 'airport' },
   { key: 'freight', label: 'DFC stations', match: (p: MapPointProp) => p.subtype === 'dfc_station' },
+  { key: 'gct', label: 'Cargo terminals', match: (p: MapPointProp) => p.subtype === 'cargo_terminal' },
   { key: 'rail', label: 'Rail', match: (p: MapPointProp) => p.subtype === 'railway_station' },
 ] as const;
 
-const COLOR: Record<string, string> = { node: '#F5B544', seaport: '#2E86C1', airport: '#38E1C4', freight: '#C2603A', rail: '#9AA63A' };
+const COLOR: Record<string, string> = { node: '#F5B544', seaport: '#2E86C1', airport: '#38E1C4', freight: '#C2603A', rail: '#9AA63A', gct: '#D96FD0' };
 const layerOf = (p: MapPointProp) => LAYERS.find((l) => l.match(p))?.key ?? 'rail';
 
 export function IndustrialMap({ points, outline }: { points: MapPointProp[]; outline: string }) {
-  const [on, setOn] = useState<Record<string, boolean>>({ node: true, seaport: true, airport: true, freight: true, rail: true });
+  const [on, setOn] = useState<Record<string, boolean>>({ node: true, seaport: true, airport: true, freight: true, rail: true, gct: true });
   const [state, setState] = useState<string>('all');
   const [sel, setSel] = useState<string | null>(points.find((p) => p.kind === 'node')?.id ?? null);
 
@@ -34,7 +35,7 @@ export function IndustrialMap({ points, outline }: { points: MapPointProp[]; out
   return (
     <div className="ii-map">
       <div className="ii-map-controls" role="group" aria-label="Map layers">
-        {LAYERS.map((l) => (
+        {LAYERS.filter((l) => points.some(l.match)).map((l) => (
           <button key={l.key} type="button" aria-pressed={on[l.key]} className={on[l.key] ? 'is-on' : ''}
             onClick={() => setOn({ ...on, [l.key]: !on[l.key] })}>
             <i style={{ background: COLOR[l.key] }} />{l.label}

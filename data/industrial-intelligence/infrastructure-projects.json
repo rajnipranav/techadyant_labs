@@ -198,9 +198,23 @@
     },
     {
      "source_id": "src:pib-ne8-expressway-2026"
+    },
+    {
+     "source_id": "src:swarajya-gatishakti-airports-2023"
     }
    ],
-   "last_verified": "2026-10-08"
+   "last_verified": "2026-10-08",
+   "programme_links": [
+    {
+     "programme_id": "pm-gati-shakti",
+     "type": "planned_on",
+     "provenance": [
+      {
+       "source_id": "src:swarajya-gatishakti-airports-2023"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "proj:wdfc-final-sections-2026",
@@ -339,9 +353,23 @@
     },
     {
      "source_id": "src:fpj-noida-cargo-2026"
+    },
+    {
+     "source_id": "src:swarajya-gatishakti-airports-2023"
     }
    ],
-   "last_verified": "2026-10-08"
+   "last_verified": "2026-10-08",
+   "programme_links": [
+    {
+     "programme_id": "pm-gati-shakti",
+     "type": "planned_on",
+     "provenance": [
+      {
+       "source_id": "src:swarajya-gatishakti-airports-2023"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "proj:deendayal-rob-lc235",
@@ -1312,6 +1340,118 @@
     }
    ],
    "last_verified": "2026-10-10"
+  },
+  {
+   "id": "proj:nh248s-vadhavan-access-highway",
+   "name": "NH-248S access-controlled highway to Vadhavan port",
+   "sector": "road",
+   "project_type": "Access-controlled highway (port connectivity)",
+   "states": [
+    "Maharashtra"
+   ],
+   "districts": [],
+   "implementing_agency": null,
+   "estimated_cost_cr": null,
+   "cost_note": "Cost not captured in the sources on file.",
+   "status": "announced",
+   "status_note": "Evaluated at the 95th Network Planning Group meeting (June 2025) for network fit; an NPG evaluation is not a sanction. No approval or construction status recorded.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": null,
+   "infra_ids": [
+    "infra:nh248s-vadhavan-highway",
+    "infra:port-vadhavan"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [],
+   "strategic_significance": "Gives the planned offshore Vadhavan port its road link to the Delhi–Mumbai Expressway and NH-48 before the port opens: the port-to-hinterland leg that Gati Shakti plans together with the port.",
+   "itla_appraisal_tier": false,
+   "facts": [
+    {
+     "label": "Scope",
+     "value": "8-lane access-controlled highway; direct connection to the Delhi–Mumbai Expressway and NH-48 (as reported)",
+     "as_of": "2025-06-13",
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:swarajya-npg95-vadhavan-2025"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:swarajya-npg95-vadhavan-2025"
+    }
+   ],
+   "last_verified": "2026-10-11",
+   "programme_links": [
+    {
+     "programme_id": "pm-gati-shakti",
+     "type": "planned_on",
+     "provenance": [
+      {
+       "source_id": "src:swarajya-npg95-vadhavan-2025"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "proj:vizhinjam-rail-link",
+   "name": "Vizhinjam port–Balaramapuram rail link",
+   "sector": "rail",
+   "project_type": "Port rail connectivity (10.7 km)",
+   "states": [
+    "Kerala"
+   ],
+   "districts": [],
+   "implementing_agency": null,
+   "estimated_cost_cr": null,
+   "cost_note": "Cost not captured in the sources on file.",
+   "status": "unknown",
+   "status_note": "Reported as included in the PM Gati Shakti master plan, with Railways taking over construction and maintenance. Single press report; status and dates not verified.",
+   "approval_date": null,
+   "expected_completion": null,
+   "corridor": null,
+   "infra_ids": [
+    "infra:rail-vizhinjam-balaramapuram",
+    "infra:port-vizhinjam"
+   ],
+   "affected_node_ids": [],
+   "affected_sectors": [],
+   "strategic_significance": "Gives India’s first deep-water transhipment port a rail link to the national network, the last-mile gap that decides whether Vizhinjam cargo moves inland by rail.",
+   "itla_appraisal_tier": false,
+   "facts": [
+    {
+     "label": "Length",
+     "value": "10.7 km (as reported)",
+     "as_of": null,
+     "evidence": "fact",
+     "provenance": [
+      {
+       "source_id": "src:kerala-kaumudi-vizhinjam-rail"
+      }
+     ]
+    }
+   ],
+   "provenance": [
+    {
+     "source_id": "src:kerala-kaumudi-vizhinjam-rail"
+    }
+   ],
+   "last_verified": "2026-10-11",
+   "programme_links": [
+    {
+     "programme_id": "pm-gati-shakti",
+     "type": "planned_on",
+     "provenance": [
+      {
+       "source_id": "src:kerala-kaumudi-vizhinjam-rail"
+      }
+     ]
+    }
+   ]
   }
  ]
 }

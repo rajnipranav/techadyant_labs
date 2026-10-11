@@ -131,3 +131,45 @@ export const byOperator = (): { type: GctOperator; count: number }[] => {
   cargoTerminals.forEach((t) => m.set(t.operator_type, (m.get(t.operator_type) ?? 0) + 1));
   return [...m.entries()].map(([type, count]) => ({ type, count })).sort((a, b) => b.count - a.count);
 };
+
+/**
+ * Schematic map positions for the footprint infographic. Sources name a district or a station,
+ * never a surveyed gate, so every position is a district/station-level centroid (±15–30 km)
+ * and is labelled as such on the map card. Not for measurement.
+ */
+const GCT_COORDS: Record<string, [number, number]> = {
+  'gct:shivlakha': [23.3, 70.5],
+  'gct:linch': [23.6, 72.4],
+  'gct:maruti-manesar': [28.35, 76.93],
+  'gct:sindi-nagpur-mmlp': [20.8, 78.85],
+  'gct:fuelco-washeries-nagpur': [21.15, 79.09],
+  'gct:dmgm-new-makardhokada': [20.95, 79.21],
+  'gct:navkar-bb': [19.0, 73.0],
+  'gct:new-gothangam': [21.2, 72.9],
+  'gct:new-daudkhan': [27.95, 78.1],
+  'gct:new-sanjali': [21.8, 72.95],
+  'gct:new-saradhana': [21.7, 72.85],
+  'gct:new-bhaupur': [26.35, 79.8],
+  'gct:new-boraki': [28.43, 77.6],
+};
+
+export interface GctMapPoint {
+  id: string; kind: 'infra'; name: string; lat: number; lng: number; subtype: 'cargo_terminal';
+  status: string; state: string | null; href: string | null; blurb: string; sectors: string[];
+}
+
+export function gctMapPoints(): GctMapPoint[] {
+  return cargoTerminals.flatMap((t) => {
+    const c = GCT_COORDS[t.id];
+    if (!c) return [];
+    const where = [t.locality, t.railway_zone].filter(Boolean).join(' · ');
+    const link = t.dfc_connectivity || t.rail_connectivity || '';
+    return [{
+      id: t.id, kind: 'infra' as const, name: t.canonical_name.replace(/ Gati Shakti( Multi-?Modal)? Cargo Terminal/i, ' GCT'),
+      lat: c[0], lng: c[1], subtype: 'cargo_terminal' as const, status: t.status, state: t.state,
+      href: `${GCT_PATH}#terminals`,
+      blurb: `${where}${t.commissioning_date ? ` · commissioned ${t.commissioning_date}` : ''}. ${link ? `${link}. ` : ''}Position is a district/station-level centroid (±15–30 km).`.trim(),
+      sectors: t.commodity_focus.slice(0, 4),
+    }];
+  });
+}
