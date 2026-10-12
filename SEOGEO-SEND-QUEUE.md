@@ -3,6 +3,10 @@
 Prepared: 2026-08-16. Status: READY TO SEND (all drafts final; contacts verified where marked).
 Send from: labs@techadyant.com (the address published on the site). Max 2–3 per day.
 
+> ⚠ SUPERSEDED for tracking: the single source of truth is now
+> `SEO GEO/MASTER-OUTREACH-TRACKER.csv` (+ `SEO GEO/OUTREACH-MASTER.md`).
+> This file remains the batch-1–4 **email bodies + contact notes**; log sends in the master, not here.
+
 ## Rules (from campaign playbook, enforced)
 - One precise reason per target; link to a specific asset, never the homepage.
 - No link exchanges, no directories, no PBNs. Ask for citation/attribution only.
