@@ -63,9 +63,16 @@ const dateKey = (d: string): number => {
   return (y ? Number(y[1]) : 0) * 100 + (m ? (MONTHS[m[1].toLowerCase()] ?? 12) : 12);
 };
 const nicdpAbbr: Record<string, string> = Object.fromEntries(nicdpCorridors.map((c) => [c.slug, c.abbr]));
+// Ceiling = the build month, recomputed every build so the feed advances on its own.
+// Was hard-coded to 202608, which silently froze "what changed on the ground" at August
+// even as later developments (and corridor milestones) landed in node-data.ts.
+const BUILD_MONTH_KEY = (() => { const d = new Date(); return d.getUTCFullYear() * 100 + (d.getUTCMonth() + 1); })();
 const whatsNew = Object.values(corridorDeep)
-  .flatMap((cd) => cd.nodes.flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name, corr: cd.slug }))))
-  .filter((x) => dateKey(x.date) <= 202608 && !/target|horizon|reappraisal|projected|build-out/i.test(x.label))
+  .flatMap((cd) => [
+    ...cd.nodes.flatMap((n) => (n.timeline ?? []).map((tl) => ({ date: tl.date, label: tl.label, node: n.name, corr: cd.slug }))),
+    ...(cd.milestones ?? []).map((ms) => ({ date: ms.date, label: ms.label, node: 'Corridor-wide', corr: cd.slug })),
+  ])
+  .filter((x) => dateKey(x.date) <= BUILD_MONTH_KEY && !/target|horizon|reappraisal|projected|build-out/i.test(x.label))
   .sort((a, b) => dateKey(b.date) - dateKey(a.date))
   .slice(0, 4);
 const trackerUpdated = whatsNew[0]?.date ?? '';

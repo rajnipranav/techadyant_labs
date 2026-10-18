@@ -573,6 +573,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { date: '2016', label: 'DICDL incorporated; master plan finalised' },
           { date: 'Jan 2024', label: 'Vibrant Gujarat MoUs (Grew Energy, Tata Power hybrid renewables)' },
           { date: 'Mar 2025', label: 'Tata fab Fiscal Support Agreement (~₹91,526 cr) signed' },
+          { date: 'May 2026', label: 'CCEA approves the ₹20,667 cr Ahmedabad (Sarkhej)–Dholera 134 km semi-high-speed double railway line' },
+          { date: 'Jul 2026', label: 'Dholera airport runway, ATC tower and taxiway completed; terminal building ~75%' },
           { date: '2027', label: 'Tata fab production target' },
         ],
         sections: [
@@ -584,7 +586,7 @@ export const corridorDeep: Record<string, CorridorDeep> = {
             'Renewable energy is the node’s most-realised sector: Tata Power’s 300 MW solar plant is commissioned, ReNew’s solar-cell unit is under construction, and Grew Energy (~₹3,800 cr, 2.8 GW), Opera Energy (~₹5,000 cr) and others have signed on. The abundant land and dedicated Torrent Power grid also make Dholera attractive for high-power digital infrastructure — the L&T VYOMA 250 MW AI data centre (~₹25,000 cr) being the headline, still at MoU stage.',
           ] },
           { heading: 'Risks & open questions', body: [
-            'Water security in a semi-arid zone for water-intensive fabs, and the aggressive 2027 Tata production target, are the chief execution risks; the airport’s 2025–26 completion looks likely to slip to 2027–28.',
+            'Water security in a semi-arid zone for water-intensive fabs, and the aggressive 2027 Tata production target, are the chief execution risks. The greenfield airport has moved faster than earlier expected — the civil-aviation ministry reported the runway, ATC tower and taxiway complete and the terminal ~75% done by July 2026, with operationalisation targeted by end-2026 — though a licensed opening date had not been confirmed at the time of writing.',
             'Allottee-versus-MoU transparency is poor: the official land-allotment register is not published, so several headline names cannot be confirmed as committed builds. Grid stability will also be tested by the sudden addition of a fab plus a 250 MW data centre.',
           ] },
         ],
@@ -594,6 +596,8 @@ export const corridorDeep: Record<string, CorridorDeep> = {
           { label: 'The Daily Guardian — Dholera SIR allottees / construction', url: 'https://thedailyguardian.com/business/gap-group-hosts-gicea-delegation-in-dholera-sir-696602/' },
           { label: 'Construction World — Tata Power hybrid renewables Gujarat', url: 'https://www.constructionworld.in/amp/Latest-Construction-News/tata-power-commits-rs-700-bn-for-10000-mw-hybrid-renewables-in-gujarat/49472' },
           { label: 'iNDEXTb — Dholera industrial-gas ecosystem (land rates)', url: 'https://indextb.com/files/2024/2/7543b0fd-61f9-4b83-a661-5a90fd5e88f6_Gas%20Yard%20for%20Industrial%20Gas%20Supply%20for%20Semiconductor.pdf' },
+          { label: 'Indian Infrastructure — Ahmedabad (Sarkhej)–Dholera semi-high-speed rail, ₹20,667 cr CCEA approval (May 2026)', url: 'https://indianinfrastructure.com/2026/05/15/ahmedabad-sarkhej-dholera-semi-high-speed-rail-project-gets-approved/' },
+          { label: 'DeshGujarat — Dholera airport 80% complete, operations targeted Sept–Oct (14 Jul 2026)', url: 'https://deshgujarat.com/2026/07/14/dholera-airport-construction-work-80-complete-operations-targeted-by-september-october-minister/' },
         ],
       },
       {
@@ -1405,11 +1409,13 @@ export const corridorDeep: Record<string, CorridorDeep> = {
       { date: 'Jan 2025', label: 'PM foundation stone — Nakkapalli Bulk Drug Park' },
       { date: 'Aug 2026', label: 'Tranche-2 power-distribution tender awarded; Kopparthy equity reaches ₹500.20 cr (4 Aug reply)' },
       { date: 'Aug 2026', label: 'AP land-acquisition GO for the Srikalahasti–Yerpedu node (20 Aug)' },
+      { date: 'Oct 2026', label: 'NICDC in talks with the West Bengal government on a proposed Durgapur industrial node — an early engagement to extend the East Coast Economic Corridor northward into West Bengal, not yet an approved node' },
     ],
     sources: [
       { label: 'ADB — VCIC (48434-005)', url: 'https://www.adb.org/projects/48434-005/main' },
       { label: 'ADB — VCIC Tranche 2 (48434-004)', url: 'https://www.adb.org/projects/48434-004/main' },
       { label: 'AP Industries — VCIC', url: 'https://www.apindustries.gov.in/VCIC/' },
+      { label: 'Maritime Gateway — NICDC pushes proposed Durgapur industrial node in talks with West Bengal (Oct 2026)', url: 'https://www.maritimegateway.com/nicdc-pushes-durgapur-industrial-node-in-talks-with-west-bengal-government-and-industry/' },
     ],
   },
   'chennai-bengaluru': {
