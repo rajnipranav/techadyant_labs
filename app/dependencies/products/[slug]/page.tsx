@@ -18,10 +18,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const p = productBySlug(slug);
   if (!p) return { title: 'Product' };
+  const title = `${p.name} — India's import dependency, scored`;
+  const description = `${p.name}: India imports ${usd(p.import_usd_bn)} (mostly from ${p.top_source_country}); CMDI ${p.cmdi}, localisation potential ${p.lpi}. Why India imports it, who makes it, and whether it can be localised.`.slice(0, 250);
+  const url = `${SITE}/dependencies/products/${p.product_id}/`;
+  const ogImage = `/og/products/${p.product_id}.png`;
   return {
-    title: `${p.name} — India's import dependency, scored`,
-    description: `${p.name}: India imports ${usd(p.import_usd_bn)} (mostly from ${p.top_source_country}); CMDI ${p.cmdi}, localisation potential ${p.lpi}. Why India imports it, who makes it, and whether it can be localised.`.slice(0, 250),
-    alternates: { canonical: `${SITE}/dependencies/products/${p.product_id}/` },
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title, description, url, type: 'article', siteName: 'Techadyant Labs',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: `${p.name} — CMDI ${p.cmdi}/100, ten-index scorecard` }],
+    },
+    twitter: { card: 'summary_large_image', title, description, images: [ogImage] },
   };
 }
 
