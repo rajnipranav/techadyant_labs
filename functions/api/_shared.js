@@ -7,6 +7,18 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-electronic-grade-chemicals-2026-2035': {
+    access: 'paid',
+    priceInr: 10000,
+    // EXACT key the user uploaded to the private R2 bucket techadyant-reports.
+    object: 'India_Electronic-Grade_Chemicals_Report.pdf',
+    filename: 'India-Electronic-Grade-Chemicals-2026-2035-Techadyant-Labs.pdf',
+    title: 'India\u2019s Electronic-Grade Chemicals and Process Materials, 2026\u20132035',
+    // Report + Data tier: formula-driven demand model workbook (v2.6). Price authority for the data tier.
+    priceWithDataInr: 15000,
+    dataObject: 'data/India_Electronic-Grade_Chemicals_Report.xlsx',
+    dataFilename: 'India-Electronic-Grade-Chemicals-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-electronic-warfare-market-2026-2035': {
     access: 'paid',
     priceInr: 6999,
