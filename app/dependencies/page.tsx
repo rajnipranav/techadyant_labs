@@ -83,6 +83,15 @@ const FAQ = [
 const GOLD = '#C9A84C';
 const card: CSSProperties = { background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 12 };
 
+function CardShare({ name, label }: { name: string; label: string }) {
+  return (
+    <a className="dep-cardbtn" href={`/cards/${name}.png`} download aria-label={`${label} — download PNG, 1200px, source-stamped`}>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" /></svg>
+      {label}
+    </a>
+  );
+}
+
 export default function DependenciesHub() {
   return (
     <>
@@ -91,6 +100,8 @@ export default function DependenciesHub() {
         datasetLd({ name: 'India Critical Manufacturing Dependencies', description: `${products.length} strategic imports scored on the CMDI and ten proprietary indices, with localisation potential, opportunity surfaces, state capability and PLI performance.`, path: '/dependencies/', keywords: ['India import dependency', 'critical manufacturing', 'import substitution', 'localisation India', 'CMDI', 'supply chain sovereignty'] }),
         faqLd(FAQ),
       ]} />
+
+      <style>{`.dep-cardbtn{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:500;color:var(--text-muted);border:1px solid var(--border);border-radius:8px;padding:6px 12px;text-decoration:none;background:var(--surface);transition:color .15s ease,border-color .15s ease}.dep-cardbtn:hover{color:var(--brass,#C9A84C);border-color:var(--brass,#C9A84C)}.dep-cardbtn svg{opacity:.8}`}</style>
 
       <header className="ed-page-head">
         <div className="wrap inner">
@@ -153,6 +164,11 @@ export default function DependenciesHub() {
           </div>
         </div>
 
+        <div style={{ display: 'flex', justifyContent: 'flex-end', gap: 10, marginTop: 12, flexWrap: 'wrap' }}>
+          <CardShare name="dependency-index-movement" label="Index movement card" />
+          <CardShare name="pillar-summary" label="One-page summary" />
+        </div>
+
         {/* Stat strip */}
         <div className="dep-stats" style={{ marginTop: 14, borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border)' }}>
           <div><b>{products.length}</b><span>strategic products tracked</span></div>
@@ -167,7 +183,7 @@ export default function DependenciesHub() {
       <section className="wrap">
         <div className="section-head-ed">
           <div><div className="ed-kicker" style={{ color: GOLD }}>01 · The landscape</div><h2>Where the dependency concentrates</h2></div>
-          <Link href="/dependencies/products/" className="see-all">Explore all {products.length} products →</Link>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}><CardShare name="strategic-import-bill" label="Import bill card" /><Link href="/dependencies/products/" className="see-all">Explore all {products.length} products →</Link></div>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0,1.6fr) minmax(0,1fr)', gap: 18, marginBottom: 18 }} className="dep-hero-grid">
@@ -227,7 +243,7 @@ export default function DependenciesHub() {
       <section className="wrap" style={{ background: 'var(--bg-2)' }}>
         <div className="section-head-ed">
           <div><div className="ed-kicker" style={{ color: '#e5566c' }}>02 · The chokepoints</div><h2>India&apos;s deepest dependencies</h2></div>
-          <Link href="/dependencies/products/" className="see-all">All {products.length} products →</Link>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}><CardShare name="top-10-chokepoints" label="Top-10 card" /><Link href="/dependencies/products/" className="see-all">All {products.length} products →</Link></div>
         </div>
         <ul className="dep-list">
           {topDependencies(12).map((p) => (
@@ -247,6 +263,7 @@ export default function DependenciesHub() {
       <section className="wrap">
         <div className="section-head-ed">
           <div><div className="ed-kicker" style={{ color: '#5bb37f' }}>03 · The opportunity</div><h2>Where to build now</h2></div>
+          <CardShare name="build-now-top-10" label="Build-now card" />
         </div>
         <div className="dep-opp-grid">
           {buildNowOpportunities(9).map((o) => (
