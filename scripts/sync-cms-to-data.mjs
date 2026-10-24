@@ -121,7 +121,7 @@ function mapCmsSignalToMeta(s) {
 async function syncReports() {
   const { data, error } = await db.from('cms_reports').select('*').order('published', { ascending: false });
   if (error) { console.error('CMS reports fetch failed:', error.message); return []; }
-  const rows = (data || []);
+  const rows = (data || []).filter((r) => r.status === 'published' || r.status === 'forthcoming');
   const mapped = rows.map(mapCmsReportToMeta);
   const header = `export type AccessTier = 'free' | 'paid';\n\n` +
     `export interface ReportMeta {\n` +
