@@ -16,6 +16,21 @@ export interface IssueMeta {
 }
 
 export const issues: IssueMeta[] = [{
+  slug: 'sanket-october-2026',
+  no: 'Issue 06',
+  month: 'October 2026',
+  date: '25 October 2026',
+  published: '2026-10-25',
+  title: 'The First Line',
+  standfirst: 'September found the conversion gap. October asks where the first owned output actually runs. A test range opened to industry, a magnet line with an address in Kakinada, a fab with signed customers - none is yet a running line, but each can now be tracked to one. The Sanket Index moves to 36.',
+  readingTime: '12-min read',
+  card: 'https://library.techadyant.com/covers/sanket_oct_2026.jpg',
+  cover: 'https://library.techadyant.com/covers/sanket_oct_2026.jpg',
+  ogImage: 'https://library.techadyant.com/covers/sanket_oct_2026.jpg',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-oct-26.pdf',
+  pdfReady: true,
+  status: 'live'
+}, {
   slug: 'sanket-september-2026',
   no: 'Issue 05',
   month: 'September 2026',

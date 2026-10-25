@@ -7,10 +7,12 @@ import { IssueContent as JuneContent } from '../content/sanket-june-2026';
 import { IssueContent as JulyContent } from '../content/sanket-july-2026';
 import { IssueContent as AugustContent } from '../content/sanket-august-2026';
 import { IssueContent as SeptemberContent } from '../content/sanket-september-2026';
+import { IssueContent as OctoberContent } from '../content/sanket-october-2026';
 
 interface IssueModule { Content: () => React.ReactElement }
 
 const registry: Record<string, IssueModule> = {
+  'sanket-october-2026': { Content: OctoberContent },
   'sanket-september-2026': { Content: SeptemberContent },
   'sanket-may-2026': { Content: MayContent },
   'sanket-june-2026': { Content: JuneContent },
@@ -27,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const i = getIssue(slug);
   if (!i) return {};
   const url = `https://labs.techadyant.com/newsletter/${i.slug}/`;
-  const img = `https://labs.techadyant.com${i.ogImage}`;
+  const img = i.ogImage.startsWith('http') ? i.ogImage : `https://labs.techadyant.com${i.ogImage}`;
   const title = `Sanket — ${i.month}: ${i.title}`;
   return {
     title: `Sanket — ${i.month}`,
@@ -52,7 +54,7 @@ function issueJsonLd(i: NonNullable<ReturnType<typeof getIssue>>) {
     datePublished: i.published,
     dateModified: i.published,
     isAccessibleForFree: true,
-    image: [`https://labs.techadyant.com${i.ogImage}`],
+    image: [i.ogImage.startsWith('http') ? i.ogImage : `https://labs.techadyant.com${i.ogImage}`],
     url: `https://labs.techadyant.com/newsletter/${i.slug}/`,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://labs.techadyant.com/newsletter/${i.slug}/` },
     author: { '@type': 'Organization', name: 'Techadyant Labs', url: 'https://labs.techadyant.com' },
