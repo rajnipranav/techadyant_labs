@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { HeroCanvas } from '../components/HeroCanvas';
+import { IntroVideo } from '../components/IntroVideo';
 
 export const metadata: Metadata = {
   title: 'About the platform',
@@ -59,6 +60,13 @@ export default function AboutPage() {
             than the headline node.
           </p>
         </div>
+      </section>
+
+      <section className="wrap-narrow" id="watch" aria-labelledby="about-watch-h">
+        <div className="section-head-ed">
+          <div><div className="ed-kicker">Watch · 3 minutes</div><h2 id="about-watch-h">The platform, in three minutes</h2></div>
+        </div>
+        <IntroVideo showChapters={false} />
       </section>
 
       <section className="wrap-narrow">

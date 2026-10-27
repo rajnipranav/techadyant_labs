@@ -27,6 +27,7 @@ export default function NewsletterPage() {
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 22 }}>
             <Link href="/#subscribe" className="btn-ed btn-ed-primary">Subscribe <span className="arr">→</span></Link>
             <Link href={`/newsletter/${latest.slug}/`} className="btn-ed btn-ed-ghost">Read the latest issue <span className="arr">→</span></Link>
+            <Link href="/#watch" className="btn-ed btn-ed-ghost">Watch the 3-min intro <span className="arr">▶</span></Link>
           </div>
         </div>
       </header>

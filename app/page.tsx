@@ -15,6 +15,8 @@ import { signalPulse, nodesByStage } from './research/insights';
 import { atlas } from './research/atlas';
 import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
+import { IntroVideo } from './components/IntroVideo';
+import { introVideoLd } from './lib/introVideo';
 
 export const metadata: Metadata = {
   title: 'Industrial intelligence on India: corridors, dependency maps & signals',
@@ -108,6 +110,7 @@ const HOME_LD = {
         url: `https://labs.techadyant.com${p.href}`,
       })),
     },
+    introVideoLd,
   ],
 };
 
@@ -214,6 +217,18 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
+      </section>
+
+      {/* ── Watch: 3-minute channel introduction (click-to-load YouTube) ── */}
+      <section className="wrap" id="watch" style={{ paddingTop: 10 }} aria-labelledby="watch-h">
+        <div className="section-head-ed">
+          <div>
+            <div className="ed-kicker">Watch · 3 minutes</div>
+            <h2 id="watch-h">Techadyant Labs, in three minutes</h2>
+          </div>
+          <p className="section-note">The ten industrial pillars we track, the surfaces that deliver the work, and a short tour of the platform.</p>
+        </div>
+        <IntroVideo />
       </section>
 
       {/* ── By the numbers (platform-wide) ── */}

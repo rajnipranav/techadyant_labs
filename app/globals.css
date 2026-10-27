@@ -2846,3 +2846,24 @@ a.eng-tile { text-decoration:none; color:inherit; }
   .log-type-cards { grid-template-columns: 1fr; }
   .log-metrics { grid-template-columns: 1fr 1fr; }
 }
+
+/* =====================================================================
+   Intro video (click-to-load YouTube embed) — app/components/IntroVideo.tsx
+   ===================================================================== */
+.intro-video { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: clamp(18px, 3vw, 32px); align-items: start; }
+@media (max-width: 820px) { .intro-video { grid-template-columns: 1fr; } }
+.intro-video .iv-frame { position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: var(--surface); border: 1px solid var(--border); }
+.intro-video .iv-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.intro-video .iv-poster { position: absolute; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; cursor: pointer; background: #000; }
+.intro-video .iv-poster img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s ease, opacity .3s ease; }
+.intro-video .iv-poster:hover img, .intro-video .iv-poster:focus-visible img { transform: scale(1.02); opacity: .9; }
+.intro-video .iv-poster:focus-visible { outline: 2px solid var(--primary-bright); outline-offset: -2px; }
+.intro-video .iv-play { position: absolute; left: 72%; top: 50%; transform: translate(-50%, -50%); filter: drop-shadow(0 4px 14px rgba(0,0,0,.5)); }
+.intro-video .iv-badge { position: absolute; left: 14px; bottom: 12px; padding: 5px 10px; border-radius: 999px; background: rgba(0,0,0,.65); color: #fff; font-size: 12px; letter-spacing: .04em; }
+.intro-video .iv-chapters { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; grid-column: 2; grid-row: 1; }
+@media (max-width: 820px) { .intro-video .iv-chapters { grid-column: auto; grid-row: auto; } }
+.intro-video .iv-chapters button { width: 100%; display: flex; gap: 12px; align-items: baseline; padding: 8px 10px; border: 0; border-radius: 8px; background: transparent; color: var(--text-muted); text-align: left; font-size: 14px; cursor: pointer; }
+.intro-video .iv-chapters button:hover, .intro-video .iv-chapters button:focus-visible { background: var(--surface); color: var(--text); }
+.intro-video .iv-t { font-family: var(--font-jetbrains, monospace); font-size: 12px; color: var(--primary-bright); min-width: 34px; }
+.intro-video .iv-foot { grid-column: 1 / -1; margin: 0; font-size: 14px; }
+.intro-video.no-chapters { grid-template-columns: 1fr; }

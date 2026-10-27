@@ -126,6 +126,7 @@ ${corridorNodeBlock}
 - [Sanket newsletter](${SITE}/newsletter): the monthly strategic-intelligence publication.
 - [Research](${SITE}/research): methodology and research practice.
 - [About](${SITE}/about): who we are.
+- [Introduction video (3 min)](https://www.youtube.com/watch?v=fimU1mYpfu4): the ten pillars, the platform surfaces and a short tour. Channel: https://www.youtube.com/@techadyantlabs
 
 ## Citation
 Cite as: "Techadyant Labs, <Report Title> (<year>), ${SITE}". Reports use verification labels: [V] verified, [V1] single-source, [U] unverified, [modelled].

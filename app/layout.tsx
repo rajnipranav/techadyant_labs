@@ -105,7 +105,7 @@ gtag('config', 'G-916MZ965VB');`,
                     'India technology policy',
                     'industrial strategy',
                   ],
-                  sameAs: ['https://techadyant.com'],
+                  sameAs: ['https://techadyant.com', 'https://www.youtube.com/@techadyantlabs'],
                 },
                 {
                   '@type': 'LocalBusiness',
@@ -151,7 +151,7 @@ gtag('config', 'G-916MZ965VB');`,
                     'defence manufacturing',
                     'detailed project reports',
                   ],
-                  sameAs: ['https://techadyant.com'],
+                  sameAs: ['https://techadyant.com', 'https://www.youtube.com/@techadyantlabs'],
                   parentOrganization: { '@id': 'https://labs.techadyant.com/#org' },
                 },
                 {
@@ -263,6 +263,7 @@ gtag('config', 'G-916MZ965VB');`,
                     <li><Link href="/account/">Account</Link></li>
                     <li><Link href="/#subscribe">Subscribe</Link></li>
                     <li><a href="https://techadyant.com">Techadyant — main site</a></li>
+                    <li><a href="https://www.youtube.com/@techadyantlabs" target="_blank" rel="noopener">YouTube</a></li>
                     <li
                       dangerouslySetInnerHTML={{
                         __html:
