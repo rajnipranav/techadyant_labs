@@ -2867,3 +2867,9 @@ a.eng-tile { text-decoration:none; color:inherit; }
 .intro-video .iv-t { font-family: var(--font-jetbrains, monospace); font-size: 12px; color: var(--primary-bright); min-width: 34px; }
 .intro-video .iv-foot { grid-column: 1 / -1; margin: 0; font-size: 14px; }
 .intro-video.no-chapters { grid-template-columns: 1fr; }
+
+/* ── Research video (contextual embed with takeaways) ── */
+.research-video .rv-notes { grid-column: 1 / -1; }
+.research-video .rv-caption { margin: 0 0 10px; font-size: 13px; color: var(--text-muted); }
+.research-video .rv-h { margin: 0 0 8px; font-size: 15px; font-weight: 600; }
+.research-video .rv-takeaways { margin: 0 0 12px; padding-left: 1.1em; display: grid; gap: 6px; font-size: 14.5px; line-height: 1.6; color: var(--text-dim, var(--text)); max-width: 880px; }

@@ -127,6 +127,7 @@ ${corridorNodeBlock}
 - [Research](${SITE}/research): methodology and research practice.
 - [About](${SITE}/about): who we are.
 - [Introduction video (3 min)](https://www.youtube.com/watch?v=fimU1mYpfu4): the ten pillars, the platform surfaces and a short tour. Channel: https://www.youtube.com/@techadyantlabs
+- [Video: India’s Drone Ambition vs. The Reality of Chinese Parts (10 min)](https://www.youtube.com/watch?v=6DgYQdDoHIg): why Indian-assembled drones still depend on Chinese cells, motors, magnets and flight controllers after the 2022 import ban, and when each drone class can break free. Companion data: ${SITE}/research/drones-uas/ and ${SITE}/dependencies/
 
 ## Citation
 Cite as: "Techadyant Labs, <Report Title> (<year>), ${SITE}". Reports use verification labels: [V] verified, [V1] single-source, [U] unverified, [modelled].

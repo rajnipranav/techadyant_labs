@@ -3,12 +3,15 @@ import type { CSSProperties } from 'react';
 import Link from 'next/link';
 import { JsonLd, breadcrumb, faqLd, datasetLd, SITE } from '../research/seo';
 import { signals } from '../signals/data';
+import { ResearchVideo } from '../components/ResearchVideo';
+import { videosFor, videoLd } from '../lib/videos';
 import {
   products, sectorsRanked, statesRanked, topDependencies, buildNowOpportunities,
   overallIndex, latestIndex, indexHistory, productsInSector, pliSchemes, sectorBySlug,
   DEP_TIER_COLOR, TIER_COLOR, inr, usd,
 } from './data';
 
+const depVideos = videosFor('dependencies', 'hub');
 const totalImports = products.reduce((s, p) => s + (p.import_usd_bn || 0), 0);
 const first = indexHistory[0];
 const delta = +(overallIndex - (first?.overall_index ?? overallIndex)).toFixed(1);
@@ -99,6 +102,7 @@ export default function DependenciesHub() {
         breadcrumb([{ name: 'Home', path: '/' }, { name: 'Dependencies', path: '/dependencies/' }]),
         datasetLd({ name: 'India Critical Manufacturing Dependencies', description: `${products.length} strategic imports scored on the CMDI and ten proprietary indices, with localisation potential, opportunity surfaces, state capability and PLI performance.`, path: '/dependencies/', keywords: ['India import dependency', 'critical manufacturing', 'import substitution', 'localisation India', 'CMDI', 'supply chain sovereignty'] }),
         faqLd(FAQ),
+        ...depVideos.map(({ video }) => videoLd(video, '/dependencies/')),
       ]} />
 
       <style>{`.dep-cardbtn{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:500;color:var(--text-muted);border:1px solid var(--border);border-radius:8px;padding:6px 12px;text-decoration:none;background:var(--surface);transition:color .15s ease,border-color .15s ease}.dep-cardbtn:hover{color:var(--brass,#C9A84C);border-color:var(--brass,#C9A84C)}.dep-cardbtn svg{opacity:.8}`}</style>
@@ -178,6 +182,17 @@ export default function DependenciesHub() {
         </div>
         <p className="dep-disclaimer">A modelled intelligence layer — every score is confidence-tagged (Verified / Reasoned estimate / Strategic inference). See <Link href="/dependencies/products/">the full product list</Link> and each product page for sources.</p>
       </section>
+
+      {/* ── Watch: contextual research video (click-to-load YouTube) ── */}
+      {depVideos.map(({ video, related }) => (
+        <section key={video.id} className="wrap" id="watch" aria-labelledby={`v-${video.slug}`}>
+          <div className="section-head-ed">
+            <div><div className="ed-kicker" style={{ color: GOLD }}>Watch · {video.durationLabel}</div><h2 id={`v-${video.slug}`}>A dependency, up close: India&apos;s drones</h2></div>
+            <p className="section-note">How a ban on finished drones left the parts layer, cells, motors, magnets and flight controllers, still tied to China.</p>
+          </div>
+          <ResearchVideo video={video} related={related} />
+        </section>
+      ))}
 
       {/* ── 01 · Sector landscape ── */}
       <section className="wrap">

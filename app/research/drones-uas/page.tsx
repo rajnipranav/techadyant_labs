@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { AtlasNav } from '../AtlasNav';
 import { DronesView } from './DronesView';
 import { DronesTrack } from './DronesTrack';
+import { ResearchVideo } from '../../components/ResearchVideo';
+import { videosFor, videoLd } from '../../lib/videos';
 import { companies, platforms } from './data';
 import dronesData from '../_drones.json';
 import droneExpo2026 from '../../../data/osint/drone-expo-2026/site_index.json';
@@ -27,8 +29,11 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://labs.techadyant.com/research/drones-uas/' },
 };
 
+const dronesVideos = videosFor('atlas', 'drones-uas');
+
 export default function DronesPage() {
   const ld = [
+    ...dronesVideos.map(({ video }) => videoLd(video, '/research/drones-uas/')),
     {
       '@context': 'https://schema.org', '@type': 'Dataset',
       name: 'India Unmanned Aerial Systems (UAS) Ecosystem',
@@ -67,6 +72,16 @@ export default function DronesPage() {
       <section className="wrap">
         <DronesView data={dronesData as never} />
       </section>
+
+      {dronesVideos.map(({ video, related }) => (
+        <section key={video.id} className="wrap" id="watch" aria-labelledby={`v-${video.slug}`}>
+          <div className="section-head-ed">
+            <div><div className="ed-kicker">Watch · {video.durationLabel}</div><h2 id={`v-${video.slug}`}>Why India&apos;s drones still fly on Chinese parts</h2></div>
+            <p className="section-note">The parts, the loophole, the rules, the money, and when each class of drone can break free.</p>
+          </div>
+          <ResearchVideo video={video} related={related} />
+        </section>
+      ))}
 
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker">Stack intelligence · {droneExpo2026.event}</div><h2>Newly mapped subsystem suppliers</h2></div></div>
