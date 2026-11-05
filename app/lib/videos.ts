@@ -20,12 +20,50 @@ export type ResearchVideoEntry = {
   durationLabel: string;
   chapters: { t: number; label: string }[];
   takeaways: string[];
-  placements: { type: VideoPlacementType; slug: string; related?: { label: string; href: string } }[];
+  placements: { type: VideoPlacementType; slug: string; heading?: string; note?: string; related?: { label: string; href: string } }[];
 };
 
 const SITE = 'https://labs.techadyant.com';
 
 export const VIDEOS: ResearchVideoEntry[] = [
+  {
+    id: 'OVhdiEwsLCY',
+    slug: 'india-semiconductor-reality-check-2026',
+    title: 'India Makes Chips Now. So Why Are the Wafers Still Imported?',
+    description:
+      'India’s semiconductor push in 2026: four new chip plants are running, but every wafer inside them is still made abroad. What a fab does versus a packaging plant, what India imports, why the rules put packaging first, China’s leverage, and when India’s own wafers arrive.',
+    localThumb: '/video/india-semiconductor-reality-check-2026.jpg',
+    uploadDate: '2026-11-05',
+    duration: 'PT12M25S',
+    durationSec: 745,
+    durationLabel: '12 min',
+    chapters: [
+      { t: 0, label: 'Four new plants, no wafers' },
+      { t: 60, label: 'Fab vs packaging in 60 seconds' },
+      { t: 100, label: 'What India imports' },
+      { t: 135, label: '2026: the year it moved' },
+      { t: 195, label: 'The catch: packaging is not a fab' },
+      { t: 323, label: 'Why the back end came first' },
+      { t: 388, label: 'Follow the subsidies' },
+      { t: 441, label: 'China’s leverage' },
+      { t: 532, label: 'Who else broke free' },
+      { t: 590, label: 'So, when? Our estimate' },
+      { t: 667, label: 'Five signals to watch' },
+      { t: 699, label: 'The answer: a ladder' },
+    ],
+    takeaways: [
+      'Four new chip plants began commercial or pilot production in 2026, starting with Sanand in February. All of them assemble, test and package chips; none of them makes wafers, so the silicon inside is imported.',
+      'India imported $23.4 billion of integrated circuits in 2024, almost double the $12.4 billion of 2021. About 45% came from China.',
+      'The mission paid half the project cost for fabs and half the capital cost for packaging plants. Packaging is cheaper and faster, so it came first by design.',
+      'Techadyant estimate: the first Indian fab wafers arrive in 2028 at the earliest (90 nm); imports of chips for cars and defence ease from 2029–31; phone-class processors stay imported this decade.',
+    ],
+    placements: [
+      { type: 'dependencies', slug: 'semiconductors', heading: 'Four plants running, no wafers', note: 'Why India’s 2026 chip plants package imported silicon, and when the wafer gap closes.', related: { label: 'Read: Who Really Benefits from India’s Fab Ecosystem?', href: '/reports/india-fab-ecosystem/' } },
+      { type: 'report', slug: 'india-fab-ecosystem', related: { label: 'See India’s semiconductor import dependency', href: '/dependencies/sectors/semiconductors/' } },
+      { type: 'report', slug: 'semicon-2-0-opportunity-map', related: { label: 'See India’s semiconductor import dependency', href: '/dependencies/sectors/semiconductors/' } },
+      { type: 'report', slug: 'dholera-semiconductor-supplier-ecosystem', related: { label: 'See India’s semiconductor import dependency', href: '/dependencies/sectors/semiconductors/' } },
+    ],
+  },
   {
     id: '6DgYQdDoHIg',
     slug: 'india-drone-ambition-chinese-parts',

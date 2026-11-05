@@ -128,6 +128,7 @@ ${corridorNodeBlock}
 - [About](${SITE}/about): who we are.
 - [Introduction video (3 min)](https://www.youtube.com/watch?v=fimU1mYpfu4): the ten pillars, the platform surfaces and a short tour. Channel: https://www.youtube.com/@techadyantlabs
 - [Video: India’s Drone Ambition vs. The Reality of Chinese Parts (10 min)](https://www.youtube.com/watch?v=6DgYQdDoHIg): why Indian-assembled drones still depend on Chinese cells, motors, magnets and flight controllers after the 2022 import ban, and when each drone class can break free. Companion data: ${SITE}/research/drones-uas/ and ${SITE}/dependencies/
+- [Video: India Makes Chips Now. So Why Are the Wafers Still Imported? (12 min)](https://www.youtube.com/watch?v=OVhdiEwsLCY): India’s four new 2026 chip plants package imported wafers; fab vs packaging, India’s $23.4B IC imports (2024), why the subsidy rules put packaging first, China’s leverage, and when Indian fab wafers arrive (2028 at the earliest, 90 nm). Companion data: ${SITE}/dependencies/sectors/semiconductors/ and ${SITE}/reports/india-fab-ecosystem/
 
 ## Citation
 Cite as: "Techadyant Labs, <Report Title> (<year>), ${SITE}". Reports use verification labels: [V] verified, [V1] single-source, [U] unverified, [modelled].
