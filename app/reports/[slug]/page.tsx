@@ -12,6 +12,8 @@ import { MicroFeedback } from '../../components/MicroFeedback';
 import { ShareBar } from '../../components/ShareBar';
 import { RelatedContent } from '../../components/RelatedContent';
 import { Comments } from '../../components/Comments';
+import { ResearchVideo } from '../../components/ResearchVideo';
+import { videosFor, videoLd } from '../../lib/videos';
 import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
 import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '../content/india-ai-industrial-transition-2026-2035';
 import { ReportContent as MineralsContent, toc as mineralsToc } from '../content/who-actually-captures-the-india-us-minerals-alliance';
@@ -351,6 +353,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   if (hasData) whatsInside.push('Optional data pack — the full underlying dataset (Excel)');
 
   const breadcrumbJson = breadcrumbJsonLd(meta);
+  const repVideos = published ? videosFor('report', meta.slug) : [];
 
   return (
     <>
@@ -375,6 +378,14 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           dangerouslySetInnerHTML={{ __html: faqJson }}
         />
       )}
+      {repVideos.map(({ video }) => (
+        <script
+          key={`ld-${video.id}`}
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd(video, `/reports/${meta.slug}/`)) }}
+        />
+      ))}
       {productJson && (
         <script
           type="application/ld+json"
@@ -447,6 +458,14 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
               </ul>
             </div>
           </section>
+
+          {repVideos.map(({ video, related }) => (
+            <section key={video.id} className="wrap-narrow" id="watch" style={{ paddingTop: 8, paddingBottom: 8 }} aria-labelledby={`v-${video.slug}`}>
+              <div className="ed-kicker" style={{ marginBottom: 6 }}>Watch · {video.durationLabel}</div>
+              <h2 id={`v-${video.slug}`} style={{ marginBottom: 14 }}>The video: {video.title}</h2>
+              <ResearchVideo video={video} related={related} />
+            </section>
+          ))}
 
           {updates.length > 0 && (
             <section className="wrap-narrow" style={{ paddingTop: 8, paddingBottom: 8 }}>

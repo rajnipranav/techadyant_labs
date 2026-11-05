@@ -6,6 +6,8 @@ import {
   sectors, sectorBySlug, productsInSector, opportunitiesInSector, companyName,
   pliSchemes, DEP_TIER_COLOR, TIER_COLOR, inr, usd,
 } from '../../data';
+import { ResearchVideo } from '../../../components/ResearchVideo';
+import { videosFor, videoLd } from '../../../lib/videos';
 
 export function generateStaticParams() {
   return sectors.map((s) => ({ slug: s.sector_id }));
@@ -29,6 +31,7 @@ export default async function SectorPage({ params }: { params: Promise<{ slug: s
   const prods = productsInSector(s.sector_id).sort((a, b) => b.cmdi - a.cmdi);
   const opps = opportunitiesInSector(s.sector_id).sort((a, b) => b.opportunity_score - a.opportunity_score);
   const plis = pliSchemes.filter((x) => x.sector_id === s.sector_id);
+  const secVideos = videosFor('dependencies', s.sector_id);
   const faqs = [
     { q: `How import-dependent is India in ${s.name.toLowerCase()}?`, a: `${s.narrative} Its sector dependency index is ${s.sector_dependency_index}/100, on ${usd(s.total_import_usd_bn)} of tracked imports across ${s.critical_product_count} critical products.` },
     { q: `What are the biggest ${s.name.toLowerCase()} localisation opportunities?`, a: opps.slice(0, 3).map((o) => o.name.replace(/^Localise:\s*/, '')).join(', ') || 'See the opportunity list.' },
@@ -40,6 +43,7 @@ export default async function SectorPage({ params }: { params: Promise<{ slug: s
         breadcrumb([{ name: 'Home', path: '/' }, { name: 'Dependencies', path: '/dependencies/' }, { name: 'Sectors', path: '/dependencies/' }, { name: s.name, path: `/dependencies/sectors/${s.sector_id}/` }]),
         datasetLd({ name: `India ${s.name} import dependency`, description: s.narrative, path: `/dependencies/sectors/${s.sector_id}/`, keywords: [`India ${s.name}`, 'import dependency', 'localisation'] }),
         faqLd(faqs),
+        ...secVideos.map(({ video }) => videoLd(video, `/dependencies/sectors/${s.sector_id}/`)),
       ]} />
       <header className="ed-page-head">
         <div className="wrap inner">
@@ -59,6 +63,20 @@ export default async function SectorPage({ params }: { params: Promise<{ slug: s
           <div className="dep-kpi"><b style={{ color: s.index_trend.direction === 'up' ? '#C0392B' : s.index_trend.direction === 'down' ? '#0F8E78' : '#8593A6' }}>{s.index_trend.direction === 'up' ? '▲' : s.index_trend.direction === 'down' ? '▼' : '■'} {Math.abs(s.index_trend.delta)}</b><span>12-month trend</span></div>
         </div>
       </section>
+
+      {/* ── Watch: contextual research video (click-to-load YouTube) ── */}
+      {secVideos.map(({ video, related }) => {
+        const pl = video.placements.find((p) => p.type === 'dependencies' && p.slug === s.sector_id);
+        return (
+          <section key={video.id} className="wrap" id="watch" aria-labelledby={`v-${video.slug}`}>
+            <div className="section-head-ed">
+              <div><div className="ed-kicker" style={{ color: '#C9A84C' }}>Watch · {video.durationLabel}</div><h2 id={`v-${video.slug}`}>{pl?.heading || video.title}</h2></div>
+              {pl?.note && <p className="section-note">{pl.note}</p>}
+            </div>
+            <ResearchVideo video={video} related={related} />
+          </section>
+        );
+      })}
 
       <section className="wrap">
         <div className="section-head-ed"><div><div className="ed-kicker" style={{ color: '#C9A84C' }}>Critical products</div><h2>Where the dependency sits</h2></div></div>
