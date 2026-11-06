@@ -7,6 +7,16 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035.pdf',
+    filename: 'Closing-the-Magnet-Gap-India-Rare-Earth-Ecosystem-2026-2035-Techadyant-Labs.pdf',
+    title: 'Closing the Magnet Gap \u2014 India\u2019s Rare-Earth Permanent-Magnet Ecosystem 2026\u20132035',
+    priceWithDataInr: 11999,
+    dataObject: 'data/closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035.xlsx',
+    dataFilename: 'Closing-the-Magnet-Gap-Data-Pack-Techadyant-Labs.xlsx',
+  },
   'india-electronic-grade-chemicals-2026-2035': {
     access: 'paid',
     priceInr: 10000,
