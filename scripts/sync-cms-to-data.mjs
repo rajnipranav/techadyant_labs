@@ -27,8 +27,8 @@ function loadEnv() {
 }
 loadEnv();
 
-const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const url = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://lkqojucjkpxhcngtstfy.supabase.co';
+const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxrcW9qdWNqa3B4aGNuZ3RzdGZ5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk4ODMzNDQsImV4cCI6MjA5NTQ1OTM0NH0.mcY4prsMENeLh5NgLcQkm4M7P8PAIG0NfcvnyvNFrsY';
 if (!url || !key) {
   console.error('Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY');
   console.error('Create a .env file with those values and retry.');
@@ -144,7 +144,7 @@ async function syncSignals() {
   if (error) { console.error('CMS signals fetch failed:', error.message); return []; }
   const rows = (data || []);
   const mapped = rows.map(mapCmsSignalToMeta);
-  const header = `export interface SignalBody {\n  type: 'p' | 'h' | 'list' | 'quote' | 'img';\n  text?: string;\n  items?: string[];\n  src?: string;\n  alt?: string;\n  caption?: string;\n  source?: string;\n}\n\n` +
+  const header = `export interface SignalBody {\n  type: 'p' | 'h' | 'h2' | 'list' | 'quote' | 'img' | 'stat' | 'table';\n  text?: string;\n  items?: string[];\n  src?: string;\n  alt?: string;\n  caption?: string;\n  source?: string;\n  value?: string;\n  label?: string;\n  note?: string;\n  headers?: string[];\n  rows?: string[][];\n}\n\n` +
     `export interface SignalMeta {\n  slug: string;\n  no: string;\n  title: string;\n  domain: string;\n` +
     `  date: string;\n  dateLabel: string;\n  status: 'live' | 'monitoring' | 'placeholder';\n` +
     `  excerpt: string;\n  readingTime: string;\n  body?: SignalBody[];\n  takeaways?: string[];\n  sources?: string[];\n}\n\n` +

@@ -1,11 +1,16 @@
 export interface SignalBody {
-  type: 'p' | 'h' | 'list' | 'quote' | 'img';
+  type: 'p' | 'h' | 'h2' | 'list' | 'quote' | 'img' | 'stat' | 'table';
   text?: string;
   items?: string[];
   src?: string;
   alt?: string;
   caption?: string;
   source?: string;
+  value?: string;
+  label?: string;
+  note?: string;
+  headers?: string[];
+  rows?: string[][];
 }
 
 export interface SignalMeta {
@@ -5537,6 +5542,1913 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['DRDO announced on 6 October the maiden live jump of the indigenous Advanced High-Altitude Parachute at Nyoma, Ladakh.', 'The jump was released at 16,000 feet, with deployment at 15,500 feet and landing at 13,700 feet; the stated operating range is up to 18,000 feet.', 'AHAP is a static-line system for mass paratrooper drops, designed by ADRDE, built by the Ordnance Parachute Factory, inspected by DGAQA and certified by CEMILAC.', 'The date of the jump, the number of jumps and any induction or order are not stated in the reports.', 'The reports do not name an imported system AHAP replaces, so this signal draws no import-substitution conclusion.'],
   sources: ['PTI via ThePrint (6 Oct 2026): https://theprint.in/india/drdo-conducts-maiden-live-jump-of-advanced-high-altitude-parachute-system/3063748/', 'DD India (6 Oct 2026): https://ddindia.co.in/2026/10/drdo-conducts-maiden-live-jump-of-indigenous-advanced-high-altitude-parachute-in-ladakh/', 'Press Information Bureau, Ministry of Defence (6 Oct 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2319589&reg=6&lang=1']
+}, {
+  slug: 'tessolve-75-million-vector-line-semiconductor-acquisitions-2026',
+  no: 'S-150',
+  title: 'Tessolve Raises $75 Million: India\'s Semiconductor Bet Moves from Design Talent to Full-Cycle Engineering Scale',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-10-12',
+  dateLabel: '12 Oct 2026',
+  status: 'live',
+  excerpt: 'Hero Electronix-backed Tessolve has raised $75 million in a round led by US semiconductor-focused investor Vector Line Capital, joined by TPG and Novo Tellus, to fund acquisitions. It is capital for the engineering-services layer between chip design and manufacturing, not for a fab or a plant.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The development',
+  type: 'h'
+}, {
+  text: 'On 11 October Tessolve, the Bengaluru-based semiconductor engineering company backed by Hero Electronix, announced a $75 million round. Entrackr reports it as led by Vector Line Capital, a US strategic investment firm that invests only in semiconductors and the chip supply chain; Dealroom lists existing investors TPG and Novo Tellus as participants. CXOToday reports that this is Vector Line\'s first investment in India and its first with Tessolve.',
+  type: 'p'
+}, {
+  text: 'The stated use is growth, including strategic acquisitions that complement Tessolve\'s capabilities, broaden its services and strengthen its global presence. CXOToday reports the company is in advanced discussions to close multiple acquisitions over the next couple of quarters. Names and targets of the acquisitions are not disclosed. Deal terms, stake and valuation are not disclosed either, and the reports we read do not say whether the whole amount is equity.',
+  type: 'p'
+}, {
+  text: 'Why the engineering layer matters',
+  type: 'h'
+}, {
+  text: 'Tessolve describes itself as an engineering company focused on AI, high-performance computing and analog or mixed-signal chips, offering services from architecture and design through validation, test and embedded systems. That is the layer between a chip idea and a manufactured product: verification, silicon bring-up, test engineering and failure analysis. India\'s public incentives have concentrated on fabs, assembly and packaging. A privately funded engineering platform that can carry a chip across several of these stages is a different kind of capacity, and one that fabs and OSAT plants need around them.',
+  type: 'p'
+}, {
+  text: 'What is company-reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Customers: the company says it works with leading hyperscalers and 18 of the world\'s top 20 semiconductor companies. CXOToday labels this as the company\'s own claim.', 'Prior capital: Tessolve raised $150 million from TPG in 2025, per earlier coverage, and Dealroom lists $265 million raised in total. We did not verify the breakdown.', 'Headcount, laboratory and country counts quoted in some drafts could not be confirmed in the sources we could read, so they are not used here.']
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Techadyant noted equity flowing into the chip ecosystem in S-102, before this transaction. This one is specific: a named investor with a semiconductor-only mandate, and a defined plan to buy capability. The sovereignty question is what ends up anchored in India. Acquisitions that bring in scarce test, analog or packaging-adjacent skills, with the intellectual property and decision-making kept at home, would deepen the ecosystem. Acquisitions that mainly add headcount for foreign customers would not. The acquisition targets are the evidence to wait for.',
+  type: 'p'
+}],
+  takeaways: ['Tessolve has raised $75 million in a round led by Vector Line Capital, a US semiconductor-only investor, with TPG and Novo Tellus as existing investors.', 'It is Vector Line\'s first investment in India; the money is for growth including strategic acquisitions, with multiple deals in advanced discussions for the next couple of quarters.', 'Tessolve offers engineering from chip architecture and design through validation, test and embedded systems for AI, HPC and analog or mixed-signal chips.', 'The customer claim (18 of the top 20 semiconductor companies) is the company\'s own and was not independently verified.', 'Acquisition targets, stake, valuation and whether the round is all equity are not disclosed.'],
+  sources: ['Entrackr (11 Oct 2026): https://entrackr.com/snippets/hero-electronixs-tessolve-semiconductor-raises-75-mn-led-by-vector-line-capital-12666679', 'CXOToday (11 Oct 2026): https://cxotoday.com/media-coverage/tessolve-semiconductor-a-hero-electronix-company-secures-75-million-investment-from-vector-line-capital/', 'Dealroom (11 Oct 2026): https://dealroom.co/news/161556-tessolve-raises-75m-to-fund-acquisitions-in-chip-services-push/']
+}, {
+  slug: 'ge-aerospace-india-supplier-spend-double-2030-2026',
+  no: 'S-151',
+  title: 'GE Aerospace Plans to Nearly Double India Supplier Spend by 2030: The Test Is Component Depth, Not the Headline',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-10-13',
+  dateLabel: '13 Oct 2026',
+  status: 'live',
+  excerpt: 'GE Aerospace says it will nearly double spending on Indian suppliers by 2030 from about $200 million in 2025. The strategic question is whether the extra spend builds process ownership and engineering depth, or just more build-to-print volume.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The announcement',
+  type: 'h'
+}, {
+  text: 'On 12 October GE Aerospace said it plans to nearly double its spending on its Indian supply chain by 2030. The company put 2025 in-country supplier spend at about $200 million. Neither GE\'s release nor the India Strategic report gives an exact 2030 figure; a number near $400 million is our arithmetic on \'nearly double\', not a stated target.',
+  type: 'p'
+}, {
+  text: 'The plan was released alongside an Ernst & Young report on GE Aerospace\'s economic impact in India, unveiled at an event in New Delhi. It is a stated plan, not a completed investment.',
+  type: 'p'
+}, {
+  text: 'What the footprint looks like',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Manufacturing: a Pune facility (initial investment of $200 million) supported by 17 major domestic suppliers, including small and medium-sized enterprises.', 'Capital: nearly $55 million invested in Pune since 2024 in automation, precision manufacturing and workforce development.', 'Engineering: the Bengaluru Technology Centre, established in 2000, has secured more than 1,000 aviation patents.', 'Workforce: about 5,000 production associates have graduated from the Pune apprenticeship programme since 2015, with 400 to 500 new apprentices a year.', 'Installed base: more than 1,400 GE Aerospace and partner engines were in Indian commercial airline service as of December 2025.']
+}, {
+  text: 'The demand pull',
+  type: 'h'
+}, {
+  text: 'GE links the plan to Indian aviation growth. Government estimates it cites put annual domestic passenger traffic at 1.1 billion by 2040, up from 340 million in FY26, and airports rising from 163 to more than 350 by 2047. These are government projections quoted by the company. They create a demand signal for suppliers, but they do not decide which layers of the value chain localise.',
+  type: 'p'
+}, {
+  text: 'What this is not',
+  type: 'h'
+}, {
+  text: 'This is a supply-chain and engineering expansion by a multinational, not an indigenous-engine announcement. GE\'s release also notes that potential domestic manufacture of F414 engines for the Tejas Mk2 under a 2023 memorandum of understanding remains pending final agreements and approvals. Supplier spend does not by itself change who owns the design, materials, process recipes or certification authority.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a constructive but conditional signal. More orders can push Indian suppliers to invest in precision machining, inspection, tooling and quality systems, and those skills carry over to defence propulsion and space hardware. The headline dollar figure is a weak measure. Better measures are the complexity of parts local suppliers qualify for, how much design and validation work stays in India, and whether suppliers become viable beyond GE\'s own programmes.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for named suppliers and new part families, supplier qualification milestones, capital expenditure at Pune and partner plants, any exact 2030 spend figure, F414 manufacturing decisions, and export content from Indian suppliers.',
+  type: 'p'
+}],
+  takeaways: ['GE Aerospace plans to nearly double spending on Indian suppliers by 2030, from about $200 million in 2025; no exact 2030 figure was stated.', 'The India supply chain includes a Pune facility and 17 major domestic suppliers, with nearly $55 million invested in Pune since 2024.', 'The Bengaluru Technology Centre has secured more than 1,000 aviation patents.', 'This is a stated plan and a supply-chain expansion, not an indigenous-engine programme; F414 manufacture remains pending final agreements.', 'The test is process ownership, design authority and multi-programme supplier resilience, not the dollar headline.'],
+  sources: ['GE Aerospace (12 Oct 2026): https://www.geaerospace.com/news/press-releases/india/ge-aerospace-announces-plans-nearly-double-supplier-spend-country-help-meet-indias', 'India Strategic (12 Oct 2026): https://www.indiastrategic.in/ge-aerospace-to-double-india-supplier-spending-by-2030-amid-aviation-boom/']
+}, {
+  slug: 'ideaforge-survey-india-q6-v2-uav-order-2026',
+  no: 'S-152',
+  title: 'Survey of India Orders ideaForge Q6 V2 UAVs: An Indigenous Drone Enters the State\'s Mapping Workflow',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-10-14',
+  dateLabel: '14 Oct 2026',
+  status: 'live',
+  excerpt: 'ideaForge says Survey of India has ordered its Q6 V2 survey UAVs. Value and quantity are undisclosed, so this is an adoption signal, not a scale signal.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The order',
+  type: 'h'
+}, {
+  text: 'On 13 October ideaForge Technology announced that Survey of India, the national mapping agency, has placed orders for its Q6 V2 unmanned aerial vehicles. The drones are to be used for surveying, mapping and collecting aerial and geospatial data across varied terrain.',
+  type: 'p'
+}, {
+  text: 'Neither the order value nor the quantity has been disclosed, and the reports do not say when the order was placed. The coverage we found (India Strategic and The Manufacturing Frontier) follows the company\'s announcement, so the platform claims below are ideaForge\'s own and have not been independently verified.',
+  type: 'p'
+}, {
+  text: 'What the company says about the platform',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Type: a lightweight, VTOL-capable, survey-grade quadcopter described as designed and developed entirely in India.', 'Performance: 60 minutes of endurance, a 5 km operational range, a 6 kg maximum take-off weight and deployment in under 10 minutes.', 'Payloads: daylight, thermal, mapping and multispectral options, with autonomous navigation and encrypted communications.', 'Field record: the company says the platform has been used in high-altitude zones and flood-affected areas.']
+}, {
+  text: 'One discrepancy is worth noting. ideaForge\'s own Q6 V2 GEO mapping page lists up to 55 minutes of endurance for its photogrammetry configurations and 50 minutes for LiDAR, so the 60-minute figure appears to describe a particular configuration rather than every mapping setup. That page does not carry the \'designed in India\' wording.',
+  type: 'p'
+}, {
+  text: 'Why a civilian government order matters',
+  type: 'h'
+}, {
+  text: 'Indian drone makers are usually judged on defence trials and procurement bids. A mapping agency is a different customer: it needs repeatable missions, usable data, maintenance support and institutional procurement. A working deployment can become a reference for state agencies, infrastructure firms and mining users.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a modest but useful signal. It shows a domestically designed platform entering a government data-collection workflow outside defence. It does not show scale, and it does not show component independence: flight controllers, sensors, radios, batteries and software can still be imported even when the airframe is Indian-designed. The Army FPV-drone order in S-146 sits at the other end of the market; this one tests the civilian production-and-use layer.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the order quantity and value, delivery and acceptance milestones, repeat orders from other central or state agencies, and any disclosure of how much of the flight and payload stack is sourced domestically.',
+  type: 'p'
+}],
+  takeaways: ['Survey of India has ordered ideaForge Q6 V2 UAVs for surveying, mapping and geospatial data collection, per ideaForge\'s 13 October announcement.', 'Order value, quantity and order date were not disclosed.', 'Specifications such as 60 minutes endurance, 5 km range and 6 kg take-off weight are company-reported; ideaForge\'s own product page lists 50-55 minutes for mapping configurations.', 'It is a civilian government adoption signal, not a defence order or proof of component independence.', 'The test is repeat orders, delivery performance and how much of the stack is domestically sourced.'],
+  sources: ['India Strategic (13 Oct 2026): https://www.indiastrategic.in/ideaforge-secures-orders-from-survey-of-india-for-q6-v2-uavs-to-support-mapping-and-geospatial-applications/', 'The Manufacturing Frontier (13 Oct 2026): https://www.themanufacturingfrontier.com/ideaforge-wins-orders-from-survey-of-india/', 'ideaForge Technology, Q6 V2 GEO product page: https://ideaforgetech.com/mapping/q6-v2-geo']
+}, {
+  slug: 'nexon-geochem-andhra-pradesh-rare-earth-magnet-mou-2026',
+  no: 'S-153',
+  title: 'Nexon Geochem Signs Rs 1,250 Crore NdFeB Magnet MoU With Andhra Pradesh: A Named Investor Behind the State\'s Minerals Push',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-10-15',
+  dateLabel: '15 Oct 2026',
+  status: 'live',
+  excerpt: 'Nexon Geochem has signed an MoU with the Andhra Pradesh Economic Development Board for a Rs 1,250 crore sintered NdFeB magnet facility at Kakinada, planned at 600 tonnes a year. It is a project-formation milestone, not production.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The MoU',
+  type: 'h'
+}, {
+  text: 'On 14 October Nexon Geochem announced that it has signed a Memorandum of Understanding with the Andhra Pradesh Economic Development Board (APEDB) for an integrated sintered neodymium-iron-boron (NdFeB) permanent-magnet facility at Thondangi in Kakinada district, within the Kakinada SEZ.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Investment: Rs 1,250 crore in total, split into Rs 750 crore for the first phase and Rs 500 crore for the second.', 'Capacity: 600 tonnes of permanent magnets a year. The reports do not say how capacity is divided between the phases.', 'Markets: electric vehicles, wind turbines, industrial automation and defence, with the stated aim of reducing import dependence.', 'Status: the MoU is signed and the facility \'will be set up\'. No construction start, completion date or phase timeline has been given.']
+}, {
+  text: 'The company\'s director, Praveen Kumar Choudhary, describes the aim as an \'integrated NdFeB magnet manufacturing ecosystem\'. The reports use \'integrated\' without defining which stages (oxide-to-metal, alloying, powder, sintering, finishing) the site will include.',
+  type: 'p'
+}, {
+  text: 'How it fits Nexon\'s earlier plans',
+  type: 'h'
+}, {
+  text: 'In July, Nexon Geochem signed a technology-transfer MoU with Giredmet, a Rosatom-linked Russian research institute, and spoke of a fully integrated magnet platform targeting 1,200 tonnes a year by FY2033, with an initial facility planned in Hyderabad. The new MoU puts a state agency, a site and a capital plan behind the company\'s ambition. The reports we read do not say how the 600-tonne Kakinada plan relates to the earlier 1,200-tonne target, or whether Giredmet\'s technology will be used.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s rare-earth problem is not only ore. The chain from separated oxides and metals to finished magnets is where most capacity is missing, and sintered NdFeB magnets are a chokepoint for EV motors, wind generators and several defence systems. Our earlier signal on India\'s four planned critical-mineral processing parks (S-096) treated the Andhra Pradesh park as infrastructure intent. A named investor, site and capital plan is a concrete step beyond that, though it is a separate project agreement and not proof the park is moving.',
+  type: 'p'
+}, {
+  text: 'What the MoU does not establish',
+  type: 'h'
+}, {
+  text: 'An MoU is not an approval, a financial close or a construction start. The reports do not name the source of the rare-earth oxide feedstock, the heavy-rare-earth strategy, offtake customers or the expected domestic content. If feedstock is imported, the plant would still add downstream capacity but would not close the upstream chokepoint on its own.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a useful but early signal. It shows capital and state support gathering around a downstream magnet node, which is the layer India most lacks. The real thresholds are land and approvals, financial close, a defined technology route, feedstock contracts and qualified first output.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for land allotment and environmental approvals, financial close, the technology partner and process route, feedstock and heavy-rare-earth sourcing, first pilot output, and customer or defence qualification.',
+  type: 'p'
+}],
+  takeaways: ['Nexon Geochem signed an MoU with the Andhra Pradesh Economic Development Board on 14 October for a sintered NdFeB magnet facility at Thondangi, Kakinada.', 'The investment is Rs 1,250 crore in two phases (Rs 750 crore and Rs 500 crore) for 600 tonnes a year of planned capacity.', 'The MoU is a project-formation step; no construction start, timeline, feedstock source or offtake has been disclosed.', 'It follows Nexon\'s July technology MoU with Russia\'s Giredmet; the reports do not link the two or reconcile the 600-tonne and 1,200-tonne figures.', 'The real tests are approvals, financial close, feedstock and qualified first output.'],
+  sources: ['Business Standard (14 Oct 2026): https://www.business-standard.com/industry/news/nexon-geochem-to-set-up-1-250-crore-rare-earth-magnet-plant-in-andhra-126101400554_1.html', 'Deccan Chronicle (14 Oct 2026): https://www.deccanchronicle.com/southern-states/andhra-pradesh/hyderabad-nexon-geochem-to-set-up-rare-earth-permanent-magnet-facility-in-andhra-pradesh-1995765', 'Autocar Professional (15 Jul 2026): https://www.autocarpro.in/news/nexon-geochem-partners-with-russias-giredmet-on-rare-earth-magnets-133602']
+}, {
+  slug: 'gsat-7c-varunastra-defence-contracts-2026',
+  no: 'S-154',
+  title: 'Rs 4,106 Crore in Defence Contracts Pair the IAF\'s Dedicated Satellite With the Navy\'s Indigenous Torpedo',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-16',
+  dateLabel: '16 Oct 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence signed two contracts on 15 October worth about Rs 4,106 crore: Rs 2,563 crore with NSIL for the GSAT-7C satellite and Rs 1,543 crore with BDL for Varunastra heavyweight torpedoes. Both are contracted acquisitions, not delivered capability.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The contracts',
+  type: 'h'
+}, {
+  text: 'On 15 October the Ministry of Defence announced two contracts with a combined value of about Rs 4,106 crore, signed in the presence of A. Anbarasu, Additional Secretary and Director General (Acquisition). The ministry framed both as supporting Aatmanirbhar Bharat and Make in India goals.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['GSAT-7C: Rs 2,563 crore with NewSpace India Limited (NSIL), Bengaluru, for a communication satellite dedicated to the Indian Air Force, described as indigenously designed, developed and manufactured.', 'Varunastra: Rs 1,543 crore with Bharat Dynamics Limited (BDL), Hyderabad, for heavyweight anti-submarine torpedoes developed by the Naval Science and Technological Laboratory (NSTL).']
+}, {
+  text: 'GSAT-7C: a dedicated IAF satellite',
+  type: 'h'
+}, {
+  text: 'GSAT-7C is meant to serve the Air Force exclusively, giving secure and resilient communications, including beyond line of sight, as part of a planned military network with ground hubs and software-defined radios, according to ThePrint. Technical specifications have not been released.',
+  type: 'p'
+}, {
+  text: 'ThePrint reports the satellite is expected to be operational by 2030, without attributing that to a named official. No official launch date has been announced; one source said it could launch within the next two years, but ISRO has not confirmed a schedule. The Defence Acquisition Council gave in-principle approval in November 2021 at Rs 2,236 crore, and the report does not explain the difference from the contract value.',
+  type: 'p'
+}, {
+  text: 'Varunastra: an existing indigenous weapon gets a new order',
+  type: 'h'
+}, {
+  text: 'Varunastra is an established, ship-launched anti-submarine torpedo. The Week lists a length of 7.78 m, a 533.4 mm diameter, speeds of 27 and 40 knots and operating depths of 8 m to 600 m, with acoustic homing and autonomous guidance. These are published design figures, not performance verified in this contract.',
+  type: 'p'
+}, {
+  text: 'None of the reports we read state how many torpedoes are ordered, the delivery timeline or the indigenous-content percentage. That limits how much this contract says about production scale.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The package links two different layers: secure beyond-line-of-sight communications for air assets and an undersea weapon for the Navy. Both are signed orders on Indian public-sector producers, which is a step beyond approval or development. They are not yet capability. For GSAT-7C the satellite alone is not the system; ground hubs, terminals, encryption and anti-jamming performance decide whether it works under pressure. For Varunastra the test is reliable production, subsystem depth and sustained replenishment. This is separate from the private military-space build-out in S-108, which concerned industry partnerships rather than a government contract.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the Varunastra quantity and delivery schedule, GSAT-7C launch planning and ground-segment orders, any disclosure of domestic content, and acceptance trials for both.',
+  type: 'p'
+}],
+  takeaways: ['The Ministry of Defence signed two contracts worth about Rs 4,106 crore on 15 October 2026.', 'GSAT-7C (Rs 2,563 crore, NSIL) is a dedicated IAF satellite; it is reportedly expected to be operational by 2030, with no official launch date announced.', 'Varunastra (Rs 1,543 crore, BDL) is a new order for an existing indigenous torpedo; quantity, delivery schedule and domestic content were not stated.', 'Both are contracted acquisitions, not delivered or operational capability.', 'The tests are launch and ground-segment delivery for GSAT-7C and reliable production and replenishment for Varunastra.'],
+  sources: ['The Week (15 Oct 2026): https://www.theweek.in/news/defence/2026/10/15/eyes-in-space-more-firepower-underwater-how-indias-4106-crore-defence-deals-will-boost-iaf-navy.html', 'Defence Watch (15 Oct 2026): https://www.defencewatch.in/ministry-of-defence/mod-signs-4106-crore-contracts-for-gsat-7c-satellite-and-varunastra-torpedoes', 'ThePrint (15 Oct 2026): https://theprint.in/defence/iaf-to-get-first-dedicated-communications-satellite-gsat-7c-to-be-operational-by-2030/3072991/']
+}, {
+  slug: 'ins-samarthak-indigenous-multipurpose-vessel-commissioned-2026',
+  no: 'S-155',
+  title: 'INS Samarthak Enters Service: A Private-Yard Test and Evaluation Vessel for the Navy',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-17',
+  dateLabel: '17 Oct 2026',
+  status: 'live',
+  excerpt: 'The Navy commissioned INS Samarthak at Karwar on 16 October. Built by L&T and reported to carry about 75% indigenous equipment, it is meant to trial indigenous weapons, sensors and unmanned systems at sea.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The commissioning',
+  type: 'h'
+}, {
+  text: 'On 16 October Vice-President C. P. Radhakrishnan commissioned INS Samarthak at Naval Base Karwar, Karnataka, with Chief of the Naval Staff Admiral Krishna Swaminathan attending. It is described as the Navy\'s first indigenous Multi-Purpose Vessel, built by Larsen & Toubro (L&T) and reported by IANS as the first major warship built by an Indian private shipyard.',
+  type: 'p'
+}, {
+  text: 'The Vice-President put indigenous content at over 75%. IANS reports about 75% of onboard equipment as indigenously developed, with some technologies sourced from abroad. The vessel has also been described in earlier coverage as the first of four multi-purpose vessels for the Navy, though the commissioning reports we read do not all state the series size.',
+  type: 'p'
+}, {
+  text: 'What the vessel is for',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Trials and evaluation of next-generation weapons, sensors and emerging technologies, including indigenous systems.', 'Launch and recovery of targets and operations involving unmanned systems.', 'Maritime surveillance and reconnaissance and offshore patrolling.', 'Humanitarian assistance and disaster relief.']
+}, {
+  text: 'The commissioning reports give no displacement, dimensions or armament. Earlier coverage of the August delivery gives a length of 107 m and displacement over 3,750 tonnes, which we have not independently confirmed.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s defence-technology gap is often between a working prototype and a system a fleet will trust. A dedicated sea platform for trials lets weapons, sensors and unmanned systems be tested, launched and recovered without making a frontline combatant carry the risk. That shortens the path from demonstration to acquisition, if the vessel is actually used for it.',
+  type: 'p'
+}, {
+  text: 'It is also a private-sector milestone. The Navy described the commissioning as a testament to the growing maturity of the private shipbuilding industry. The next question is whether private yards can repeat complex builds with predictable quality, shorter timelines and deeper domestic supplier participation.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a useful industrial-sovereignty signal, but the vessel-level content figure is an incomplete measure. Strategic autonomy depends on propulsion, power management, navigation, communications, sensors, combat-system interfaces and software, and the reports do not break these down. The earlier naval-industrial signals, S-100 on the Cochin Shipyard repair JV and S-107 on the Dighi shipbuilding cluster proposal, concerned capacity plans; this one is a delivered platform.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the first trial campaigns, which indigenous systems are selected for evaluation, the schedule for the remaining vessels, L&T\'s build-time lessons, and whether systems tested aboard move into formal acquisition.',
+  type: 'p'
+}],
+  takeaways: ['The Navy commissioned INS Samarthak at Karwar on 16 October 2026, with Vice-President C. P. Radhakrishnan presiding.', 'Built by L&T, it is described as the first major warship built by an Indian private shipyard.', 'Indigenous content is reported as over 75% (Vice-President) or about 75% of onboard equipment (IANS), with some technology sourced abroad.', 'Its main value is as a sea platform to trial indigenous weapons, sensors and unmanned systems.', 'The tests are utilisation, the schedule for the remaining vessels and subsystem-level domestic content.'],
+  sources: ['IANS via NewKerala (16 Oct 2026): https://www.newkerala.com/news/a/newly-commissioned-multi-purpose-warship-ins-samarthak-75-pc-120.htm', 'Punjab Kesari English (16 Oct 2026): https://english.punjabkesari.com/india/v-p-radhakrishnan-commissions-navys-first-indigenous-multi-purpose-vessel-samarthak/', 'Marine Insight (14 Oct 2026, pre-commissioning preview): https://www.marineinsight.com/?p=1901500']
+}, {
+  slug: 'gmr-aero-technic-logic-air-aircraft-modification-mro-2026',
+  no: 'S-156',
+  title: 'GMR Aero Technic and Logic Air Sign MoU on Aircraft Modification: Can India\'s MRO Base Move Above Maintenance?',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-10-18',
+  dateLabel: '18 Oct 2026',
+  status: 'live',
+  excerpt: 'Hyderabad-based GMR Aero Technic and Canada\'s Logic Air signed an MoU on 16 October to bring modification, certification and obsolescence work to Indian MRO. It is exploratory: no value, timeline or named STC has been disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The MoU',
+  type: 'h'
+}, {
+  text: 'GMR Aero Technic, the MRO arm of the GMR group, and Canada-based Corporation Logic Air Inc. announced a memorandum of understanding on 16 October covering aircraft modification, engineering and certification work for customers in India and abroad. It was announced during a Canadian trade mission to India.',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['Delivery model: modifications bundled with scheduled maintenance, aircraft redelivery programmes and transition checks.', 'Certification route: validating, adapting and implementing eligible Supplemental Type Certificates (STCs) and modification data developed by Logic Air.', 'Initial work: navigation and operational upgrades for Boeing 737NG, and engine-indication upgrades for ATR and Dash 8 aircraft.', 'Also covered: Dash 8 Q400 modifications, cabin electrical and structural work, freighter conversions, transition support, and later component-obsolescence solutions, on-wing support and training.', 'Markets: India, the Middle East and Asia-Pacific, with airlines, lessors and cargo operators as targets.']
+}, {
+  text: 'The companies say they aim to build local capability in India for installation, training, maintenance support and sustainment.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  text: 'The release says commercial terms will be finalised separately for each project. None of the reports we read give a deal value, investment, timeline, MoU duration, headcount, the specific STCs or certification authorities involved, named customers, or whether the MoU is binding.',
+  type: 'p'
+}, {
+  text: 'Why the modification layer matters',
+  type: 'h'
+}, {
+  text: 'Maintenance restores an approved aircraft configuration. Modification changes that configuration and has to be proved safe, certified, installed and supported afterwards. If Indian facilities only perform routine checks while engineering data, installation design and continued-airworthiness decisions stay offshore, the local footprint grows without much system ownership. This MoU points at moving some of that work into India, but an STC is not a plug-and-play export: it has to be validated for the specific aircraft, operator and regulator.',
+  type: 'p'
+}, {
+  text: 'Component obsolescence is a quieter issue. Aircraft stay in service for decades while avionics and electronic modules can become unavailable much earlier, and replacing them needs engineering, qualification and certification, not just a newer part.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is early capability formation, not a production milestone. It is distinct from the GE Aerospace supplier-spend plan in S-151, which concerns component supply, not modification and certification. The proof points will be a named, certified modification programme executed and supported from India, which regulator accepts the STC validation, and how much design and certification authority Indian engineers actually hold.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the first named aircraft programme, the STCs selected and the regulator involved, aircraft quantities, local installation and test facilities, training commitments, and any disclosed contract value.',
+  type: 'p'
+}],
+  takeaways: ['GMR Aero Technic and Canada\'s Logic Air signed an MoU on 16 October on aircraft modification, engineering and certification.', 'Initial work covers 737NG navigation upgrades and ATR and Dash 8 engine-indication upgrades, with freighter conversions and obsolescence solutions also in scope.', 'No deal value, timeline, named STC, customer or binding status has been disclosed; commercial terms will be set per project.', 'The strategic value depends on whether design, certification and support authority are actually retained in India.', 'It is an exploratory MoU, separate from S-151\'s supplier-spend signal.'],
+  sources: ['ANI (16 Oct 2026): https://aninews.in/news/business/gmr-aero-technic-canadas-logic-air-sign-mou-for-aircraft-modification-engineering20261016161922/', 'Siasat (17 Oct 2026): https://www.siasat.com/gmr-aero-technic-mou-to-bring-canadian-stcs-to-indian-operators-3559736/']
+}, {
+  slug: 'india-critical-minerals-stockpiling-policy-mines-secretary-2026',
+  no: 'S-157',
+  title: 'India Moves Toward a Critical-Minerals Stockpile: Policy Due Within a Month, Details Still Missing',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-10-18',
+  dateLabel: '18 Oct 2026',
+  status: 'live',
+  excerpt: 'Mines Secretary Keshav Chandra said on 9 October that a critical-minerals stockpiling policy is likely to be finalised within a month. It is stated intent: no minerals, volumes, budget or agency structure have been announced.',
+  readingTime: '4 min',
+  body: [{
+  text: 'What was said',
+  type: 'h'
+}, {
+  text: 'On 9 October, on the sidelines of an Assocham event in New Delhi, Mines Secretary Keshav Chandra said the Ministry of Mines is likely to finalise a critical-minerals stockpiling policy within a month. Business Standard reports that the policy would set release rules, including how much material is released and to whom. He said stockpiling is not simply storing material in warehouses and that \'the protocol for this stockpile is very elaborate\'.',
+  type: 'p'
+}, {
+  text: 'He framed the stockpile as an alternative for minerals that are \'not sufficiently available\' in India, noting that no country has every critical mineral domestically. That means recycling and overseas sourcing remain part of the picture.',
+  type: 'p'
+}, {
+  text: 'What has not been announced',
+  type: 'h'
+}, {
+  text: 'This is stated intent, not decided policy. Business Standard\'s report names no specific minerals, and no quantities or dedicated budget were given. The Ministry of Mines is the only agency named. Other coverage is looser: Whalesbook, on 9 and 10 October, lists lithium, nickel, cobalt and rare earths, and an undated alCircle report mentions a stockpile covering six months of local demand and includes copper, but neither attributes those details to an official source we could confirm. Earlier reports from 2025 spoke of a smaller, rare-earth-first stockpile with a shorter buffer. These differing accounts show the design is not settled.',
+  type: 'p'
+}, {
+  text: 'The processing link',
+  type: 'h'
+}, {
+  text: 'The Secretary tied the stockpile to domestic capability. He said black mass from lithium-ion battery recycling should be processed in India and not exported, that India needs its own processing technologies because countries that hold them are reluctant to share, and that more value addition should happen before export. A stockpile of raw or imported material helps only if India can also process it. This connects to the four planned critical-mineral processing parks covered in S-096 and the magnet-plant plans in S-153.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'A reserve matters because critical minerals feed EV batteries and motors, electronics, and renewable-energy equipment, and a supply disruption would slow manufacturing and raise costs. A stockpile can cushion that, but only if it holds the right materials in usable form, such as processed oxides or magnets and not just ore, and has clear release rules. The Secretary\'s remark about release rules suggests the government is thinking about this. Until the policy is published, the key unknowns are which minerals, how much, who holds and pays for it, and how it connects to domestic processing.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the policy document itself within the next month: the mineral list, target coverage period, funding, the managing agency, release rules, and how recycled and domestically processed material counts toward the reserve.',
+  type: 'p'
+}],
+  takeaways: ['Mines Secretary Keshav Chandra said on 9 October that a critical-minerals stockpiling policy is likely to be finalised within a month.', 'The policy is expected to set release rules, but no minerals, quantities, budget or agency structure were given on the record.', 'Lithium, cobalt, nickel, rare earths and a six-month cover appear in other reports without confirmed official attribution.', 'The Secretary linked the stockpile to domestic processing, including keeping battery-recycling black mass in India.', 'This is stated intent, not decided policy; the published document is the next test.'],
+  sources: ['Business Standard (9 Oct 2026): https://www.business-standard.com/amp/industry/news/critical-minerals-stockpile-policy-likely-in-a-month-mines-secretary-126100901183_1.html', 'Whalesbook (9 Oct 2026): https://www.whalesbook.com/news/English/commodities/India-to-Unveil-Critical-Minerals-Stockpiling-Policy-Within-Weeks/6ac89e0579a16deaeaebb26d', 'Whalesbook (10 Oct 2026): https://www.whalesbook.com/news/English/economy/India-to-Launch-Critical-Minerals-Stockpiling-Policy-in-30-Days/6aca015479a16deaeaecb257']
+}, {
+  slug: 'qnu-labs-quantum-secure-sensing-networks-rdi-2026',
+  no: 'S-158',
+  title: 'Rs 150 Crore Public Support Backs QNu Labs\' Plan for a Sovereign Quantum-Security Stack',
+  domain: 'Strategic Technology',
+  date: '2026-10-19',
+  dateLabel: '19 Oct 2026',
+  status: 'live',
+  excerpt: 'The Technology Development Board will provide QNu Labs Rs 150 crore as optionally convertible debt towards a Rs 300 crore programme covering device identity, location, network and timing security. It funds development, not a deployed network.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The agreement',
+  type: 'h'
+}, {
+  text: 'On 16 October the Technology Development Board (TDB), under the Department of Science and Technology, signed an agreement with Bengaluru-based QNu Labs to provide Rs 150 crore from the Research Development and Innovation (RDI) Fund. The support is structured as optionally convertible debt. It forms part of a Rs 300 crore project to build an indigenous technology base for India\'s Quantum Secure and Sensing Networks (IQSN). The aim is to advance technologies from Technology Readiness Level (TRL) 4-5 to TRL-9.',
+  type: 'p'
+}, {
+  text: 'The four pillars',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Identity security: quantum-secure physical unclonable functions (PUFs) and quantum-safe trusted platform modules for device authentication.', 'Location integrity: compact quantum magnetometers to detect electromagnetic tampering and support navigation without GPS.', 'Network security: chip-based and satellite-based quantum key distribution (QKD), plus quantum-secure communication modules.', 'Time integrity: indigenous high-precision atomic clocks and QKD-authenticated time synchronisation.']
+}, {
+  text: 'TDB Secretary Rajesh Kumar Pathak said these technologies require sustained investment to move from research to deployable systems.',
+  type: 'p'
+}, {
+  text: 'What is not disclosed',
+  type: 'h'
+}, {
+  text: 'The reports we read do not give the conversion terms of the debt, interest or repayment terms, the project duration or milestones for each TRL stage, the source of the other Rs 150 crore, a budget split across the four pillars, or specific product deliverables. They name no customers or deployment sites.',
+  type: 'p'
+}, {
+  text: 'How it fits QNu\'s recent record',
+  type: 'h'
+}, {
+  text: 'In September QNu Labs raised Rs 200 crore in a Series A1 round led by the National Quantum Mission and Speciale Invest, with part of the funds earmarked for its contribution to the IQSN project. The company\'s earlier 5.56 km free-space QKD trial with BISAG-N and IIT Gandhinagar was covered in S-139. That was a field demonstration of one link. This agreement is a later and broader development-finance step for an integrated portfolio.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The strategic point is integration. A quantum-secure network needs trusted endpoints, location and time as well as encrypted links, and the project tries to build all four together. The risk is the jump from TRL 4-5 to TRL-9, which means repeatable hardware, system-level testing, environmental qualification, secure supply chains and integration with real telecom, defence and infrastructure networks. Public money lowers the financing risk but does not create adoption; no user has been named.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the project\'s milestone schedule, named government or industry users, chip and satellite QKD prototypes, magnetometer and GPS-denied navigation demonstrations, atomic-clock validation, interoperability and independent security evaluation, and domestic component sourcing.',
+  type: 'p'
+}],
+  takeaways: ['The Technology Development Board signed an agreement on 16 October to provide QNu Labs Rs 150 crore from the RDI Fund as optionally convertible debt.', 'It is part of a Rs 300 crore programme for India\'s Quantum Secure and Sensing Networks, aiming to advance technologies from TRL 4-5 to TRL-9.', 'The four pillars are device identity, location integrity, network security and time integrity.', 'Conversion terms, timelines, the source of the remaining Rs 150 crore, deliverables and users were not disclosed.', 'This is development finance, not a deployed network; the test is whether the tracks become interoperable, validated and procurable systems.'],
+  sources: ['Swarajya (16 Oct 2026): https://swarajyamag.com/tech/india-invests-in-homegrown-quantum-technologies-with-rs-150-crore-government-support-for-qnu-labs', 'PSU Connect (16 Oct 2026): https://www.psuconnect.in/ministry-of-india-news/tdb-dst-signs-150-crore-pact-with-qnu-labs-for-quantum-secure-technologies', 'The Quantum Insider (9 Sep 2026), QNu Labs Series A1: https://thequantuminsider.com/2026/09/09/qnu-labs-raises-%e2%82%b9200-crore-25-million-usd-led-by-national-quantum-mission-and-speciale-invest/']
+}, {
+  slug: 'isro-gaganyaan-crew-service-module-separation-tests-2026',
+  no: 'S-159',
+  title: 'ISRO Clears Gaganyaan Crew-Service Module Separation Tests Ahead of the Uncrewed G1 Flight',
+  domain: 'Strategic Technology',
+  date: '2026-10-19',
+  dateLabel: '19 Oct 2026',
+  status: 'live',
+  excerpt: 'ISRO says its crew module-service module separation tests, including severing umbilical connections, validated the separation system\'s design. G1 is targeted for 2026, not confirmed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The tests',
+  type: 'h'
+}, {
+  text: 'On 16 October ISRO announced that it had completed Crew Module (CM) and Service Module (SM) separation tests for the Gaganyaan programme at the Vikram Sarabhai Space Centre, Thiruvananthapuram. The setup used a full CM-SM assembly with extensive instrumentation and simulated separation, including severing several umbilical connections between the two modules, along with the separation system\'s pyrotechnic and jettison sequence.',
+  type: 'p'
+}, {
+  text: 'ISRO says the tests validated the design of the separation system and showed that critical crew-module subsystems can withstand the shock of separation, including avionics, inertial navigation, the thermal protection system, the deployable umbilical shield, and the pyrotechnics for uprighting and for thermal and humidity control. It describes this as giving confidence for the next mission.',
+  type: 'p'
+}, {
+  text: 'What is not stated',
+  type: 'h'
+}, {
+  text: 'ISRO\'s release and the news report we read give no test dates, number of runs, quantitative shock or timing data, or pass/fail margins. Deccan Chronicle\'s report quotes no ISRO statement directly. The first uncrewed Gaganyaan mission (G1) is described as targeted for launch within 2026; that is a target, not a confirmed date.',
+  type: 'p'
+}, {
+  text: 'Why separation matters',
+  type: 'h'
+}, {
+  text: 'In a crewed return, the crew module has to detach cleanly from the service module while the electronics, heat shield and parachute-related systems survive the event. A ground test of the separation sequence retires one failure mode before flight, but it is not a flight demonstration.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'This is a steady qualification milestone rather than a breakthrough. It matters because human spaceflight depends on many such subsystem tests being closed out in sequence, and each one that is documented with data adds confidence in the schedule. Without numbers, outsiders cannot judge the margin. The next evidence is the G1 launch itself and what telemetry ISRO releases from the separation and recovery.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for a confirmed G1 launch date, ISRO\'s summary of remaining qualification tests, the outcome of the uncrewed flight including recovery, and whether quantitative test results are published.',
+  type: 'p'
+}],
+  takeaways: ['ISRO announced on 16 October that Gaganyaan crew module-service module separation tests, including umbilical severing, were completed at VSSC.', 'ISRO says the tests validated the separation system\'s design and that key crew-module subsystems withstood the shock.', 'No test dates, run counts, quantitative data or margins were disclosed.', 'The first uncrewed mission, G1, is targeted for 2026 but not confirmed.'],
+  sources: ['ISRO (16 Oct 2026): https://www.isro.gov.in/Crew_Module_Service_Module_Separation_Tests.html', 'Deccan Chronicle (16 Oct 2026): https://www.deccanchronicle.com/southern-states/andhra-pradesh/isro-completes-crew-service-module-tests-for-gaganyaan-1996532']
+}, {
+  slug: 'swavlamban-naval-innovation-contracts-nausetu-2026',
+  no: 'S-160',
+  title: 'Swavlamban\'s Rs 1,900 Crore Conversion Test: Can Naval Innovation Become Deployable Capability?',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-20',
+  dateLabel: '20 Oct 2026',
+  status: 'live',
+  excerpt: 'At the Swavlamban 2026 curtain raiser, the Vice Chief of Naval Staff said innovation-linked projects worth over Rs 3,500 crore have Acceptance of Necessity and contracts worth over Rs 1,900 crore are concluded. These are cumulative figures, not inductions.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The figures',
+  type: 'h'
+}, {
+  text: 'At the curtain-raiser press conference on 19 October for the Navy\'s fifth Swavlamban seminar, Vice Chief of Naval Staff Vice Admiral Ajay Kochhar gave the Navy\'s innovation and indigenisation numbers. RNA Media reports that Acceptance of Necessity (AoN) has been granted for projects worth over Rs 3,500 crore, up from over Rs 2,700 crore at last year\'s curtain raiser, and that contracts worth over Rs 1,900 crore have been concluded, up from nearly Rs 1,500 crore. It also reports over 4,000 iDEX proposals from Indian innovators and about 150 MSMEs and start-ups taking part.',
+  type: 'p'
+}, {
+  text: 'These are cumulative programme figures, not a single contract announced on 19 October. AoN is a formal statement that a capability is required and may proceed to procurement. A concluded contract is further along. Neither means a system has entered service.',
+  type: 'p'
+}, {
+  text: 'The seminar and its releases',
+  type: 'h'
+}, {
+  text: 'Swavlamban 2026 runs on 26-27 October at the Manekshaw Centre in New Delhi, with innovators, industry, start-ups, MSMEs, academia, investors and the armed forces. The Navy\'s release lists exhibition themes of maritime surveillance, counter-UAS, AI and quantum, NBCD, and safety and efficiency enhancers. It says three documents will be released: the Swavlamban 5.0 Document, a Compendium on Technology Imperatives, and the NAUSETU (Naval Unified Systems, Ethernet and Tactical Utilisation) Interface Standards.',
+  type: 'p'
+}, {
+  text: 'RNA Media reports the harder technologies in focus as quantum positioning systems, high-power microwave directed-energy systems, extra-large autonomous underwater vehicles and indigenous ramjet engines for fixed-wing aerial platforms. These are listed as areas of focus, not contracted programmes.',
+  type: 'p'
+}, {
+  text: 'What is not disclosed',
+  type: 'h'
+}, {
+  text: 'The reports do not name the systems or companies behind the Rs 1,900 crore of concluded contracts, delivery or acceptance data, repeat orders, or the contents, adoption rules and conformance regime of NAUSETU.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'The useful signal is the direction of the cumulative numbers, which grew year on year, and the Navy\'s stated aim of turning niche technologies into systems deployable at sea. The test is conversion: from AoN to contract, then to trials, acceptance, production and support. NAUSETU may matter as much as any single contract. Common interface standards, if technically specific and enforced, can cut bespoke integration work and let smaller Indian firms supply components that fit a naval architecture. That depends on details not yet public. This is distinct from the single-contract signals in S-143 (BrahMos fire control) and S-154 (GSAT-7C and Varunastra).',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch the NAUSETU release and its adoption requirements, project-level data on the concluded contracts, delivery and trial results, repeat orders, domestic component content, and whether start-ups get certification and lifecycle-support pathways.',
+  type: 'p'
+}],
+  takeaways: ['The Navy says AoN has been granted for innovation-linked projects worth over Rs 3,500 crore and contracts worth over Rs 1,900 crore are concluded (RNA Media, 19 Oct 2026).', 'Last year\'s figures were over Rs 2,700 crore and nearly Rs 1,500 crore; these are cumulative programme numbers, not inductions.', 'Swavlamban 2026 runs on 26-27 October, with the Swavlamban 5.0 Document, a technology-imperatives compendium and NAUSETU interface standards due for release.', 'The systems, companies, delivery data and NAUSETU\'s technical content were not disclosed.', 'The test is conversion from AoN and contract to trials, production and support.'],
+  sources: ['RNA Media (19 Oct 2026): https://www.rnamedia.in/navy/swavlamban-2026-navy-turns-to-quantum-positioning-and-ramjets-as-idex-proposals-cross-4000-vice-chief-says/24661', 'Konni Vartha, Swavlamban 2026 curtain raiser (19 Oct 2026): https://konnivartha.in/2026/10/19/swavlamban-2026-curtain-raiser-press-conference/', 'Deccan Herald / PTI (19 Oct 2026): https://www.deccanherald.com/india/were-seeking-development-in-all-domains-air-sea-to-ai-vice-chief-of-naval-staff-4187912']
+}, {
+  slug: 'akash-air-defence-exports-tajikistan-turkmenistan-confirmed-2026',
+  no: 'S-161',
+  title: 'India\'s Defence Secretary confirms Akash air-defence exports to Tajikistan and Turkmenistan',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-20',
+  dateLabel: '20 Oct 2026',
+  status: 'live',
+  excerpt: 'In early October, Defence Secretary Rajesh Kumar Singh publicly confirmed that India has sold the Akash air-defence system to Tajikistan and Turkmenistan, after Armenia. No quantities, values or delivery dates were disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'In early October 2026, Defence Secretary Rajesh Kumar Singh confirmed in an interview with ANI that India has exported the indigenous Akash air-defence system to Tajikistan and Turkmenistan. Reports describe this as the first public confirmation of those two sales from the Defence Ministry. Armenia was the first export customer.',
+  type: 'p'
+}, {
+  text: 'What was said',
+  type: 'h'
+}, {
+  text: 'Singh called Akash one of India\'s success stories and said it shows the maturing of the indigenous missile design and production system. He said production has stabilised, that the armed forces have placed additional orders, and that he expects more buyers from different parts of the world. The Week, reporting the ANI interview on 5 October, also quotes him saying Akash is effective against high-velocity aerial targets.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['It moves Akash from a single known export customer to three, which is the evidence base for India\'s claim of an export-ready, serially produced air-defence line.', 'It extends Indian defence exports into Central Asia, where buyers have largely relied on Russian and Chinese systems. Reporting notes Akash is expected to fill a mid-layer role alongside Turkmenistan\'s existing Chinese systems; that is the reporting\'s reading, not a contract detail.', 'Singh tied the export push to policy incentives, defence corridors and more private-sector participation, which links Akash to the wider defence-manufacturing base.']
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Quantities or number of batteries for either country.', 'Contract values, financing terms, signing dates or delivery schedules.', 'Which Akash variant or support package is included, and whether deliveries are complete or still under way.', 'Any statement from the Tajik or Turkmen governments. Defense News (12 October) quotes none.']
+}, {
+  text: 'Caveats',
+  type: 'h'
+}, {
+  text: 'This is a ministerial confirmation in a media interview, not a published contract or ministry release. Order sizes and Indian armed-forces order figures remain unstated, so no export volume can be inferred. Earlier reports on Armenia\'s purchase carry their own figures, which should not be read across to these two buyers.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for ministry or DPSU (BEL, BDL) disclosures of order values, any delivery or commissioning announcements, and whether further buyers are named.',
+  type: 'p'
+}],
+  takeaways: ['Defence Secretary has publicly confirmed Akash exports to Tajikistan and Turkmenistan, after Armenia.', 'Singh says production has stabilised and the armed forces have placed additional orders.', 'Quantities, contract values and delivery dates are not disclosed for either new buyer.'],
+  sources: ['The Week (5 Oct 2026): https://www.theweek.in/news/defence/2026/10/05/indias-akash-air-defence-missile-system-set-for-a-global-breakthrough-defence-secy-confident-of-more-export-orders.html', 'Defense News (12 Oct 2026): https://defensenews.com/global/asia-pacific/2026/10/12/india-sells-air-defense-missiles-to-tajikistan-turkmenistan-in-central-asia-push/', 'idrw (1 Oct 2026): https://idrw.org/mod-confirms-akash-exports-to-tajikistan-turkmenistan/']
+}, {
+  slug: 'circulogy-meerut-critical-minerals-rare-earth-refinery-2026',
+  no: 'S-162',
+  title: 'A Rs 200 crore Meerut refinery targets India\'s secondary critical-minerals supply: a useful project, not yet capacity',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-10-21',
+  dateLabel: '21 Oct 2026',
+  status: 'live',
+  excerpt: 'Meerut start-up Circulogy Cleantech has signed an MoU with Invest UP for a proposed Rs 200 crore refinery to recover battery metals and rare-earth elements from used batteries and old magnets. It is a project-formation milestone, not an operating plant.',
+  readingTime: '4 min',
+  body: [{
+  text: 'Meerut-based Circulogy Cleantech Private Limited has signed a memorandum of understanding with Invest UP, the Uttar Pradesh investment promotion agency, for a lithium-ion battery and rare-earth refinery in Meerut. Reports dated 20 October put the proposed investment at about Rs 200 crore. Circulogy is a DPIIT-recognised deep-tech start-up supported by the UP Startup Mission.',
+  type: 'p'
+}, {
+  text: 'What is proposed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Phased development, with up to 10,000 tonnes of material processed a year at full capacity. Reports say \'material\' and do not say whether this is input feedstock or recovered output.', 'About 300 direct and 1,000 indirect jobs.', 'Used lithium-ion batteries as one feedstock, yielding lithium, cobalt and nickel.', 'Old permanent magnets from electronics, hard drives and EV motors as the other, yielding neodymium, dysprosium and terbium. One report also mentions recycled rare-earth oxides.', 'Under the MoU, the state government will help obtain clearances and approvals and help the project access applicable central and state incentive schemes.']
+}, {
+  text: 'Two waste streams, one midstream problem',
+  type: 'h'
+}, {
+  text: 'Battery black mass and magnet scrap are different feedstocks. They need different collection systems, pre-processing, separation chemistry and quality control. A plant that claims both must show reliable feedstock aggregation, safe handling, recovery yields, impurity control and buyers for the recovered products. Public reporting does not yet show any of these.',
+  type: 'p'
+}, {
+  text: 'Why secondary supply matters',
+  type: 'h'
+}, {
+  text: 'India\'s critical-minerals effort has largely focused on mines, overseas assets and processing parks. Material already inside the economy, in end-of-life batteries, electronics and motors, is a second source that does not depend on a new mine or imported concentrate. Recycling does not remove the need for primary supply. It becomes useful only when volumes, yields and product specifications are strong enough for domestic battery, magnet and electronics manufacturers to use the output.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The site or plot within Meerut, land allotment and environmental approvals.', 'Timeline, commissioning date or phase-wise targets.', 'Process technology, technology partner, recovery yields and product specifications.', 'Cost breakdown, funding structure and whether the MoU carries binding financial terms.', 'Feedstock contracts and customers for the recovered products.', 'The MoU signing date. Reports are dated 20 October, and one relies on comments from the UP Startup Mission rather than Circulogy itself.']
+}, {
+  text: 'How it differs from earlier coverage',
+  type: 'h'
+}, {
+  text: 'S-120 covered the Ministry of Mines recycling concept paper, a policy instrument. S-153 covered Nexon Geochem\'s proposed rare-earth magnet manufacturing facility in Andhra Pradesh, which is downstream magnet making. S-157 covered the proposed national critical-minerals stockpiling policy. This signal is a named private recycling and refining project, which is a separate item.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for land and environmental approvals, financing, a process-technology partner, feedstock agreements with battery and e-waste aggregators, first construction, and evidence that recovered products meet industrial specifications. Until then the 10,000-tonne figure is a target, not capacity.',
+  type: 'p'
+}],
+  takeaways: ['Circulogy Cleantech has signed an MoU with Invest UP for a proposed Rs 200 crore battery and rare-earth refinery in Meerut.', 'The plan targets lithium, cobalt and nickel from used batteries and neodymium, dysprosium and terbium from old magnets, up to 10,000 tonnes of material a year at full capacity.', 'No site, timeline, technology, yields, feedstock contracts or customers are disclosed, so this is not yet operating capacity.'],
+  sources: ['Free Press Journal (20 Oct 2026): https://www.freepressjournal.in/uttar-pradesh/ups-meerut-to-get-200-crore-lithium-ion-battery-rare-earth-refinery-project-expected-to-create-1300-jobs', 'Hindi Khabar (20 Oct 2026): https://hindikhabar.com/meerut-200-crore-critical-mineral-rare-earth-refinery-employment-opportunities/', 'Ujjwal Pradesh (20 Oct 2026): https://www.ujjwalpradesh.com/a-critical-mineral-and-rare-earth-refinery-will-be-set-up-in-meerut-with-an-investment-of-%E2%82%B9200-crore/']
+}, {
+  slug: 'army-improved-low-level-light-weight-radar-bel-contract-2026',
+  no: 'S-163',
+  title: 'Army\'s Rs 770 crore radar order with BEL adds a low-level detection layer against drones and low-flying aircraft',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-22',
+  dateLabel: '22 Oct 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence signed a Rs 770 crore contract with Bharat Electronics Limited on 21 October for Improved Low Level Light Weight Radars (LLLR-I) for the Army. Quantity and delivery schedule were not disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'On 21 October 2026 the Ministry of Defence signed a contract worth Rs 770 crore with Bharat Electronics Limited (BEL) for Improved Low Level Light Weight Radars, LLLR-I, for the Indian Army. UNI reports the contract was signed in New Delhi in the presence of Defence Secretary Rajesh Kumar Singh. The ministry says the radar can detect and track fighter-sized targets and mini and micro drones, and can prioritise aerial targets.',
+  type: 'p'
+}, {
+  text: 'What the radar is described as',
+  type: 'h'
+}, {
+  text: 'The Week\'s description of the system, which is the outlet\'s own account and not an explicit ministry statement, adds the following:',
+  type: 'p'
+}, {
+  type: 'list',
+  items: ['360-degree coverage from four fixed phased-array panels with no moving parts.', 'AESA technology with GaN amplifiers, digital beamforming, 3D processing, Track While Scan and electronic counter-countermeasures.', 'Detection of low radar cross-section targets, and sharing of target data with weapon systems.', 'A lightweight, tripod-mounted, passively cooled design for plains, deserts and high-altitude areas.']
+}, {
+  text: 'The ministry says the procurement will improve the Army\'s ability to counter unmanned aerial system threats and fits the goal of a self-reliant defence industry.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Low-flying aircraft and small drones are hard to detect: terrain and clutter shorten warning time, and small targets return little signal. A radar is the first link in an air-defence chain, and it has to find and track a target before a gun, missile, jammer or laser can be assigned to it. This order is for that sensing link, not for the engagement systems. It is a production contract with a named domestic supplier, which separates it from component development or prototype tests.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The number of radars and the delivery schedule.', 'Detection range, radar band and per-system cost.', 'Indigenous-content percentage. Reports call the system indigenous but give no figure.', 'Which Army formations will receive the radars, and the acceptance and trial milestones.']
+}, {
+  text: 'Technical features above come from a single press description and should be treated as reported, not verified.',
+  type: 'p'
+}, {
+  text: 'Related coverage',
+  type: 'h'
+}, {
+  text: 'S-097 covered the IDDS Mark-II directed-energy counter-drone programme, S-138 covered JWALA\'s rocket-motor test for hard-kill interceptors, and S-101 covered DRDO\'s indigenous GaN technology for radar and electronic warfare. Those are effects and components. This is a signed order for the sensor layer. The Week notes GaN amplifiers in LLLR-I, but no source here links the radar\'s components to S-101\'s DRDO work.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the contracted quantity, delivery start, Army acceptance trials, domestic-content disclosures by BEL, and how LLLR-I tracks are handed to soft-kill and hard-kill systems. A signed contract is an acquisition milestone, not a fielded network.',
+  type: 'p'
+}],
+  takeaways: ['MoD signed a Rs 770 crore contract with BEL on 21 October 2026 for LLLR-I radars for the Indian Army.', 'The radar is described as detecting and tracking fighter-sized targets and mini and micro drones, with target prioritisation.', 'Quantity, delivery schedule, range and indigenous-content figures are not disclosed.'],
+  sources: ['UNI (21 Oct 2026): https://www.uniindia.com/national/defence-bel-contract/220937', 'The Week (21 Oct 2026): https://theweek.in/news/defence/2026/10/21/indian-armys-new-lllr-i-radars-can-detect-tiny-drones-to-fighter-jets-a-major-upgrade-in-air-defence.html']
+}, {
+  slug: 'iaf-indigenous-firefighting-robot-swadeshi-empresa-idex-2026',
+  no: 'S-164',
+  title: 'IAF receives iDEX-origin firefighting robots from Swadeshi Empresa; the 80-unit figure is reported, not confirmed',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-23',
+  dateLabel: '23 Oct 2026',
+  status: 'live',
+  excerpt: 'Reports on 20 October say the Indian Air Force has received FF Bot remote firefighting vehicles from Ahmedabad start-up Swadeshi Empresa, bought under emergency procurement. The 80-unit quantity, contract value and certification details are not officially confirmed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'On 20 October 2026, Outlook India, Raksha Anirveda and Republic World reported that the Indian Air Force has received FF Bots, remotely operated six-wheel firefighting vehicles, from Swadeshi Empresa Pvt Ltd of Changodar near Ahmedabad. The vehicles were bought under the emergency procurement route opened after Operation Sindoor. Outlook reports the order was placed in October 2025. The system was developed under the Ministry of Defence\'s iDEX programme, and iDEX lists a Fire Fighting BOT among its success stories.',
+  type: 'p'
+}, {
+  text: 'What the reports say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Quantity: Raksha Anirveda reports an order for 80 units. Republic World attributes the 80-unit figure to a January 2026 report and says it is not an official announcement. Outlook says only an undisclosed number has been delivered. We therefore treat 80 as a reported figure.', 'Delivery: Republic World reports a 12-month delivery schedule under the sixth emergency-procurement tranche, and says the company claims it delivered in 11 months. That is the company\'s own statement and is not independently verified.', 'Testing: the robot was demonstrated at Exercise Vayu Shakti 2026 at Pokhran on 27 February 2026, against fire and falling debris, on uneven ground and in low visibility. Reports give no pass or fail result.', 'Reported features: stainless-steel body with a cooling system, six powered suspended wheels, optical and thermal cameras, a foam and fog-water monitor, and the ability to drag a charged hose or tow up to five tonnes. These come from media coverage and the company, not from a ministry specification.', 'Role: fires involving fuel, ammunition, aircraft or debris at air bases, with operators outside the hazard radius. Raksha Anirveda notes it is not a substitute for trained emergency teams.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Air-base resilience depends on more than interceptors and shelters. Fuel farms, hangars and ammunition stores can burn after accidents, debris or attack, and a remote vehicle gives crews a way to start suppression and cooling without entering the most dangerous area. The more useful industrial point is the route: an iDEX start-up product moved through trials into a service purchase under emergency procurement. That is a sign that iDEX can lead to orders, not only grants and prototypes.',
+  type: 'p'
+}, {
+  text: 'What has not been confirmed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The order quantity and contract value. No ministry or IAF statement was found in the reports reviewed.', 'Which air bases hold the vehicles and whether induction is complete.', 'Quality-assurance status. Some coverage elsewhere mentions DGQA certification, but none of the three reports we reviewed does, so it is not stated here.', 'Reported Army (18 units, January 2026) and Navy purchases. These are mentioned in one report and are unconfirmed.', 'Performance in live incidents, sustainment arrangements, spares and communications resilience.']
+}, {
+  text: 'Related coverage',
+  type: 'h'
+}, {
+  text: 'S-132 covered Indian defence UAV makers crossing from prototype to delivery, S-146 an Army FPV drone order, S-147 the revised MoD test-range access rules, and S-160 the Swavlamban naval innovation pipeline. This item is a separate air-base fire-safety system and a different iDEX-to-procurement example.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for an official figure for quantity and value, the bases equipped, any quality-assurance or acceptance record, repeat orders, and how a small firm supports a fleet spread across air bases. Treat this as an adoption signal, not proof of operational performance.',
+  type: 'p'
+}],
+  takeaways: ['The IAF has reportedly received FF Bot firefighting vehicles from Swadeshi Empresa, bought under emergency procurement after Operation Sindoor.', 'The 80-unit order is a reported figure; Outlook says the number is undisclosed, and no contract value is public.', 'The product came through iDEX and was demonstrated at Vayu Shakti 2026, but certification and field performance are not established in the reports reviewed.'],
+  sources: ['Outlook India (20 Oct 2026): https://www.outlookindia.com/national/iaf-inducts-indigenous-firefighting-robot-ordered-under-emergency-procurement-after-operation-sindoor', 'Raksha Anirveda (20 Oct 2026): https://raksha-anirveda.com/iaf-orders-80-indigenous-firefighting-robots-developed-by-swadeshi-empresa/', 'Republic World (20 Oct 2026): https://www.republicworld.com/defence/defence-ministry-s-1st-idex-winner-how-a-swadeshi-firefighting-robot-fits-into-the-unfinished-lesson-of-op-sindoor-2026-10-20-139296']
+}, {
+  slug: 'cdac-ai-compute-empanelment-10000-aicu-bids-close-29-oct-2026',
+  no: 'S-165',
+  title: 'C-DAC opens a 10,000-unit AI compute empanelment, with the entry bar cut to 512 units and bids closing 29 October',
+  domain: 'AI Infrastructure',
+  date: '2026-10-24',
+  dateLabel: '24 Oct 2026',
+  status: 'live',
+  excerpt: 'C-DAC issued a request for empanelment on 7 October for up to 10,000 AI compute units from Indian data-centre operators. Bids close on 29 October. Budget, first-round quantity and award split are not stated.',
+  readingTime: '4 min',
+  body: [{
+  text: 'On 7 October 2026 C-DAC, which works under MeitY, issued a request for empanelment, tender C-DAC/GPU/01/2026, inviting AI service providers to supply up to 10,000 AI compute units (AICU) for the IndiaAI compute pool. An AICU is a GPU, TPU or similar accelerator. Bids close at 3:30 pm on 29 October 2026, per a StartupFeed report of the tender terms. This is the next buying round after the compute additions covered in S-040 and S-140.',
+  type: 'p'
+}, {
+  text: 'What the tender asks for',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Capacity in clusters of 4,000, 1,000 or 512 units, with at least 512 units at a single Indian data centre. C-DAC may expand beyond 10,000 units later.', 'Use cases: large-model training, fine-tuning, inference and HPC for ministries, academia, research bodies, start-ups and industry (Medianama).', 'Data localisation: all data, metadata, logs, backups and disaster recovery must stay in India, with isolation from other customers.', 'Hardware named in the tender, as reported by StartupFeed: H100, H200 and later chips in three power-based tiers.', 'Terms reported by StartupFeed: five-year service, three-year empanelment extendable by three, and no subcontracting.']
+}, {
+  text: 'Who can bid',
+  type: 'h'
+}, {
+  text: 'StartupFeed reports that bidders must be Indian-registered companies or LLPs with average audited turnover of at least Rs 120 crore over FY24 to FY26, a Tier-III or better Indian data centre, ISO 27001 certification, and security and network operations centres in India. Firms still building can bid with a purchase order, a bank guarantee and installation within six months. Blacklisted firms and bidders from countries sharing a land border with India are excluded.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The entry threshold is 512 units, against 1,000 units per agency in the August 2024 IndiaAI round (Outlook Business). A lower bar lets smaller Indian operators in, which widens the supplier base for sovereign compute. The tender also hard-wires the sovereignty conditions: Indian entity, Indian soil, no subcontracting, and exclusion of land-border-country bidders. The dependency that remains is the hardware, since the named accelerators are imported chips.',
+  type: 'p'
+}, {
+  text: 'What is not stated',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Total budget, contract value or per-unit pricing. Medianama and StartupFeed both find none in the reviewed text.', 'Quantity for the first round. Minister Ashwini Vaishnaw said on 8 October the demand is 10,000 GPUs and the first tender would cover 5,000, but the tender paper reportedly names no first-round figure.', 'The number of winners and how awards are split.', 'A clause conflict: StartupFeed notes some clauses give a guarantee of Rs 30 crore instead of Rs 10 crore, and a corrigendum could follow before bids close.']
+}, {
+  text: 'Caveat on sourcing',
+  type: 'h'
+}, {
+  text: 'We have not read the 43-page tender document itself. Tender terms above come from Medianama and StartupFeed, and StartupFeed\'s detail has not been checked against the original. Treat eligibility and pricing-related points as reported.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for any corrigendum before 29 October, the technical bid opening on 30 October, the number of empanelled providers, the rate discovered per compute unit, and whether the first round is 5,000 units as the minister indicated.',
+  type: 'p'
+}],
+  takeaways: ['C-DAC issued a request for empanelment on 7 October for up to 10,000 AI compute units, with bids closing on 29 October.', 'The minimum cluster is 512 units at one Indian data centre, against 1,000 units per agency in the 2024 round.', 'Budget, first-round quantity and award split are not stated, and the tender document itself was not reviewed.'],
+  sources: ['Medianama (13 Oct 2026): https://www.medianama.com/2026/10/223-meity-ai-compute-providers-gpus-indiaai-mission/', 'StartupFeed (20 Oct 2026): https://startupfeed.in/?p=12648', 'Outlook Business (17 Aug 2024): https://www.outlookbusiness.com/amp/story/economy-and-policy/govt-invites-bids-to-empanel-ai-infra-providers-under-rs-10372-crore-india-ai-mission']
+}, {
+  slug: 'indian-army-land-warfare-doctrine-2026-ai-drones-release',
+  no: 'S-166',
+  title: 'Army\'s Land Warfare Doctrine 2026 is released: drones and AI become core skills, but the text is not public',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-24',
+  dateLabel: '24 Oct 2026',
+  status: 'live',
+  excerpt: 'Defence Minister Rajnath Singh released the Indian Army\'s Land Warfare Doctrine 2026 on 23 October. Reports say it makes drone operations a force-wide secondary skill and adds AI training for officers, but the document and its procurement implications are not public.',
+  readingTime: '4 min',
+  body: [{
+  text: 'On 23 October 2026 Defence Minister Rajnath Singh released the Indian Army\'s Land Warfare Doctrine 2026 on the concluding day of the three-day Army Commanders\' Conference in New Delhi, which opened on 21 October (The Week, Tribune, UNI). Reports describe it as the Army\'s first land warfare doctrine since Operation Sindoor. Most of what is known about its content comes from unnamed sources and a ministry release, not from the document.',
+  type: 'p'
+}, {
+  text: 'What is reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Technology and drones: the Tribune reports a \'new philosophy to make drone operations a secondary skill across the force\', which covers about 1.2 million personnel, and a mix of manned and unmanned systems. Its headline says \'mandatory\' while its body says \'secondary skill\', so the strength of the requirement is unclear.', 'AI: specialised training for officers on using AI as a decision-making tool, through a three-level AI skill development programme (Tribune). The content of the three levels is not described.', 'Training: a five-year roadmap for multi-domain operations training (Tribune).', 'Operating conditions: The Week reports an emphasis on fighting where technology and communications may be disrupted, and Tribune adds resilient logistics.', 'Principles: jointness across services and domains, continued centrality of land power, and alignment with Defence Forces Vision 2047.', 'Lessons: the Tribune says the doctrine draws on Operation Sindoor, where unmanned systems and contested communications mattered.']
+}, {
+  text: 'What the minister said',
+  type: 'h'
+}, {
+  text: 'UNI reports Singh called the doctrine a framework for future operational preparedness and urged commanders to build a strategic outlook for the next two to three decades while staying ready for immediate threats. He cited Operation Sindoor as showing innovative thinking, synergy and coordination with advanced weaponry. Singh also urged faster work on AI, autonomous systems, data analytics, cybersecurity and secure communications (The Week). These are remarks and stated intent, not doctrine text.',
+  type: 'p'
+}, {
+  text: 'Why it matters for industry',
+  type: 'h'
+}, {
+  text: 'A doctrine is the demand signal behind later procurement. Making drone handling a force-wide skill implies a large, steady need for small unmanned systems, training equipment and counter-drone sensors, and AI training for officers points to decision-support tools. This is an inference. No source here ties the doctrine to any purchase, quantity or budget, and it does not by itself create a requirement.',
+  type: 'p'
+}, {
+  text: 'What is not stated',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The full text of the doctrine, or whether it will be published.', 'Indigenisation, procurement, budget, force-structure or theatre-command provisions. The Week found none, and The Week and Tribune differ on how much they report about indigenous capability.', 'What \'secondary skill\' means in training hours, rank coverage or assessment.', 'Timelines beyond the five-year training roadmap.', 'How the new doctrine differs from its predecessor.']
+}, {
+  text: 'The Tribune\'s report is dated 24 October IST and says the doctrine was released \'today\', while its caption and other reports give Friday 23 October. We use 23 October.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a published summary or full text, any ministry or Army detail on the drone-skill and AI programmes, follow-on procurement for small drones, counter-drone systems and secure communications, and whether theatre commands or indigenisation are addressed in later documents.',
+  type: 'p'
+}],
+  takeaways: ['Rajnath Singh released the Army\'s Land Warfare Doctrine 2026 on 23 October at the Army Commanders\' Conference.', 'Reports say it makes drone operations a force-wide secondary skill and adds a three-level AI programme for officers, mostly from unnamed sources.', 'The text is not public, and procurement, budget, indigenisation and structure are not stated.'],
+  sources: ['The Week (23 Oct 2026): https://www.theweek.in/news/defence/2026/10/23/how-will-indian-army-fight-future-wars-new-land-warfare-doctrine-offers-a-roadmap.html', 'The Tribune (24 Oct 2026): https://www.tribuneindia.com/news/india/indian-army-doctrine-released-puts-ai-drones-at-centre-of-future-wars/', 'UNI (23 Oct 2026): https://www.uniindia.com/national/defence-rajnath-land-warfare-doctrine/223256', 'The Tribune (23 Oct 2026): https://www.tribuneindia.com/news/defence/army-officers-to-be-trained-in-use-of-ai-drone-operations-to-be-mandatory-skill/']
+}, {
+  slug: 'drdo-high-altitude-airship-stratospheric-flight-test-21km-2026',
+  no: 'S-167',
+  title: 'DRDO flies an indigenous high-altitude platform to the stratosphere: a first flight, not yet a deployable surveillance layer',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-25',
+  dateLabel: '25 Oct 2026',
+  status: 'live',
+  excerpt: 'On 6 October DRDO\'s ADRDE flew an indigenous lighter-than-air High Altitude Platform to about 21 km and held near 20 km for over 30 minutes. Size, endurance, payload capability and timelines are not disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'On 6 October 2026 the Defence Ministry announced a flight test of an indigenous High Altitude Platform System (HAPS), a lighter-than-air stratospheric airship, developed by DRDO\'s Aerial Delivery Research and Development Establishment (ADRDE) in Agra. Business Standard and Organiser report that the platform reached about 21 km above mean sea level and held about 20 km for more than 30 minutes before being commanded to descend and recovered. The ministry said the data showed the system achieved its intended flight performance. It is a different test from the AHAP parachute jump in S-149, which was announced the same day.',
+  type: 'p'
+}, {
+  text: 'What was reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Real-time video and vehicle data reached a ground control station during the flight.', 'The listed payload and systems are an inertial measurement unit, a GPS receiver, onboard cameras and an altitude control mechanism, plus unnamed sub-systems.', 'The test was coordinated with the IAF, CEMILAC, DGCA, the Airports Authority of India and other civil authorities, which matters for flying in controlled airspace.', 'Flight data is being analysed. The ministry presents the trial as a step towards an indigenous long-endurance stratospheric airship.']
+}, {
+  text: 'Reports differ slightly on altitude: Business Standard\'s lede and headline say 20 km, while defence sources quoted in the same piece say 21 km peak and 20 km hold.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A stratospheric platform sits above weather and commercial air traffic and can, in principle, stay over an area for far longer than a drone or aircraft. That makes it a candidate persistent-surveillance and communications layer between satellites and UAVs. India has relied on aircraft, drones and satellites for this role. A working indigenous platform would cut one more dependency, but only after endurance, payload and station-keeping are shown, and none of these has been disclosed.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Total flight time, launch site and recovery details.', 'Envelope size, propulsion and ability to hold position against stratospheric winds.', 'Camera specifications, payload capacity and endurance limits.', 'Industry partners, cost, production plans and any induction timeline. Reports give no next-step schedule.', 'Whether the platform is formally an airship or a HAPS. Reports use both terms.']
+}, {
+  text: 'Claims come from a ministry statement and defence sources, without independent verification.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a longer-duration flight with a payload, any station-keeping or multi-day endurance demonstration, an industry production partner, and a user requirement from the IAF or Army. A single 30-minute hold near 20 km does not by itself establish a surveillance capability.',
+  type: 'p'
+}],
+  takeaways: ['DRDO\'s ADRDE flew an indigenous High Altitude Platform to about 21 km on 6 October and held near 20 km for over 30 minutes.', 'The ministry said it met intended flight performance; real-time video and data reached a ground station.', 'Endurance, payload capacity, size, partners and timelines are not disclosed, so this is a first flight and not a deployable layer.'],
+  sources: ['Business Standard (6 Oct 2026): https://www.business-standard.com/amp/external-affairs-defence-security/news/drdo-flight-tests-high-altitude-airship-platform-20-km-above-sea-level-126100601278_1.html', 'Organiser (6 Oct 2026): https://organiser.org/2026/10/06/384850/bharat/drdo-successfully-tests-indigenous-high-altitude-airship-boosts-aerial-surveillance-operational-strength/']
+}, {
+  slug: 'dac-rs-2-12-lakh-crore-aon-army-navy-iaf-counter-drone-kamikaze-2026',
+  no: 'S-168',
+  title: 'DAC clears about Rs 2.12 lakh crore of proposals: counter-drone, loitering munitions and air defence lead, but this is approval to proceed, not orders',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-26',
+  dateLabel: '26 Oct 2026',
+  status: 'live',
+  excerpt: 'The Defence Acquisition Council on 26 October accorded Acceptance of Necessity for about Rs 2.12 lakh crore of proposals across the Army, Navy and Air Force. The ministry says nearly 82 per cent will be sourced from Indian industry. No item values, quantities or vendors were disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The Defence Acquisition Council (DAC), chaired by Defence Minister Rajnath Singh, accorded Acceptance of Necessity (AoN) on 26 October 2026 for capital acquisition proposals worth about Rs 2.12 lakh crore for the Army, Navy and Air Force, according to The Week and an IANS report carried by Punjab Kesari. AoN is the first approval step: it clears a requirement to go forward to RFPs, trials and negotiation. It is not a contract and it does not name a supplier.',
+  type: 'p'
+}, {
+  text: 'What was cleared',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Army: high-mobility vehicles, self-propelled tracked gun systems, gun shot response systems, light multi-role helicopters, VSHORADS air defence, long-range kamikaze drones, surveillance UAVs, long-range unmanned aerial systems, an integrated surveillance and strike system, and platform-based counter-drone systems for tanks.', 'Navy: Active Offboard Decoy Systems, which The Week describes as a counter to anti-ship missiles, and other major naval platforms that the reports do not name.', 'Air Force: helicopters including light multi-role and special utility types, air defence systems, weapons, and Mobile X-Band Doppler Weather Radar systems.']
+}, {
+  text: 'The government says nearly 82 per cent of the procurements will be made from Indian industry. The reports do not say whether the share is by value or by number of items, or which procurement category applies, so the figure cannot yet be read as indigenous design or indigenous content.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The list leans toward small unmanned systems, short-range air defence and counter-drone defence. That matches the direction in S-163 (a signed Rs 770 crore low-level radar order), S-166 (the Land Warfare Doctrine\'s drone and AI emphasis) and the earlier Rs 1.1 lakh crore DAC package in S-087. By our arithmetic this package is roughly twice the September one. Taken together, AoN approvals set the future demand pipeline for Indian drone makers, air-defence suppliers and shipyards, but demand only becomes revenue when an RFP is issued and a contract is signed.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Costs and quantities for any individual item, and the split by service.', 'Vendors, procurement categories, trial plans, contract timelines and delivery schedules.', 'Which naval platforms and which air-defence systems are included.', 'The exact meeting date. Reports say Monday, which is 26 October.']
+}, {
+  text: 'Both reports rest on the Defence Ministry release, and Punjab Kesari notes that it has not verified the syndicated IANS text. The total and the 82 per cent figure are therefore the ministry\'s claims, and we have not seen the release itself.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the ministry release with a full item list, RFPs for the drone and counter-drone items, which items are reserved for Indian-designed systems, and how many AoNs from earlier DAC rounds, such as the one in S-087, convert into signed contracts.',
+  type: 'p'
+}],
+  takeaways: ['The DAC accorded AoN for about Rs 2.12 lakh crore of Army, Navy and Air Force proposals on 26 October 2026.', 'The list includes kamikaze drones, VSHORADS, counter-drone systems and naval decoys, and the government says nearly 82 per cent will be sourced from Indian industry.', 'AoN is not a contract: item values, quantities, vendors and timelines are not disclosed.'],
+  sources: ['The Week (26 Oct 2026): https://www.theweek.in/news/defence/2026/10/26/kamikaze-drones-attack-ready-helicopters-missile-defences-inside-indias-rs-212-lakh-crore-defence-acquisition-plan.html', 'IANS via Punjab Kesari (26 Oct 2026): https://english.punjabkesari.com/india/centre-okays-capital-acquisition-proposals-worth-rs-212-lakh-crore-for-defence-forces']
+}, {
+  slug: 'madhya-pradesh-semiconductor-summit-rs-15425-crore-proposals-2026',
+  no: 'S-169',
+  title: 'Madhya Pradesh\'s semiconductor summit draws Rs 15,425 crore in proposals, but only a fraction is semiconductor and almost none is built',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-10-28',
+  dateLabel: '28 Oct 2026',
+  status: 'live',
+  excerpt: 'The two-day Madhya Pradesh semiconductor summit in Indore ended on 24 October with proposals of more than Rs 15,425 crore and 14,450 jobs. The total mixes semiconductors with electronics, lithium cells and a data centre, and the reports disagree on key details of the largest chip project.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The Madhya Pradesh semiconductor summit in Indore concluded on 24 October 2026 with investment proposals worth more than Rs 15,425 crore in semiconductors, electronics manufacturing and other high-technology sectors, and more than 14,450 jobs expected, according to Business Standard (25 October) and Swarajya (26 October). These are proposals and pledges. Neither report presents them as spending or as capacity.',
+  type: 'p'
+}, {
+  text: 'How the total is made up',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Rs 9,625 crore for projects of five companies that received land-allotment letters, with more than 4,450 direct jobs. Swarajya places them in Bhopal, Indore and Gwalior and describes a 50 MW hyperscale data centre in Gwalior, lithium-cell manufacturing units and electronics facilities.', 'Rs 5,800 crore from more than 12 investors who expressed interest in meetings with the Chief Minister, with more than 10,000 jobs. Business Standard names eight, including Una Ecosystems (Rs 2,000 crore, electronics system design and manufacturing), Spintronics AI Semiconductors (Rs 1,800 crore in two phases), Lalwala Industries (Rs 1,200 crore, semiconductor manufacturing and chip design), Dhanush Healthcare Systems (Rs 400 crore), Beyond Studios (Rs 110 crore), Indusilica Semiconductors (Rs 100 crore), Nanodrites Technology (Rs 65 crore) and Truechip Solutions (Rs 10 crore).', 'The two figures sum to Rs 15,425 crore. The eight named proposals add up to about Rs 5,685 crore by our arithmetic, so the named list is not the whole Rs 5,800 crore.']
+}, {
+  text: 'The headline therefore combines different sectors. Data-centre, lithium-cell and electronics projects are not semiconductor manufacturing, and the semiconductor-specific portion cannot be separated from the reports we reviewed.',
+  type: 'p'
+}, {
+  text: 'The anchor chip project',
+  type: 'h'
+}, {
+  text: 'The largest semiconductor project in the state\'s pipeline is a proposed Rs 6,200 crore greenfield packaging and testing (OSAT) plant in the Indore-Ujjain corridor by Paras Semiconductors, a subsidiary of Paras Defence and Space Technologies. It rests on an MoU with the state signed on 22 July 2026. TechTimes reports a focus on 2.5D and 3D advanced packaging and notes that the company has not said whose technology it holds a production-grade licence for. It also reports that the plant would initially focus on sensor, optical and optronic devices, which sits uneasily with the AI-packaging framing.',
+  type: 'p'
+}, {
+  text: 'Reports conflict on the land. Business Standard quotes the state\'s industrial development corporation as saying 43 acres were allotted to Paras at Vikram Udyogpuri in Ujjain. TechTimes says 50 acres were allotted, and Arabian Post says about 50 acres were identified and that Paras was not among the five companies it lists as receiving allotment letters (Cytech RE, Una Ecosystems, Auriga IT Solutions, Meena Circuits and Kaynes Electronics). Business Standard also lists Una Ecosystems among the interest-stage proposals. We cannot reconcile these accounts.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Which companies hold the five allotment letters, according to Business Standard and Swarajya, which do not name them.', 'Whether the Paras MoU is counted inside the Rs 15,425 crore.', 'Project timelines, financial closure, binding commitments and technology partners.', 'Whether Paras has applied for or been cleared for central incentives. TechTimes says eligibility is unconfirmed.', 'Names of the five institutions that signed MoUs for workforce training, chip design and research, and the budget and location of a planned Semiconductor Centre of Excellence.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A state building a cluster around land, an anchor packaging proposal and training tie-ups shows competition for chip projects spreading across Indian states. That is an inference: the reports do not compare Madhya Pradesh with other states. The proof will be in construction, equipment orders and qualified customers, none of which has been reported.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the names and projects behind the five allotments, a clear land position for Paras, a disclosed packaging technology partner, central incentive approval, construction starts and equipment orders. Until then the number to track is not Rs 15,425 crore but how many projects reach financial closure.',
+  type: 'p'
+}],
+  takeaways: ['The Madhya Pradesh semiconductor summit ended on 24 October with proposals worth more than Rs 15,425 crore and 14,450 jobs expected.', 'The total combines Rs 9,625 crore for five land-allotment projects and Rs 5,800 crore of investor interest, and covers electronics, lithium cells and a data centre as well as chips.', 'Reports conflict on Paras Semiconductors\' Rs 6,200 crore OSAT land and technology, and none shows construction or binding commitments.'],
+  sources: ['Business Standard (25 Oct 2026): https://www.business-standard.com/amp/economy/news/mp-semicon-summit-draws-15-425-cr-investment-proposals-14k-jobs-in-sight-126102500216_1.html', 'Swarajya (26 Oct 2026): https://swarajyamag.com/news-brief/madhya-pradesh-semiconductor-summit-attracts-15425-crore-investment-pledges-14450-jobs-expected', 'TechTimes (23 Oct 2026): https://www.techtimes.com/articles/329443/20261023/madhya-pradesh-bets-655m-indias-first-3d-ai-chip-packaging-facility.htm', 'Arabian Post (24 Oct 2026): https://thearabianpost.com/madhya-pradesh-advances-%E2%82%B96200-crore-semiconductor-packaging-project/']
+}, {
+  slug: 'goa-shipyard-ngopv-srishti-launch-yard-1283-2026',
+  no: 'S-170',
+  title: 'Goa Shipyard launches NGOPV Srishti: the 11-ship patrol-vessel line keeps launching, but no delivery is reported yet',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-29',
+  dateLabel: '29 Oct 2026',
+  status: 'live',
+  excerpt: 'Goa Shipyard launched Srishti (Yard 1283), a Next Generation Offshore Patrol Vessel for the Navy, on 27 October. The programme is building 11 ships at two public yards; deliveries were scheduled from September 2026, but none is reported.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Goa Shipyard Limited (GSL) launched Srishti, Yard 1283, a Next Generation Offshore Patrol Vessel (NGOPV) for the Indian Navy, at its Vaddem yard on 27 October 2026, according to the Defence Ministry release and Marine Insight. Smt Sandeepa Sahay launched the ship in the presence of Vishvajit Sahay, Secretary (Defence Finance). The ministry describes the vessels as indigenously designed and built.',
+  type: 'p'
+}, {
+  text: 'The programme',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Series: 11 ships, seven at GSL and four at Garden Reach Shipbuilders and Engineers (GRSE), Kolkata, under a Defence Ministry contract of March 2023 (Baird Maritime).', 'Launches so far, as reported: GSL\'s first, Shachi, in late March or early April 2026, and GRSE\'s Sanghmitra (20 May), Shruti (11 August) and Shreyas (10 October). Srishti adds GSL\'s next hull. We have not confirmed whether GSL launched other hulls in between, so we do not give Srishti\'s position in the class.', 'Size, for the GRSE-built ships: about 113 m long and about 3,000 tonnes, with a design speed of 23 knots and a range of 8,500 nautical miles at 14 knots (Baird Maritime).', 'Roles named by the ministry: maritime surveillance, search and rescue, offshore asset protection, disaster relief and anti-piracy.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The NGOPV line is a steady test of whether two public yards can run parallel series production of a mid-size warship. Launch tempo is now regular across both yards. The harder milestone is delivery: Baird Maritime reports the ministry scheduled deliveries to begin from September 2026, and none of the reports we reviewed records a delivered ship. A launch puts a hull in the water; outfitting, trials and acceptance follow.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Contract value. The ministry release and the reports we opened do not give it.', 'Indigenous-content percentage and the share of imported systems such as propulsion, weapons and sensors.', 'Delivery and commissioning dates for Srishti or any NGOPV, and whether the September 2026 delivery start has been met.', 'Weapon and sensor fit.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the first NGOPV delivery and commissioning, any disclosure of domestic content in propulsion and combat systems, and whether delivery dates slip from the reported schedule. Related Navy items: S-155 (INS Samarthak) and S-160 (Swavlamban).',
+  type: 'p'
+}],
+  takeaways: ['Goa Shipyard launched NGOPV Srishti (Yard 1283) for the Navy on 27 October 2026.', 'The 11-ship programme is split seven at GSL and four at GRSE under a March 2023 contract, with deliveries scheduled from September 2026.', 'Contract value, indigenous content and delivery dates are not disclosed, and no delivered NGOPV is reported.'],
+  sources: ['Ministry of Defence / PIB (27 Oct 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2329197&reg=48&lang=2', 'Marine Insight (28 Oct 2026): https://www.marineinsight.com/indian-navys-next-gen-offshore-patrol-vessel-ins-srishti-launched-at-goa-shipyard-limited/', 'Baird Maritime (13 Oct 2026): https://www.bairdmaritime.com/security/naval/naval-ships/grse-launches-third-offshore-patrol-vessel']
+}, {
+  slug: 'tata-communications-ai-super-highway-long-haul-fibre-data-centres-2026',
+  no: 'S-171',
+  title: 'Tata Communications commits Rs 4,350 crore to an \'AI Super Highway\' of long-haul fibre between data-centre hubs, funded from cash flow',
+  domain: 'AI Infrastructure',
+  date: '2026-10-30',
+  dateLabel: '30 Oct 2026',
+  status: 'live',
+  excerpt: 'Tata Communications plans to invest Rs 4,350 crore ($400-450 million) in about 10,000 km of fibre linking India\'s data-centre hubs, adding about 6 Pbps of capacity between FY2030 and FY2036, according to its regulatory filing. No customers or phase dates are disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'On 26 October 2026 Tata Communications announced plans to invest Rs 4,350 crore ($400-450 million) to build about 10,000 km of new long-haul fibre across India, which it calls an \'AI Super Highway\', linking data-centre hubs to each other, to cloud platforms and enterprises, and to its global backbone, ANI reported. The company distributed a press release on 29 October.',
+  type: 'p'
+}, {
+  text: 'What the filing and release say',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Capacity: the investment is expected to add about 6 petabits per second (Pbps) between FY2030 and FY2036, according to the company\'s regulatory filing as reported by ANI. The company\'s current network capacity is 1.25 Pbps, with utilisation of about 70-80 per cent.', 'Funding: from operating cash flows.', 'Phasing: three phases, starting with the Mumbai-Pune-Hyderabad-Chennai corridor, then extending to Visakhapatnam, Bhubaneswar, Jamnagar and GIFT City.', 'Market view: CEO Ganesh Lakshminarayanan said data-centre-to-data-centre connectivity in India could become a market of more than $1 billion over the medium term. That is the company\'s estimate.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'AI training and inference need large, low-latency links between data centres as well as power and chips. ANI cites MeitY figures showing India\'s installed data-centre capacity rose from 375 MW in 2020 to about 1,575 MW in 2026, with large campuses announced in Hyderabad and Visakhapatnam. A 6 Pbps addition would be close to five times the company\'s current 1.25 Pbps (our arithmetic), which indicates how much inter-hub traffic it expects. This addresses one of the less visible bottlenecks behind the compute capacity covered in S-140 and S-165.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Start and completion dates for each of the three phases. The FY2030 to FY2036 window applies to capacity additions, not construction.', 'Route length per phase and the spending schedule.', 'Customers, anchor tenants or contracts.', 'Status of rights of way and other approvals.']
+}, {
+  text: 'Caveat',
+  type: 'h'
+}, {
+  text: 'All figures come from the company\'s filing, release and executive statements. The Tribune carries the ANI report from a syndicated feed and notes it has not verified it. The capacity numbers are plans, not a built network.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a Phase 1 completion date, named hyperscaler or data-centre customers, construction progress on the Mumbai-Pune-Hyderabad-Chennai route, and whether other operators announce competing inter-hub fibre.',
+  type: 'p'
+}],
+  takeaways: ['Tata Communications plans to invest Rs 4,350 crore in about 10,000 km of fibre linking India\'s data-centre hubs, funded from operating cash flows.', 'Its filing says the build should add about 6 Pbps of capacity between FY2030 and FY2036, against a current 1.25 Pbps running at 70-80 per cent utilisation.', 'Phase dates, route split and customers are not disclosed; all figures are the company\'s.'],
+  sources: ['ANI via The Tribune (26 Oct 2026): https://www.tribuneindia.com/news/ai-infrastructure/tata-communications-to-invest-rs-4350-crore-to-build-indias-ai-super-highway-connect-major-data-centre-hubs', 'Tata Communications via PR Newswire (29 Oct 2026): https://www.prnewswire.com/news-releases/tata-communications-to-build-indias-ai-super-highway-302922235.html']
+}, {
+  slug: 'lt-bae-bvs10-sindhu-all-terrain-vehicle-production-army-2026',
+  no: 'S-172',
+  title: 'L&T and BAE Systems start building BvS10 Sindhu all-terrain vehicles at Hazira: an 18-vehicle order, not yet a fleet',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-31',
+  dateLabel: '31 Oct 2026',
+  status: 'live',
+  excerpt: 'L&T and BAE Systems began production of the BvS10 Sindhu articulated all-terrain vehicle for the Army on 28 October, at L&T\'s Hazira facility. The initial order is 18 vehicles for Ladakh and Kutch; value, delivery schedule and local content are not disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Larsen & Toubro and BAE Systems began production of the BvS10 Sindhu, an articulated all-terrain vehicle for the Indian Army, on 28 October 2026, according to The Week and The News Mill. The News Mill places production at L&T\'s facility in Hazira, Surat. The Sindhu is an upgraded version of BAE Systems Hagglunds\' BvS10, built in India with technology transfer under Make in India.',
+  type: 'p'
+}, {
+  text: 'What is reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Order: the Army has ordered 18 vehicles, the only quantity reported.', 'Deployment: Ladakh, at altitudes up to 18,000 feet and temperatures down to minus 55 degrees C, and Kutch, including the Great Rann\'s marshland and heat up to 55 degrees C (The Week).', 'Capability: articulated tracked mobility over snow, ice, rock, sand, mud and swamp, with amphibious ability in flooded areas and coastal water. Trials were completed at sea level and at high altitude.', 'Roles: personnel transport, command and control, medical evacuation, repair and recovery, logistics and surveillance, with a mount for vehicle weapons.', 'Partnership: the L&T-BAE agreement dates to 2023. BAE reports about 2,500 BvS10s in service worldwide (The News Mill). L&T says both firms intend to pursue large-scale production, with no figures.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Mobility over snow, marsh and amphibious terrain is a practical gap for troops on the northern border and in the Rann of Kutch, where wheeled vehicles struggle. The industrial point is that a foreign-designed platform is being assembled by an Indian private firm rather than imported. But 18 vehicles is a small first order, and the depth of localisation is not disclosed, so this is a licensed production start, not an indigenous design.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Contract value and order date.', 'Delivery schedule.', 'Indigenous content and which subsystems, such as engine and transmission, are imported.', 'Any follow-on order beyond 18 vehicles.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for first deliveries, a larger follow-on order, disclosure of the localisation share, and whether BvS10 work at Hazira extends to exports. Related: S-168, whose DAC list included high-mobility vehicles for the Army.',
+  type: 'p'
+}],
+  takeaways: ['L&T and BAE Systems began BvS10 Sindhu production for the Army on 28 October, at L&T\'s Hazira facility.', 'The initial order is 18 vehicles for Ladakh and Kutch, with amphibious and high-altitude capability.', 'Value, delivery dates and local content are not disclosed; this is licensed production of a foreign design.'],
+  sources: ['The Week (28 Oct 2026): https://www.theweek.in/news/defence/2026/10/28/india-begins-production-of-bvs10-sindhu-meet-indian-armys-all-terrain-vehicle-headed-for-ladakh-and-kutch.html', 'The News Mill (28 Oct 2026): https://thenewsmill.com/2026/10/lt-and-bae-begin-production-of-bvs10-sindhu-atvs-for-indian-army/']
+}, {
+  slug: 'japan-explores-indian-test-ranges-long-range-missiles-attack-drones-2026',
+  no: 'S-173',
+  title: 'Japan explores Indian ranges to test 1,000 km missiles and attack drones: exploratory talks, no Indian agreement yet',
+  domain: 'Defence & Dual-Use',
+  date: '2026-10-31',
+  dateLabel: '31 Oct 2026',
+  status: 'live',
+  excerpt: 'Japan\'s Ground Self-Defense Force chief confirmed officials visited India to examine using Indian ranges for long-range missile and small attack-drone training. No decision has been announced and India has made no statement.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Japan is exploring the use of Indian test ranges to train with long-range missiles and small attack drones, according to reports from 27 to 29 October 2026 that cite a Japan Times report and the public broadcaster NHK. General Masayoshi Arai, Chief of Staff of Japan\'s Ground Self-Defense Force, confirmed that officials had gone to India to discuss possible arrangements (Business Today, Marine Insight). The talks are described as exploratory, and no decision has been announced.',
+  type: 'p'
+}, {
+  text: 'What is reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Weapons: surface-to-ship missiles, including the Type 25, which has a reported range of about 1,000 km, and small attack drones.', 'Why India: Arai cited the large firing areas and safety arrangements long-range weapons need, and, for drones, problems in Japan with radio frequencies, sites, safety and local coordination.', 'Visit: officials inspected sites in India for about a week. Marine Insight dates the visit to mid-May; WION says it was earlier this month. We cannot reconcile the two.', 'Context: Japan already has improved access to Australian ranges, and test-fired an anti-ship missile there in 2023 (Marine Insight, WION).']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'If agreed, hosting a partner\'s long-range missile and drone training would make Indian ranges a defence service offered to another country, alongside equipment exports such as Akash (S-161). It would also deepen India-Japan defence ties in a sensitive area. Marine Insight notes India has let friendly countries such as Singapore use its training facilities, and has a major range at Chandipur, Odisha. Hosting another country\'s long-range firing would raise questions of range scheduling and data sharing that the reports do not address. Both points are our reading.',
+  type: 'p'
+}, {
+  text: 'What has not been confirmed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Any Indian government or military statement, or Indian agreement.', 'Which Indian range would be used.', 'Which weapons would be tested, and when.', 'Costs, terms and data-sharing arrangements.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for an Indian Defence Ministry response, a named range, and any agreement signed at a ministerial meeting. Related: S-147 on revised access rules to Indian test ranges for domestic industry.',
+  type: 'p'
+}],
+  takeaways: ['Japan\'s GSDF chief confirmed officials visited India to explore using Indian ranges for missile and attack-drone training.', 'Weapons discussed include the Type 25 surface-to-ship missile, with a reported range of about 1,000 km.', 'Talks are exploratory: no Indian statement, range, schedule or agreement has been reported.'],
+  sources: ['Business Today (28 Oct 2026): https://www.businesstoday.in/india/story/japan-may-use-indian-test-sites-to-train-with-long-range-missiles-drones-564389-2026-10-28', 'Marine Insight (29 Oct 2026): https://www.marineinsight.com/japan-considers-india-for-testing-type-25-anti-ship-missile-with-1000-km-range/', 'WION (29 Oct 2026): https://www.wionews.com/gravitas/japan-turns-to-india-to-test-its-long-range-missiles-attack-drones-gravitas-1793211852515']
+}, {
+  slug: 'hcltech-rapidus-semiconductor-design-centres-bengaluru-hubli-2026',
+  no: 'S-174',
+  title: 'HCLTech opens Bengaluru and Hubli centres for Japan\'s Rapidus: Indian engineers move into leading-edge process design work',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-11-01',
+  dateLabel: '1 Nov 2026',
+  status: 'live',
+  excerpt: 'HCLTech and Rapidus, the Japanese company developing advanced logic chips, opened two Indian development centres on 26 October for mask design, process design kits and design-technology co-optimisation. No value, headcount or process node was disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'On 26 October 2026 HCLTech and Rapidus Corporation, the Japanese company developing advanced logic semiconductors, announced a partnership and opened two dedicated HCLTech development centres in Bengaluru and Hubli to support Rapidus\' engineering work, according to Rapidus\' release and an ANI report that cites HCLTech\'s regulatory filing. The ceremony was held at HCLTech\'s headquarters in Noida.',
+  type: 'p'
+}, {
+  text: 'What the centres will do',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Mask design and layout design.', 'Design infrastructure.', 'Process design kit (PDK) development, the rule sets chip designers use to design for a specific manufacturing process.', 'Design-technology co-optimisation, which tunes a chip process and its design rules together.', 'A pipeline of Indian engineering talent for Rapidus\' operations in Japan.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Indian semiconductor work has mostly been chip design for foreign customers and, more recently, assembly and test. PDK and co-optimisation work sits closer to the manufacturing process itself, so this moves Indian engineers into process-side work for a leading-edge foundry project, without India hosting the fab. The skills are relevant to India\'s own fab ambitions, but nothing in the announcement transfers process technology to India. That reading is ours.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Contract value, duration and the formal agreement structure. The release calls it a partnership.', 'Headcount at the two centres and timelines.', 'The process node. Neither source names one, although Rapidus is widely associated with 2 nm work; we do not attribute that to this deal.', 'Whether any work involves Indian fabs or customers.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for headcount disclosures, whether Rapidus places design or test work with other Indian firms, and whether Indian chip projects draw on the same process-design talent. Related: S-150 (Tessolve\'s full-cycle engineering raise) and S-141 (Project VeerAI).',
+  type: 'p'
+}],
+  takeaways: ['HCLTech opened Bengaluru and Hubli development centres for Japan\'s Rapidus on 26 October 2026.', 'The work covers mask design, process design kits and design-technology co-optimisation, plus engineers for Rapidus in Japan.', 'Value, headcount, timelines and process node are not disclosed.'],
+  sources: ['Rapidus Corporation (26 Oct 2026): https://www.rapidus.inc/en/news_topics/information/20261026-2/', 'ANI (26 Oct 2026): https://aninews.in/news/business/hcltech-japans-rapidus-announce-partnership-for-next-generation-semiconductor-technologies20261026140426/']
+}, {
+  slug: 'manastu-space-116-crore-green-propulsion-rdi-2026',
+  no: 'S-175',
+  title: 'Rs 116 crore of public RDI money backs Manastu Space\'s green satellite propulsion: funding to reach flight readiness, not flight-proven yet',
+  domain: 'Strategic Technology',
+  date: '2026-11-02',
+  dateLabel: '2 Nov 2026',
+  status: 'live',
+  excerpt: 'The Technology Development Board agreed on 26 October to provide Rs 116 crore, as optionally convertible debt, to Manastu Space for a Rs 277.63 crore hydrogen-peroxide propulsion programme spanning 5 mN to 300 N. The aim is to move from TRL 6 to TRL 9; milestones and timeline are not disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Technology Development Board (TDB), under the Department of Science and Technology, agreed on 26 October 2026 to provide Rs 116 crore to Navi Mumbai-based Manastu Space Technologies under the Research, Development and Innovation (RDI) Fund, according to DD News and The Policy Edge, reporting the ministry release. The total project cost is Rs 277.63 crore, and the support is optionally convertible debt, not a grant.',
+  type: 'p'
+}, {
+  text: 'What the programme covers',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Propellant: a hydrogen-peroxide-based green propellant with additives, used with an integrated engine and catalyst system.', 'Hardware: propulsion engines, propellant feed systems and an ultra-high-temperature ceramic catalyst.', 'Range: a scalable architecture from 5 millinewtons to 300 newtons, intended to serve small satellites up to higher-thrust launch-vehicle needs.', 'Goal: move the technology from Technology Readiness Level 6 to 9 through further engineering, integration, testing and validation. The release says the technology has already been demonstrated in space, without giving the mission or results.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'In-space propulsion lets satellites change orbit, hold position and avoid debris, and is a subsystem India\'s growing satellite builders otherwise often source abroad. Green propellants also aim to reduce the handling burden of toxic conventional fuels. The financing matters as much as the technology: the RDI Fund is paying for the costly middle stretch between a demonstrator and a qualified product, which private investors are often reluctant to fund. This is the same RDI instrument used for QNu Labs in S-158.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Project timeline, milestones and disbursement schedule.', 'Terms of the convertible debt.', 'How the remaining roughly Rs 161.63 crore is funded (our arithmetic from the two figures).', 'Details of the earlier in-space demonstration, independent performance data across the claimed thrust range, and any spacecraft or launch-vehicle customer.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for qualification test results, a named flight opportunity or customer, the private funding share, and whether the higher-thrust end of the range reaches a launch-vehicle application. Related: S-159 (Gaganyaan module tests) and S-158 (QNu Labs RDI support).',
+  type: 'p'
+}],
+  takeaways: ['TDB agreed on 26 October to provide Rs 116 crore in optionally convertible debt to Manastu Space under the RDI Fund.', 'The Rs 277.63 crore programme targets hydrogen-peroxide propulsion from 5 mN to 300 N, moving from TRL 6 to TRL 9.', 'Timeline, milestones, debt terms and customers are not disclosed; it is funding for qualification, not a flight-proven system.'],
+  sources: ['DD News (26 Oct 2026): https://ddnews.gov.in/en/govt-provides-%e2%82%b9116-crore-to-manastu-space-for-indigenous-green-propulsion-technology/', 'The Policy Edge (26 Oct 2026): https://www.policyedge.in/p/government-backs-indian-space-tech-firms-green-propulsion-system-with-116-crore']
+}, {
+  slug: 'sarvam-hq-ids-five-year-defence-ai-mou-2026',
+  no: 'S-176',
+  title: 'Sarvam signs a five-year AI framework with HQ Integrated Defence Staff: an Indian model-builder enters the tri-service sensor-to-shooter loop, on an MoU',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-02',
+  dateLabel: '2 Nov 2026',
+  status: 'live',
+  excerpt: 'HQ Integrated Defence Staff and Bengaluru AI company Sarvam signed a five-year MoU on 26 October for AI work across the Army, Navy and Air Force, including decision support and target acquisition, with human oversight retained. No value, projects or timelines were disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'Headquarters Integrated Defence Staff (HQ IDS) and Sarvam, the Bengaluru-based AI company, signed a five-year memorandum of understanding in New Delhi on 26 October 2026, according to ThePrint and The Week. HQ IDS announced it that day and Sarvam made it public on 27 October. Sarvam co-founder Pratyush Kumar and Air Marshal Tejinder Singh, Chief of Integrated Defence Staff, attended the signing. The work will be done by Chanakya, Sarvam\'s firewalled defence division.',
+  type: 'p'
+}, {
+  text: 'What the MoU covers',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Structure: an umbrella framework for AI projects across the three services and the joint and tri-service organisations under HQ IDS. HQ IDS will facilitate engagement; Sarvam will design, develop, deploy and support applications.', 'Applications named in the HQ IDS release, as reported: decision support, target acquisition and data fusion across the sensor-to-shooter loop, plus operational and training uses, research and knowledge management.', 'Shared building blocks: common foundation models, agentic infrastructure, and geospatial and perception systems, with capabilities built for one service adaptable to others.', 'Safeguards stated: human oversight is retained on operational decisions, and Sarvam says the AI will be built in India and deployed on sovereign infrastructure.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'This is the first framework of its kind we have recorded between the armed forces\' joint headquarters and an Indian foundation-model company, and it reaches into targeting and data fusion rather than back-office tasks. It follows the AI training and decision-support emphasis in the Land Warfare Doctrine (S-166). Using a domestic model-builder reduces dependence on foreign models and cloud services for sensitive military data. But an MoU sets up a channel, not funded work, and the safeguards described are short statements, not published rules.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Value, funding source and procurement route for any project.', 'Which projects start first, deployment timelines and success measures.', 'Whether the MoU is binding, exclusive or has termination terms.', 'Data-handling, security, audit and testing rules, and how \'human oversight\' is defined for target acquisition.']
+}, {
+  text: 'The Week\'s lead attributes the deal to the Defence Ministry while its body names HQ IDS as signatory; HQ IDS is part of the ministry\'s structure, and we use HQ IDS.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the first funded project or pilot, any procurement order for compute or software, rules on AI use in targeting, and whether other Indian AI firms get similar frameworks. Related: S-165 (sovereign compute empanelment).',
+  type: 'p'
+}],
+  takeaways: ['HQ Integrated Defence Staff and Sarvam signed a five-year AI MoU on 26 October 2026, covering all three services.', 'Named applications include decision support, target acquisition and data fusion, with human oversight retained on operational decisions.', 'It is an MoU: value, projects, timelines and data-governance terms are not disclosed.'],
+  sources: ['ThePrint (27 Oct 2026): https://theprint.in/defence/design-develop-deploy-sarvam-signs-5-year-mou-with-mod-to-build-ai-for-army-navy-iaf/3083107/', 'The Week (28 Oct 2026): https://www.theweek.in/news/defence/2026/10/28/ai-to-help-indian-military-identify-target-make-battlefield-decisions-heres-what-the-new-defence-deal-with-sarvam-offers.html']
+}, {
+  slug: 'nvs03-navic-gslv-f18-launch-l1-indigenous-clock-2026',
+  no: 'S-177',
+  title: 'GSLV-F18 puts NVS-03 in orbit: once commissioned, NavIC regains a fourth working satellite and adds the civilian L1 signal',
+  domain: 'Strategic Technology',
+  date: '2026-11-03',
+  dateLabel: '3 Nov 2026',
+  status: 'live',
+  excerpt: 'ISRO\'s GSLV-F18 placed the 2,232 kg NVS-03 navigation satellite in geosynchronous transfer orbit on 30 October. It carries an Indian-built rubidium atomic clock and adds an L1 signal. NavIC had only three working satellites, below the four needed for standalone positioning; NVS-03 must still reach its slot and be commissioned.',
+  readingTime: '4 min',
+  body: [{
+  text: 'On 30 October 2026, at 11:51 pm, ISRO\'s GSLV-F18 launched from the Second Launch Pad at Sriharikota and placed the NVS-03 navigation satellite into geosynchronous transfer orbit (170 km by 37,023 km), according to ISRO and a PTI report carried by The Week. ISRO said the mission was successfully accomplished. It was the 20th GSLV flight. The 2,232 kg satellite will use its own propulsion to reach its final geosynchronous slot at 32.5 degrees East.',
+  type: 'p'
+}, {
+  text: 'What NVS-03 brings',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Timing: an Indian-built rubidium atomic clock alongside procured atomic clocks. Clock failures have been the constellation\'s main weakness.', 'Signals: L1 in addition to the existing L5 and S signals. L1 is the band most civilian receivers already use, which should make NavIC easier to add to phones and other devices.', 'Coverage: India and a region extending about 1,500 km beyond its boundary.', 'Role: the third satellite of the second-generation NVS series that continues the IRNSS/NavIC system.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'NavIC is India\'s own positioning, navigation and timing system, used for civilian services and for military and critical infrastructure that should not depend on foreign systems. In a reply to Parliament on 29 July 2026, the Department of Space said only three satellites (IRNSS-1B, IRNSS-1I and NVS-01) were providing services, and that four are needed for basic standalone positioning, so NavIC could not offer that service (Adda247, citing the reply). That was the gap flagged in S-067. If NVS-03 reaches its slot and is commissioned, the count returns to four. Some headlines say the constellation is already restored; the reports we reviewed do not confirm that, because orbit-raising and commissioning come first.',
+  type: 'p'
+}, {
+  text: 'The indigenous clock matters as much as the launch. A navigation constellation is only as reliable as its timekeeping, and an Indian-built clock reduces dependence on imported units, but its in-orbit performance over years is still to be shown.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The date for reaching the operational slot and starting navigation service.', 'Mission life. Some reports give a figure, but we could not confirm it in the sources we opened.', 'Signal performance, accuracy and anti-spoofing or authentication features.', 'The schedule for further NVS satellites needed for redundancy.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for orbit-raising completion, commissioning and an ISRO statement that NavIC standalone service is back, early clock-stability data, phone chipsets adding NavIC L1, and the next NVS launch.',
+  type: 'p'
+}],
+  takeaways: ['GSLV-F18 placed the 2,232 kg NVS-03 into geosynchronous transfer orbit on 30 October 2026; it heads for a slot at 32.5 degrees East.', 'NVS-03 carries an Indian-built rubidium atomic clock and adds the civilian L1 signal to L5 and S.', 'NavIC had three working satellites against the four needed for standalone positioning; NVS-03 restores the fourth only after commissioning.'],
+  sources: ['ISRO (30 Oct 2026): https://www.isro.gov.in/Mission_GSLVF18.html', 'PTI via The Week (31 Oct 2026): https://www.theweek.in/wire-updates/national/2026/10/31/gslv-successfully-places-next-gen-navigation-satellite-nvs-03-into-designated-orbit.amp.html', 'Adda247 (31 Oct 2026): https://currentaffairs.adda247.com/isro-successfully-launches-gslv-f18-with-nvs-03-satellite-to-strengthen-navic/']
+}, {
+  slug: 'eight-next-generation-corvettes-grse-goa-shipyard-contract-2026',
+  no: 'S-178',
+  title: 'Rs 53,866 crore of corvette contracts: eight Navy-designed warships split five-three between GRSE and Goa Shipyard after a competitive yard selection',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-04',
+  dateLabel: '4 Nov 2026',
+  status: 'live',
+  excerpt: 'The Defence Ministry signed Rs 53,866.50 crore contracts on 2 November for eight Next Generation Corvettes: five at GRSE and three at Goa Shipyard. The Navy designed the class, and the yards were chosen competitively. Delivery schedules, weapon fit and domestic content are not disclosed.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The Ministry of Defence signed contracts worth Rs 53,866.50 crore on 2 November 2026 with Garden Reach Shipbuilders and Engineers (GRSE) and Goa Shipyard Limited (GSL) for eight Next Generation Corvettes (NGCs) for the Navy, in the presence of Defence Secretary Rajesh Kumar Singh, according to ANI via The Tribune and Indian Masterminds. GRSE will build five ships and GSL three. The ministry says the ships are designed by the Navy and that the two public-sector yards were selected through a competitive process.',
+  type: 'p'
+}, {
+  text: 'What is reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Roles: anti-surface and anti-submarine warfare, coastal defence, littoral operations and maritime surveillance, with advanced missiles, weapons and sensors across air, surface and sub-surface domains (Tribune/ANI).', 'Size and speed: about 2,000 tonnes and close to 30 knots, a new in-house Navy design, with the first ship expected by 2030 (The Week, reporting the Cabinet Committee on Security clearance on 31 October).', 'Employment: about 72 lakh person-days in the shipyards and 460 lakh person-days in ancillary industries and MSMEs over ten years. These are ministry projections of labour input, not jobs.']
+}, {
+  text: 'Before the signing, the Cabinet Committee on Security cleared the project; several reports put it at about Rs 40,000 crore. The signed value is Rs 53,866.50 crore. None of the reports we reviewed explains the gap, so we report both figures without reconciling them.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'This is a signed warship order, not an approval, and it is structured differently from most past ones: Navy design authority, competition between public yards, and one class split across two builders. It also lands at the same two yards already building the 11-ship NGOPV line covered in S-170, where launches are regular but no delivery has yet been reported. The sovereignty question is in the bill of materials: a ship can be Indian-designed while its engines, sensors and weapons are imported.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Value per yard and per ship.', 'Delivery schedule beyond the reported 2030 target for the first ship.', 'Named weapons, radar, sonar and propulsion systems, and the indigenous-content share.', 'Payment milestones and penalty terms.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for steel cutting and keel laying at both yards, the named combat-system and propulsion suppliers, commonality between the GRSE and GSL ships, and whether NGOPV deliveries at the same yards stay on schedule. Related: S-168 (DAC approvals) and S-155 (INS Samarthak).',
+  type: 'p'
+}],
+  takeaways: ['MoD signed Rs 53,866.50 crore contracts on 2 November 2026 for eight Next Generation Corvettes.', 'GRSE will build five and Goa Shipyard three, to a Navy design, after a competitive yard selection; the first ship is expected by 2030.', 'Per-yard values, delivery dates, weapon fit and domestic content are not disclosed, and the gap with the reported Rs 40,000 crore CCS figure is unexplained.'],
+  sources: ['ANI via The Tribune (2 Nov 2026): https://www.tribuneindia.com/news/business/defence-ministry-signs-rs-53866-crore-contracts-for-indian-navys-8-corvettes', 'Indian Masterminds (3 Nov 2026): https://indianmasterminds.com/news/goa-shipyard-53866-crore-defence-order-next-generation-corvettes-247793/', 'The Week (31 Oct 2026): https://www.theweek.in/news/defence/2026/10/31/eight-new-stealth-warships-for-indian-navy-ccs-clears-mega-corvette-project.amp.html']
+}, {
+  slug: 'cabinet-rs-2814-crore-lithium-nickel-processing-capex-scheme-2026',
+  no: 'S-179',
+  title: 'Cabinet clears Rs 2,814 crore to subsidise four lithium and nickel processing plants: India finally funds the midstream, but only plants of a set scale',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-11-05',
+  dateLabel: '5 Nov 2026',
+  status: 'live',
+  excerpt: 'On 4 November the Union Cabinet approved a Rs 2,814 crore capex scheme to subsidise 30 per cent of the investment in two lithium and two nickel processing plants, picked by bidding, over FY2026-27 to FY2030-31. No bidders, guidelines or purity thresholds have been published yet.',
+  readingTime: '4 min',
+  body: [{
+  text: 'The Union Cabinet approved a Rs 2,814 crore \'Capex Support Scheme to Promote Critical Mineral Processing\' on 4 November 2026, according to Business Today, RNA Media and Discovery Alert. It runs for five years, FY2026-27 to FY2030-31, and pays a capital subsidy of 30 per cent of eligible investment for plants that convert lithium and nickel ores or intermediates into high-purity compounds. Cobalt is expected as a by-product of nickel processing.',
+  type: 'p'
+}, {
+  text: 'How the scheme works',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Four plants: two for lithium and two for nickel.', 'Minimum capacity: 30,000 tonnes a year for each lithium plant and 50,000 tonnes for each nickel plant.', 'Caps: Rs 500 crore per lithium beneficiary and Rs 900 crore per nickel beneficiary. Business Today and Discovery Alert state these as fixed; RNA describes them as proposed ceilings.', 'Selection: technical qualification, then financial bidding, with the two bidders per mineral seeking the lowest subsidy winning (Business Today, Discovery Alert).', 'Payment: in three milestone-linked instalments.']
+}, {
+  text: 'Prime Minister Narendra Modi wrote on X: \'Do you feel India should depend on other countries for processing the critical minerals that power our future? I certainly don\'t!\' (Business Today).',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India imports its lithium and nickel compounds, and most global refining sits in China. Mines and overseas assets do not help if ore still has to be shipped abroad for processing, so this targets the midstream gap rather than mining. It complements the stockpiling policy (S-157), recycling (S-162) and the processing parks (S-096). The scheme also signals scale: by setting large minimum capacities and capping support per plant, it picks a few big processors rather than spreading money thin. By our arithmetic, the four caps add up to Rs 2,800 crore, close to the full outlay.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Operational guidelines, eligibility rules, purity thresholds and the bidding timetable.', 'Bidders or interested companies. Discovery Alert says none had been announced as of 4 November.', 'Feedstock sources, since India has little domestic lithium or nickel ore, and where the plants would be located.', 'The official Cabinet release text, which we have not seen; reports differ on whether the caps are final.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the guidelines and bid call, who bids, where feedstock will come from, and whether the stockpiling policy promised for around now is also released.',
+  type: 'p'
+}],
+  takeaways: ['The Cabinet approved a Rs 2,814 crore scheme on 4 November 2026 to subsidise 30 per cent of capex for lithium and nickel processing.', 'It will support four plants, two lithium (30,000 t minimum) and two nickel (50,000 t minimum), chosen by bidding over five years.', 'Guidelines, purity thresholds, bidders and feedstock sources are not yet disclosed.'],
+  sources: ['Business Today (4 Nov 2026): https://www.businesstoday.in/latest/economy/story/why-should-india-depend-on-others-pm-modi-after-cabinet-clears-rs2814-cr-critical-minerals-processing-scheme-565753-2026-11-04', 'RNA Media (4 Nov 2026): https://www.rnamedia.in/top-story/india-targets-critical-minerals-gap-with-%E2%82%B92814-crore-lithium-nickel-push/25756', 'Discovery Alert (5 Nov 2026): https://discoveryalert.com/news/india-lithium-nickel-processing-subsidy-november-2026/']
+}, {
+  slug: 'indiaai-eka-1-dhir-foundation-models-release-2026',
+  no: 'S-180',
+  title: 'India releases EKA-1 and Dhir foundation models under IndiaAI: Indian models move towards deployment, but the chips beneath them are still imported',
+  domain: 'AI Infrastructure',
+  date: '2026-11-05',
+  dateLabel: '5 Nov 2026',
+  status: 'live',
+  excerpt: 'On 3 November MeitY released Soket Labs\' 26.3-billion-parameter EKA-1 and ZenteiQ\'s compact Dhir 2B and 5B models under the IndiaAI Mission. Dhir is open-source and runs on modest hardware, but was trained on Google TPUs and Nvidia GPUs; EKA-1 has no public benchmarks or licence terms yet.',
+  readingTime: '5 min',
+  body: [{
+  text: 'The Ministry of Electronics and IT (MeitY) released two sets of indigenous foundation models at a press event in New Delhi on 3 November 2026, in the presence of MeitY Secretary S. Krishnan, according to the PIB release: EKA-1 from Soket Labs Technology and Research, and Dhir 2B and Dhir 5B from ZenteiQ AiTech Innovations. Both companies were selected under the IndiaAI Innovation Centre\'s foundation-models pillar, and the government says subsidised access to national AI compute and support for research expenses enabled the work.',
+  type: 'p'
+}, {
+  text: 'EKA-1 (Soket Labs)',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Size: 26.3 billion parameters, trained on about 7.5 trillion tokens (PIB).', 'Languages: all 22 scheduled Indian languages and English.', 'Design: described as an open, sparse hybrid language model for maths, code, reasoning and agentic use.', 'Positioning: Soket CEO Abhishek Upperwal says it is tailored to India\'s banking, financial services and cybersecurity needs. That is the company\'s framing.', 'Caution: Soket\'s own Project EKA page does not mention EKA-1\'s figures and instead describes a 120-billion-plus-parameter model in training on 1,536 H100 GPUs, which appears to be a separate, larger effort. No benchmark results, weights or licence terms for EKA-1 were found.']
+}, {
+  text: 'Dhir 2B and 5B (ZenteiQ)',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Dhir 2B: a dense model of 2.03 billion parameters.', 'Dhir 5B: a mixture-of-experts model with 5.09 billion parameters in total, of which 1.79 billion are active per token (2 of 12 experts).', 'Both: 16,384-token context, English plus ten Indian languages (Hindi, Bengali, Tamil, Telugu, Marathi, Gujarati, Kannada, Malayalam, Punjabi and Odia), pretrained from scratch rather than adapted from another developer\'s model, released under the Apache 2.0 open-source licence.', 'File sizes: 1.21 GB and 2.95 GB in 4-bit form; 4.06 GB and 10.19 GB at 16-bit.', 'Training, per ZenteiQ: Google Cloud TPU v6e in Mumbai, with 2,048 TPU v6e chips and 64 Nvidia H100 GPUs, over 6 trillion pretraining tokens per model, a 131k-entry in-house tokenizer, and data and checkpoints kept in the same Indian region.', 'Edge speed, per ZenteiQ (4-bit, single stream, llama.cpp; 2B / 5B): Intel Iris Xe integrated graphics 18.6 / 20.5 tokens per second; Nvidia Jetson Orin NX 34.1 / 39.9; Raspberry Pi 4 CPU 2.3 / 2.8.']
+}, {
+  text: 'All Dhir specifications, benchmark scores and speeds are company-reported and have not been independently verified.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'The IndiaAI Mission, approved on 7 March 2024 with seven pillars from compute to datasets and safe AI, is now producing released models rather than selected proposals. The two releases take different routes. EKA-1 aims at a mid-size general model with full Indian-language coverage. Dhir aims at small models that run offline on a laptop-class chip or an embedded board, which matters for factories, public services and sensitive sites that cannot send data to the cloud.',
+  type: 'p'
+}, {
+  text: 'The release also shows the limit of model sovereignty. Dhir was built in India, on Indian-region infrastructure, but on Google TPUs and Nvidia GPUs. Owning the model is one layer; accelerators, memory, networking and data-centre hardware remain imported. That connects this signal to the compute tender in S-165 and the fibre build in S-171. Offline use also does not by itself make a model fit for defence work, which needs security accreditation and testing (see S-176).',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['EKA-1 technical report, architecture detail, active-parameter count, weights, licence, hardware needs and benchmarks.', 'Independent tests of Dhir accuracy and speed, and its performance under many concurrent users.', 'Commercial deployments, customers and support arrangements for either model.', 'How much subsidised IndiaAI compute these projects used.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for EKA-1 weights and a model card, independent Indian-language benchmarks, first enterprise or government deployments, and whether Indian hardware makers begin supplying edge devices that run models like Dhir.',
+  type: 'p'
+}],
+  takeaways: ['MeitY released Soket\'s 26.3-billion-parameter EKA-1 and ZenteiQ\'s Dhir 2B and 5B under the IndiaAI Mission on 3 November 2026.', 'Dhir is open-source (Apache 2.0), pretrained from scratch and reported to run on laptop-class and embedded hardware; it was trained on Google TPUs and Nvidia GPUs in Mumbai.', 'EKA-1 has no public benchmarks, weights or licence yet, and all Dhir performance figures are company-reported.'],
+  sources: ['Ministry of Electronics and IT / PIB (3 Nov 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2332315&lang=1&reg=3', 'ZenteiQ, Dhir technical page (accessed 5 Nov 2026): https://www.zenteiq.ai/dhir/', 'Soket AI, Project EKA (accessed 5 Nov 2026): https://soket.ai/project-eka']
+}, {
+  slug: 'aditya-l1-velc-asymmetric-cme-expansion-space-weather-2026',
+  no: 'S-181',
+  title: 'Aditya-L1\'s coronagraph measures a solar eruption\'s hidden third dimension: an Indian space-weather research gain, not yet a warning service',
+  domain: 'Strategic Technology',
+  date: '2026-11-06',
+  dateLabel: '6 Nov 2026',
+  status: 'live',
+  excerpt: 'Indian Institute of Astrophysics scientists used Aditya-L1\'s VELC spectroscopy with NASA SDO imaging and a 3D model to show that a 5 August 2024 coronal mass ejection expanded unevenly and was tilted. The result, in The Astrophysical Journal Letters, could improve storm models but is based on a single event.',
+  readingTime: '3 min',
+  body: [{
+  text: 'ISRO announced on 3 November 2026 that scientists at the Indian Institute of Astrophysics (IIA), Bengaluru, Saurabh Tripathi, Tanmoy Samanta and Jayant Joshi, had used the Visible Emission Line Coronagraph (VELC) on Aditya-L1 to measure the motion of a coronal mass ejection (CME) towards and away from the observer. The study, \'Spectroscopic Signatures of Nonuniform Lateral Expansion of a Coronal Mass Ejection in the Low Corona with ADITYA-L1/VELC\', is published in The Astrophysical Journal Letters, according to ISRO, DD News and Techexplorist.',
+  type: 'p'
+}, {
+  text: 'What the team found',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Event: a CME on 5 August 2024 from an active region near the Sun\'s western edge (DD News).', 'Method: VELC spectroscopy of the 530.3 nm green coronal line, combined with images from NASA\'s Solar Dynamics Observatory and a three-dimensional geometric-kinematic model.', 'Observation: two Doppler-shifted emission branches on opposite sides of the rest wavelength, meaning parts of the eruption moved towards and away from the observer at the same time.', 'Result: the eruption is best explained by an inclined structure expanding unevenly sideways, not a uniformly growing bubble.', 'Point of method: ISRO says a single vantage point can constrain the 3D geometry when Doppler data is combined with imaging.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A CME aimed at Earth can disturb satellites, radio communications, navigation and power grids. Forecasts of when and how hard it arrives depend on its speed, direction and shape near the Sun, and images alone miss motion along the line of sight. An Indian instrument that adds that missing dimension strengthens India\'s own space-weather science, which matters as the country puts more satellites, including NavIC (S-177), into orbit. VELC was designed and built at IIA\'s laboratory at Hosakote (DD News).',
+  type: 'p'
+}, {
+  text: 'Limits',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['One event. ISRO says more studies are needed to establish how reliably VELC measures CME direction, velocity and expansion.', 'Research, not operations. Nothing reported links this to a real-time Indian warning service for satellite or grid operators.', 'We could not open the paper itself, so detailed velocity figures cited in some summaries are not reported here.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for VELC analyses of more eruptions, tests of whether asymmetric-expansion models improve arrival-time forecasts, and any Indian space-weather data products for satellite and navigation operators.',
+  type: 'p'
+}],
+  takeaways: ['IIA scientists used Aditya-L1\'s VELC, NASA SDO images and a 3D model to show that a 5 August 2024 CME was tilted and expanded unevenly.', 'VELC\'s Doppler data recovered motion towards and away from the observer, which images alone cannot show.', 'It is a single-event research result in The Astrophysical Journal Letters, not an operational forecasting service.'],
+  sources: ['ISRO (3 Nov 2026): https://www.isro.gov.in/Aditya_L1_Reveals_the_Hidden_Third_Dimension_of_Solar_Eruption.html', 'DD News (3 Nov 2026): https://ddnews.gov.in/en/aditya-l1-uncovers-asymmetric-expansion-of-solar-eruption-offers-new-insights-into-space-weather/', 'Techexplorist (3 Nov 2026): https://www.techexplorist.com/sun-hiding-third-dimension-aditya-l1-exposed/105951/']
+}, {
+  slug: 'cabinet-rs-14500-crore-vgf-92-gwh-grid-energy-storage-2026',
+  no: 'S-182',
+  title: 'Cabinet backs 92 GWh of grid storage with Rs 14,500 crore: pumped hydro leads, and batteries must carry 40 per cent domestic content',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  date: '2026-11-07',
+  dateLabel: '7 Nov 2026',
+  status: 'live',
+  excerpt: 'On 4 November the Cabinet approved Rs 14,500 crore of viability gap funding for 92 GWh of new grid-scale storage over FY2026-27 to FY2030-31: 60 GWh pumped hydro, 30 GWh batteries and 2 GWh other technologies. Battery projects need 40 per cent domestic content; the funding rate per unit is not disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Union Cabinet approved a Rs 14,500 crore viability gap funding (VGF) scheme for 92 GWh of grid-scale energy storage on 4 November 2026, the same day as the critical-minerals processing scheme in S-179, according to the Prime Minister\'s Office release and ChartForest. The support covers FY2026-27 to FY2030-31 and is expected to draw about Rs 97,600 crore of total investment.',
+  type: 'p'
+}, {
+  text: 'What the scheme covers',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Mix: 60 GWh of pumped hydro storage, 30 GWh of battery storage and 2 GWh of alternative storage technologies, all capacity yet to be commissioned.', 'Scale: the PMO says 92 GWh is 170 per cent of today\'s grid-scale storage, against a requirement of 411 GWh by 2031-32.', 'Allocation: through tariff-based competitive bidding. Public and private distribution companies are eligible for battery and pumped-hydro support; alternative technologies go to public and private entities.', 'Local content: battery projects must meet a minimum 40 per cent domestic content requirement. No such rule is stated for pumped hydro or other technologies.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Solar and wind need storage to be usable at night and at peaks, and India\'s storage base is small relative to its renewable build. The industrial point is the domestic-content clause: 30 GWh of battery demand tied to 40 per cent local content gives Indian cell and pack makers a defined market, which matters after the slow start of cell manufacturing under earlier incentives. How the 40 per cent is measured is not stated, so it is unclear whether imported cells could still dominate. By ChartForest\'s arithmetic, the support is about 15 per cent of the expected investment.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The VGF rate per MWh or as a share of cost.', 'How the 40 per cent domestic content is calculated, and whether it reaches the cell level.', 'Implementing ministry. ChartForest attributes it to the Ministry of Power; the PMO text does not name one.', 'Bidding timetable, tranches, project durations in hours and commissioning deadlines.', 'How this relates to earlier battery-storage VGF schemes.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for scheme guidelines, the domestic-content calculation method, the first bid calls and discovered tariffs, and whether Indian cell makers win a share of the 30 GWh. Related: S-179 (lithium and nickel processing) and S-162 (battery recycling).',
+  type: 'p'
+}],
+  takeaways: ['The Cabinet approved Rs 14,500 crore of VGF on 4 November 2026 for 92 GWh of grid-scale storage through FY2030-31.', 'The mix is 60 GWh pumped hydro, 30 GWh batteries and 2 GWh other technologies, allocated by tariff-based bidding.', 'Battery projects need 40 per cent domestic content; the VGF rate and how local content is measured are not disclosed.'],
+  sources: ['Prime Minister\'s Office (4 Nov 2026): https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-14500-crore-viability-gap-funding-scheme-for-development-of-92-gwh-grid-scale-energy-storage-systems/', 'ChartForest (5 Nov 2026): https://chartforest.com/energy-storage-viability-gap-funding/']
+}, {
+  slug: 'semicon-2-portal-opens-ecms-12-projects-7503-crore-2026',
+  no: 'S-183',
+  title: 'Semicon 2.0 opens for fab, packaging and materials applications as ECMS clears 12 more component projects worth Rs 7,503 crore',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-11-07',
+  dateLabel: '7 Nov 2026',
+  status: 'live',
+  excerpt: 'On 6 November the government opened its Semicon 2.0 application portal for equipment and materials, fabs, and assembly and testing, and approved 12 more electronics-component projects worth Rs 7,503 crore, including first-time support for copper foil, cathode material and specialty ceramics. The 12 approvals went to 11 named companies, taking ECMS to 118 approvals worth Rs 77,051 crore.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Electronics and IT Minister Ashwini Vaishnaw launched the Semicon 2.0 web application portal on 6 November 2026 and announced 12 more approvals under the Electronics Component Manufacturing Scheme (ECMS), according to ANI via ETV Bharat and IANS via TenNews. Applications are now open for three of Semicon 2.0\'s six pillars: semiconductor equipment and materials, new fabs, and assembly, testing, marking and packaging (ATMP). Semicon 2.0 carries a Cabinet-approved outlay of about Rs 1.27 lakh crore.',
+  type: 'p'
+}, {
+  text: 'The 12 ECMS approvals',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Investment: Rs 7,503 crore, with expected production of Rs 39,045 crore and 7,127 direct jobs (TenNews/IANS).', 'Products: multilayer printed circuit boards, relays, heat sinks, specialty ceramics, copper foil, anode material, cathode active material, polypropylene film and camera rims.', 'First-time ECMS support for copper foil, cathode active material and specialty ceramics.', 'States: Gujarat, Karnataka, Madhya Pradesh, Maharashtra, Punjab, Tamil Nadu and Uttar Pradesh.', 'Cumulative: ECMS now stands at 118 approved applications across 34 products and 16 states, with projected investment of Rs 77,051 crore, production of Rs 5,73,146 crore and 81,755 direct jobs (DD India, KNN), up from the 106 approvals covered in S-068.']
+}, {
+  text: 'The applicants, per the government list carried by DD India and KNN: NeST ICELR (multilayer PCBs), TDConnex Chennai (relays, and separately precision moulds and tooling), Modern Automotives (heat sinks), Voltix Semicon (specialty ceramics), Indo Asia Copper (copper foil), TACC (anode material for lithium-ion cells), Vidyuta Materials (cathode active material), Enerfolie (capacitor-grade polypropylene film), Surface Modification Technologies (camera rims), Rockwell Automation India (power and control systems for capital equipment) and Wipro PARI Robotics (factory automation). That is 12 approvals for 11 companies. These are the first ECMS approvals for copper foil, cathode active material and specialty ceramics; the reports do not say they are India\'s first commercial plants for these materials.',
+  type: 'p'
+}, {
+  text: 'Vaishnaw described the approach as moving step by step \'from finished product to the modules, to the components, to the materials\', and said India is now making battery cells, copper foils and copper-clad laminates for PCBs (ETV Bharat/ANI). He also said half the units approved under ECMS are small or medium enterprises, a figure neither report breaks down.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Two upstream moves land on the same day. Opening Semicon 2.0\'s equipment, materials and fab pillars gives that phase an application route, after the policy announcements of recent months (S-111). And the ECMS list now reaches battery materials such as cathode active material and anode material, linking electronics policy to the battery supply chain targeted by the storage and processing schemes in S-182 and S-179.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Per-project investment and plant status for each applicant.', 'The basis for the 50 per cent SME claim.', 'Semicon 2.0 portal deadlines and eligibility rules, and why the chip-design pillar is not listed as open.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the first Semicon 2.0 applications for equipment, materials and fabs, the company names behind the copper-foil and cathode projects, and their production start dates.',
+  type: 'p'
+}],
+  takeaways: ['The Semicon 2.0 portal opened on 6 November 2026 for equipment and materials, fab and ATMP applications.', 'ECMS approved 12 projects from 11 companies worth Rs 7,503 crore, including first ECMS approvals for copper foil (Indo Asia Copper), cathode active material (Vidyuta Materials) and specialty ceramics (Voltix Semicon).', 'ECMS now totals 118 approvals and Rs 77,051 crore of projected investment; these are approvals, not operating plants.'],
+  sources: ['ANI via ETV Bharat (6 Nov 2026): https://www.etvbharat.com/en/technology/ashwini-vaishnaw-launches-semicon-2-dot-0-portal-says-50-percent-of-units-approved-under-ecms-are-smes-msmes-enn26110603597', 'IANS via TenNews (6 Nov 2026): https://tennews.in/govt-launches-semicon-2-0-portal-clears-12-more-electronics-component-projects-worth-rs-7503-crore/', 'DD India (6 Nov 2026): https://ddindia.co.in/2026/11/ashwini-vaishnaw-launches-semicon-2-0-portal-announces-12-more-ecms-approvals-worth-rs-7503-crore/', 'KNN India (7 Nov 2026): https://knnindia.co.in/news/newsdetails/sectors/government-launches-semicon-20-portal-approves-12-ecms-projects-worth-rs-7503-crore']
+}, {
+  slug: 'matsya-6000-unmanned-trials-kattupalli-deep-ocean-mission-2026',
+  no: 'S-184',
+  title: 'MATSYA-6000 clears unmanned trials at Kattupalli: India\'s crewed deep-sea submersible moves a step on, with no dive date set',
+  domain: 'Strategic Technology',
+  date: '2026-11-07',
+  dateLabel: '7 Nov 2026',
+  status: 'live',
+  excerpt: 'India\'s three-person deep-ocean submersible MATSYA-6000 completed unmanned trials of flotation, submerged stability and ballast systems at L&T\'s Kattupalli shipyard on 6 November, clearing it for the next phase of testing. No date for crewed or 6,000 m dives was given.',
+  readingTime: '3 min',
+  body: [{
+  text: 'MATSYA-6000, the crewed submersible being built under the Ministry of Earth Sciences\' Deep Ocean Mission, completed unmanned trials at the L&T shipyard in Kattupalli, Tamil Nadu, on 6 November 2026, according to IANS. The trials covered flotation, submerged stability, the ballast system and other subcomponents, and were carried out to the prescribed test protocol, the ministry said. Earth Sciences Secretary Srinivasa Kumar Tummala and National Institute of Ocean Technology (NIOT) Director G. A. Ramadass were present.',
+  type: 'p'
+}, {
+  text: 'What is reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Design: three crew in a 2.1 m spherical hull, built for a depth of 6,000 m (IANS).', 'History: since moving to Kattupalli in 2025, the vehicle has had controlled manned and unmanned trials of power, stability, human-safety systems, manoeuvring, navigation, communications and scientific payloads (IANS).', 'Next step: the result clears MATSYA-6000 for its next phase of advanced testing. Indian Defence News adds that further testing, verification and certification are needed before crewed deep-sea missions.', 'Further details from Indian Defence News, not repeated by IANS: a titanium-alloy hull, 12-hour normal endurance and up to 96 hours of emergency life support.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A crewed 6,000 m submersible would let India survey deep-sea mineral deposits, such as polymetallic nodules in the Indian Ocean, with its own vehicle, and very few countries have one. That links ocean technology to the critical-minerals effort in S-179 and S-157. The trials described are harbour and system tests, not a deep dive, so the hard qualification work is still ahead.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Whether the unmanned trials included any dive or depth test.', 'Dates for crewed sea trials and for a 6,000 m dive.', 'The ministry\'s own release, which both reports cite without a link.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for shallow-water crewed dives, a staged depth programme, hull certification, and any announcement of the first deep dive in the Indian Ocean.',
+  type: 'p'
+}],
+  takeaways: ['MATSYA-6000 completed unmanned trials of flotation, stability and ballast systems at Kattupalli on 6 November 2026.', 'The three-person submersible is designed for 6,000 m under the Deep Ocean Mission and is cleared for its next testing phase.', 'No dates for crewed or deep dives were given, and the trials described were not depth tests.'],
+  sources: ['IANS (6 Nov 2026): https://ianslive.in/matsya6000-undergoes-trials-in-presence-of-moes-secretary-niot-director--20261106221635', 'Indian Defence News (6 Nov 2026): https://www.indiandefensenews.in/2026/11/indias-matsya-submersible-clears-key.html']
+}, {
+  slug: 'ideaforge-yeti-heavy-lift-drone-tdb-rdi-151-crore-2026',
+  no: 'S-185',
+  title: 'Rs 151 crore of RDI debt backs ideaForge\'s YETI, a 200 kg heavy-lift drone for high-altitude logistics: a development loan, not an order',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-08',
+  dateLabel: '8 Nov 2026',
+  status: 'live',
+  excerpt: 'The Technology Development Board signed a Rs 151 crore debt agreement with ideaForge on 14 October to develop YETI, a hybrid VTOL drone designed to carry 200 kg up to 200 km and operate at 6,500 m. The project costs Rs 302 crore and aims to move from TRL 4 to TRL 9; no timeline or customer is disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Technology Development Board (TDB) signed an agreement with ideaForge Technology on 14 October 2026 to provide Rs 151 crore of debt financing under the Research, Development and Innovation (RDI) Fund for YETI, a heavy-lift autonomous cargo drone, according to Channeliam and Swarajya. The total project cost is Rs 302 crore. Reports in August first covered the funding; the October agreement is the formal signing.',
+  type: 'p'
+}, {
+  text: 'What YETI is meant to be',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Type: a hybrid vertical-take-off fixed-wing aircraft for long-range autonomous cargo delivery.', 'Targets: payload up to 200 kg, range up to 200 km, operations up to 6,500 m above sea level, from unprepared sites of about 15 m by 15 m.', 'Planned features: navigation without satellite signals, redundant propulsion and power, communication links up to 200 km, and swarm operation.', 'Maturity: from Technology Readiness Level 4, a laboratory-validated stage, to TRL 9.', 'Uses: Channeliam lists defence logistics, industrial transport, infrastructure, offshore work and disaster response, and notes that use depends on testing and regulatory approval.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Moving supplies to high-altitude posts is a standing problem for the Army, and the Army has floated large requirements for logistic drones (S-038). YETI\'s targets of 200 kg and 6,500 m aim at that gap with an Indian design, and satellite-independent navigation addresses jamming risks. It is the third RDI Fund award to a deep-tech firm we have covered, after QNu Labs (S-158) and Manastu Space (S-175), and ideaForge is already an Indian government supplier (S-152). But TRL 4 is an early stage: the specification is a target, not a demonstrated aircraft.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Development timeline, flight-test plan and endurance.', 'Loan terms, such as interest and tenor.', 'Any defence or civil customer commitment.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a first YETI prototype flight, high-altitude trials, any Army logistics-drone order, and whether satellite-independent navigation is demonstrated.',
+  type: 'p'
+}],
+  takeaways: ['TDB signed a Rs 151 crore RDI debt agreement with ideaForge on 14 October 2026 for the Rs 302 crore YETI project.', 'YETI targets 200 kg payload, 200 km range and 6,500 m operating altitude, with satellite-independent navigation.', 'The project starts at TRL 4; timeline, loan terms and customers are not disclosed.'],
+  sources: ['Channeliam (16 Oct 2026): https://en.channeliam.com/2026/10/16/ideaforge-yeti-heavy-lift-drone-government-funding/', 'Swarajya (14 Oct 2026): https://swarajyamag.com/tech/mumbai-based-ideaforge-secures-rs-151-crore-government-support-to-develop-yeti-heavy-lift-cargo-drone-with-200-km-range']
+}, {
+  slug: 'npci-tech-solutions-ntsl-ai-blockchain-subsidiary-2026',
+  no: 'S-186',
+  title: 'NPCI spins out a technology arm for AI and blockchain: the UPI operator turns its in-house stack into a business line, with no capital or clients disclosed',
+  domain: 'Enterprise & Tech Sovereignty',
+  date: '2026-11-08',
+  dateLabel: '8 Nov 2026',
+  status: 'live',
+  excerpt: 'NPCI, which runs UPI, set up NPCI Tech Solutions Limited (NTSL) on 4 November as its fourth wholly owned subsidiary, to work on AI, blockchain, digital public infrastructure and capability-centre services, led by former CTO Vishal Kanvaty. Funding, customers and timelines are not disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The National Payments Corporation of India (NPCI), which operates UPI, announced on 4 November 2026 the launch of NPCI Tech Solutions Limited (NTSL), a wholly owned technology and innovation subsidiary, according to Business Today, Reuters and MediaNama. Vishal Kanvaty, previously NPCI\'s chief technology officer according to Reuters and MediaNama, is NTSL\'s managing director and CEO. Business Today reports NPCI said NTSL was set up after approvals from its board and the Reserve Bank of India.',
+  type: 'p'
+}, {
+  text: 'What NTSL will do',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Focus areas: artificial intelligence, blockchain, digital financial infrastructure and Global Capability Centre (GCC) services.', 'Public-infrastructure work: technology services for eKYC Setu and the Unified Ticketing Platform (Business Today, MediaNama).', 'Commercialisation: Business Today says it will support the development and commercialisation of technology platforms.', 'Group structure: NTSL is NPCI\'s fourth subsidiary, after NPCI International Payments (international UPI deployment), NPCI Bharat BillPay and NPCI BHIM Services.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'NPCI built one of the world\'s largest real-time payment systems in-house. A separate technology company lets it package that engineering capability for AI, blockchain and other public digital infrastructure beyond payments, which bears on whether India\'s digital public infrastructure is run on Indian-owned technology rather than vendor platforms. MediaNama notes that NPCI first disclosed the plan in October 2025. Whether NTSL becomes a significant technology supplier depends on funding and clients, none of which has been disclosed.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Capital, funding source and headcount.', 'Customers: NPCI group companies, banks, government agencies or overseas clients.', 'How the AI and blockchain work relates to UPI, and whether NTSL will sell NPCI technology abroad alongside NPCI International.', 'Launch timeline and revenue targets.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for NTSL\'s first named contracts, any AI products built on payment-system data and the governance attached to them, and capital infusion from NPCI. Related: S-180 (IndiaAI foundation models).',
+  type: 'p'
+}],
+  takeaways: ['NPCI launched NPCI Tech Solutions Limited on 4 November 2026 as its fourth wholly owned subsidiary, with former CTO Vishal Kanvaty as MD and CEO.', 'NTSL will work on AI, blockchain, digital financial infrastructure and GCC services, including eKYC Setu and the Unified Ticketing Platform.', 'Capital, customers and timelines are not disclosed.'],
+  sources: ['Business Today (4 Nov 2026): https://www.businesstoday.in/technology/news/story/npci-launches-tech-subsidiary-ntsl-to-focus-on-ai-blockchain-appoints-vishal-kanvaty-as-ceo-565717-2026-11-04', 'Reuters via Yahoo Finance (4 Nov 2026): https://finance.yahoo.com/technology/ai/articles/indias-payments-authority-npci-forms-110215361.html', 'MediaNama (5 Nov 2026): https://medianama.com/2026/11/223-npcis-new-technology-subsidiary']
+}, {
+  slug: 'iaf-iit-madras-indigenous-secure-airborne-communication-system-moa-2026',
+  no: 'S-187',
+  title: 'IAF and IIT Madras sign an agreement to build an indigenous secure airborne communication system: a hidden dependency targeted, still pre-prototype',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-09',
+  dateLabel: '9 Nov 2026',
+  status: 'live',
+  excerpt: 'The IAF\'s Software Development Institute signed a memorandum of agreement with IIT Madras and IITM Pravartak on 6 November to jointly design an indigenous digital secure communication system for aircraft, focused on communication and networking algorithms. No funding, platform or timeline was disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Indian Air Force\'s Software Development Institute (SDI) signed a memorandum of agreement (MoA) with IIT Madras and IITM Pravartak Technologies Foundation on 6 November 2026 for the joint design and development of an indigenous digital secure communication system for airborne applications, according to the Defence Ministry release and Daily Excelsior. Air Vice Marshal Sarabjit Singh, Commandant of SDI, and Dr M. J. Shankar Raman, CEO of IITM Pravartak, signed it in the presence of IIT Madras Director Prof V. Kamakoti.',
+  type: 'p'
+}, {
+  text: 'What is agreed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Scope: joint development of advanced algorithms for communication systems and networking for airborne use.', 'Aims stated by the ministry: reduce reliance on imported systems and improve IAF operational efficiency.', 'Background: the IAF and IIT Madras announced a partnership on an indigenous airborne communication system in December 2025 (The Week, PTI). The November MoA formalises joint development; the ministry release does not refer to the earlier step.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Secure links between aircraft, ground stations and command centres are a dependency that is easy to miss: a platform can be built in India while its radios, encryption, protocols and update tools remain foreign-controlled. Owning the communication and networking algorithms gives the IAF more control over upgrades and security policy. It sits alongside the Sarvam AI framework with HQ IDS in S-176 as a defence-academia and defence-industry software effort. But a locally written algorithm is not a sovereign system if processors, cryptographic modules or radios remain imported.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Funding, work packages and timeline.', 'Target aircraft, waveform, frequency bands, encryption standard, anti-jamming approach and throughput.', 'Prototype, flight-test and certification plans, and who owns the resulting intellectual property.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a laboratory or hardware-in-the-loop prototype, a first airborne trial, integration with existing IAF networks, and a funded route from development to induction.',
+  type: 'p'
+}],
+  takeaways: ['IAF SDI, IIT Madras and IITM Pravartak signed an MoA on 6 November 2026 to co-develop an indigenous secure airborne communication system.', 'The work centres on communication and networking algorithms, aimed at reducing reliance on imported systems.', 'Funding, platform, specifications and timeline are not disclosed; it is a pre-prototype development agreement.'],
+  sources: ['Ministry of Defence / PIB (6 Nov 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333748&reg=1&lang=1', 'Daily Excelsior (7 Nov 2026): https://www.dailyexcelsior.com/iafs-sdi-partners-with-iit-madras-to-develop-indigenous-digital-communication-system', 'PTI via The Week (29 Dec 2025): https://www.theweek.in/wire-updates/national/2025/12/29/mes6-ka-iaf-iit-madras.html']
+}, {
+  slug: 'ninth-tranche-critical-mineral-auction-two-bidder-rule-2026',
+  no: 'S-188',
+  title: 'India offers 20 more critical-mineral blocks and cuts the minimum bidders from three to two, after 36 of 100 blocks went unsold',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-11-10',
+  dateLabel: '10 Nov 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Mines launched the ninth tranche of critical-mineral auctions on 5 November, with 20 blocks in eight states including graphite, rare earths, gallium and tungsten, and eased the rule requiring three qualified bidders to two. Bids close on 7 January 2027.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Ministry of Mines launched the ninth tranche of critical and strategic mineral block auctions and the third tranche of exploration-licence block auctions on 5 November 2026, according to Business Standard and Neo Science Hub. Neo Science Hub reports the launch was by Union Coal and Mines Minister G. Kishan Reddy at the fourth Conference of Mining Ministers in Goa. Tender documents are on sale until 1 January 2027, and technical bids and initial price offers are due by 7 January 2027.',
+  type: 'p'
+}, {
+  text: 'What is on offer',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Mining blocks: 20 in eight states: Chhattisgarh 5; Rajasthan, Telangana and West Bengal 3 each; Madhya Pradesh and Maharashtra 2 each; Andhra Pradesh and Bihar 1 each.', 'Minerals named: graphite, glauconite, vanadium, gallium, titanium, rare earth elements, bauxite, aluminous laterite, potash, halite, tungsten, scandium and other rare metals. Block-level minerals were not published.', 'Exploration-licence blocks: Business Standard\'s headline gives 14, but its own state list, and Neo Science Hub, give 11, covering copper, vanadium, rare earths, potash and halite.']
+}, {
+  text: 'The rule change',
+  type: 'h'
+}, {
+  text: 'The minimum number of technically qualified bidders needed for an auction to proceed drops from three to two, under the Mineral (Auction) Third Amendment Rules, 2026, notified on 16 October. The reason given is that blocks have gone unsold or been annulled for want of bidders. The track record explains why: across the first eight tranches, 100 blocks were offered and 64 were auctioned, leaving 36 unsold (Business Standard).',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Auctioning a block is the first step to domestic supply, and a third of blocks have found no taker. Lowering the bidder threshold should clear more auctions, at the cost of less price competition per block. The tranche lands a day after the Cabinet\'s processing-plant scheme (S-179), so the government is now pushing at both ends: getting ore out of the ground and refining it in India. Auction success is not production; mining leases take years to reach output.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Block names, locations and which minerals sit in which block.', 'Reserve prices and any other eligibility changes such as net worth or bid security.', 'How many past auctions were annulled specifically under the three-bidder rule.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch the bid count and results after 7 January 2027, especially for the rare-earth, graphite and gallium blocks, and whether the two-bidder rule lifts the clearance rate. Related: S-157 (stockpiling policy, still awaited).',
+  type: 'p'
+}],
+  takeaways: ['The ninth critical-mineral auction tranche, launched on 5 November 2026, offers 20 blocks in eight states, with bids due 7 January 2027.', 'The minimum number of qualified bidders has been cut from three to two after 36 of 100 blocks in earlier tranches went unsold.', 'Block-level minerals, reserve prices and locations are not disclosed, and reports differ on the number of exploration-licence blocks (11 or 14).'],
+  sources: ['Business Standard (5 Nov 2026): https://www.business-standard.com/india-news/govt-eases-bidding-norms-for-critical-minerals-launches-fresh-auctions-126110501743_1.html', 'Neo Science Hub (9 Nov 2026): https://neosciencehub.com/india-offers-20-more-critical-mineral-blocks-with-telangana/']
+}, {
+  slug: 'hical-technologies-premji-invest-aerospace-defence-expansion-2026',
+  no: 'S-189',
+  title: 'Premji Invest puts about $35 million into Hical, a Rafale and Boeing component supplier: growth capital for India\'s aerospace sub-tier, not a new platform',
+  domain: 'Critical Manufacturing Dependencies',
+  date: '2026-11-11',
+  dateLabel: '11 Nov 2026',
+  status: 'live',
+  excerpt: 'Bengaluru-based Hical Technologies, which makes actuators, motors and solenoids for Rafale, Boeing, Airbus and ISRO programmes, raised its first institutional investment from Premji Invest, reported at $30 to 40 million, to fund machinery, a Hosur plant and engineering. Stake and official valuation are not disclosed.',
+  readingTime: '3 min',
+  body: [{
+  text: 'Hical Technologies, a Bengaluru electromechanical-component maker founded in 1986, has raised its first institutional investment, in growth equity from Premji Invest, according to Raksha Anirveda and an Economic Times report carried by FVBB, both dated 6 November 2026. Raksha Anirveda gives the amount as $30 to 40 million; the Economic Times figure is $35 million, about Rs 310 crore. Deloitte Corporate Finance advised Hical.',
+  type: 'p'
+}, {
+  text: 'What is reported',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Use of funds: more manufacturing capacity in South India, high-precision machinery, vertical integration, specialised aerospace processes, engineering and R&D, talent and quality systems.', 'Sites: a new Hosur, Tamil Nadu, plant of 160,000 sq ft, on which construction began in July 2026 (Machine Maker), and a recently opened facility at Devanahalli, Karnataka.', 'Business: actuators, motors, solenoids, transformers and integrated electromechanical systems; more than 90 per cent of business is exports.', 'Programmes named: Dassault Rafale, Boeing and Airbus commercial aircraft and business jets (over 1,000 part numbers), ISRO launch vehicles and satellites, and ship and submarine equipment.', 'Valuation: $300 to 400 million, attributed by the Economic Times to unnamed industry sources.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Actuators and solenoids sit inside flight-control, landing-gear, fuel and satellite systems, and are hard to substitute once qualified. Indian depth in this sub-tier is what supplier-spend pledges like GE Aerospace\'s (S-151) depend on. Equity, rather than debt or subsidy, for a long-established export supplier shows private capital now backing qualified aerospace production in India. The open question is design ownership: high export share does not show how much engineering authority sits in India rather than with the foreign customer.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Stake acquired, board rights and the official valuation.', 'Revenue, and the split between build-to-print parts and products Hical designs itself.', 'Hosur cost, capacity and completion date.', 'Status of the Hical-Safran Rafale systems joint venture explored earlier, which these reports do not mention.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for Hosur commissioning and NADCAP accreditation, new programme awards, and any move from build-to-print to design-led products. Related: S-151 (GE Aerospace India supplier spend).',
+  type: 'p'
+}],
+  takeaways: ['Hical Technologies raised its first institutional investment from Premji Invest, reported at $30 to 40 million (about $35 million per Economic Times).', 'The money funds machinery, a 160,000 sq ft Hosur plant, Devanahalli expansion and engineering; Hical supplies Rafale, Boeing, Airbus and ISRO programmes and exports over 90 per cent.', 'Stake, official valuation and the share of Indian-designed products are not disclosed.'],
+  sources: ['Raksha Anirveda (6 Nov 2026): https://raksha-anirveda.com/hical-technologies-raises-its-first-institutional-investment-from-premji-invest-to-accelerate-aerospace-and-defence-expansion-in-india/', 'Economic Times via FVBB (6 Nov 2026): https://fvbb.com/ns/premji-invest-pumps-35-million-into-hical/329094', 'Machine Maker (6 Jul 2026): https://themachinemaker.com/news/hical-technologies-breaks-ground-on-new-aerospace-defence-manufacturing-facility-in-hosur/']
+}, {
+  slug: 'drdo-zupple-labs-blockchain-security-auditing-tdf-2026',
+  no: 'S-190',
+  title: 'DRDO Gives Blockchain a Defence-Grade Test Layer Through a Zupple Labs TDF Project',
+  domain: 'Defence AI, Cybersecurity & Digital Trust',
+  date: '2026-11-12',
+  dateLabel: '12 Nov 2026',
+  status: 'live',
+  excerpt: 'DRDO’s Technology Development Fund has awarded Zupple Labs a project titled ‘Security Analysis & Auditing of Blockchain’. The work, with DRDO’s Scientific Analysis Group as nodal laboratory, is intended to create a standardised way to evaluate blockchain applications for defence use. The important development is not a new blockchain deployment; it is an attempt to build the assurance layer that would have to exist before a defence organisation could trust a private blockchain for sensitive supply-chain or administrative workflows.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The award',
+  type: 'h'
+}, {
+  text: 'DRDO’s Technology Development Fund has awarded a project titled ‘Security Analysis & Auditing of Blockchain’ to Zupple Labs Pvt. Ltd. The official DRDO TDF announcement dates the award to 5 November 2026 and names the Scientific Analysis Group as the nodal laboratory.',
+  type: 'p'
+}, {
+  text: 'The awardee is identified as Bengaluru in the official TDF post, while independent reports describe Zupple Labs as a Mangaluru-based start-up. The company’s identity and project title are consistent across the official and media accounts; the location difference is recorded rather than silently resolved.',
+  type: 'p'
+}, {
+  note: 'A proposed standardised platform for evaluating defence-grade blockchain applications',
+  type: 'stat',
+  label: 'New assurance layer',
+  value: '1'
+}, {
+  text: 'What the project is meant to solve',
+  type: 'h'
+}, {
+  text: 'The project addresses a practical gap: a defence organisation may want to use a private blockchain for a sensitive workflow, but it needs a repeatable way to test whether the application is secure enough to commission. Zupple Labs’ chief executive told BusinessLine and WION that no standard framework currently exists for evaluating blockchain applications developed or deployed for defence use.',
+  type: 'p'
+}, {
+  text: 'The proposed output is not a public cryptocurrency network. It is an evaluation and auditing platform through which defence blockchain applications can be assessed or graded. That distinction matters because a distributed ledger’s security depends on its architecture, identity controls, consensus model, smart-contract code, access policies, key management, update process and operational environment.',
+  type: 'p'
+}, {
+  rows: [['Award', 'DRDO TDF awarded ‘Security Analysis & Auditing of Blockchain’ to Zupple Labs', 'Project milestones, delivery schedule and acceptance criteria'], ['Oversight', 'Scientific Analysis Group is the nodal DRDO laboratory', 'How test protocols and grading decisions will be governed'], ['Technical output', 'A standardised evaluation and auditing platform is intended', 'Threat model, test catalogue, tooling, assurance level and validation results'], ['Use case', 'Defence blockchain applications are the target domain', 'A named operational defence deployment or commissioned network'], ['Industrial layer', 'An Indian start-up is working with DRDO under TDF', 'Productisation, accreditation, support model and adoption by users']],
+  type: 'table',
+  headers: ['Layer', 'What is established', 'What remains to be demonstrated']
+}, {
+  text: 'Why blockchain assurance is a defence problem',
+  type: 'h'
+}, {
+  text: 'The useful question for defence is not whether blockchain is fashionable. It is whether a particular permissioned system can preserve trustworthy records across organisations that do not share a single database, while resisting unauthorised changes, compromised credentials, malicious smart contracts and failures in the nodes that operate it.',
+  type: 'p'
+}, {
+  text: 'A supply-chain application is a clear example. Defence organisations may want to track the movement, custody and status of items across depots and units. A private blockchain could provide a shared record, but it would not automatically make the record accurate or secure. The system would still need authenticated data entry, protection of administrator keys, secure node operation, controlled membership, auditability and a method to handle corrections when an original entry is wrong.',
+  type: 'p'
+}, {
+  text: 'The missing standard is the signal',
+  type: 'h'
+}, {
+  text: 'The award’s strategic importance lies in the assurance layer rather than in blockchain deployment. Defence adoption normally requires confidence that a system can be tested against a defined threat model and compared with alternatives. Without a common evaluation method, each application may be assessed differently, creating uncertainty for users and vendors.',
+  type: 'p'
+}, {
+  text: 'A credible framework could help DRDO and the armed forces distinguish between a proof of concept and a system ready for a sensitive operational workflow. It could also give Indian vendors a clearer route from a working prototype to a security-reviewed product. The value will depend on whether the resulting tests are technically deep, repeatable and connected to procurement and accreditation decisions.',
+  type: 'p'
+}, {
+  text: 'Zupple Labs’ starting position',
+  type: 'h'
+}, {
+  text: 'Zupple Labs describes itself as a provider of digital credentials and enterprise blockchain solutions. Its official and media profiles point to work on blockchain-powered trust infrastructure for governments and institutions, including records such as land documents, educational credentials, identities, permits and work orders. That background is relevant to the project, but it does not by itself prove that a defence-grade audit platform has been delivered.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'S-190 is an Indian cyber-assurance signal. DRDO is not merely asking a start-up to build another application; it is supporting an attempt to define how a class of applications should be examined before defence use. If the project produces usable threat models, automated test tooling and reproducible grades, it could become an enabling layer for trusted digital logistics and administrative systems. If it remains a generic checklist, it will add little beyond existing software-security practice.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for publication of the framework’s threat model, the blockchain architectures and smart-contract classes it can test, the treatment of identity and key management, penetration-testing methods, performance and fault-tolerance criteria, a pilot application, independent validation and any transition from TDF development to a defence user or procurement pathway.',
+  type: 'p'
+}],
+  takeaways: ['DRDO’s Technology Development Fund awarded Zupple Labs Pvt. Ltd. a project titled ‘Security Analysis & Auditing of Blockchain’ on 5 November 2026.', 'DRDO’s Scientific Analysis Group is the nodal laboratory for the project.', 'The intended output is a standardised platform for evaluating and grading blockchain applications required for defence use.', 'The project addresses assurance and testing, not the deployment of a cryptocurrency or a confirmed defence blockchain network.', 'A supply-chain tracking application is cited by the company as a potential defence use case, but no operational deployment has been announced.', 'The project’s value will depend on specific threat models, repeatable tests, security evidence and transition to a real user—not merely on the use of the blockchain label.'],
+  sources: ['DRDO Technology Development Fund (5 Nov 2026): https://x.com/DrdoTdf/status/2118309993363689713', 'The Hindu BusinessLine (10 Nov 2026): https://www.thehindubusinessline.com/info-tech/mangalurus-zupple-labs-get-drdo-mandate-to-develop-blockchain-evaluation-standards/article71686420.ece', 'WION (11 Nov 2026): https://www.wionews.com/business-economy/drdo-awards-blockchain-security-and-auditing-project-to-mangaluru-based-zupple-labs-1794386026242']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

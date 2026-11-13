@@ -50,7 +50,7 @@ export type CmsSignal = {
   status: 'live' | 'monitoring' | 'placeholder';
   excerpt: string;
   reading_time: string;
-  body: { type: 'p' | 'h' | 'list'; text?: string; items?: string[] }[];
+  body: { type: string; text?: string; items?: string[]; value?: string; label?: string; note?: string; headers?: string[]; rows?: string[][]; src?: string; alt?: string; caption?: string }[];
   takeaways: string[];
   sources: string[];
   accent: string;

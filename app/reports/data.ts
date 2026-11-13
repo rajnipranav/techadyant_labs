@@ -34,35 +34,6 @@ export interface ReportMeta {
 export const syncedAt = new Date().toISOString();
 
 export const reports: ReportMeta[] = [{
-  slug: 'india-electronic-grade-chemicals-2026-2035',
-  title: 'India’s Electronic-Grade Chemicals and Process Materials, 2026–2035',
-  subtitle: 'Market size, import dependence and entry options for Indian suppliers to semiconductor, packaging and solar plants — recurring demand reaches USD 264 million by 2035, led by solar and packaging, not wafer fabs.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 2.2 · October 2026',
-  published: '2026-10-22',
-  publishedLabel: 'October 2026',
-  readingTime: '~ 60 min read',
-  status: 'published',
-  summary: 'India will buy about USD 86 million of electronic-grade process chemicals, gases and related consumables in 2026, rising to USD 196 million in 2030 and USD 264 million in 2035 on the base case (scenario range USD 154–396 million). The market is smaller, later and more solar-led than the public conversation assumes: in 2035 solar cell lines buy 63% of it, packaging plants 19% and wafer fabs 18%, with fab demand starting only when Dholera reaches volume in 2028. Import dependence falls from 57% to 45% on a location basis, but counting only molecules made in India it is still 62% in 2035. The binding constraint for Indian suppliers is customer qualification and its infrastructure — certified packaging, trace-metal analytics, chain of custody — not plant capital, and Semicon 2.0\'s 30% capex support does not yet pay for it. This 55-page report rebuilds the market bottom-up, facility by facility, maps six categories and 16 product families, tests the Tanfac contract anchor, screens entry routes for contestable revenue, scores twelve Indian companies and sets out seven risk cases and an implementation roadmap; every figure traces to a formula-driven model with 53 validation tests.',
-  accent: '#22D3EE',
-  access: 'paid',
-  price: 10000,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 55,
-  cover: '/covers/india-electronic-grade-chemicals-2026-2035.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India_Electronic-Grade_Chemicals_Report_Free.pdf',
-  previewPages: 10,
-  hasData: true,
-  priceWithData: 15000,
-  dataFilename: 'India-Electronic-Grade-Chemicals-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['electronic-grade chemicals India', 'semiconductor chemicals', 'high-purity chemicals', 'specialty gases', 'HF DHF BOE', 'solar cell chemicals', 'OSAT ATMP consumables', 'Semicon 2.0', 'Dholera fab', 'import dependence', 'Tanfac', 'photoresists'],
-  faq: [{ q: 'How large is India’s electronic-grade chemicals market by 2035?', a: 'Base-case recurring demand reaches USD 264 million in 2035 (scenario range USD 154–396 million), up from USD 86 million in 2026 — about 13% a year. Moving consumption intensities to their bounds gives USD 181–381 million. All future-year figures are modelled.' }, { q: 'Who buys electronic-grade chemicals in India?', a: 'In 2035 solar cell lines buy 63% of base-case demand (USD 167 million), packaging plants (OSAT/ATMP) 19% and wafer fabs 18%. Fab demand starts only when Tata-PSMC’s Dholera fab reaches volume in 2028.' }, { q: 'How import-dependent is India for electronic-grade chemicals?', a: 'About 57% of 2026 demand is imported, falling to 45% by 2035 on the base case. Excluding on-site bulk gases the 2035 figure is 52%; counting only molecules made in India it is 62%.' }, { q: 'Where can Indian chemical firms enter first?', a: 'HF/DHF/BOE upgrades (about USD 18 million contestable in 2035), specialty-gas filling (USD 30 million) and packaging-plant consumables (USD 18 million). None requires a fab qualification first; a Dholera-only acid line is too small to stand alone.' }, { q: 'Does Semicon 2.0 fund customer qualification of chemical suppliers?', a: 'Semicon 2.0 (Rs 1,27,500 crore, approved 15 July 2026) makes materials, chemicals and gases eligible for 30% capital support. No instrument that pays for sampling, supplier audits, split-lot trials or analytical certification was identified.' }],
-  sources: ['Union Cabinet decisions and government statements on Semicon 2.0 (15 July 2026) and ISM-approved semiconductor units', 'Minister statements on Tata-PSMC Dholera timing (July and September 2026)', 'Tanfac Industries BSE filings — solar-grade DHF contracts (November 2025)', 'Company disclosures — Gujarat Fluorochemicals, Linde India, INOX Air Products, Fujifilm and others', 'SEMI fab-capacity data; TECHCET market estimates via Semiconductor Digest; photoresist market research [MR]', 'Techadyant Labs bottom-up demand model v2.6 (facility × utilisation × intensity; 53 validation tests)'],
-  dateModified: '2026-10-22',
-  seo: { description: 'India electronic-grade chemicals 2026–2035: demand USD 86m→264m, solar 63% vs fabs 18%, imports 57%→45% (62% molecular), entry routes and Semicon 2.0 gaps.' }
-}, {
   slug: 'india-semiconductor-supply-chain-missing-links',
   title: 'India’s Semiconductor Supply Chain Missing Links and Industrial Opportunity Surfaces',
   subtitle: 'Substrates, gases, photoresists, equipment subcomponents — the layers no one is building',
@@ -154,6 +125,106 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-11-14',
   seo: {
 
+}
+}, {
+  slug: 'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035',
+  title: 'Closing the Magnet Gap',
+  subtitle: 'India\'s rare-earth permanent-magnet and critical-materials processing ecosystem, 2026–2035 — demand to 2035, the REPM scheme, and where to build first',
+  domain: 'Critical Minerals & Strategic Materials',
+  edition: 'Edition 1 · November 2026',
+  published: '2026-11-06',
+  publishedLabel: 'November 2026',
+  readingTime: '~ 70 min read',
+  status: 'published',
+  summary: 'India has the rare-earth resource but not the magnet. It mined roughly 2,900 tonnes of REO in 2025 yet operates no commercial-scale sintered NdFeB line, while China holds 60% of mined, 91% of refined and 94% of sintered magnet rare earths. This 73-page report maps the full permanent-magnet value chain, sizes Indian NdFeB demand to 2035 (a near-tripling to ~12,960 tpa in the Base case, ~US$1.0bn), and scores fifteen opportunity surfaces against the ₹7,280 crore REPM scheme and the four Rare Earth Corridors. Its counter-intuitive finding: the magnet line is not where India should move first — a NABL magnet testing and qualification lab, magnet sub-components and NdPr-oxide separation all out-rank it. Every exhibit carries a [V] / [V1] / [Modelled] verification label.',
+  accent: '#F97316',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 73,
+  cover: '/covers/closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035-Free.pdf',
+  previewPages: 12,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'Closing-the-Magnet-Gap-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['rare earth magnets', 'NdFeB permanent magnets', 'REPM scheme', 'India critical minerals', 'rare earth processing', 'NdPr separation', 'IREL', 'magnet supply chain', 'Rare Earth Corridors', 'magnet qualification'],
+  faq: [{
+  a: 'Resource is not the constraint. India holds about 6.9 Mt of rare-earth reserves (USGS MCS 2025) and roughly 7.23 Mt of REO locked in 13.15 Mt of monazite (AMD/DAE). The gap is midstream — separation, metal-making and sintering — not the ground. India mined only ~2,900 t of REO in 2025, under 1% of world output, because the conversion chain downstream of mining barely exists.',
+  q: 'Does India have enough rare earths to build a magnet industry?'
+}, {
+  a: 'Three reasons compound. Monazite is thorium-bearing, so its processing sits under atomic-energy control and has been slow to open to private players. Separating individual rare-earth oxides (notably NdPr) is chemically hard, capital-heavy and historically uneconomic against Chinese scale. And no commercial sintered-NdFeB line has yet been commissioned — the final, highest-value step — so even separated oxide would have nowhere domestic to go.',
+  q: 'Why doesn\'t India already make permanent magnets if it has the resource?'
+}, {
+  a: 'The Rare Earth Permanent Magnet (REPM) scheme is a ₹7,280 crore production-linked incentive run by the Ministry of Heavy Industries to build domestic NdFeB magnet capacity — a stated target of about 6,000 tpa — supported by four designated Rare Earth Corridors. The report scores fifteen opportunity surfaces against the scheme and finds the headline magnet line is not the highest-return first move.',
+  q: 'What is the REPM scheme?'
+}, {
+  a: 'The report\'s opportunity-surface scoring (OSS) ranks a NABL-accredited magnet testing and qualification lab first (score 4.20, roughly ₹40–120 crore), ahead of magnet sub-components (4.10), NdPr-oxide separation (4.05) and the full sintered-magnet line (3.85). The logic: testing and sub-components are lower-capital, faster-to-revenue and de-risk every downstream investment, while separation secures the feedstock a magnet line would otherwise import.',
+  q: 'If not the magnet line, what should India build first?'
+}, {
+  a: 'In the Base case, demand roughly triples from about 2,900 tpa in 2026 to 7,740 tpa in 2030 and 12,960 tpa in 2035 — worth around US$1.0bn at US$78/kg. The Bull case reaches ~18,200 tpa and the Bear case ~7,800 tpa by 2035. The report\'s probability-weighted 2035 figure is about 9,500 tpa (scenario weights 20/50/30). NdPr prices are a live risk: roughly US$55/kg in 2024, high-60s in 2025, with a 2026 spike toward ~US$119/kg.',
+  q: 'How large will Indian NdFeB magnet demand be by 2035?'
+}],
+  sources: ['USGS Mineral Commodity Summaries 2025 / 2026 — reserves and production', 'AMD / DAE — India monazite resources (13.15 Mt; 7.23 Mt REO)', 'IEA 2026 — global magnet-rare-earth concentration by stage', 'Ministry of Heavy Industries / PIB — REPM scheme and 2030 demand projection', 'IREL, Nexon Geochem, ARCI and REPM-bid disclosures; CSIS / FDD China export-control timeline'],
+  dateModified: '2026-11-06',
+  seo: {
+  entities: ['rare earth permanent magnets', 'NdFeB', 'REPM scheme', 'Rare Earth Corridors', 'NdPr oxide separation', 'IREL', 'monazite', 'India critical minerals', 'sintered magnet', 'magnet qualification'],
+  metaTitle: 'Closing the Magnet Gap — India\'s Rare-Earth Permanent-Magnet Ecosystem 2026–2035 | Techadyant Labs',
+  schemaType: 'Report',
+  focusKeyword: 'India rare earth permanent magnets',
+  metaDescription: 'India\'s rare-earth magnet gap is midstream: no commercial sintered NdFeB line despite the resource. Demand to 2035, the ₹7,280 cr REPM scheme, and why the testing lab, sub-components and NdPr separation out-rank the magnet line.'
+}
+}, {
+  slug: 'india-electronic-grade-chemicals-2026-2035',
+  title: 'India’s Electronic-Grade Chemicals and Process Materials, 2026–2035',
+  subtitle: 'Market size, import dependence and entry options for Indian suppliers to semiconductor, packaging and solar plants — recurring demand reaches USD 264 million by 2035, led by solar and packaging, not wafer fabs.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 2.2 · October 2026',
+  published: '2026-10-22',
+  publishedLabel: 'October 2026',
+  readingTime: '~ 60 min read',
+  status: 'published',
+  summary: 'India will buy about USD 86 million of electronic-grade process chemicals, gases and related consumables in 2026, rising to USD 196 million in 2030 and USD 264 million in 2035 on the base case (scenario range USD 154–396 million). The market is smaller, later and more solar-led than the public conversation assumes: in 2035 solar cell lines buy 63% of it, packaging plants 19% and wafer fabs 18%, with fab demand starting only when Dholera reaches volume in 2028. Import dependence falls from 57% to 45% on a location basis, but counting only molecules made in India it is still 62% in 2035. The binding constraint for Indian suppliers is customer qualification and its infrastructure — certified packaging, trace-metal analytics, chain of custody — not plant capital, and Semicon 2.0\'s 30% capex support does not yet pay for it. This 55-page report rebuilds the market bottom-up, facility by facility, maps six categories and 16 product families, tests the Tanfac contract anchor, screens entry routes for contestable revenue, scores twelve Indian companies and sets out seven risk cases and an implementation roadmap; every figure traces to a formula-driven model with 53 validation tests.',
+  accent: '#22D3EE',
+  access: 'paid',
+  price: 10000,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 55,
+  cover: '/covers/india-electronic-grade-chemicals-2026-2035.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India_Electronic-Grade_Chemicals_Report_Free.pdf',
+  previewPages: 10,
+  hasData: true,
+  priceWithData: 15000,
+  dataFilename: 'India-Electronic-Grade-Chemicals-2026-2035-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['electronic-grade chemicals India', 'semiconductor chemicals', 'high-purity chemicals', 'specialty gases', 'HF DHF BOE', 'solar cell chemicals', 'OSAT ATMP consumables', 'Semicon 2.0', 'Dholera fab', 'import dependence', 'Tanfac', 'photoresists'],
+  faq: [{
+  a: 'Base-case recurring demand reaches USD 264 million in 2035 (scenario range USD 154–396 million), up from USD 86 million in 2026 — about 13% a year. Moving consumption intensities to their bounds gives USD 181–381 million. All future-year figures are modelled.',
+  q: 'How large is India’s electronic-grade chemicals market by 2035?'
+}, {
+  a: 'In 2035 solar cell lines buy 63% of base-case demand (USD 167 million), packaging plants (OSAT/ATMP) 19% and wafer fabs 18%. Fab demand starts only when Tata-PSMC’s Dholera fab reaches volume in 2028.',
+  q: 'Who buys electronic-grade chemicals in India?'
+}, {
+  a: 'About 57% of 2026 demand is imported, falling to 45% by 2035 on the base case. Excluding on-site bulk gases the 2035 figure is 52%; counting only molecules made in India it is 62%.',
+  q: 'How import-dependent is India for electronic-grade chemicals?'
+}, {
+  a: 'HF/DHF/BOE upgrades (about USD 18 million contestable in 2035), specialty-gas filling (USD 30 million) and packaging-plant consumables (USD 18 million). None requires a fab qualification first; a Dholera-only acid line is too small to stand alone.',
+  q: 'Where can Indian chemical firms enter first?'
+}, {
+  a: 'Semicon 2.0 (Rs 1,27,500 crore, approved 15 July 2026) makes materials, chemicals and gases eligible for 30% capital support. No instrument that pays for sampling, supplier audits, split-lot trials or analytical certification was identified.',
+  q: 'Does Semicon 2.0 fund customer qualification of chemical suppliers?'
+}],
+  sources: ['Union Cabinet decisions and government statements on Semicon 2.0 (15 July 2026) and ISM-approved semiconductor units', 'Minister statements on Tata-PSMC Dholera timing (July and September 2026)', 'Tanfac Industries BSE filings — solar-grade DHF contracts (November 2025)', 'Company disclosures — Gujarat Fluorochemicals, Linde India, INOX Air Products, Fujifilm and others', 'SEMI fab-capacity data; TECHCET market estimates via Semiconductor Digest; photoresist market research [MR]', 'Techadyant Labs bottom-up demand model v2.6 (facility × utilisation × intensity; 53 validation tests)'],
+  dateModified: '2026-10-22',
+  seo: {
+  entities: ['Tata-PSMC Dholera', 'Semicon 2.0', 'India Semiconductor Mission', 'Tanfac Industries', 'Gujarat Fluorochemicals', 'Linde India', 'INOX Air Products', 'Tata TSAT'],
+  metaTitle: 'India Electronic-Grade Chemicals Market 2026–2035 | Techadyant Labs',
+  schemaType: 'Report',
+  description: 'India electronic-grade chemicals 2026–2035: demand USD 86m→264m, solar 63% vs fabs 18%, imports 57%→45% (62% molecular), entry routes and Semicon 2.0 gaps.',
+  focusKeyword: 'India electronic-grade chemicals market'
 }
 }, {
   slug: 'industrial-logistics-behind-manufacturing-india',
@@ -525,56 +596,6 @@ export const reports: ReportMeta[] = [{
   related_reports: ['the-opportunity-beyond-the-fab', 'india-critical-manufacturing-dependencies']
 }
 }, {
-  slug: 'india-lunar-economy',
-  title: 'India and the Emerging Lunar Economy',
-  subtitle: 'From lunar exploration to industrial participation. India has a narrow 2026–2032 window to convert precision-landing capability into a position in the lunar value chain — and the dominant prize is terrestrial industrial spillover, not lunar commerce.',
-  domain: 'Space & Cislunar Economy',
-  edition: 'Strategic Intelligence · Edition 1 · v1.0',
-  published: '2026-09-02',
-  publishedLabel: 'September 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'The lunar economy is emerging, but India is structurally under-positioned — roughly 3.3% of cumulative announced lunar-programme investment (about USD 6 billion of an indicative global USD 181 billion through 2024–2035). Yet India has a narrow, decisive 2026–2032 window to convert demonstrated precision-landing capability (Chandrayaan-3, achieved at about USD 75 million) and its post-2023 policy reforms into a strategically significant position in selected lunar value-chain segments. India has Tier-1 potential in five of the thirteen value-chain layers; the binding constraint is an estimated 90–95% import dependence in radiation-tolerant electronics, space-grade solar cells and travelling-wave tube amplifiers. Across fourteen chapters the report maps the global infrastructure race, India\'s position, the technology and supply-chain gaps, eight opportunity surfaces (a direct addressable market of roughly USD 250–450 million a year by 2030–2032), and six coordinated strategic moves. Its central finding: the dominant value capture is terrestrial industrial spillover — projected indirect returns of USD 18–95 billion to 2040 against direct lunar returns of USD 4–28 billion, roughly three-to-five times larger. 37 figures and eleven appendices; a companion thirteen-sheet intelligence workbook is available with the data tier.',
-  accent: '#3B7DBF',
-  access: 'paid',
-  price: 11900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 127,
-  cover: '/covers/india-lunar-economy.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India-Lunar-Economy-Free.pdf',
-  previewPages: 20,
-  hasData: true,
-  priceWithData: 16900,
-  dataFilename: 'India-Lunar-Economy-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india lunar economy', 'india moon mission strategy', 'chandrayaan lunar economy', 'artemis accords india', 'lunar ISRU india', 'india space industrial policy', 'lunar value chain india', 'india NASA lunar cooperation', 'lunar economy opportunity india', 'space resources india', 'cislunar economy india', 'LUPEX chandrayaan-5'],
-  faq: [{
-  a: 'India accounts for roughly 3.3% of announced lunar-programme investment and lags in most of the deeper value-chain layers, but it has demonstrated Tier-1 precision-landing capability and a decisive 2026–2032 window to secure a position in selected segments.',
-  q: 'Is India well positioned in the emerging lunar economy?'
-}, {
-  a: 'Precision landing. Chandrayaan-3 achieved an autonomous south-pole landing at about USD 75 million — roughly one-twentieth of comparable NASA programmes.',
-  q: 'What is India\'s most defensible lunar capability?'
-}, {
-  a: 'The industrial base. An estimated 90–95% import dependence in radiation-tolerant processors, space-grade solar cells and travelling-wave tube amplifiers blocks Tier-1 supply into the Artemis chain.',
-  q: 'What is the biggest constraint on India\'s lunar-industrial participation?'
-}, {
-  a: 'In terrestrial industrial spillover. Projected indirect returns to 2040 (USD 18–95 billion) exceed direct lunar returns (USD 4–28 billion) by roughly three-to-five times, concentrated in defence, manufacturing and electronics.',
-  q: 'Where is the real value for India?'
-}, {
-  a: 'Execute six coordinated strategic moves — Artemis Anchor, National Lunar Programme, Lunar Technology Mission, a post-LUPEX ISRU pilot, Industrial Anchor-Supplier and Spillover Industrial Clusters — within the binding 2026–2032 window.',
-  q: 'What should India do?'
-}],
-  sources: ['ISRO / Department of Space and PIB releases', 'NASA, ESA, JAXA and US Department of State (Artemis Accords)', 'Union Budget of India; IN-SPACe; NSIL', 'Techadyant Labs analysis'],
-  dateModified: '2026-09-02',
-  seo: {
-  entities: ['lunar economy', 'Chandrayaan-3', 'Artemis Accords', 'ISRU', 'LUPEX', 'ISRO', 'NASA', 'cislunar economy', 'space resources', 'NGLV'],
-  metaTitle: 'India and the Emerging Lunar Economy: Strategy & Opportunity (2026)',
-  schemaType: 'Report',
-  focusKeyword: 'india lunar economy',
-  metaDescription: 'India\'s position in the emerging lunar economy — precision landing, the industrial-base gap, eight opportunity surfaces, and why the dominant prize is terrestrial spillover. A 2026–2032 strategic window.'
-}
-}, {
   slug: 'india-aerospace-supply-chain-missing-links',
   title: 'India’s Aerospace Supply Chain: Missing Links',
   subtitle: 'Missing Links Between Components and Complete Aircraft — Why India Has the Parts but Not the Platforms, and the Industrial Architecture That Closes the Gap',
@@ -623,8 +644,8 @@ export const reports: ReportMeta[] = [{
 }
 }, {
   slug: 'india-ai-compute-corridor-economics',
-  title: 'India AI Compute Corridor Economics, 2026–2035',
-  subtitle: 'Hyderabad vs NCR — Investment Viability, Power-Evacuation, Water Stress, Geography of Sovereign Compute',
+  title: 'India AI Data Center & Compute Infrastructure 2026–2035',
+  subtitle: 'Where to build India\'s next 2 GW of hyperscale AI — an 8-corridor viability index (T-ACVI), power-grid headroom, water risk and 100 MW project economics',
   domain: 'AI & Edge AI',
   edition: 'Volume I · Flagship Edition',
   published: '2026-08-19',
@@ -663,9 +684,9 @@ export const reports: ReportMeta[] = [{
   q: 'What is the total addressable market for India\'s AI compute industrial supply chain?'
 }],
   sources: ['WRI Aqueduct 4.0 Water Stress Index', 'Central Ground Water Board (CGWB)', 'Central Electricity Authority (CEA)', 'POWERGRID / POSOCO', 'TGIIC, GIDC, MIDC and NOIDA land filings', 'India Semiconductor Mission (ISM)', 'Production-Linked Incentive (PLI) for IT Hardware'],
-  dateModified: '2026-08-19',
+  dateModified: '2026-10-18',
   seo: {
-  metaTitle: 'India AI Compute Corridor Economics 2026–2035 — Hyderabad vs NCR | Techadyant Labs',
+  metaTitle: 'India AI Data Center & Compute Infrastructure 2026–2035 — 8-Corridor Viability Index | Techadyant Labs',
   metaDescription: 'Eight Indian AI compute corridors ranked on the T-ACVI index: Hyderabad 81.5, Gujarat 77.2, AP 71.6, Chennai 71.1 vs NCR 63.7. 1,960 MW demand by 2035 (28% CAGR), USD 199B industrial TAM, 101 pages.'
 }
 }, {
@@ -713,6 +734,57 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-08-17',
   seo: {
 
+}
+}, {
+  slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
+  title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
+  subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v2.0',
+  published: '2026-08-15',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 3h read',
+  status: 'published',
+  summary: 'India\'s autonomous maritime systems (USV/UUV) market is projected to grow from a INR 2,200 crore 2026 baseline to INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035. This strategic intelligence report maps the ecosystem from primary sources, with every major claim numbered and verification-labelled [IN-XXX]. India ranks 9/12 on the proprietary Maritime Autonomy Readiness Index with a composite 4.5/10: fourteen active programmes and eight iDEX awards exist, but the subsystem base is only 15-70% indigenous (AI silicon ~15%, battery cells ~35%) and there is no certification authority. The report reframes the debate from platforms to subsystems, quantifies the MDA and ASW coverage gaps, benchmarks six countries (US, China, UK, Israel, South Korea, Singapore) with reconstructed 2024 budgets, and scores 100 opportunities on the 9-dimension Opportunity Priority Index (OPI) — 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. It closes with a three-phase 2026-2035 roadmap (INR 14,600 crore Phase I, 8-12x return on capital) and 45 recommendations across government (12), the Indian Navy (10), industry (10), startups (10) and investors (8). 136 pages, 29 chapters, 53 figures, 15 tables, 125 numbered sources and full appendices A-L, mirrored in a 17-sheet data workbook.',
+  accent: '#16425B',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 136,
+  cover: '/covers/beyond-sea-drones-india-autonomous-maritime-systems.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_BeyondSeaDrones_Report%20_Free.pdf',
+  previewPages: 27,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Techadyant_BeyondSeaDrones_Workbook.xlsx',
+  keywords: ['beyond sea drones india', 'india autonomous maritime systems', 'indian navy USV', 'unmanned surface vehicles india', 'underwater unmanned vehicles india', 'maritime autonomy market india 2035', 'indian navy MDA gap', 'autonomous ASW India', 'USV UUV startups india', 'naval drone ecosystem india', 'maritime autonomy readiness index', 'Make in India naval drones'],
+  faq: [{
+  a: 'INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035, from a INR 2,200 crore 2026 baseline. The Accelerated case assumes a 2026-27 anchor-programme decision; the report sizes the INR 20,000 crore gap recoverable through early decisions.',
+  q: 'How big is India\'s autonomous maritime systems market by 2035?'
+}, {
+  a: 'Rank 9/12 on the Maritime Autonomy Readiness Index with a composite 4.5/10. Fourteen active programmes and eight iDEX awards exist, but the subsystem base is 15-70% indigenous and there is no certification authority. The gap is industrial, not technological.',
+  q: 'Where does India stand in maritime autonomy today?'
+}, {
+  a: 'AI silicon (~15% indigenous), battery cells (~35%), certification, and a 36-60 month procurement cycle versus 12-24 months for the US. The Dependency Index scores 40+ subsystems for sovereignty to separate strategic chokepoints from manageable ones.',
+  q: 'What are India\'s critical gaps in USV/UUV subsystems?'
+}, {
+  a: 'One hundred opportunities scored on the 9-dimension Opportunity Priority Index (OPI); 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. Twenty-five hidden opportunity surfaces sit in the supporting ecosystem — subsystems, test ranges, certification — not platforms.',
+  q: 'What is the biggest autonomous maritime opportunity for India?'
+}, {
+  a: 'Every major claim is a numbered, verification-labelled citation [IN-XXX] against 125 sources across six source tiers. Fact, estimate, inference and forecast are visibly separated, and the full dataset ships in a 17-sheet Excel workbook mirroring appendices D-K.',
+  q: 'Why is this report different from other market studies?'
+}],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+  entities: ['USV', 'UUV', 'Indian Navy', 'maritime autonomy', 'ASW', 'MDA', 'Opportunity Priority Index', 'Make in India', 'Indo-Pacific', 'autonomous maritime systems'],
+  metaTitle: 'India Autonomous Maritime Systems Market 2026-2035: USV/UUV Ecosystem, Readiness Index & Opportunities',
+  schemaType: 'Report',
+  focusKeyword: 'india autonomous maritime systems market',
+  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
+  related_reports: ['indian-navy-autonomous-maritime']
 }
 }, {
   slug: 'india-edge-ai-economy',
@@ -775,57 +847,6 @@ export const reports: ReportMeta[] = [{
   dateModified: '2026-08-15',
   seo: {
 
-}
-}, {
-  slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
-  title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
-  subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Intelligence · Edition 1 · v2.0',
-  published: '2026-08-15',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 3h read',
-  status: 'published',
-  summary: 'India\'s autonomous maritime systems (USV/UUV) market is projected to grow from a INR 2,200 crore 2026 baseline to INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035. This strategic intelligence report maps the ecosystem from primary sources, with every major claim numbered and verification-labelled [IN-XXX]. India ranks 9/12 on the proprietary Maritime Autonomy Readiness Index with a composite 4.5/10: fourteen active programmes and eight iDEX awards exist, but the subsystem base is only 15-70% indigenous (AI silicon ~15%, battery cells ~35%) and there is no certification authority. The report reframes the debate from platforms to subsystems, quantifies the MDA and ASW coverage gaps, benchmarks six countries (US, China, UK, Israel, South Korea, Singapore) with reconstructed 2024 budgets, and scores 100 opportunities on the 9-dimension Opportunity Priority Index (OPI) — 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. It closes with a three-phase 2026-2035 roadmap (INR 14,600 crore Phase I, 8-12x return on capital) and 45 recommendations across government (12), the Indian Navy (10), industry (10), startups (10) and investors (8). 136 pages, 29 chapters, 53 figures, 15 tables, 125 numbered sources and full appendices A-L, mirrored in a 17-sheet data workbook.',
-  accent: '#16425B',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 136,
-  cover: '/covers/beyond-sea-drones-india-autonomous-maritime-systems.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_BeyondSeaDrones_Report%20_Free.pdf',
-  previewPages: 27,
-  hasData: true,
-  priceWithData: 9999,
-  dataFilename: 'Techadyant_BeyondSeaDrones_Workbook.xlsx',
-  keywords: ['beyond sea drones india', 'india autonomous maritime systems', 'indian navy USV', 'unmanned surface vehicles india', 'underwater unmanned vehicles india', 'maritime autonomy market india 2035', 'indian navy MDA gap', 'autonomous ASW India', 'USV UUV startups india', 'naval drone ecosystem india', 'maritime autonomy readiness index', 'Make in India naval drones'],
-  faq: [{
-  a: 'INR 11,500 crore (Constrained), INR 35,000 crore (Baseline) or INR 55,000 crore (Accelerated) by 2035, from a INR 2,200 crore 2026 baseline. The Accelerated case assumes a 2026-27 anchor-programme decision; the report sizes the INR 20,000 crore gap recoverable through early decisions.',
-  q: 'How big is India\'s autonomous maritime systems market by 2035?'
-}, {
-  a: 'Rank 9/12 on the Maritime Autonomy Readiness Index with a composite 4.5/10. Fourteen active programmes and eight iDEX awards exist, but the subsystem base is 15-70% indigenous and there is no certification authority. The gap is industrial, not technological.',
-  q: 'Where does India stand in maritime autonomy today?'
-}, {
-  a: 'AI silicon (~15% indigenous), battery cells (~35%), certification, and a 36-60 month procurement cycle versus 12-24 months for the US. The Dependency Index scores 40+ subsystems for sovereignty to separate strategic chokepoints from manageable ones.',
-  q: 'What are India\'s critical gaps in USV/UUV subsystems?'
-}, {
-  a: 'One hundred opportunities scored on the 9-dimension Opportunity Priority Index (OPI); 24 "Star" opportunities score 80+, led by an 11-metre ASW USV at 88. Twenty-five hidden opportunity surfaces sit in the supporting ecosystem — subsystems, test ranges, certification — not platforms.',
-  q: 'What is the biggest autonomous maritime opportunity for India?'
-}, {
-  a: 'Every major claim is a numbered, verification-labelled citation [IN-XXX] against 125 sources across six source tiers. Fact, estimate, inference and forecast are visibly separated, and the full dataset ships in a 17-sheet Excel workbook mirroring appendices D-K.',
-  q: 'Why is this report different from other market studies?'
-}],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-  entities: ['USV', 'UUV', 'Indian Navy', 'maritime autonomy', 'ASW', 'MDA', 'Opportunity Priority Index', 'Make in India', 'Indo-Pacific', 'autonomous maritime systems'],
-  metaTitle: 'India Autonomous Maritime Systems Market 2026-2035: USV/UUV Ecosystem, Readiness Index & Opportunities',
-  schemaType: 'Report',
-  focusKeyword: 'india autonomous maritime systems market',
-  metaDescription: 'India\'s USV/UUV ecosystem to 2035 — three market scenarios (INR 11,500-55,000 crore), a 12-country Maritime Autonomy Readiness Index (India 9/12), 100 OPI-ranked opportunities led by an 11m ASW USV, and a 2026-2035 industrial roadmap for OEMs, Navy, investors, MSMEs and policymakers.',
-  related_reports: ['indian-navy-autonomous-maritime']
 }
 }, {
   slug: 'iaf-autonomous-air-power',
@@ -1158,44 +1179,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s strategic import dependencies scored on the Critical Manufacturing Dependency Index — 312 surfaces across twelve sectors, the deepest chokepoints, twelve opportunity zones and a $480 billion localisation map to 2035.'
 }
 }, {
-  slug: 'dholera-semiconductor-supplier-ecosystem',
-  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
-  domain: 'Semiconductor Ecosystems',
-  edition: 'Edition 01',
-  published: '2026-07-26',
-  publishedLabel: 'July 2026',
-  readingTime: '~ 30 min read',
-  status: 'published',
-  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
-  accent: '#F5B544',
-  access: 'paid',
-  price: 5900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 28,
-  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
-  previewPages: 14,
-  hasData: true,
-  priceWithData: 9900,
-  dataFilename: 'Dholera-Semiconductor-Supplier-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-07-26',
-  seo: {
-  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
-  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
-  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
-  schemaType: 'Report',
-  focusKeyword: 'Dholera semiconductor ecosystem',
-  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
-  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
-}
-}, {
   slug: 'india-industrial-waste-recycling-economy',
   title: 'India\'s Industrial Waste & Recycling Economy',
   subtitle: 'Battery metals, e-waste, chemical recovery and the secondary-industrial opportunity across Indian recycling corridors',
@@ -1234,6 +1217,44 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India industrial waste recycling economy',
   metaDescription: 'Strategic intelligence on India\'s industrial waste and recycling economy — battery metals, e-waste, black mass, chemical recovery and secondary-industrial corridors.'
+}
+}, {
+  slug: 'dholera-semiconductor-supplier-ecosystem',
+  title: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  subtitle: 'Mapping the supplier stack, anchor investments and build-ready parts for Dholera as a fab-led industrial node.',
+  domain: 'Semiconductor Ecosystems',
+  edition: 'Edition 01',
+  published: '2026-07-26',
+  publishedLabel: 'July 2026',
+  readingTime: '~ 30 min read',
+  status: 'published',
+  summary: 'Dholera is being positioned as India\'s anchor fab-led industrial node, but supplier ecosystem readiness is only partially mapped. This report moves from announcement-stage coverage to component-level readiness assessment across wafer fabrication equipment, bulk gases and chemicals, photoresists and substrates, packaging-and-testing infrastructure, materials handling, power and water utilities, and the policy levers that determine whether a project becomes a production node rather than a land-and-incentive headline. It maps India\'s existing semiconductor manufacturing base—Tata Electronics fab at Dholera, ISM-approved projects, OSAT/ATMP facilities, compound-semiconductor units, packaging clusters and downstream electronics demand—against the actual supplier presence in Gujarat and the broader domestic base. The core finding is that localisation is uneven: packaging-and-testing and mature-node backend segments show more buildable supplier depth than front-end wafer fab materials, equipment subcomponents and high-purity consumables. Industrial policy, continuous power, ultrapure water, logistics connectivity and skills availability are now the binding constraints, not capital commitment alone. The report scores supplier readiness by segment, identifies the highest-value localisation opportunities, names the import-dependent chokepoints, and lays out a phased industrial-policy and infrastructure agenda for converting Dholera from a fab site into a self-reinforcing semiconductor supplier ecosystem. 96 pages, 34 figures, 18 tables, 5 appendices with supplier, policy, infrastructure and investment reference tables.',
+  accent: '#F5B544',
+  access: 'paid',
+  price: 5900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 28,
+  cover: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  previewObject: 'dholera-semiconductor-supplier-ecosystem-preview.pdf',
+  previewPages: 14,
+  hasData: true,
+  priceWithData: 9900,
+  dataFilename: 'Dholera-Semiconductor-Supplier-Ecosystem-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-07-26',
+  seo: {
+  ogImage: '/covers/dholera-semiconductor-supplier-ecosystem.jpg',
+  ogTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  entities: ['Dholera', 'semiconductor supply chain', 'Gujarat', 'OSAT', 'wafer fab equipment', 'industrial policy'],
+  metaTitle: 'India\'s Semiconductor Supplier Ecosystem: The Dholera Play',
+  schemaType: 'Report',
+  focusKeyword: 'Dholera semiconductor ecosystem',
+  ogDescription: 'Mapping the supplier stack, anchor investments and policy levers for Dholera as a fab-led industrial node.',
+  metaDescription: 'A supplier ecosystem assessment for Dholera covering wafer fab equipment, materials, chemicals, packaging, testing and policy levers.'
 }
 }, {
   slug: 'quantum-supply-chain',
@@ -1769,56 +1790,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'india-drone-sensors-payloads-imaging-market',
-  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
-  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 143,
-  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
-  previewPages: 6,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
-  faq: [{
-  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
-  q: 'How big is India’s drone sensors and payloads market?'
-}, {
-  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
-  q: 'How dependent is India on imported drone sensors?'
-}, {
-  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
-  q: 'What is germanium-free thermal imaging and why does it matter?'
-}, {
-  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
-  q: 'Which business model is winning in India’s drone-sensing market?'
-}, {
-  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
-  q: 'Who are the leading players in India’s drone sensor and payload market?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
-  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
-  schemaType: 'Report',
-  focusKeyword: 'India drone sensors market',
-  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
-}
-}, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
   subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
@@ -1867,6 +1838,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'AI agents replacing applications',
   metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
+}
+}, {
+  slug: 'india-drone-sensors-payloads-imaging-market',
+  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
+  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 143,
+  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  previewPages: 6,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
+  faq: [{
+  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
+  q: 'How big is India’s drone sensors and payloads market?'
+}, {
+  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
+  q: 'How dependent is India on imported drone sensors?'
+}, {
+  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
+  q: 'What is germanium-free thermal imaging and why does it matter?'
+}, {
+  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
+  q: 'Which business model is winning in India’s drone-sensing market?'
+}, {
+  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
+  q: 'Who are the leading players in India’s drone sensor and payload market?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
+  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
+  schemaType: 'Report',
+  focusKeyword: 'India drone sensors market',
+  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',

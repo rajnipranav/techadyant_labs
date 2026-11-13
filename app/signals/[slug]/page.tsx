@@ -182,8 +182,8 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
 
         <div className="report-body" style={{ padding: 0 }}>
           {s.body ? (
-            s.body.map((blk: { type: string; text?: string; items?: string[]; src?: string; alt?: string; caption?: string }, i: number) => {
-              if (blk.type === 'h') return <h3 key={i} className="serif">{blk.text}</h3>;
+            s.body.map((blk: { type: string; text?: string; items?: string[]; src?: string; alt?: string; caption?: string; value?: string; label?: string; note?: string; headers?: string[]; rows?: string[][] }, i: number) => {
+              if (blk.type === 'h' || blk.type === 'h2') return <h3 key={i} className="serif">{blk.text}</h3>;
               if (blk.type === 'list')
                 return <ul key={i}>{blk.items?.map((it: string, j: number) => <li key={j}>{inlineLinks(it)}</li>)}</ul>;
               if (blk.type === 'quote')
@@ -199,6 +199,39 @@ export default async function SignalPage({ params }: { params: Promise<{ slug: s
                     <img src={blk.src} alt={blk.alt || ''} loading="lazy" style={{ width: '100%', height: 'auto', borderRadius: 10, border: '1px solid var(--border, rgba(255,255,255,.1))' }} />
                     {blk.caption ? <figcaption style={{ fontSize: 12, color: 'var(--text-dim, #c7c7d2)', marginTop: 8, textAlign: 'center' }}>{inlineLinks(blk.caption)}</figcaption> : null}
                   </figure>
+                );
+              if (blk.type === 'stat')
+                return (
+                  <div key={i} className="pull-stat" style={{ gridTemplateColumns: '1fr', margin: '28px 0' }}>
+                    <div className="ps">
+                      <div className="n">{blk.value}</div>
+                      <div className="l" style={{ fontWeight: 600, color: 'var(--text)' }}>{blk.label}</div>
+                      {blk.note && <div className="l" style={{ marginTop: 4 }}>{blk.note}</div>}
+                    </div>
+                  </div>
+                );
+              if (blk.type === 'table')
+                return (
+                  <div key={i} style={{ overflowX: 'auto', margin: '28px 0', border: '1px solid var(--rule)', borderRadius: 10, background: 'var(--surface)' }}>
+                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 14.5 }}>
+                      <thead>
+                        <tr style={{ borderBottom: '1px solid var(--rule)', textAlign: 'left' }}>
+                          {blk.headers?.map((h: string, hi: number) => (
+                            <th key={hi} style={{ padding: '12px 16px', color: 'var(--brass-cream)', fontFamily: 'var(--font-inter, sans-serif)', fontWeight: 600 }}>{h}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {blk.rows?.map((row: string[], ri: number) => (
+                          <tr key={ri} style={{ borderBottom: ri === (blk.rows?.length || 0) - 1 ? 'none' : '1px solid var(--rule)' }}>
+                            {row.map((cell: string, ci: number) => (
+                              <td key={ci} style={{ padding: '12px 16px', verticalAlign: 'top', color: 'var(--text)' }}>{inlineLinks(cell)}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 );
               return <p key={i}>{inlineLinks(blk.text)}</p>;
             })
