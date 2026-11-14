@@ -7,6 +7,16 @@
 // Entries can override the storage bucket per-report via `bucket`; entries marked
 // `publicBucket: true` skip the sign step and return the public storage URL directly.
 export const REPORTS = {
+  'india-grid-scale-bess-supply-chain-2026-2035': {
+    access: 'paid',
+    priceInr: 6999,
+    object: 'India_Grid-Scale_BESS_Supply_Chain_2026-2035.pdf',
+    filename: 'India-Grid-Scale-BESS-Supply-Chain-2026-2035-Techadyant-Labs.pdf',
+    title: 'India Grid-Scale Battery Storage Supply Chain 2026\u20132035',
+    priceWithDataInr: 11999,
+    dataObject: 'data/India_Grid-Scale_BESS_Data_Workbook_2026-2035.xlsx',
+    dataFilename: 'India-Grid-Scale-BESS-Data-Workbook-2026-2035-Techadyant-Labs.xlsx',
+  },
   'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035': {
     access: 'paid',
     priceInr: 6999,

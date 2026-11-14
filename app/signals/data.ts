@@ -7449,6 +7449,175 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['DRDO’s Technology Development Fund awarded Zupple Labs Pvt. Ltd. a project titled ‘Security Analysis & Auditing of Blockchain’ on 5 November 2026.', 'DRDO’s Scientific Analysis Group is the nodal laboratory for the project.', 'The intended output is a standardised platform for evaluating and grading blockchain applications required for defence use.', 'The project addresses assurance and testing, not the deployment of a cryptocurrency or a confirmed defence blockchain network.', 'A supply-chain tracking application is cited by the company as a potential defence use case, but no operational deployment has been announced.', 'The project’s value will depend on specific threat models, repeatable tests, security evidence and transition to a real user—not merely on the use of the blockchain label.'],
   sources: ['DRDO Technology Development Fund (5 Nov 2026): https://x.com/DrdoTdf/status/2118309993363689713', 'The Hindu BusinessLine (10 Nov 2026): https://www.thehindubusinessline.com/info-tech/mangalurus-zupple-labs-get-drdo-mandate-to-develop-blockchain-evaluation-standards/article71686420.ece', 'WION (11 Nov 2026): https://www.wionews.com/business-economy/drdo-awards-blockchain-security-and-auditing-project-to-mangaluru-based-zupple-labs-1794386026242']
+}, {
+  slug: 'drdo-pralay-quasi-ballistic-missile-user-evaluation-trial-2026',
+  no: 'S-191',
+  title: 'Pralay clears another user-evaluation flight and the ministry calls induction imminent: the order and numbers are still to come',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-13',
+  dateLabel: '13 Nov 2026',
+  status: 'live',
+  excerpt: 'DRDO flight-tested the Pralay quasi-ballistic missile from Dr APJ Abdul Kalam Island on 5 November as part of user-evaluation trials, meeting all objectives, and the Defence Ministry says induction is now imminent. No order, quantity or delivery date has been announced.',
+  readingTime: '3 min',
+  body: [{
+  text: 'DRDO flight-tested the Pralay quasi-ballistic missile from Dr APJ Abdul Kalam Island off the Odisha coast at around 11:10 am on 5 November 2026, as part of user-evaluation trials, in the presence of DRDO, industry and armed-forces representatives, according to All India Radio and Outlook, reporting the Defence Ministry. All test objectives were met, as confirmed by range instruments of the Integrated Test Range, Chandipur. The ministry said \'the induction of the system has become imminent with this successful test.\'',
+  type: 'p'
+}, {
+  text: 'Who builds it',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Development: Research Centre Imarat, Hyderabad, with other DRDO laboratories.', 'Production: Bharat Dynamics Limited, named as one of the development-cum-production partners, which manufactured the system (Outlook).', 'Earlier trials: two user-evaluation flights on 28 and 29 July 2025 tested maximum and minimum range, with BDL and Bharat Electronics named as industry partners then (Raksha Anirveda).']
+}, {
+  text: 'Defence Minister Rajnath Singh said the trial met all stipulated objectives. The release gives no range, trajectory, accuracy or manoeuvre data for this flight.',
+  type: 'p'
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'A user-evaluation trial puts the services in the decision chain, which is the step before induction. A quasi-ballistic missile flies a lower, less predictable path than a conventional ballistic one, which makes it harder to intercept. Pralay is also an export prospect: S-064 covered talks with Armenia. A domestic induction order would give BDL a production base for both. It follows the transfer of DRDO conventional-missile technology to industry in S-074.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Induction order, quantity, receiving services and delivery schedule.', 'Range and performance data for this flight.', 'Production rate and the industry partners beyond BDL for this phase.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for a formal induction announcement, a production contract with BDL, first deliveries and any confirmed export contract.',
+  type: 'p'
+}],
+  takeaways: ['DRDO flight-tested Pralay on 5 November 2026 as part of user-evaluation trials; all objectives were met per ITR Chandipur data.', 'RCI and other DRDO labs developed it; Bharat Dynamics manufactured the system as a development-cum-production partner.', 'The ministry calls induction imminent, but no order, quantity or delivery schedule has been announced.'],
+  sources: ['All India Radio (5 Nov 2026): https://newsonair.gov.in/drdo-successfully-tests-indigenously-developed-pralay-missile/', 'Outlook (5 Nov 2026): https://www.outlookindia.com/national/drdo-successfully-tests-pralay-quasi-ballistic-missile-odisha-coast-induction', 'Raksha Anirveda (30 Jul 2025): https://raksha-anirveda.com/user-evaluation-trials-drdo-conducts-two-successful-flight-tests-of-pralay-missile/']
+}, {
+  slug: 'india-bans-lithium-ion-black-mass-export-dgft-2026',
+  no: 'S-192',
+  title: 'India prohibits exports of lithium-ion battery black mass: recycling feedstock is kept at home to feed critical-mineral recovery',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-11-13',
+  dateLabel: '13 Nov 2026',
+  status: 'live',
+  excerpt: 'DGFT moved battery waste and scrap, including lithium-ion black mass, from \'free\' to \'prohibited\' for export with immediate effect on 10 November, saying domestic recyclers have spare capacity but too little feedstock. It is a targeted ban, not a ban on all battery exports.',
+  readingTime: '3 min',
+  body: [{
+  text: 'The Directorate General of Foreign Trade (DGFT) issued Notification No. 49/2026-27 on 10 November 2026, moving ITC(HS) 8549 14 00 from \'free\' to \'prohibited\' for export with immediate effect until further orders, according to World Trade Scanner, which reproduces the notification, ThePrint (ANI) and DD India. The entry covers unsorted waste and scrap of primary cells, batteries and electric accumulators that do not contain lead, cadmium or mercury, and the notification names lithium-ion battery black mass within it.',
+  type: 'p'
+}, {
+  text: 'What changes',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Black mass, the shredded mix of cathode and anode material from spent lithium-ion batteries that holds lithium, cobalt, nickel and manganese, can no longer be exported.', 'ThePrint notes this is not a blanket ban on battery exports; it targets this waste category.', 'Reason given: domestic recyclers have spare capacity but lack feedstock, and some have had to import black mass.', 'Transition: the Foreign Trade Policy\'s standard transitional arrangements apply; no specific exemptions are listed.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'Exporting black mass sends critical minerals abroad to be refined, often to be bought back later as cathode material. Keeping it in India gives recyclers feedstock and supports the government\'s Rs 1,500 crore recycling incentive scheme. It is the third critical-minerals step in ten days, after the lithium and nickel processing subsidy (S-179) and the eased auction rules (S-188), and it backs secondary-supply projects such as the Meerut refinery in S-162. The trade-off is that recyclers who earned more by exporting must now find domestic buyers, and enforcement at ports will decide how much material actually stays.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Volumes of black mass exported before the ban and to which countries.', 'Whether domestic recyclers can absorb all of it and at what refining quality.', 'How the ban will be enforced and whether material in transit is covered.']
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for recycler capacity additions and refined-material output, any clarifications or exemptions from DGFT, and whether lithium and cobalt recovery in India rises.',
+  type: 'p'
+}],
+  takeaways: ['DGFT Notification 49/2026-27 of 10 November 2026 prohibits export of battery waste and scrap including lithium-ion black mass, with immediate effect.', 'The government says domestic recyclers have spare capacity but too little feedstock; the move supports the Rs 1,500 crore recycling scheme.', 'It is targeted at this waste category, not all battery exports; pre-ban export volumes and enforcement details are not disclosed.'],
+  sources: ['World Trade Scanner, DGFT Notification 49/2026-27 (10 Nov 2026): https://worldtradescanner.com/49-Ntfn-DGFT-10.11.2026.htm', 'ThePrint / ANI (11 Nov 2026): https://theprint.in/india/govt-bans-export-of-specified-lithium-ion-battery-black-mass-with-immediate-effect/3095848/', 'DD India (11 Nov 2026): https://ddindia.co.in/2026/11/dgft-bans-export-of-lithium-ion-battery-black-mass-to-boost-domestic-recycling-critical-mineral-recovery/']
+}, {
+  slug: 'india-approves-1150-kv-power-corridor-rs-68800-crore-2026',
+  no: 'S-193',
+  title: 'India clears a Rs 68,800 crore, 1,150 kV transmission corridor to carry western renewable power east',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  date: '2026-11-13',
+  dateLabel: '13 Nov 2026',
+  status: 'live',
+  excerpt: 'The national transmission planning panel has approved India\'s highest-voltage power corridor, about Rs 68,800 crore ($7.34 billion) at 1,150 kV, according to meeting minutes reported by Reuters. Phase one links Chhattisgarh, Odisha and West Bengal and ties into a 6,000 MW system from Rajasthan\'s Bhadla solar zone.',
+  readingTime: '3 min',
+  body: [{
+  text: 'India\'s national transmission panel has approved a high-capacity power corridor costing nearly Rs 68,800 crore ($7.34 billion), according to minutes of its meeting released late on Tuesday 10 November 2026, Reuters reported on 11 November. The corridor will use 1,150 kV technology, the highest transmission voltage in the country, and is expected to take about six years to complete.',
+  type: 'p'
+}, {
+  text: 'What has been approved',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Purpose: move electricity from renewable generation hubs in the west to industrial and urban demand centres in the east.', 'First phase: links Chhattisgarh, Odisha and West Bengal.', 'Connection: it will tie into a 6,000 MW high-voltage transmission system that carries renewable power out of the Bhadla solar region in Rajasthan.', 'Cost and timing: about Rs 68,800 crore; around six years.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s target is 500 GW of non-fossil generation by 2030, from more than 300 GW now, and much of the new solar and wind is in Rajasthan and Gujarat, far from eastern industrial load. Higher voltage moves more power over fewer lines with less land and smaller losses, so a 1,150 kV backbone addresses the transmission bottleneck that has left renewable capacity stranded or curtailed. It complements the storage push in S-182: storage shifts power across hours, while the corridor shifts it across regions. Building at 1,150 kV will also test domestic capacity in ultra-high-voltage transformers, insulators and switchgear.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['The corridor\'s own transfer capacity in MW and its full route beyond phase one.', 'Later phases, their states and costs.', 'Who will build it: whether by tariff-based competitive bidding or allocation to POWERGRID.', 'Equipment sourcing for 1,150 kV, which India has not deployed commercially at this scale.']
+}, {
+  text: 'Caveat',
+  type: 'h'
+}, {
+  text: 'The reports read, in Business Standard, Free Press Journal and Oilprice.com, all carry the same Reuters account of the minutes; there is no independent government release yet, and no official is quoted.',
+  type: 'p'
+}, {
+  text: 'What to watch',
+  type: 'h'
+}, {
+  text: 'Watch for the published minutes and the Ministry of Power\'s notification, the choice of implementing agency or bidding route, award of the first packages, and orders for 1,150 kV equipment from Indian manufacturers.',
+  type: 'p'
+}],
+  takeaways: ['India\'s national transmission panel approved a 1,150 kV corridor of about Rs 68,800 crore ($7.34 billion), its highest-voltage line, per minutes reported by Reuters.', 'Phase one links Chhattisgarh, Odisha and West Bengal and connects to a 6,000 MW system from Rajasthan\'s Bhadla solar zone; completion takes about six years.', 'Capacity, later phases, implementing agency and equipment sourcing are undisclosed; all reports trace to one Reuters account.'],
+  sources: ['Reuters via Business Standard (11 Nov 2026): https://www.business-standard.com/amp/industry/news/govt-approves-high-capacity-power-corridor-to-support-clean-energy-boom-126111100593_1.html', 'Free Press Journal (11 Nov 2026): https://www.freepressjournal.in/business/govt-approves-68800-crore-power-transmission-corridor-to-connect-rajasthans-renewable-energy-with-eastern-states']
+}, {
+  slug: 'india-indigenous-gpu-24-month-target-ism-2-0-2026',
+  no: 'S-194',
+  title: 'India sets a 24-month target for an indigenous GPU: a stated goal under ISM 2.0, with no design team, budget or foundry named yet',
+  domain: 'Semiconductor Ecosystems',
+  date: '2026-11-14',
+  dateLabel: '14 Nov 2026',
+  status: 'live',
+  excerpt: 'MeitY Secretary S. Krishnan says India aims to develop its own GPU chip in about 24 months under India Semiconductor Mission 2.0. It is a development target, not a programme: no architecture, developer, funding line, foundry or tape-out date has been disclosed. We will track it against those milestones.',
+  readingTime: '4 min',
+  body: [{
+  text: 'In an interview with ETGovernment published on 4 November 2026, MeitY Secretary S. Krishnan said India intends to develop an indigenous GPU chip in about 24 months under India Semiconductor Mission 2.0, according to reports by Elets CIO and Lapaas Voice. Both describe it as a development target, not a commercial launch date. The rationale given is dependence: only a handful of companies worldwide make AI accelerator chips, which keeps prices high and supply concentrated.',
+  type: 'p'
+}, {
+  text: 'The policy frame',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['ISM 2.0 was approved by the Union Cabinet on 15 July 2026 with an outlay of Rs 1,27,500 crore, covering design, fabrication, advanced packaging, materials, equipment and R&D (per Elets, citing PIB).', 'Krishnan cited support of 40 per cent for fabs and 35 per cent for advanced packaging, and said 15 of the 24 companies backed in the first Design Linked Incentive phase later raised venture capital.', 'He also said India is commercialising its indigenous SHAKTI and VEGA RISC-V processors and pushing trusted chips for CCTV, IoT devices, drones and smart meters.']
+}, {
+  text: 'Why it matters',
+  type: 'h'
+}, {
+  text: 'India\'s AI build-out so far rests on imported accelerators: the IndiaAI compute pool and the C-DAC AI compute empanelment in S-165 buy GPUs from foreign vendors, and the sovereign models in S-180 are trained on them. A domestic GPU would be the deepest layer of AI sovereignty, after models, data centres and fibre (S-171). It is also the hardest. A competitive AI accelerator needs a large design team, mature software and compiler stacks, high-bandwidth memory and a leading-edge foundry, none of which India has at scale today; the most advanced fab under construction in India, at Dholera, targets mature nodes. A realistic first outcome in 24 months is more likely a working design for inference or niche workloads, possibly fabricated abroad, than a rival to frontier training chips. That is our assessment, not an official statement.',
+  type: 'p'
+}, {
+  text: 'What has not been disclosed',
+  type: 'h'
+}, {
+  type: 'list',
+  items: ['Which institution, company or consortium will design the GPU.', 'A dedicated budget or funding line within ISM 2.0.', 'Architecture, target workloads (training or inference), process node and foundry.', 'Tape-out, prototype and production dates beyond the 24-month aim.', 'How it relates to a separate three-to-four-year roadmap for inference GPUs that Lapaas Voice attributes to Minister Ashwini Vaishnaw in October; we have not verified that statement elsewhere.']
+}, {
+  text: 'How we will track it',
+  type: 'h'
+}, {
+  text: 'We will update this signal as the target turns into commitments: a named design team or selected bidders, a sanctioned budget, a software stack announcement, a tape-out, first silicon and a deployment in the IndiaAI compute pool. Until then it should be read as intent. The 24-month clock runs to roughly November 2028.',
+  type: 'p'
+}],
+  takeaways: ['MeitY Secretary S. Krishnan says India aims to develop an indigenous GPU chip in about 24 months under ISM 2.0, which has an outlay of Rs 1,27,500 crore.', 'It is a stated target: no design team, dedicated funding, architecture, foundry or tape-out date has been disclosed.', 'A domestic GPU is the deepest layer of AI sovereignty and the hardest; we will update this signal as concrete milestones appear.'],
+  sources: ['Elets CIO, citing ETGovernment interview of 4 Nov (6 Nov 2026): https://cio.eletsonline.com/artificial-intelligence/meity-indigenous-gpu-chip/76737/', 'Lapaas Voice (5 Nov 2026): https://lapaasvoice.com/india-targets-indigenous-gpu-chip-within-24-months-under-semiconductor-mission-2-0', 'Semicon Weekly (8 Nov 2026): https://semiconweekly.in/story-india-gpu']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

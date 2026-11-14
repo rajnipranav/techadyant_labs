@@ -127,6 +127,56 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-grid-scale-bess-supply-chain-2026-2035',
+  title: 'India Grid-Scale Battery Storage Supply Chain 2026–2035',
+  subtitle: 'Market outlook, cell dependence, industrial capability and supplier economics',
+  domain: 'Clean Energy & Industrial Systems',
+  edition: 'Edition 1 · November 2026',
+  published: '2026-11-14',
+  publishedLabel: 'November 2026',
+  readingTime: '~ 65 min read',
+  status: 'published',
+  summary: 'India can procure and integrate grid-scale battery storage faster than it can build a competitive domestic cell industry. As of June 2026, the Ministry of Power reported a 46.69 GW / 148.53 GWh pipeline across tendering, awarded and under-construction stages against CEA\'s 47.24 GW / 236.22 GWh 2031–32 requirement. Under the ₹18,100 crore ACC PLI programme, 40 GWh has been awarded but installed plant capacity stood at 1.4 GWh in July 2026. This 68-page report maps the BESS supply chain, models pipeline conversion, project economics and three 2035 scenarios, and evaluates domestic value capture across integration, power electronics, and lifecycle services while electrochemical production scales.',
+  accent: '#14b8a6',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 68,
+  cover: '/covers/india-grid-scale-bess-supply-chain-2026-2035.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India_Grid-Scale_BESS_Supply_Chain_2026-2035_Free.pdf',
+  previewPages: 16,
+  hasData: true,
+  priceWithData: 11999,
+  dataFilename: 'India-Grid-Scale-BESS-Data-Workbook-2026-2035-Techadyant-Labs.xlsx',
+  keywords: ['grid-scale BESS India', 'battery energy storage supply chain', 'ACC PLI battery', 'CEA National Electricity Plan storage', 'BESS tender pipeline', 'LFP cell manufacturing India', 'Storage Sovereignty Index', 'BESS project economics', 'SECI battery storage', 'clean energy storage India'],
+  faq: [{
+  a: 'CEA estimates 47.24 GW and 236.22 GWh of BESS in the 2031–32 base case. Total storage is 73.93 GW and 411.4 GWh when pumped storage is included.',
+  q: 'How much battery storage does India need by 2031–32?'
+}, {
+  a: 'The Advanced Chemistry Cell PLI programme has an ₹18,100 crore outlay and a 50 GWh target. MHI reported 40 GWh awarded in February 2025 across four beneficiary consortia.',
+  q: 'What is the ACC PLI scheme outlay and target?'
+}, {
+  a: 'The Ministry of Power reported 15,754 MW and 42,530 MWh under construction as of 30 June 2026. These represent sequential project development stages rather than operating grid assets.',
+  q: 'How much BESS capacity is under construction?'
+}, {
+  a: 'This review found no operative national notification establishing a blanket July 2027 requirement. CEA issued a co-location advisory, and the ESO follows a separate trajectory.',
+  q: 'Is battery storage mandatory for all renewable projects from July 2027?'
+}, {
+  a: 'The workbook uses ₹32,000/kWh as an illustrative turnkey system cost for a 100 MW/400 MWh example, producing a nominal capex of ₹1,280 crore.',
+  q: 'What is the illustrative turnkey system cost used in the model?'
+}],
+  sources: ['CEA National Electricity Plan 2022–32, Volume I: Generation (notified May 2023)', 'Ministry of Power, National Framework for Promoting Energy Storage Systems (Aug 2023)', 'Ministry of Heavy Industries, ACC PLI scheme progress replies (Mar & Jul 2026)', 'Ministry of Power, Rajya Sabha replies on BESS pipeline & safety regulations (Jul & Aug 2026)', 'International Energy Agency, Global Critical Minerals Outlook 2025'],
+  dateModified: '2026-11-14',
+  seo: {
+  entities: ['grid-scale BESS', 'battery energy storage', 'ACC PLI', 'CEA NEP', 'LFP cells', 'power conversion systems', 'Storage Sovereignty Index', 'VGF battery storage'],
+  metaTitle: 'India Grid-Scale Battery Storage Supply Chain 2026–2035 | Techadyant Labs',
+  schemaType: 'Report',
+  focusKeyword: 'India grid-scale BESS supply chain',
+  metaDescription: 'Analysis of India\'s grid-scale BESS market, cell localization, ACC PLI progress, and project economics to 2035. 68 pages, 3 scenarios, and companion data workbook.'
+}
+}, {
   slug: 'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035',
   title: 'Closing the Magnet Gap',
   subtitle: 'India\'s rare-earth permanent-magnet and critical-materials processing ecosystem, 2026–2035 — demand to 2035, the REPM scheme, and where to build first',
@@ -736,6 +786,37 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: 'india-ai-power-infrastructure-gap',
+  title: 'India’s AI Power Infrastructure Gap',
+  subtitle: 'Why DC build-out is constrained by transmission, not generation',
+  domain: 'AI Infrastructure',
+  edition: 'forthcoming',
+  published: '2026-08-15',
+  publishedLabel: 'Forthcoming',
+  readingTime: '~ 2h read',
+  status: 'forthcoming',
+  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
+  accent: '#6366F1',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: false,
+  hasDeck: false,
+  pages: undefined,
+  cover: '',
+  previewObject: '',
+  previewPages: undefined,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: [],
+  faq: [],
+  sources: [],
+  dateModified: '2026-08-15',
+  seo: {
+
+}
+}, {
   slug: 'beyond-sea-drones-india-autonomous-maritime-systems',
   title: 'Beyond Sea Drones: India\'s Autonomous Maritime Systems Ecosystem 2026-2035',
   subtitle: 'Technologies, supply chains and industrial opportunities in India\'s USV/UUV ecosystem — three market scenarios to 2035, a 12-country Maritime Autonomy Readiness Index, 100 ranked opportunities and a 2026-2035 industrial roadmap.',
@@ -798,37 +879,6 @@ export const reports: ReportMeta[] = [{
   status: 'forthcoming',
   summary: 'On-device AI is moving inference out of the cloud and onto the edge — and the value is moving with it, into AI SoCs, sensors, cameras, modules and the software that runs models locally. India’s first edge-AI silicon (NetraSemi’s A2000) signals a design-led opening that needs no leading-edge fab. This report maps the edge-AI hardware stack, sizes the domestic-value opportunity, and identifies where India’s fabless designers, OSATs, sensor firms and device OEMs can capture it.',
   accent: '#38e1c4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: false,
-  hasDeck: false,
-  pages: undefined,
-  cover: '',
-  previewObject: '',
-  previewPages: undefined,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: [],
-  faq: [],
-  sources: [],
-  dateModified: '2026-08-15',
-  seo: {
-
-}
-}, {
-  slug: 'india-ai-power-infrastructure-gap',
-  title: 'India’s AI Power Infrastructure Gap',
-  subtitle: 'Why DC build-out is constrained by transmission, not generation',
-  domain: 'AI Infrastructure',
-  edition: 'forthcoming',
-  published: '2026-08-15',
-  publishedLabel: 'Forthcoming',
-  readingTime: '~ 2h read',
-  status: 'forthcoming',
-  summary: 'India’s aggregate power picture is accommodating; the disaggregated picture is not. This report maps the local transmission and DISCOM-execution constraints that will set the realistic 4.5–9 GW DC ramp curve through 2030.',
-  accent: '#6366F1',
   access: 'paid',
   price: 4900,
   currency: 'INR',
@@ -981,51 +1031,55 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
-  slug: 'q-day-india',
-  title: 'Q-Day India',
-  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
-  domain: 'Strategic Technology',
-  edition: 'Strategic Risk · 2026 Free Edition',
+  slug: 'indian-navy-autonomous-maritime',
+  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
+  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Intelligence · Edition 1 · v1.0',
   published: '2026-08-02',
   publishedLabel: 'August 2026',
-  readingTime: '~ 90 min read',
+  readingTime: '~ 2h read',
   status: 'published',
-  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
-  accent: '#38E1C4',
-  access: 'free',
-  price: undefined,
+  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
+  accent: '#2E6497',
+  access: 'paid',
+  price: 5900,
   currency: 'INR',
   hasPdf: true,
   hasDeck: false,
-  pages: 152,
-  cover: '/covers/q-day-india.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
-  previewPages: 152,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
+  pages: 153,
+  cover: '/covers/indian-navy-autonomous-maritime.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
+  previewPages: 15,
+  hasData: true,
+  priceWithData: 10900,
+  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
   faq: [{
-  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
-  q: 'What is Q-Day?'
+  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
+  q: 'How big is India’s naval autonomous systems market by 2035?'
 }, {
-  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
-  q: 'What should Indian organisations do first?'
+  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
+  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
 }, {
-  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
-  q: 'Why migrate before Q-Day arrives?'
+  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
+  q: 'What are the binding constraints on India’s naval autonomy?'
 }, {
-  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
-  q: 'Which sectors are most exposed in India?'
+  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
+  q: 'Who are the key players in India’s naval autonomous ecosystem?'
+}, {
+  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
+  q: 'Where are the biggest industrial opportunities?'
 }],
-  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
+  sources: [],
   dateModified: '2026-08-02',
   seo: {
-  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
-  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
+  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
+  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
   schemaType: 'Report',
-  focusKeyword: 'post-quantum cryptography India',
-  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
+  focusKeyword: 'india naval autonomous systems market',
+  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
+  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
 }
 }, {
   slug: 'beyond-solar-panels',
@@ -1078,55 +1132,51 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
 }
 }, {
-  slug: 'indian-navy-autonomous-maritime',
-  title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
-  subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Intelligence · Edition 1 · v1.0',
+  slug: 'q-day-india',
+  title: 'Q-Day India',
+  subtitle: 'India’s post-quantum cryptography readiness and migration architecture',
+  domain: 'Strategic Technology',
+  edition: 'Strategic Risk · 2026 Free Edition',
   published: '2026-08-02',
   publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
+  readingTime: '~ 90 min read',
   status: 'published',
-  summary: 'India’s naval autonomous transformation over 2026–2035 is technically feasible and strategically necessary — but its pace will be set less by platform decisions than by the maturation of the underlying industrial substrate. This strategic-intelligence assessment argues that platforms are downstream of ecosystems, and identifies three binding constraints: semiconductor access (marine-grade FPGAs, RF integrated circuits, AI-edge NPUs), test-and-certification throughput (DGQA and CemILAC capacity), and a projected 12,000–18,000-engineer workforce deficit by 2030. If those are addressed, the Navy can field a credible force posture under the recommended ‘Autonomous Power’ scenario — 80+ USVs, 25+ UUVs including XLUUVs, and 180+ naval UAVs by 2035 — and Indian industry can capture ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The report ranks 58 industrial opportunity surfaces (nine Strategic Anchors), scores India against six comparator navies, maps the DRDO/DPSU/private/startup ecosystem, and models four scenarios to 2035. Twelve chapters, ~35 figures, eight proprietary frameworks and full appendices.',
-  accent: '#2E6497',
-  access: 'paid',
-  price: 5900,
+  summary: 'Q-Day is not a date on a calendar; it is a migration problem. This free strategic-risk report maps how India can inventory cryptography, protect long-life data, build crypto-agility and sequence post-quantum migration across public infrastructure, BFSI, telecom and critical systems — before a cryptographically relevant quantum computer arrives. It covers the harvest-now-decrypt-later threat, the NIST post-quantum standards, global migration mandates, vendor concentration risk, and a five-action agenda for Indian organisations in 2026.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
   currency: 'INR',
   hasPdf: true,
   hasDeck: false,
-  pages: 153,
-  cover: '/covers/indian-navy-autonomous-maritime.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Indian_Navy_Autonomous_Maritime_Free.pdf',
-  previewPages: 15,
-  hasData: true,
-  priceWithData: 10900,
-  dataFilename: 'Indian-Navy-Autonomous-Maritime-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india naval autonomous systems market', 'indian navy USV', 'unmanned underwater vehicle india', 'XLUUV india', 'naval UAV india', 'maritime autonomy india', 'indian navy unmanned roadmap', 'autonomous maritime market india', 'MUM-T india navy', 'naval defence industrial base india', 'DGQA certification autonomous systems', 'india naval drone opportunity'],
+  pages: 152,
+  cover: '/covers/q-day-india.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant_Labs_QDay_Report.pdf',
+  previewPages: 152,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['Q-Day India', 'post-quantum cryptography India', 'PQC migration', 'quantum-safe cryptography', 'harvest now decrypt later', 'crypto-agility', 'NIST PQC', 'India cybersecurity', 'quantum computing threat', 'cryptographic inventory'],
   faq: [{
-  a: 'In the recommended ‘Autonomous Power’ scenario, Indian industry captures about ₹15,000+ crore in annual revenue by 2035 (₹5,000+ crore of it export), building to a cumulative 2026–2035 market of approximately ₹1.2 lakh crore. The top-30 opportunity surfaces alone represent ~₹48,000 crore of 2035 addressable market potential.',
-  q: 'How big is India’s naval autonomous systems market by 2035?'
+  a: 'Q-Day is the point at which a cryptographically relevant quantum computer can break the public-key cryptography used in today’s digital systems. Its timing is uncertain, but migration must begin earlier for long-life data and complex infrastructure.',
+  q: 'What is Q-Day?'
 }, {
-  a: 'Under the recommended scenario the report models 80+ unmanned surface vessels, 25+ unmanned underwater vehicles including 4–6 extra-large UUVs (XLUUVs), and 180+ naval UAVs including carrier UAVs and swarm squadrons. Lower scenarios field materially less.',
-  q: 'What autonomous fleet can the Indian Navy realistically field by 2035?'
+  a: 'Start with a cryptographic inventory, prioritise long-life and high-consequence data, build crypto-agility into procurement, and test post-quantum migration before large-scale rollout.',
+  q: 'What should Indian organisations do first?'
 }, {
-  a: 'Three substrate constraints set the pace: semiconductor access (marine-grade FPGAs, RF integrated circuits and AI-edge NPUs), test-and-certification throughput at DGQA and CemILAC, and a projected 12,000–18,000-engineer workforce deficit by 2030 under business-as-usual.',
-  q: 'What are the binding constraints on India’s naval autonomy?'
+  a: 'Because of ‘harvest now, decrypt later’ — adversaries can capture encrypted data today and decrypt it once quantum capability exists. Any data that must stay confidential beyond Q-Day is already at risk.',
+  q: 'Why migrate before Q-Day arrives?'
 }, {
-  a: 'DRDO laboratories (NSTL, NPOL, NMRL, ADE and others), DPSUs (BEL, Cochin Shipyard), private majors (L&T Defence), and startups such as Sagar Defence Engineering and NewSpace Research & Technologies — mapped across six stakeholder clusters.',
-  q: 'Who are the key players in India’s naval autonomous ecosystem?'
-}, {
-  a: 'The report ranks 58 industrial opportunity surfaces, of which nine are Strategic Anchors — including quantum inertial navigation, XLUUV hull and energy systems, naval autonomy middleware, sonar transducers and arrays, AIP fuel cells, marine lithium-ion cells and navigation-grade IMUs.',
-  q: 'Where are the biggest industrial opportunities?'
+  a: 'Public digital infrastructure, BFSI, telecom and critical systems carry the most long-life, high-consequence data, and are the priority starting points for post-quantum migration.',
+  q: 'Which sectors are most exposed in India?'
 }],
-  sources: [],
+  sources: ['NIST post-quantum cryptography standards and implementation guidance', 'Public Indian regulatory, standards and cybersecurity material', 'Techadyant Labs analysis'],
   dateModified: '2026-08-02',
   seo: {
-  entities: ['USV', 'UUV', 'XLUUV', 'naval UAV', 'MUM-T', 'Indian Navy', 'DRDO', 'autonomous maritime', 'DGQA', 'semiconductor'],
-  metaTitle: 'India Naval Autonomous Systems Market 2026–2035: USV, UUV, XLUUV & Naval UAV',
+  entities: ['post-quantum cryptography', 'Q-Day', 'NIST PQC', 'crypto-agility', 'harvest now decrypt later', 'quantum computing', 'BFSI', 'telecom'],
+  metaTitle: 'Q-Day India: Post-Quantum Cryptography Readiness & Migration (Free Report)',
   schemaType: 'Report',
-  focusKeyword: 'india naval autonomous systems market',
-  metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
-  related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
+  focusKeyword: 'post-quantum cryptography India',
+  metaDescription: 'A free Techadyant Labs report on India’s post-quantum cryptography readiness — crypto-agility, long-life data, harvest-now-decrypt-later, sector priorities and a migration architecture for Q-Day.'
 }
 }, {
   slug: 'india-critical-manufacturing-dependencies',
@@ -1790,56 +1840,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'the-end-of-the-application-era',
-  title: 'Who Captures Computing When the Application Disappears?',
-  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
-  domain: 'AI Infrastructure',
-  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2.5h read',
-  status: 'published',
-  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
-  accent: '#818CF8',
-  access: 'free',
-  price: undefined,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 151,
-  cover: '/covers/the-end-of-the-application-era.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
-  previewPages: 151,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
-  faq: [{
-  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
-  q: 'What does “the end of the application era” mean?'
-}, {
-  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
-  q: 'What replaces the application as the unit of computing?'
-}, {
-  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
-  q: 'What is the Agent-Native Capture Index (ANCI)?'
-}, {
-  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
-  q: 'How does agentic AI change operating-system security?'
-}, {
-  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
-  q: 'Where can India capture value in the post-application era?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
-  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
-  schemaType: 'Report',
-  focusKeyword: 'AI agents replacing applications',
-  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
-}
-}, {
   slug: 'india-drone-sensors-payloads-imaging-market',
   title: 'India Drone Sensors, Payloads & Imaging Systems Market',
   subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
@@ -1888,6 +1888,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'India drone sensors market',
   metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
+}
+}, {
+  slug: 'the-end-of-the-application-era',
+  title: 'Who Captures Computing When the Application Disappears?',
+  subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
+  domain: 'AI Infrastructure',
+  edition: 'Strategic Foresight · Technology Sovereignty Series · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2.5h read',
+  status: 'published',
+  summary: 'Every fifteen-to-twenty years the operating system is redesigned, and agentic AI is the trigger for the next one. As work shifts from applications a human opens to goals an agent pursues, the three foundations of the modern OS — CPU-centric scheduling, human-login security and application-siloed state — break at once. This report argues that value migrates down from the application layer into four control primitives — accelerated inference, identity, memory and scheduling (AIMS) — and scores who is positioned to own them on a proprietary Agent-Native Capture Index (ANCI): in 2026 there is no Primitive Owner, and the leaders win on breadth, not depth. It maps the Post-Application Stack layer by layer, traces the hardware chokepoints (advanced packaging, HBM, export policy), and sets out where India — strong in public digital infrastructure and sovereign compute, dependent on the AIMS primitives — can capture the next layer rather than the last one. Eight parts, twenty-six chapters, eighteen figures and the PAS / AIMS / ANCI framework family. Free, and readable in full on this page.',
+  accent: '#818CF8',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 151,
+  cover: '/covers/the-end-of-the-application-era.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/The-End-of-the-Application-Era.pdf',
+  previewPages: 151,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['end of the application era', 'agentic AI operating system', 'post-application stack', 'AIMS framework', 'agent-native capture index', 'future of computing', 'AI operating system', 'agent infrastructure', 'India AI sovereignty', 'sovereign compute India', 'advanced packaging chokepoint', 'operating system redesign AI'],
+  faq: [{
+  a: 'It means the application — the unit we install, trust and open — is becoming friction as work shifts to AI agents that pursue goals across many tools at once. Operating-system dominance has shifted roughly every one to two decades, always when the dominant workload rebalances rather than when features grow; agentic AI is that rebalancing, and it breaks CPU-centric scheduling, human-login security and application-siloed state simultaneously.',
+  q: 'What does “the end of the application era” mean?'
+}, {
+  a: 'Four control primitives the report groups as AIMS — Accelerated inference, Identity, Memory and Scheduling. Value migrates down from the application layer into these primitives, which become the real operating system of the agent era. The report formalises them in an eight-layer Post-Application Stack (PAS).',
+  q: 'What replaces the application as the unit of computing?'
+}, {
+  a: 'ANCI is the report’s 0–100 framework scoring who controls the AIMS primitives. Its headline finding for 2026 is that there is no Primitive Owner: today’s leaders win on breadth across the stack, not depth in any single primitive — which is precisely why the layer is still contestable.',
+  q: 'What is the Agent-Native Capture Index (ANCI)?'
+}, {
+  a: 'It inverts it. Existing models secure human logins, but machine workloads are now using those logins. The report argues trust will move to capability tokens and delegation policy — securing what an agent is permitted to do, for whom, and for how long — rather than who is signed in.',
+  q: 'How does agentic AI change operating-system security?'
+}, {
+  a: 'India is AIMS-dependent but sovereignty-strong: its public digital infrastructure (Aadhaar, UPI, MOSIP) and expanding sovereign compute give it a credible, time-limited advantage. The leapfrog runs through agent-aware design of that public infrastructure and through the identity and consent layer — not through trying to out-build hyperscalers on raw compute.',
+  q: 'Where can India capture value in the post-application era?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['AI agents', 'MCP', 'post-application stack', 'hyperscalers', 'NVIDIA', 'India Stack'],
+  metaTitle: 'The End of the Application Era: India\'s Enterprise Software Shift',
+  schemaType: 'Report',
+  focusKeyword: 'AI agents replacing applications',
+  metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',
@@ -2162,51 +2212,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India\'s public and private core systems run on foreign enterprise software. The SAP Question maps the dependence, the risks and the sovereign ERP opportunity. Free full report.'
 }
 }, {
-  slug: 'who-actually-captures-the-india-us-minerals-alliance',
-  title: 'Who Actually Captures the India–US Minerals Alliance?',
-  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
-  domain: 'Critical Minerals & Strategic Materials',
-  edition: 'Edition 01 · Strategic Intelligence · v1.0',
-  published: '2026-05-30',
-  publishedLabel: 'May 2026',
-  readingTime: '~ 2h 30m read',
-  status: 'published',
-  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
-  accent: '#C9A84C',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 125,
-  cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
-  previewPages: 14,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
-  faq: [{
-  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
-  q: 'What is the India–US critical minerals partnership?'
-}, {
-  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
-  q: 'What is the National Critical Mineral Mission?'
-}, {
-  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
-  q: 'Does India produce rare earth magnets?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
-  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
-  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
-  schemaType: 'Report',
-  focusKeyword: 'India US critical minerals',
-  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
-}
-}, {
   slug: 'india-battlefield-automation-gap',
   title: 'India’s Battlefield Automation Gap',
   subtitle: 'Industrial Readiness, Strategic Risks & Emerging Opportunities (2026–2035)',
@@ -2250,6 +2255,51 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'battlefield automation India',
   metaDescription: 'Why India\'s armed forces face an automation gap — drones, loitering munitions, counter-UAS and autonomous systems — and the industrial base needed to close it. Free report.'
+}
+}, {
+  slug: 'who-actually-captures-the-india-us-minerals-alliance',
+  title: 'Who Actually Captures the India–US Minerals Alliance?',
+  subtitle: 'Why Separation and Magnets — Not Mines — Decide India’s Place in the Hardware Century',
+  domain: 'Critical Minerals & Strategic Materials',
+  edition: 'Edition 01 · Strategic Intelligence · v1.0',
+  published: '2026-05-30',
+  publishedLabel: 'May 2026',
+  readingTime: '~ 2h 30m read',
+  status: 'published',
+  summary: 'The 26 May 2026 India–US critical-minerals framework is read as a mining deal. It is better understood as a midstream deal: the leverage sits in separation, refining and magnets — roughly 85–92% controlled by China — not in reserves. Using a proprietary four-chokepoint framework, this report scores India sector by sector — semiconductors, electronics, defence, EVs, energy and AI infrastructure — and asks who actually captures the value as the alliance moves from signature to execution.',
+  accent: '#C9A84C',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 125,
+  cover: '/covers/who-actually-captures-the-india-us-minerals-alliance.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/who-actually-captures-the-india-us-minerals-alliance-free.pdf',
+  previewPages: 14,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India US critical minerals', 'critical minerals India', 'rare earth elements India', 'National Critical Mineral Mission', 'rare earth magnets India', 'mineral supply chain India', 'India mineral security', 'critical minerals partnership', 'rare earth processing India', 'lithium supply chain India'],
+  faq: [{
+  a: 'A widening set of agreements aligning Indian and American critical-mineral supply chains — exploration, processing, recycling and magnet manufacturing — as both countries reduce dependence on Chinese processing. The report maps which firms, states and layers of the chain actually capture the value.',
+  q: 'What is the India–US critical minerals partnership?'
+}, {
+  a: 'India\'s National Critical Mineral Mission, approved in January 2025 with an outlay of about ₹34,300 crore over seven years, funds exploration, acquisition of overseas assets, processing capacity and recycling for minerals such as lithium, cobalt and rare earths.',
+  q: 'What is the National Critical Mineral Mission?'
+}, {
+  a: 'India mines some rare earths through IREL but has no commercial sintered NdFeB magnet capacity today. A scheme approved in November 2025 — about ₹6,450 crore in sales-linked incentives plus ₹750 crore in capital subsidy for 6,000 MTPA — aims to create domestic capacity around 2028.',
+  q: 'Does India produce rare earth magnets?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['National Critical Mineral Mission', 'rare earths', 'IREL', 'NdFeB magnets', 'lithium', 'supply chains'],
+  aiSummary: 'Maps the India–US critical minerals alliance from mine to magnet: where processing chokepoints sit, what the National Critical Mineral Mission (₹34,300 crore) and the rare-earth magnet scheme change, and which Indian firms and states are positioned to capture value.',
+  metaTitle: 'India–US Critical Minerals Alliance: Who Captures the Value?',
+  schemaType: 'Report',
+  focusKeyword: 'India US critical minerals',
+  metaDescription: 'The India–US minerals partnership mapped: critical-mineral supply chains, rare earths, processing chokepoints, and which firms and states actually capture the value.'
 }
 }, {
   slug: 'india-ai-industrial-transition-2026-2035',

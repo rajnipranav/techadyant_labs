@@ -57,6 +57,7 @@ import { ReportContent as ElectronicWarfareContent, toc as electronicWarfareToc 
 import { ReportContent as ElectronicChemicalsContent, toc as electronicChemicalsToc } from '../content/india-electronic-grade-chemicals-2026-2035';
 import { ReportContent as GoverningLogisticsContent, toc as governingLogisticsToc } from '../content/governing-logistics-s3-logic';
 import { ReportContent as MagnetGapContent, toc as magnetGapToc } from '../content/closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035';
+import { ReportContent as BessContent, toc as bessToc } from '../content/india-grid-scale-bess-supply-chain-2026-2035';
 
 interface ReportModule { toc: TocItem[]; Content: () => React.ReactElement }
 
@@ -104,6 +105,7 @@ const registry: Record<string, ReportModule> = {
   'india-electronic-grade-chemicals-2026-2035': { toc: electronicChemicalsToc, Content: ElectronicChemicalsContent },
   'governing-logistics-s3-logic': { toc: governingLogisticsToc, Content: GoverningLogisticsContent },
   'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035': { toc: magnetGapToc, Content: MagnetGapContent },
+  'india-grid-scale-bess-supply-chain-2026-2035': { toc: bessToc, Content: BessContent },
 };
 
 export async function generateStaticParams() {

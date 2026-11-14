@@ -219,16 +219,39 @@ export async function onRequestGet({ request, env }) {
       // Hardening: confirm the object is actually there BEFORE handing over a URL.
       // A missing/unreadable object makes R2 return an XML error that the browser
       // would otherwise save as a "corrupt PDF". Verify, then alert + fail clearly.
-      const head = await objectExists(env, objectKey);
+      let resolvedKey = objectKey;
+      let head = await objectExists(env, resolvedKey);
+      if (!head.ok) {
+        // Try common alternates if primary key wasn't found
+        const alternates = useData
+          ? [
+              resolvedKey.replace(/\.xlsx$/i, '.xls'),
+              resolvedKey.replace(/^data\//, ''),
+              resolvedKey.replace(/^data\//, '').replace(/\.xlsx$/i, '.xls'),
+              `data/${slug}.xlsx`,
+              `data/${slug}.xls`,
+            ]
+          : [`${slug}.pdf`, entry.filename];
+        for (const alt of alternates) {
+          if (alt && alt !== resolvedKey) {
+            const altHead = await objectExists(env, alt);
+            if (altHead.ok) {
+              resolvedKey = alt;
+              head = altHead;
+              break;
+            }
+          }
+        }
+      }
       if (!head.ok) {
         await alertAdmin(env, {
-          slug, asset: assetLabel, objectKey, filename, email: chk.email,
+          slug, asset: assetLabel, objectKey: resolvedKey, filename, email: chk.email,
           reason: head.status === 404 ? 'object_missing' : 'object_unreadable', status: head.status,
         });
         return json(502, { error: 'file_unavailable', message: FILE_UNAVAILABLE_MSG, codeVersion: CODE_VERSION });
       }
 
-      const signedUrl = await presign(env, objectKey, filename);
+      const signedUrl = await presign(env, resolvedKey, filename);
       return json(200, { url: signedUrl, filename, expiresIn: TTL, codeVersion: CODE_VERSION });
     }
 
