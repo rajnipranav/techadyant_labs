@@ -98,6 +98,147 @@ export const VIDEOS: ResearchVideoEntry[] = [
       { type: 'dependencies', slug: 'hub', related: { label: 'Explore the Drone & UAS Atlas', href: '/research/drones-uas/' } },
     ],
   },
+  {
+    id: 'lCTpsbZv3u8',
+    slug: 'what-it-takes-for-india-to-build-grid-scale-batter',
+    title: 'What It Takes for India to Build Grid-Scale Batteries (The Cell Supply Chain)',
+    description:
+      'India is planning energy storage at a scale that can reshape its power system. But a self-reliant battery industry goes beyond factory announcements. The real milestone is producing high-yield, reliable cells from materials India can refine and control.  A battery pack assembled in India is not nece...',
+    localThumb: '/video/what-it-takes-for-india-to-build-grid-scale-batter.jpg',
+    uploadDate: '2026-11-14',
+    duration: 'PT11M19S',
+    durationSec: 600,
+    durationLabel: '10 min',
+    chapters: [
+      { t: 0, label: 'Introduction' }
+    ],
+    takeaways: [
+      'Strategic analysis covering What It Takes for India to Build Grid-Scale Batteries (The Cell Supply Chain).',
+      "Detailed insights on India's industrial and supply-chain capabilities."
+    ],
+    placements: [
+      { type: 'dependencies', slug: 'energy-transition', related: { label: 'See Clean Energy dependencies', href: '/dependencies/' } },
+      { type: 'report', slug: 'india-grid-scale-bess-supply-chain', related: { label: 'Read: India Grid-Scale BESS Supply Chain', href: '/reports/india-grid-scale-bess-supply-chain/' } }
+    ],
+  },
+  {
+    id: 'LQpv_2Sr2Go',
+    slug: 'what-will-india-s-first-chip-factory-actually-powe',
+    title: 'What Will India’s First Chip Factory Actually Power?',
+    description:
+      "India's first commercial chip factory is being built by Tata Electronics at Dholera, Gujarat. But what will its chips actually power: electric cars, solar plants, data centres, missiles, or your phone?  In this video we follow the chips out of the factory and into the products. Dholera is a mature-n...",
+    localThumb: '/video/what-will-india-s-first-chip-factory-actually-powe.jpg',
+    uploadDate: '2026-11-13',
+    duration: 'PT10M4S',
+    durationSec: 600,
+    durationLabel: '10 min',
+    chapters: [
+      { t: 0, label: 'Introduction' }
+    ],
+    takeaways: [
+      'Strategic analysis covering What Will India’s First Chip Factory Actually Power?.',
+      "Detailed insights on India's industrial and supply-chain capabilities."
+    ],
+    placements: [
+      { type: 'dependencies', slug: 'semiconductors', related: { label: "See India's semiconductor import dependency", href: '/dependencies/sectors/semiconductors/' } },
+      { type: 'report', slug: 'india-fab-ecosystem', related: { label: "Read: Who Really Benefits from India's Fab Ecosystem?", href: '/reports/india-fab-ecosystem/' } },
+      { type: 'report', slug: 'semicon-2-0-opportunity-map', related: { label: 'Read: Semicon 2.0 Opportunity Map', href: '/reports/semicon-2-0-opportunity-map/' } }
+    ],
+  },
+  {
+    id: 'OBu9zCHVyBc',
+    slug: 'dholera-in-2026-what-s-actually-built-vs-what-s-st',
+    title: 'Dholera in 2026: What’s Actually Built vs What’s Still Just a Plan',
+    description:
+      "You can now drive from Ahmedabad to Dholera in under an hour. You cannot fly there yet. That gap is the whole story of Dholera.  This is a reality check, as of November 2026, on India's planned chip capital. We sorted every big promise into three piles: running today, rising from the ground, or stil...",
+    localThumb: '/video/dholera-in-2026-what-s-actually-built-vs-what-s-st.jpg',
+    uploadDate: '2026-11-13',
+    duration: 'PT13M13S',
+    durationSec: 600,
+    durationLabel: '10 min',
+    chapters: [
+      { t: 0, label: 'Introduction' }
+    ],
+    takeaways: [
+      'Strategic analysis covering Dholera in 2026: What’s Actually Built vs What’s Still Just a Plan.',
+      "Detailed insights on India's industrial and supply-chain capabilities."
+    ],
+    placements: [
+      { type: 'dependencies', slug: 'semiconductors', related: { label: "See India's semiconductor import dependency", href: '/dependencies/sectors/semiconductors/' } },
+      { type: 'report', slug: 'india-fab-ecosystem', related: { label: "Read: Who Really Benefits from India's Fab Ecosystem?", href: '/reports/india-fab-ecosystem/' } },
+      { type: 'report', slug: 'semicon-2-0-opportunity-map', related: { label: 'Read: Semicon 2.0 Opportunity Map', href: '/reports/semicon-2-0-opportunity-map/' } }
+    ],
+  },
+  {
+    id: 'TfOUf9oFLvI',
+    slug: 'india-s-pli-scheme-1-97-lakh-crore-promised-what-w',
+    title: "India's PLI Scheme: ₹1.97 Lakh Crore Promised, What Was Delivered?",
+    description:
+      "Did India's Production Linked Incentive (PLI) scheme work? We compared official targets with what ministries actually reported, sector by sector: electronics, pharmaceuticals, autos and drones, and textiles.  📌 QUICK ANSWER India's PLI scheme, approved in April 2020, offers about ₹1.97 lakh crore (r...",
+    localThumb: '/video/india-s-pli-scheme-1-97-lakh-crore-promised-what-w.jpg',
+    uploadDate: '2026-11-12',
+    duration: 'PT13M1S',
+    durationSec: 600,
+    durationLabel: '10 min',
+    chapters: [
+      { t: 0, label: 'Introduction' }
+    ],
+    takeaways: [
+      "Strategic analysis covering India's PLI Scheme: ₹1.97 Lakh Crore Promised, What Was Delivered?.",
+      "Detailed insights on India's industrial and supply-chain capabilities."
+    ],
+    placements: [
+      { type: 'atlas', slug: 'drones-uas', related: { label: 'Explore the Drone & UAS Atlas', href: '/research/drones-uas/' } },
+      { type: 'dependencies', slug: 'hub', related: { label: "See India's import dependencies", href: '/dependencies/' } },
+      { type: 'report', slug: 'who-builds-indias-drones', related: { label: "Read report: Who Builds India's Drones?", href: '/reports/who-builds-indias-drones/' } }
+    ],
+  },
+  {
+    id: 'khvO3aByxfs',
+    slug: 'india-has-millions-of-engineers-why-can-t-its-fact',
+    title: 'India Has Millions of Engineers. Why Can’t Its Factories Hire Them?',
+    description:
+      "India is building semiconductor fabs, electronics factories, battery plants and defence manufacturing facilities. But there is a problem: **India has millions of engineering graduates, yet its new factories are struggling to find the skilled workforce they need.**  Why can't India's factories hire I...",
+    localThumb: '/video/india-has-millions-of-engineers-why-can-t-its-fact.jpg',
+    uploadDate: '2026-11-10',
+    duration: 'PT12M49S',
+    durationSec: 600,
+    durationLabel: '10 min',
+    chapters: [
+      { t: 0, label: 'Introduction' }
+    ],
+    takeaways: [
+      'Strategic analysis covering India Has Millions of Engineers. Why Can’t Its Factories Hire Them?.',
+      "Detailed insights on India's industrial and supply-chain capabilities."
+    ],
+    placements: [
+      { type: 'dependencies', slug: 'semiconductors', related: { label: "See India's semiconductor import dependency", href: '/dependencies/sectors/semiconductors/' } },
+      { type: 'report', slug: 'india-fab-ecosystem', related: { label: "Read: Who Really Benefits from India's Fab Ecosystem?", href: '/reports/india-fab-ecosystem/' } },
+      { type: 'report', slug: 'semicon-2-0-opportunity-map', related: { label: 'Read: Semicon 2.0 Opportunity Map', href: '/reports/semicon-2-0-opportunity-map/' } }
+    ],
+  },
+  {
+    id: 'vDdDUcL3c08',
+    slug: 'isro-hands-rocket-designs-to-private-companies-wha',
+    title: 'ISRO Hands Rocket Designs to Private Companies: What Changes?',
+    description:
+      'ISRO is handing over its rocket designs, not just launch services, to Indian companies. This video explains what the ISRO technology transfer of the SSLV, PSLV and LVM3 means for factories, MSMEs, jobs and the cost of reaching orbit.  📌 QUICK ANSWER ISRO is transferring launch vehicle designs to Ind...',
+    localThumb: '/video/isro-hands-rocket-designs-to-private-companies-wha.jpg',
+    uploadDate: '2026-11-10',
+    duration: 'PT11M13S',
+    durationSec: 600,
+    durationLabel: '10 min',
+    chapters: [
+      { t: 0, label: 'Introduction' }
+    ],
+    takeaways: [
+      'Strategic analysis covering ISRO Hands Rocket Designs to Private Companies: What Changes?.',
+      "Detailed insights on India's industrial and supply-chain capabilities."
+    ],
+    placements: [
+      { type: 'report', slug: 'iaf-autonomous-air-power-roadmap-2026-2035', related: { label: 'Read: Autonomous Air Power Roadmap', href: '/reports/iaf-autonomous-air-power-roadmap-2026-2035/' } }
+    ],
+  },
 ];
 
 export const videosFor = (type: VideoPlacementType, slug: string) =>
