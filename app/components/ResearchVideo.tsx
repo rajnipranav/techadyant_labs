@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { fmtVideoTime, type ResearchVideoEntry } from '../lib/videos';
+import { type ResearchVideoEntry } from '../lib/videos';
 
 /**
  * Contextual research video: click-to-load YouTube (youtube-nocookie, no script or cookie
@@ -14,7 +14,7 @@ export function ResearchVideo({ video, related }: { video: ResearchVideoEntry; r
   const play = (t = 0) => setStart(t);
 
   return (
-    <div className="intro-video research-video">
+    <div className="intro-video research-video no-chapters">
       <div className="iv-frame">
         {start === null ? (
           <button type="button" className="iv-poster" onClick={() => play(0)} aria-label={`Play video: ${video.title}`}>
@@ -47,16 +47,6 @@ export function ResearchVideo({ video, related }: { video: ResearchVideoEntry; r
           />
         )}
       </div>
-      <ol className="iv-chapters" aria-label="Chapters">
-        {video.chapters.map((c) => (
-          <li key={c.t}>
-            <button type="button" onClick={() => play(c.t)}>
-              <span className="iv-t">{fmtVideoTime(c.t)}</span>
-              <span>{c.label}</span>
-            </button>
-          </li>
-        ))}
-      </ol>
       <div className="rv-notes">
         <p className="rv-caption">Video: {video.title} · {video.durationLabel}</p>
         <h3 className="rv-h">Key takeaways</h3>

@@ -2869,6 +2869,7 @@ a.eng-tile { text-decoration:none; color:inherit; }
 .intro-video.no-chapters { grid-template-columns: 1fr; }
 
 /* ── Research video (contextual embed with takeaways) ── */
+.research-video .iv-play { left: 50%; }
 .research-video .rv-notes { grid-column: 1 / -1; }
 .research-video .rv-caption { margin: 0 0 10px; font-size: 13px; color: var(--text-muted); }
 .research-video .rv-h { margin: 0 0 8px; font-size: 15px; font-weight: 600; }
