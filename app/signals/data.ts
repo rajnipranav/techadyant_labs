@@ -7450,49 +7450,6 @@ export const signals: SignalMeta[] = [{
   takeaways: ['DRDO’s Technology Development Fund awarded Zupple Labs Pvt. Ltd. a project titled ‘Security Analysis & Auditing of Blockchain’ on 5 November 2026.', 'DRDO’s Scientific Analysis Group is the nodal laboratory for the project.', 'The intended output is a standardised platform for evaluating and grading blockchain applications required for defence use.', 'The project addresses assurance and testing, not the deployment of a cryptocurrency or a confirmed defence blockchain network.', 'A supply-chain tracking application is cited by the company as a potential defence use case, but no operational deployment has been announced.', 'The project’s value will depend on specific threat models, repeatable tests, security evidence and transition to a real user—not merely on the use of the blockchain label.'],
   sources: ['DRDO Technology Development Fund (5 Nov 2026): https://x.com/DrdoTdf/status/2118309993363689713', 'The Hindu BusinessLine (10 Nov 2026): https://www.thehindubusinessline.com/info-tech/mangalurus-zupple-labs-get-drdo-mandate-to-develop-blockchain-evaluation-standards/article71686420.ece', 'WION (11 Nov 2026): https://www.wionews.com/business-economy/drdo-awards-blockchain-security-and-auditing-project-to-mangaluru-based-zupple-labs-1794386026242']
 }, {
-  slug: 'drdo-pralay-quasi-ballistic-missile-user-evaluation-trial-2026',
-  no: 'S-191',
-  title: 'Pralay clears another user-evaluation flight and the ministry calls induction imminent: the order and numbers are still to come',
-  domain: 'Defence & Dual-Use',
-  date: '2026-11-13',
-  dateLabel: '13 Nov 2026',
-  status: 'live',
-  excerpt: 'DRDO flight-tested the Pralay quasi-ballistic missile from Dr APJ Abdul Kalam Island on 5 November as part of user-evaluation trials, meeting all objectives, and the Defence Ministry says induction is now imminent. No order, quantity or delivery date has been announced.',
-  readingTime: '3 min',
-  body: [{
-  text: 'DRDO flight-tested the Pralay quasi-ballistic missile from Dr APJ Abdul Kalam Island off the Odisha coast at around 11:10 am on 5 November 2026, as part of user-evaluation trials, in the presence of DRDO, industry and armed-forces representatives, according to All India Radio and Outlook, reporting the Defence Ministry. All test objectives were met, as confirmed by range instruments of the Integrated Test Range, Chandipur. The ministry said \'the induction of the system has become imminent with this successful test.\'',
-  type: 'p'
-}, {
-  text: 'Who builds it',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Development: Research Centre Imarat, Hyderabad, with other DRDO laboratories.', 'Production: Bharat Dynamics Limited, named as one of the development-cum-production partners, which manufactured the system (Outlook).', 'Earlier trials: two user-evaluation flights on 28 and 29 July 2025 tested maximum and minimum range, with BDL and Bharat Electronics named as industry partners then (Raksha Anirveda).']
-}, {
-  text: 'Defence Minister Rajnath Singh said the trial met all stipulated objectives. The release gives no range, trajectory, accuracy or manoeuvre data for this flight.',
-  type: 'p'
-}, {
-  text: 'Why it matters',
-  type: 'h'
-}, {
-  text: 'A user-evaluation trial puts the services in the decision chain, which is the step before induction. A quasi-ballistic missile flies a lower, less predictable path than a conventional ballistic one, which makes it harder to intercept. Pralay is also an export prospect: S-064 covered talks with Armenia. A domestic induction order would give BDL a production base for both. It follows the transfer of DRDO conventional-missile technology to industry in S-074.',
-  type: 'p'
-}, {
-  text: 'What has not been disclosed',
-  type: 'h'
-}, {
-  type: 'list',
-  items: ['Induction order, quantity, receiving services and delivery schedule.', 'Range and performance data for this flight.', 'Production rate and the industry partners beyond BDL for this phase.']
-}, {
-  text: 'What to watch',
-  type: 'h'
-}, {
-  text: 'Watch for a formal induction announcement, a production contract with BDL, first deliveries and any confirmed export contract.',
-  type: 'p'
-}],
-  takeaways: ['DRDO flight-tested Pralay on 5 November 2026 as part of user-evaluation trials; all objectives were met per ITR Chandipur data.', 'RCI and other DRDO labs developed it; Bharat Dynamics manufactured the system as a development-cum-production partner.', 'The ministry calls induction imminent, but no order, quantity or delivery schedule has been announced.'],
-  sources: ['All India Radio (5 Nov 2026): https://newsonair.gov.in/drdo-successfully-tests-indigenously-developed-pralay-missile/', 'Outlook (5 Nov 2026): https://www.outlookindia.com/national/drdo-successfully-tests-pralay-quasi-ballistic-missile-odisha-coast-induction', 'Raksha Anirveda (30 Jul 2025): https://raksha-anirveda.com/user-evaluation-trials-drdo-conducts-two-successful-flight-tests-of-pralay-missile/']
-}, {
   slug: 'india-bans-lithium-ion-black-mass-export-dgft-2026',
   no: 'S-192',
   title: 'India prohibits exports of lithium-ion battery black mass: recycling feedstock is kept at home to feed critical-mineral recovery',
@@ -7579,6 +7536,82 @@ export const signals: SignalMeta[] = [{
   takeaways: ['India\'s national transmission panel approved a 1,150 kV corridor of about Rs 68,800 crore ($7.34 billion), its highest-voltage line, per minutes reported by Reuters.', 'Phase one links Chhattisgarh, Odisha and West Bengal and connects to a 6,000 MW system from Rajasthan\'s Bhadla solar zone; completion takes about six years.', 'Capacity, later phases, implementing agency and equipment sourcing are undisclosed; all reports trace to one Reuters account.'],
   sources: ['Reuters via Business Standard (11 Nov 2026): https://www.business-standard.com/amp/industry/news/govt-approves-high-capacity-power-corridor-to-support-clean-energy-boom-126111100593_1.html', 'Free Press Journal (11 Nov 2026): https://www.freepressjournal.in/business/govt-approves-68800-crore-power-transmission-corridor-to-connect-rajasthans-renewable-energy-with-eastern-states']
 }, {
+  slug: 'drdo-pralay-quasi-ballistic-missile-user-evaluation-trial-2026',
+  no: 'S-191',
+  title: 'Pralay Clears Another User-Evaluation Gate: India’s Quasi-Ballistic Missile Moves from Test Programme towards Induction',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-14',
+  dateLabel: '14 Nov 2026',
+  status: 'live',
+  excerpt: 'A 5 November flight test has moved Pralay closer to service with the armed forces. DRDO says the indigenously developed quasi-ballistic missile met all test objectives during a user-evaluation trial from Dr APJ Abdul Kalam Island, with the result validated by Integrated Test Range instruments. The milestone is more consequential than another development test: the system has reached the stage where military users are evaluating it before induction, while RCI and Bharat Dynamics Limited anchor the domestic design-and-production chain.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The test',
+  type: 'h'
+}, {
+  text: 'The Defence Research and Development Organisation conducted a successful flight test of the indigenously developed Pralay quasi-ballistic missile on 5 November 2026. The missile was launched from Dr APJ Abdul Kalam Island off the Odisha coast at around 11:10 a.m.',
+  type: 'p'
+}, {
+  text: 'The Ministry of Defence says all test objectives were fully met. The conclusion was based on data captured by range instruments deployed by the Integrated Test Range at Chandipur. The release does not disclose the target profile, flight path, range, warhead, guidance performance or manoeuvre data, so those figures are not inferred here.',
+  type: 'p'
+}, {
+  note: 'The Ministry of Defence says all objectives were fully met; this is not a disclosed accuracy or reliability percentage',
+  type: 'stat',
+  label: 'Stated test-objective outcome',
+  value: '100%'
+}, {
+  text: 'Why user evaluation changes the signal',
+  type: 'h'
+}, {
+  text: 'A development flight demonstrates that a missile can be tested. A user-evaluation trial places the system in a different decision chain: the armed forces are present as prospective users, the trial is assessed against operational requirements and the outcome can support a future induction decision.',
+  type: 'p'
+}, {
+  text: 'The Ministry of Defence describes the Pralay trial as part of user evaluation and says induction has become imminent. That wording does not mean that an induction order, unit allocation, delivery schedule or final operational clearance has already been announced. It does indicate that the programme has crossed beyond laboratory or purely developer-led validation.',
+  type: 'p'
+}, {
+  rows: [['Flight validation', 'A successful flight test with all stated objectives met', 'Detailed flight telemetry, accuracy, manoeuvre profile and target results'], ['User involvement', 'Trial conducted as part of user-evaluation trials in the presence of the armed forces', 'Formal user acceptance, service-specific requirements and final clearance'], ['Development', 'RCI Hyderabad and other DRDO laboratories developed the missile', 'Final configuration and any remaining qualification activities'], ['Production', 'BDL manufactured the system as a development-cum-production partner', 'Induction order, production rate, delivery schedule and inventory size'], ['Operational status', 'The Ministry of Defence says induction has become imminent', 'Actual induction, deployment, training and unit-level integration']],
+  type: 'table',
+  headers: ['Layer', 'What the 5 November milestone establishes', 'What remains undisclosed or pending']
+}, {
+  text: 'The Indian industrial chain',
+  type: 'h'
+}, {
+  text: 'Research Centre Imarat in Hyderabad, together with other DRDO laboratories, is identified as the indigenous development base. Bharat Dynamics Limited is named as one of the development-cum-production partners and has manufactured the missile system. This is the industrial transition that matters: a successful weapon programme must connect laboratory design, test-range evidence and a repeatable production partner.',
+  type: 'p'
+}, {
+  text: 'The release does not disclose how much of the missile’s subsystems are sourced from Indian suppliers, the production configuration, the planned annual output or the division of work between DRDO laboratories and BDL. The signal is therefore about a validated programme milestone, not proof that the full supply chain is already deep or at scale.',
+  type: 'p'
+}, {
+  text: 'What a quasi-ballistic system contributes',
+  type: 'h'
+}, {
+  text: 'A quasi-ballistic missile follows a trajectory that is broadly ballistic but can incorporate manoeuvring or a lower, less predictable flight profile. That can complicate an opponent’s warning and interception problem compared with a conventional predictable ballistic path. The specific manoeuvring performance of this trial was not disclosed by the official release and is not claimed here.',
+  type: 'p'
+}, {
+  text: 'The operational value of such a system depends on more than speed or advertised range. It requires a reliable kill chain, target-quality data, secure command and control, launcher mobility, reloading and storage arrangements, trained crews, and an effective production and maintenance system. User evaluation is the stage at which those military realities begin to matter alongside missile engineering.',
+  type: 'p'
+}, {
+  text: 'A material update to the Pralay record',
+  type: 'h'
+}, {
+  text: 'Techadyant’s earlier S-064 covered reports that India was in advanced cost negotiations to export more than 50 Pralay missiles to Armenia. That signal concerned a possible export and remained at the negotiation stage. S-191 covers a different milestone: a successful domestic user-evaluation flight test and the Ministry of Defence’s statement that induction is imminent. The two signals are related through the same missile family but do not report the same underlying event.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Pralay’s significance is now less about whether India can design a manoeuvrable quasi-ballistic missile and more about whether it can complete the final path from successful test to dependable force capability. The 5 November trial supplies credible evidence of progress through user evaluation. The next proof points are the formal induction decision, a production contract or schedule, first delivery, training and deployment, and the depth of the BDL-led supply chain.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the formal induction announcement, service allocation, quantity and configuration, BDL production plans, remaining user-trial activity, launcher and command-network integration, first delivery and any confirmed export contract. None of those milestones should be treated as complete until separately announced.',
+  type: 'p'
+}],
+  takeaways: ['DRDO successfully flight-tested the indigenous Pralay quasi-ballistic missile on 5 November 2026 from Dr APJ Abdul Kalam Island off Odisha.', 'The test was conducted as part of user-evaluation trials, and the Ministry of Defence says all test objectives were met using Integrated Test Range data.', 'Research Centre Imarat and other DRDO laboratories developed the system; Bharat Dynamics Limited manufactured it as a development-cum-production partner.', 'The Ministry of Defence says induction has become imminent, but no induction order, quantity, delivery schedule or deployment has yet been disclosed.', 'The trial is a material new milestone relative to S-064’s earlier coverage of possible Pralay exports to Armenia.', 'The next strategic test is industrial and organisational: turning a successful user-evaluation result into repeatable production, delivery and service integration.'],
+  sources: ['Ministry of Defence / Press Information Bureau (5 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333276&reg=48&lang=2', 'The Hindu (5 Nov 2026): https://www.thehindu.com/news/national/drdo-conducts-flight-test-of-pralay-the-indigenously-developed-quasi-ballistic-missile/article71670670.ece', 'Connected to India (5 Nov 2026): https://www.connectedtoindia.com/indias-defence-capabilities-get-boost-as-drdo-successfully-tests-pralay-missile/', 'Techadyant Labs, S-064 (21 Aug 2026): https://labs.techadyant.com/signals/india-armenia-pralay-ballistic-missile-export-talks/']
+}, {
   slug: 'india-indigenous-gpu-24-month-target-ism-2-0-2026',
   no: 'S-194',
   title: 'India sets a 24-month target for an indigenous GPU: a stated goal under ISM 2.0, with no design team, budget or foundry named yet',
@@ -7618,6 +7651,67 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['MeitY Secretary S. Krishnan says India aims to develop an indigenous GPU chip in about 24 months under ISM 2.0, which has an outlay of Rs 1,27,500 crore.', 'It is a stated target: no design team, dedicated funding, architecture, foundry or tape-out date has been disclosed.', 'A domestic GPU is the deepest layer of AI sovereignty and the hardest; we will update this signal as concrete milestones appear.'],
   sources: ['Elets CIO, citing ETGovernment interview of 4 Nov (6 Nov 2026): https://cio.eletsonline.com/artificial-intelligence/meity-indigenous-gpu-chip/76737/', 'Lapaas Voice (5 Nov 2026): https://lapaasvoice.com/india-targets-indigenous-gpu-chip-within-24-months-under-semiconductor-mission-2-0', 'Semicon Weekly (8 Nov 2026): https://semiconweekly.in/story-india-gpu']
+}, {
+  slug: 'mmdr-amendment-act-2026-state-mineral-tax-cap-predictability',
+  no: 'S-195',
+  title: 'India Restricts State Mineral Levies Under MMDR 2026: A Uniform Ceiling Replaces Arbitrary Mining Cess Post-Supreme Court',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-11-15',
+  dateLabel: '15 Nov 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Mines has notified key regulatory provisions of the MMDR Amendment Act, 2026, establishing a uniform national ceiling on state-level mineral levies and restricting fresh taxation of mineral-bearing lands. The move follows months of uncertainty after the Supreme Court upheld states’ powers to tax mineral rights, which had exposed miners to up to 14 cumulative levies. By ensuring that approximately 90% of mineral revenues remain with states via royalties and auction premiums while barring arbitrary cesses, the reform attempts to protect critical mineral auction viability and downstream manufacturing cost structures.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'The regulatory ceiling',
+  type: 'h'
+}, {
+  text: 'The Ministry of Mines published an explanatory framework for the Mines and Minerals (Development and Regulation) Amendment Act, 2026 on 14 November 2026. The central provision restricts State Governments from levying fresh taxes on mineral rights and mineral-bearing lands, except under uniform conditions prescribed by the Central Government.',
+  type: 'p'
+}, {
+  text: 'The measure establishes a predictable fiscal ceiling for commercial mining following the Supreme Court’s landmark July 2024 ruling, which had affirmed states’ constitutional competence to tax mineral rights. The Centre’s legislative intervention does not extinguish state mineral revenues; instead, it codifies that approximately 90% of total mineral revenue continues to accrue directly to states through standardized royalties and auction premiums.',
+  type: 'p'
+}, {
+  note: 'Approximate share of total mineral revenues that continues to flow directly to State exchequers via royalties and auction premiums',
+  type: 'stat',
+  label: 'State revenue share safeguarded',
+  value: '90%'
+}, {
+  text: 'The 14-levy problem and auction unviability',
+  type: 'h'
+}, {
+  text: 'The policy intervention addresses severe tax cascading across the extractive sector. In practice, operational mines in mineral-rich states had become subject to up to 14 cumulative charges, taxes, and fees. These include statutory royalties, auction premiums (which can exceed 100% of the sale value of dispatch), District Mineral Foundation (DMF) payments, National Mineral Exploration Trust (NMET) levies, GST, dead rent, surface rent, transit pass fees, and separate state infrastructure cesses.',
+  type: 'p'
+}, {
+  text: 'When individual states began imposing fresh, uncoordinated cesses on dispatched minerals following the judicial ruling, the economics of long-tenure mining leases deteriorated rapidly. This tax stacking directly undermined the government’s critical-mineral push: across the first eight auction tranches, 36 out of 100 blocks went unsold or were annulled due to lack of commercially viable bids (covered in S-188).',
+  type: 'p'
+}, {
+  rows: [['State mineral taxation', 'Unrestricted unilateral cess on mineral rights following Supreme Court ruling', 'Restricted from levying fresh taxes except under Central parameters'], ['State revenue share', 'Variable; vulnerable to legal disputes over overlapping levies', 'Statutorily safeguarded at ~90% through royalties and auction premiums'], ['Statutory charges', 'Up to 14 cumulative levies (royalty, DMF, NMET, GST, cess, transit)', 'Standardised and capped fiscal predictability across major minerals'], ['Critical minerals', 'Unsold auction blocks due to uncertain fiscal liabilities (S-188)', 'Clear tax ceiling intended to restore bidder economics for rare metals'], ['Minor minerals', 'Subject to state regulatory powers', 'Unchanged; states retain full legislative and taxation competence']],
+  type: 'table',
+  headers: ['Fiscal layer', 'Pre-amendment exposure', 'MMDR 2026 framework']
+}, {
+  text: 'Why fiscal uniformity is a critical-mineral prerequisite',
+  type: 'h'
+}, {
+  text: 'Mining is the foundational layer of industrial security. If domestic ore extraction bears arbitrary state levies that foreign ores do not, downstream Indian industries—such as green hydrogen electrolysers, EV battery cathodes, rare-earth permanent magnets, and defence platforms—cannot compete against imported refined materials.',
+  type: 'p'
+}, {
+  text: 'The ceiling on state levies arrives alongside the Union Cabinet’s ₹2,814-crore capital expenditure support scheme for domestic critical-mineral processing plants (S-179) and the DGFT’s export prohibition on battery black mass (S-192). Together, these policies show a coordinated push: ensuring primary ores stay fiscally viable to mine in India, secondary feedstock stays at home to recycle, and processing plants receive capex support.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'S-195 reflects the classic tension in Indian industrial federalism: sub-national resource revenue versus national cost competitiveness. By guaranteeing states the vast bulk of extractive revenue through royalties and auction proceeds while foreclosing arbitrary fresh cesses, the MMDR Amendment Act, 2026 seeks a balance. Its success will depend on whether mineral-rich states accept the central parameters without opening new litigation avenues under Article 246.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the specific conditions and caps notified by the Ministry of Mines, formal responses or legal challenges from major mining states (such as Jharkhand, Odisha, and Chhattisgarh), and bidder turnout in the ongoing ninth critical-mineral auction tranche closing on 7 January 2027.',
+  type: 'p'
+}],
+  takeaways: ['The Ministry of Mines detailed the regulatory framework under the MMDR Amendment Act, 2026 on 14 November 2026, introducing a uniform fiscal structure for mining.', 'State governments are restricted from imposing fresh taxes on mineral rights and mineral-bearing lands, except under conditions prescribed by the Centre.', 'The intervention addresses cumulative tax stacking: mining operations were facing up to 14 distinct charges, royalties, dead rents, GST, transit fees, and local cesses.', 'The fiscal compromise preserves state revenues, ensuring that approximately 90% of total mineral revenues continue to accrue directly to state exchequers via royalties and auction premiums.', 'The framework directly impacts critical mineral tranches (S-188) and domestic processing viability (S-179) by preventing state-level tax escalation on strategic inputs like graphite, rare earths, lithium, and nickel.', 'Powers of state governments to regulate and tax minor minerals remain unaffected by the new provisions.'],
+  sources: ['Ministry of Mines / Press Information Bureau (14 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335128&reg=3&lang=1', 'Ministry of Mines (14 Nov 2026): https://mines.gov.in/webportal/content/mmdr-amendment-act-2026-provisions', 'The Hindu BusinessLine (14 Nov 2026): https://www.thehindubusinessline.com/economy/centre-notifies-mmdr-amendment-framework-to-cap-state-mineral-levies/article71714088.ece']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
