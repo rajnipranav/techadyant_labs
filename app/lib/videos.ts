@@ -97,6 +97,37 @@ export const VIDEOS: ResearchVideoEntry[] = [
     ],
   },
   {
+    id: 'WC2-EEncBfk',
+    slug: 'why-india-has-zero-rare-earth-magnets',
+    title: 'Why India Has Zero Rare Earth Magnets (And Can It Fix This by 2035?)',
+    description:
+      "India holds one of the world's largest rare-earth resource bases (13.15 million tonnes of monazite), yet its commercial production of sintered neodymium (NdFeB) magnets is effectively zero. In this deep-dive data breakdown, Techadyant Labs maps out India’s entire rare-earth value chain, the ₹7,280 crore manufacturing scheme, and the 3 scenarios determining whether India can close the magnet gap by 2035.",
+    localThumb: '/video/why-india-has-zero-rare-earth-magnets.jpg',
+    uploadDate: '2026-11-09',
+    duration: 'PT16M35S',
+    durationSec: 995,
+    durationLabel: '17 min',
+    chapters: [],
+    takeaways: [
+      'India holds 13.15 million tonnes of monazite resources (7.23 Mt REO), yet commercial production of sintered neodymium (NdFeB) magnets remains effectively zero.',
+      'The primary bottleneck sits at midstream chemical separation and metallisation, not mining — monazite\'s thorium content has kept raw mineral processing under atomic energy oversight.',
+      'Following Chinese export controls on heavy rare earths (dysprosium and terbium), automakers faced critical coercivity additive shortages across motor programs.',
+      'The ₹7,280 crore rare-earth scheme targets domestic magnet lines, but near-term independence requires priority investment into NABL qualification labs and toll-refining partnerships through 2030.'
+    ],
+    placements: [
+      {
+        type: 'report',
+        slug: 'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035',
+        heading: 'Why India Has Zero Rare Earth Magnets',
+        note: 'The 8-stage value chain from beach sand monazite to sintered NdFeB motor magnets.',
+        related: {
+          label: 'Read: Closing the Magnet Gap: India’s Rare Earth Ecosystem 2026–2035',
+          href: '/reports/closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035/'
+        }
+      }
+    ],
+  },
+  {
     id: 'LQpv_2Sr2Go',
     slug: 'what-will-india-s-first-chip-factory-actually-powe',
     title: 'What Will India’s First Chip Factory Actually Power?',
