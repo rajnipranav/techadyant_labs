@@ -130,8 +130,7 @@ export const VIDEOS: ResearchVideoEntry[] = [
       'Cell, module, pack: why pack assembly does not prove local cell manufacturing',
       'The ACC PLI scheme: a 50 GWh target, 40 GWh awarded across four domestic manufacturers, and about 1 to 1.4 GWh installed as of 2026'
     ],
-    placements: [
-      { type: 'dependencies', slug: 'energy-transition', related: { label: 'See Clean Energy dependencies', href: '/dependencies/' } },
+        placements: [
       { type: 'report', slug: 'india-grid-scale-bess-supply-chain-2026-2035', related: { label: 'Read: India Grid-Scale BESS Supply Chain', href: '/reports/india-grid-scale-bess-supply-chain-2026-2035/' } }
     ],
   },
@@ -162,9 +161,8 @@ export const VIDEOS: ResearchVideoEntry[] = [
       'The four chip families Tata has named: PMIC, microcontrollers, display drivers and high-performance computing logic',
       'How they feed cars and EVs, solar and storage, AI data centres, telecom, factories and defence'
     ],
-    placements: [
-      { type: 'dependencies', slug: 'semiconductors', heading: "What Dholera's chips actually power", note: "Where Tata Electronics' first chips go, and what remains imported.", related: { label: "See India's semiconductor import dependency", href: '/dependencies/sectors/semiconductors/' } },
-      { type: 'report', slug: 'india-fab-ecosystem', related: { label: "Read: Who Really Benefits from India's Fab Ecosystem?", href: '/reports/india-fab-ecosystem/' } }
+        placements: [
+      { type: 'report', slug: 'dholera-semiconductor-supplier-ecosystem', related: { label: 'Read: Dholera Semiconductor Supplier Ecosystem', href: '/reports/dholera-semiconductor-supplier-ecosystem/' } }
     ],
   },
   {
@@ -199,8 +197,6 @@ export const VIDEOS: ResearchVideoEntry[] = [
       'Western Dedicated Freight Corridor: complete, but it passes near Sanand, not through Dholera.'
     ],
     placements: [
-      { type: 'corridor', slug: 'dholera-sir', heading: 'Dholera in 2026: Built vs Planned', note: 'Ground reality audit of the semiconductor city.', related: { label: "Explore India's Industrial Corridors", href: '/corridors/' } },
-      { type: 'dependencies', slug: 'semiconductors', related: { label: "See India's semiconductor import dependency", href: '/dependencies/sectors/semiconductors/' } }
     ],
   },
   {
@@ -237,7 +233,6 @@ export const VIDEOS: ResearchVideoEntry[] = [
       "Electronics: why smartphones became India's largest export, and how much value stays in India"
     ],
     placements: [
-      { type: 'dependencies', slug: 'hub', heading: 'PLI Scheme Scorecard: ₹1.97 Lakh Crore Audit', note: 'What was promised across 14 sectors vs what was delivered on the ground.', related: { label: "See where India's import dependence concentrates", href: '/dependencies/' } }
     ],
   },
   {
@@ -270,7 +265,6 @@ export const VIDEOS: ResearchVideoEntry[] = [
       'This is not simply a shortage of engineers. It is a mismatch between what colleges teach and what factories actually need.'
     ],
     placements: [
-      { type: 'dependencies', slug: 'semiconductors', heading: 'The Shop-Floor Engineering Gap', note: 'Why new chip plants and electronics factories struggle to recruit.', related: { label: "Read: Who Really Benefits from India's Fab Ecosystem?", href: '/reports/india-fab-ecosystem/' } }
     ],
   },
   {
@@ -299,7 +293,6 @@ export const VIDEOS: ResearchVideoEntry[] = [
       'How the supplier pyramid and MSME clusters (Coimbatore, Ambarnath, Bengaluru) benefit'
     ],
     placements: [
-      { type: 'report', slug: 'iaf-autonomous-air-power-roadmap-2026-2035', heading: 'ISRO Rocket Technology Transfer', note: 'Blueprint handover of SSLV, PSLV and LVM3 to Indian private industry.', related: { label: 'Read: Autonomous Air Power Roadmap', href: '/reports/iaf-autonomous-air-power-roadmap-2026-2035/' } }
     ],
   },
 
