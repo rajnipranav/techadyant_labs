@@ -18,7 +18,20 @@ export function ResearchVideo({ video, related }: { video: ResearchVideoEntry; r
       <div className="iv-frame">
         {start === null ? (
           <button type="button" className="iv-poster" onClick={() => play(0)} aria-label={`Play video: ${video.title}`}>
-            <img src={video.localThumb} alt="" width={1280} height={720} loading="lazy" decoding="async" />
+            <img
+              src={video.localThumb}
+              alt=""
+              width={1280}
+              height={720}
+              loading="lazy"
+              decoding="async"
+              onError={(e) => {
+                const target = e.currentTarget;
+                if (!target.src.includes('img.youtube.com')) {
+                  target.src = `https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`;
+                }
+              }}
+            />
             <span className="iv-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.5 7.7a8.5 8.5 0 0 0-6-6C55.2.4 34 .4 34 .4s-21.2 0-26.5 1.3a8.5 8.5 0 0 0-6 6C.2 13 .2 24 .2 24s0 11 1.3 16.3a8.5 8.5 0 0 0 6 6c5.3 1.3 26.5 1.3 26.5 1.3s21.2 0 26.5-1.3a8.5 8.5 0 0 0 6-6C67.8 35 67.8 24 67.8 24s0-11-1.3-16.3z" fill="#FF0000"/><path d="M27 34V14l18 10z" fill="#fff"/></svg>
             </span>
