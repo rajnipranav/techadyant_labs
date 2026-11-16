@@ -7712,6 +7712,152 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Ministry of Mines detailed the regulatory framework under the MMDR Amendment Act, 2026 on 14 November 2026, introducing a uniform fiscal structure for mining.', 'State governments are restricted from imposing fresh taxes on mineral rights and mineral-bearing lands, except under conditions prescribed by the Centre.', 'The intervention addresses cumulative tax stacking: mining operations were facing up to 14 distinct charges, royalties, dead rents, GST, transit fees, and local cesses.', 'The fiscal compromise preserves state revenues, ensuring that approximately 90% of total mineral revenues continue to accrue directly to state exchequers via royalties and auction premiums.', 'The framework directly impacts critical mineral tranches (S-188) and domestic processing viability (S-179) by preventing state-level tax escalation on strategic inputs like graphite, rare earths, lithium, and nickel.', 'Powers of state governments to regulate and tax minor minerals remain unaffected by the new provisions.'],
   sources: ['Ministry of Mines / Press Information Bureau (14 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335128&reg=3&lang=1', 'Ministry of Mines (14 Nov 2026): https://mines.gov.in/webportal/content/mmdr-amendment-act-2026-provisions', 'The Hindu BusinessLine (14 Nov 2026): https://www.thehindubusinessline.com/economy/centre-notifies-mmdr-amendment-framework-to-cap-state-mineral-levies/article71714088.ece']
+}, {
+  slug: 'india-22-bids-10gwh-acc-grid-storage-pli-tender-2026',
+  no: 'S-196',
+  title: 'India’s Battery-Cell Bet Reaches the Selection Stage: 22 Bids for 10 GWh of Grid-Scale ACC Capacity',
+  domain: 'Energy Storage & Strategic Manufacturing',
+  date: '2026-11-16',
+  dateLabel: '16 Nov 2026',
+  status: 'live',
+  excerpt: 'India’s Advanced Chemistry Cell programme has moved from capacity awards to a competitive selection process for its remaining 10 GWh grid-storage tranche. The Ministry of Heavy Industries received 22 bids from prospective firms, and technical bids were opened on 11 November under a two-stage quality-and-cost process. The number is an application count, not awarded capacity or operating production. The strategic question is whether this tranche builds an Indian cell industry for the grid rather than only assembling battery packs around imported cells.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'A tender, not a factory announcement',
+  type: 'h'
+}, {
+  text: 'The Ministry of Heavy Industries received 22 bids for 10 GWh of Advanced Chemistry Cell manufacturing capacity under a global tender on the Central Public Procurement Portal. The capacity is earmarked for grid-scale stationary-storage applications and forms part of the broader 50 GWh National Programme on Advanced Chemistry Cell Battery Storage.',
+  type: 'p'
+}, {
+  text: 'The Request for Proposal was issued on 15 July 2026. The bid deadline was 10 November, and technical bids were opened on 11 November in the presence of bidders at the Ministry of Heavy Industries. The selection is being conducted through a two-stage Quality and Cost Based Selection process.',
+  type: 'p'
+}, {
+  note: 'This is the number of bids received, not the number of selected beneficiaries',
+  type: 'stat',
+  label: 'Prospective bidders',
+  value: '22'
+}, {
+  text: 'Who is in the field',
+  type: 'h'
+}, {
+  text: 'The official bidder list includes Amara Raja Advanced Cell Technologies, Exide Energy Solutions, Reliance Industries, Vikram Solar, ACME Solar Holdings, Avaada Electro, JSW Neo Energy, Waaree Energy Storage Solutions, Godawari New Energy, Renew Photovoltaics and other power, energy and industrial companies.',
+  type: 'p'
+}, {
+  rows: [['Tender capacity', '10 GWh', 'The capacity being competed for in this tranche; not yet awarded'], ['Applications', '22 bids', 'Strong participation, but the count will be reduced through evaluation'], ['Use case', 'Grid-scale stationary storage', 'Cells are intended for large storage systems connected to the electricity grid'], ['National programme', '50 GWh ACC target', 'The 10 GWh tranche is part of the wider domestic cell-manufacturing objective'], ['Selection process', 'Two-stage QCBS', 'Technical and cost evaluation precede beneficiary selection'], ['Status', 'Technical bids opened 11 November', 'The programme is at evaluation stage, not factory construction or production']],
+  type: 'table',
+  headers: ['Stage or metric', 'Verified position', 'What it means']
+}, {
+  text: 'Why grid storage is the chosen tranche',
+  type: 'h'
+}, {
+  text: 'Grid-scale batteries are becoming a system requirement as renewable generation expands. Storage can shift electricity across time, support grid balancing and reduce the need to match every renewable source with immediate demand. Domestic cell production would address a deeper layer than pack integration: the electrochemical cell is where much of the technology, materials, process control and supply-chain dependence sits.',
+  type: 'p'
+}, {
+  text: 'The official announcement connects the 10 GWh tranche with energy security and a domestic ACC value chain. It does not disclose the chemistry mix that bidders propose, the planned factory locations, individual capacity applications, cell-format choices, technology licensors or expected production dates.',
+  type: 'p'
+}, {
+  text: 'A capacity award is still not cell localisation',
+  type: 'h'
+}, {
+  text: 'The ACC programme is designed to build domestic manufacturing capacity and reduce dependence on imported cells. But a bid only expresses willingness to build under the scheme. The strategic value will depend on beneficiary selection, financial closure, land and equipment, process qualification, yield, materials sourcing and actual cell output.',
+  type: 'p'
+}, {
+  text: 'This distinction is important because India can localise battery packs and battery-management systems without producing the cells inside them. A successful ACC outcome would require evidence at the cell level: electrode and electrolyte supply, formation and ageing capacity, quality consistency, domestic value addition and customers willing to qualify Indian-made cells.',
+  type: 'p'
+}, {
+  text: 'How the new tranche fits the programme',
+  type: 'h'
+}, {
+  text: 'The ACC scheme was approved in May 2021 with an ₹18,100 crore budgetary outlay and a target of 50 GWh of domestic ACC manufacturing capacity, alongside a separate niche-technology capacity objective. The government had previously awarded 40 GWh to four beneficiary firms in two rounds. The new tender addresses the remaining 10 GWh tranche earmarked for grid-scale stationary storage.',
+  type: 'p'
+}, {
+  text: 'The 22-bid response is therefore a selection milestone within an existing policy, not a new 50 GWh announcement. Its novelty is the competitive response to the specific grid-storage tranche and the movement from tender design into technical evaluation.',
+  type: 'p'
+}, {
+  text: 'The industrial test',
+  type: 'h'
+}, {
+  text: 'The bid list spans cell specialists, energy companies, solar manufacturers and diversified industrial groups. That breadth suggests that India’s storage opportunity is attracting firms from across the power and manufacturing ecosystem. It also raises a policy question: whether the selected firms will bring cell process ownership and material depth, or primarily assemble imported technology under a domestic production label.',
+  type: 'p'
+}, {
+  text: 'For grid storage, the test is not only nameplate GWh. It is whether the factories achieve bankable reliability, competitive cost, long cycle life and predictable supply at the scale required by renewable-power developers and grid operators. Those outcomes cannot be inferred from the bid count.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'The next milestones are technical evaluation, beneficiary selection, award letters, financial closure, land allocation, factory construction, equipment installation, pilot-cell production, qualification by storage-system integrators and commercial output. The key data points will be awarded GWh by firm, technology and chemistry, domestic value addition, production date and the share of locally sourced materials and equipment.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Twenty-two bids for 10 GWh is evidence of market interest, not evidence of a battery-cell industry. The strategic opportunity is real because grid storage creates a large domestic demand anchor. The industrial outcome will be decided after selection, when proposed capacity has to become qualified cells, repeatable process control and a supplier network that reaches below the pack into India’s electrochemical manufacturing base.',
+  type: 'p'
+}],
+  takeaways: ['The Ministry of Heavy Industries received 22 bids for 10 GWh of ACC manufacturing capacity earmarked for grid-scale stationary storage.', 'The technical bids were opened on 11 November 2026 after a 10 November submission deadline under a two-stage Quality and Cost Based Selection process.', 'The 10 GWh tranche is part of India’s wider 50 GWh ACC target and the ₹18,100 crore National Programme on ACC Battery Storage.', 'Named bidders include Amara Raja Advanced Cell Technologies, Exide Energy Solutions, Reliance Industries, Vikram Solar and other energy and industrial companies.', 'No capacity has yet been awarded, and the announcement does not establish factory locations, chemistry, production dates, financial closure or operating output.', 'The strategic test is whether the scheme localises cell technology and materials rather than only expanding domestic battery-pack assembly.'],
+  sources: ['Ministry of Heavy Industries / Press Information Bureau (12 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335459&reg=48&lang=2', 'The Hindu (12 Nov 2026): https://www.thehindu.com/business/Industry/centre-receives-22-bids-for-10-gwh-giga-scale-acc-battery-manufacturing-capacity/article71694200.ece', 'Economic Times Energy (13 Nov 2026): https://energy.economictimes.indiatimes.com/amp/news/power/ril-vikram-solar-among-22-bidders-for-10-gwh-battery-storage-capacity-under-pli-scheme/135792346', 'Techadyant Labs, published battery-dependency context (16 Nov 2026): https://labs.techadyant.com/dependencies/products/lithium-battery-cells/']
+}, {
+  slug: 'astrome-tdb-rdi-64-crore-space-ai-elint-constellation-2026',
+  no: 'S-197',
+  title: 'TDB Backs Astrome with Rs 64 Crore of RDI Debt for a Space-Based AI-ELINT Constellation: Sovereign Electronic Intelligence Enters the Start-Up Tier',
+  domain: 'Defence & Dual-Use',
+  date: '2026-11-16',
+  dateLabel: '16 Nov 2026',
+  status: 'live',
+  excerpt: 'The Technology Development Board has signed an agreement with Bengaluru-based Astrome Technologies to provide ₹64.05 crore in financial assistance under the RDI Fund for a ₹128.11-crore project to develop an indigenous AI-enabled Electronic Intelligence satellite constellation. The project aims to transition 50 kg-class LEO microsatellites and inter-satellite links from TRL-4 to TRL-9. Following TDB’s recent backing of ideaForge’s heavy-lift drone (S-185), this is another sovereign development loan aimed at de-risking deep tech, not a military procurement order.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'The funding instrument',
+  type: 'h'
+}, {
+  text: 'The Technology Development Board (TDB), a statutory body under the Department of Science & Technology, has entered into an agreement with Bengaluru-based Astrome Technologies Private Limited to finance the development of a sovereign Artificial Intelligence-enabled Electronic Intelligence (AI-ELINT) satellite constellation. TDB is providing ₹64.05 crore under the Research, Development and Innovation (RDI) Fund, meeting exactly half of the ₹128.11-crore total project cost.',
+  type: 'p'
+}, {
+  text: 'The capital is extended as Optionally Convertible Debt, an instrument designed to de-risk high-capital-intensity dual-use hardware before commercial viability or state procurement is assured. It directly mirrors TDB’s ₹151-crore RDI loan to ideaForge for the YETI heavy-lift logistics drone (covered in S-185). In both cases, the government is providing patient, risk-absorbing development capital rather than placing an immediate purchase order.',
+  type: 'p'
+}, {
+  note: '50% co-funding of the ₹128.11 crore total project cost by the Technology Development Board',
+  type: 'stat',
+  label: 'RDI Fund loan commitment',
+  value: '₹64.05 Cr'
+}, {
+  text: 'What the constellation is designed to do',
+  type: 'h'
+}, {
+  text: 'Electronic Intelligence (ELINT) from space involves intercepting, locating, and analyzing non-communications radio frequency emissions, such as military radar installations, air defence batteries, and surface-to-air tracking networks. Historically, India has relied on dedicated, capital-intensive institutional satellites—most notably EMISAT, developed by DRDO and launched by ISRO in April 2019.',
+  type: 'p'
+}, {
+  text: 'Astrome’s project proposes a different architecture: distributing ELINT collection across a constellation of 50 kg-class microsatellites in Low Earth Orbit (LEO). The spacecraft will carry dedicated frequency-scanning payloads and inter-satellite communication links (ISLs) to share tracking data in orbit, paired with machine-learning processing pipelines to rapidly classify and geolocate radar pulses without sending raw high-bandwidth telemetry to ground stations.',
+  type: 'p'
+}, {
+  rows: [['Financing', '₹64.05 crore TDB debt under RDI Fund for ₹128.11 crore project', 'Commercial debt or equity closing for the remaining 50%'], ['Technology target', 'Advancing AI-ELINT satellite subsystems from TRL-4 to TRL-9', 'Space qualification, payload calibration, and in-orbit yield'], ['Architecture', '50 kg LEO microsatellites with inter-satellite communication links', 'Total constellation size, launch service provider, and orbital planes'], ['Institutional role', 'TDB co-funder under Department of Science & Technology', 'User requirements from Defence Space Agency or Armed Forces'], ['Operational status', 'Prototype and technology development stage', 'Formal military procurement contract or satellite service agreement']],
+  type: 'table',
+  headers: ['Parameter', 'Disclosed project milestone', 'What remains pending']
+}, {
+  text: 'Bridging the TRL-4 to TRL-9 gap',
+  type: 'h'
+}, {
+  text: 'The stated objective of the TDB-Astrome agreement is to advance the AI-ELINT hardware from Technology Readiness Level 4 (laboratory validation of components) to TRL-9 (flight-proven operational capability). Crossing this boundary in space systems requires thermal-vacuum qualification, vibration testing, radiation hardening, launch vehicle integration, and orbital commissioning.',
+  type: 'p'
+}, {
+  text: 'Astrome has previous institutional traction with TDB, having received backing in 2022 to productize \'GigaMesh\', an E-band millimeter-wave wireless mesh product for rural and tactical telecommunications. Translating wireless network experience to space-borne RF surveillance represents a significant jump in mission complexity.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'S-197 highlights a quiet structural transition in Indian defence-space policy: the state is using RDI debt funds to incubate a private-tier space intelligence capability. If successful, small, low-cost ELINT satellites offer tactical advantages over heavy monolithic platforms: higher revisit rates over contested borders and greater resilience against anti-satellite disruption. However, debt is not demand. The true test of Astrome’s constellation will not be TRL-9 demonstration in orbit, but whether the Defence Space Agency (DSA) or military intelligence agencies integrate private ELINT feeds into the national operational command picture.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the launch schedule of the first technology demonstrator microsatellite, selection of launch provider (such as ISRO’s SSLV or private launchers like Skyroot and Agnikul), telemetry integration with military ground stations, and any follow-on procurement framework from the Ministry of Defence for commercial space-based intelligence.',
+  type: 'p'
+}],
+  takeaways: ['The Technology Development Board (TDB-DST) committed ₹64.05 crore of RDI debt toward Astrome Technologies’ ₹128.11-crore space-based AI-ELINT project.', 'The programme finances the technology leap from TRL-4 (laboratory validation) to TRL-9 (space-proven operational capability).', 'The planned architecture combines 50 kg-class LEO microsatellites, wideband ELINT signal payloads, AI-driven edge/ground processing, and inter-satellite communication links.', 'The agreement parallels S-185’s ₹151-crore loan to ideaForge: both use the national RDI Fund to absorb high-risk development capex before formal armed forces procurement.', 'Space-based ELINT has historically been restricted to high-cost institutional platforms like EMISAT; the project tests whether private microsatellites can provide responsive electronic intelligence.', 'TDB’s debt backing does not constitute a defence purchase order, guaranteed launch manifest, or confirmed operational contract from the Defence Space Agency.'],
+  sources: ['Ministry of Science & Technology / Press Information Bureau (12 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334812&reg=3&lang=1', 'Department of Science & Technology / TDB (12 Nov 2026): https://tdb.gov.in/press-release/astrome-technologies-ai-elint-satellite-constellation', 'DD India (13 Nov 2026): https://ddindia.co.in/science-tech/tdb-funds-astrome-64-crore-ai-elint-constellation/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
