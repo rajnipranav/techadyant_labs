@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { clampMeta } from '../../lib/seoText';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { inlineLinks } from '../../lib/inlineLinks';
@@ -37,8 +38,10 @@ export async function generateMetadata(
   // The root layout appends the brand once. Respect CMS search overrides and
   // date-specific snippets without changing the published headline.
   const title = seo.metaTitle || snippet?.title || base;
-  const description = seo.metaDescription || snippet?.description || (s.excerpt && String(s.excerpt).trim())
-    || `${base} — an India industrial-systems signal from Techadyant Labs: what changed, why it matters, and what to watch.`;
+  // Excerpts run to 300+ characters; clamp at a word boundary so the SERP
+  // snippet ends cleanly instead of wherever Google cuts it.
+  const description = clampMeta(seo.metaDescription || snippet?.description || (s.excerpt && String(s.excerpt).trim())
+    || `${base} — an India industrial-systems signal from Techadyant Labs: what changed, why it matters, and what to watch.`);
   const url = `https://labs.techadyant.com/signals/${slug}/`;
   return {
     title,

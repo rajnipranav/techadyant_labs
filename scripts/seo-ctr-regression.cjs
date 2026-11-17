@@ -23,11 +23,20 @@ assert.equal(fixed.dossier.seo.canonical_path,fixed.path);
 assert.equal(fixed.dossier.header.entity_path,fixed.path);
 assert.equal(fixed.dossier.parent_hub_path,'/research/military-aerospace/');
 assert.equal(fixed.dossier.cta.track_ecosystem,'/research/military-aerospace/');
-for(const [slug,entry] of [['modern',modern],['platform',platform],['matangi-usv',maritime],['pointer',pointer]]) {
+for(const [slug,entry] of [['modern',modern],['platform',platform],['matangi-usv',maritime]]) {
   const result=load(slug,entry.vertical);
   assert.equal(result.path,entry.path);
   assert.equal(result.dossier.seo.canonical_path,entry.dossier.seo.canonical_path);
 }
+// Pointer dossiers render at /company/<slug>/ too; the legacy path 404s, so they self-canonicalise.
+assert.equal(load('pointer','military-aerospace').path,'/research/military-aerospace/company/pointer/');
+// Space companies share the same legacy-path defect.
+map.hex20=[fixture('hex20','space','company','/research/space/hex20/')];
+const spaceFixed=load('hex20','space');
+assert.equal(spaceFixed.path,'/research/space/company/hex20/');
+assert.equal(spaceFixed.dossier.seo.canonical_path,spaceFixed.path);
+assert.equal(spaceFixed.dossier.parent_hub_path,'/research/space/');
+delete map.hex20;
 assert.equal(load('cemilac','defence'),null);
 assert.equal(load('absent'),null);
 assert.equal(JSON.stringify(map),original,'loader must not mutate imported dossier data');

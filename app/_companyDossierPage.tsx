@@ -4,6 +4,7 @@ import { renderJsonLdScripts } from "../react-dossier/jsonLd";
 import { loadCompanyDossier } from "../lib/companyDossier";
 import { getThinRecordBySlug } from "../lib/thinRegistry";
 import Link from "next/link";
+import { clampMeta } from "./lib/seoText";
 import "../react-dossier/dossier.css";
 
 const SITE = "https://labs.techadyant.com";
@@ -20,6 +21,20 @@ const SEARCH_SNIPPETS: Record<string, { title: string; description: string }> = 
   "gtre": {
     title: "GTRE: Full Form, DRDO Role & Kaveri Aero-Engine Programme",
     description: "Gas Turbine Research Establishment (GTRE): explore DRDO’s aero-engine laboratory, the Kaveri programme, capabilities and India’s engine dependencies.",
+  },
+  // Nov 2026 Search Console: page-1/2 impressions with zero clicks. Facts are
+  // taken from each dossier's own "what it is" text.
+  "mahindra-aero": {
+    title: "Mahindra Aerospace: Aerostructures, Airbus H130 Work & Bengaluru Plant",
+    description: "Mahindra Aerospace is the Mahindra Group's aerospace arm (founded 2010). Its Bengaluru aerostructures plant builds the Airbus H130 helicopter fuselage. Profile and supply-chain role.",
+  },
+  "nal": {
+    title: "National Aerospace Laboratories (NAL): CSIR Lab, SARAS & HANSA-3",
+    description: "NAL is CSIR's Bengaluru aerospace laboratory (founded 1959): SARAS and HANSA-3 aircraft, wind-tunnel and structural testing for HAL, ADA and ISRO, and Tejas composites.",
+  },
+  "hex20": {
+    title: "HEX20: Kerala Small-Satellite Maker Behind the Nila Satellite",
+    description: "HEX20 builds CubeSat and small-satellite platforms from Thiruvananthapuram and Adelaide. It launched Nila, Kerala's first privately built satellite, in March 2025. Profile.",
   },
   "cemilac": {
     title: "CEMILAC: Full Form, DRDO Role & Military Certification",
@@ -77,8 +92,8 @@ export function companyDossierMetadata(
     const snippet = SEARCH_SNIPPETS[slug];
     const description =
       snippet?.description ||
-      prose?.slice(0, 160) ||
-      keyRole?.slice(0, 160) ||
+      (prose ? clampMeta(prose) : "") ||
+      (keyRole ? clampMeta(keyRole) : "") ||
       `${dossier.name} — ${dossier.vertical} in India's strategic ecosystem.`;
     const canonical = `${SITE}${entry.path}`;
 

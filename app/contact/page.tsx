@@ -4,6 +4,7 @@ import { HeroCanvas } from '../components/HeroCanvas';
 
 export const metadata: Metadata = {
   title: 'Contact Techadyant Labs',
+  alternates: { canonical: 'https://labs.techadyant.com/contact/' },
   description:
     'Get in touch with Techadyant Labs for commissioned research, Detailed Project Reports (DPRs), or editorial enquiries. Independent strategic intelligence on India\'s industrial systems.',
 };

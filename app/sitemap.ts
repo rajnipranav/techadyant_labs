@@ -19,6 +19,8 @@ import spaceAtlas from './research/_space.json';
 import { products as depProducts, sectors as depSectors, states as depStates } from './dependencies/data';
 import { EXEC_SUMMARIES } from './reports/executive-summaries/registry';
 import { entities as defenceEntities, entitySlug as defenceEntitySlug } from './research/pillars/defence/data';
+import { loadCompanyDossier } from '../lib/companyDossier';
+import { getThinRecordBySlug } from '../lib/thinRegistry';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -244,7 +246,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ].map((s) => `${SITE}/research/players/${s}/`),
   );
 
+  // A sitemap must list only indexable 200 URLs. Company/manufacturer pages are
+  // served noindex when they resolve to a Tier-C dossier or a thin-registry
+  // record (see companyDossierMetadata), yet 117 of them were being submitted —
+  // Search Console reports those as "Submitted URL marked noindex" and they
+  // waste crawl budget. Mirror the page-level rule here.
+  const COMPANY_ROUTE = /\/research\/(drones-uas|counter-uas|military-aerospace|space)\/(?:company|manufacturer)\/([^/]+)\/$/;
+  const isNoindexCompany = (url: string): boolean => {
+    const m = COMPANY_ROUTE.exec(url);
+    if (!m) return false;
+    const entry = loadCompanyDossier(m[2], m[1]);
+    if (entry) return entry.dossier.tier === 'C';
+    return Boolean(getThinRecordBySlug(m[2]));
+  };
+  // Atlas records with no generated page (live 404 on 2026-11-16). Remove an
+  // entry once its page exists.
+  const DEAD_PATHS = new Set<string>([
+    '/research/drones-uas/company/aerovironment-inc-mfr-004/',
+    '/research/military-aerospace/company/godrej-aerospace/',
+    '/research/military-aerospace/company/ratier/',
+    '/research/space/company/in-space/',
+  ].map((s) => `${SITE}${s}`));
+
   const allRoutes = [...indCorridorRoutes, ...corridorRoutes, ...playerRoutes, ...entityRoutes, ...staticRoutes, ...reportRoutes, ...execSummaryRoutes, ...themeHubRoutes, ...seriesRoutes, ...signalRoutes, ...issueRoutes, ...corridorNodeRoutes, ...platformRoutes, ...droneEntityRoutes, ...cuasRoutes, ...aerospaceRoutes, ...spaceRoutes, ...defenceRoutes, ...depRoutes];
 
-  return allRoutes.filter((r) => !RETIRED_PLAYER_PATHS.has(r.url as string));
+  return allRoutes.filter((r) => !RETIRED_PLAYER_PATHS.has(r.url as string) && !DEAD_PATHS.has(r.url as string) && !isNoindexCompany(r.url as string));
 }

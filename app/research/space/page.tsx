@@ -30,7 +30,8 @@ const FAQ: { q: string; a: string }[] = [
 ];
 
 export const metadata: Metadata = {
-  title: 'India Space Ecosystem — Launch, Satellites, Propulsion, Dependencies | Techadyant Labs',
+  title: 'India Space Ecosystem: Launch, Satellites & Import Dependencies',
+  alternates: { canonical: 'https://labs.techadyant.com/research/space/' },
   description: `A living map of India’s space industrial system: ${meta.platforms} platforms, ${meta.companies} companies, $${meta.fundingUsdMn} Mn private funding, IN-SPACe authorisations, import dependencies and opportunity surfaces. Free from Techadyant Labs.`,
   openGraph: {
     title: 'India Space Ecosystem — Who builds, launches and operates in space',

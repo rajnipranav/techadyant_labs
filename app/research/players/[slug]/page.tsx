@@ -18,6 +18,74 @@ export function generateStaticParams() {
 
 const clampDesc = (s: string, n = 158): string => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
 
+// ── Data-derived summary ────────────────────────────────────────────────────
+// Roughly 560 of the 803 player records carry only a stub description (often just
+// the name of the source atlas), so their pages shipped a boilerplate meta
+// description and ~130 words of body copy. Players are the site's largest
+// section by search impressions and its weakest by click-through. Everything
+// below is assembled from the mapped relationship graph — nothing is invented —
+// so each page gets a unique, quotable statement of what the entity is and how
+// it connects, for both the SERP snippet and AI answer engines.
+const TYPE_NOUN: Record<string, string> = {
+  company: 'private company', foreign_supplier: 'foreign supplier', technology: 'technology',
+  research_institution: 'research institution', facility: 'facility', scheme: 'government scheme',
+  psu: 'public-sector undertaking', govt_body: 'government body', product: 'product category',
+  mineral_material: 'critical material', opportunity_surface: 'opportunity surface',
+  uas_platform: 'unmanned aerial system', jv: 'joint venture', industry_body: 'industry body',
+  process: 'industrial process', standard: 'standard', country: 'country', ministry: 'ministry',
+  mine: 'mine', university: 'university', ecosystem: 'ecosystem', industrial_park: 'industrial park',
+  district_cluster: 'district cluster', infrastructure_node: 'infrastructure node',
+};
+const ORG_TYPES = ['company', 'psu', 'jv', 'foreign_supplier', 'research_institution', 'industry_body', 'financial_institution', 'university', 'govt_body', 'ministry'];
+const DEPENDENCY_TYPES = ['technology', 'product', 'mineral_material', 'process', 'opportunity_surface'];
+const SUMMARY_VERB: Record<string, [string, string]> = {
+  supplies_to: ['supplies', 'is supplied by'], depends_on: ['depends on', 'is depended on by'],
+  controls: ['controls', 'is controlled by'], invests_in: ['invests in', 'has investment from'],
+  operates: ['operates', 'is operated by'], regulates: ['regulates', 'is regulated by'],
+  beneficiary_of: ['benefits from', 'benefits'], subsidiary_of: ['is a subsidiary of', 'is the parent of'],
+  customer_of: ['is a customer of', 'counts as customers'], competes_with: ['competes with', 'competes with'],
+  partners_with: ['partners with', 'partners with'], located_in: ['is located in', 'hosts'],
+};
+const withArticle = (noun: string): string => `${/^[aeiou]/i.test(noun) ? 'an' : 'a'} ${noun}`;
+const joinNames = (names: string[], max = 3): string => {
+  const uniq = [...new Set(names)];
+  const head = uniq.slice(0, max);
+  const rest = uniq.length - head.length;
+  if (rest > 0) return `${head.join(', ')} and ${rest} more`;
+  return head.length > 1 ? `${head.slice(0, -1).join(', ')} and ${head[head.length - 1]}` : head[0] ?? '';
+};
+function countryName(code: string | null): string {
+  if (!code) return '';
+  if (code === 'IN') return 'India';
+  try { return new Intl.DisplayNames(['en'], { type: 'region' }).of(code) ?? code; } catch { return code; }
+}
+/** A stub is a description too short to say anything (e.g. "Drone Intelligence Atlas."). */
+const isStubDescription = (d: string | undefined): boolean => !d || d.trim().length < 60;
+
+function playerSummary(p: { name: string; type_code: string; type: string; country: string | null; corridors: string[] | null }, edges: ReturnType<typeof relationshipsFor>): { intro: string; links: string } {
+  const noun = TYPE_NOUN[p.type_code] ?? p.type.toLowerCase();
+  const chains = (p.corridors ?? []).map((c) => corridorByCode(c)?.label).filter(Boolean) as string[];
+  // The record's country is where the entity is registered/headquartered; for an
+  // Indian arm of a foreign group that is the parent's country, so state it
+  // neutrally in brackets rather than claiming the entity is "based" there.
+  const indian = p.type_code !== 'country' && p.country === 'IN';
+  const foreign = p.type_code !== 'country' && p.country && p.country !== 'IN' ? ` (${countryName(p.country)})` : '';
+  const chainText = chains.length ? ` in India’s ${joinNames(chains, 4)} value chain${chains.length > 1 ? 's' : ''}` : ' in India’s industrial ecosystem';
+  const intro = `${p.name} is ${withArticle(`${indian ? 'Indian ' : ''}${noun}`)}${foreign} tracked by Techadyant Labs${chainText}.`;
+  const groups = new Map<string, string[]>();
+  for (const e of edges) {
+    const pair = SUMMARY_VERB[e.rel.type];
+    if (!pair) continue;
+    const verb = pair[e.dir === 'out' ? 0 : 1];
+    groups.set(verb, [...(groups.get(verb) ?? []), e.other]);
+  }
+  const parts = [...groups.entries()].sort((a, b) => b[1].length - a[1].length).slice(0, 3).map(([verb, names]) => `${verb} ${joinNames(names)}`);
+  const links = parts.length
+    ? `Among its ${edges.length} mapped relationship${edges.length === 1 ? '' : 's'}, it ${parts.join('; ')}.`
+    : '';
+  return { intro, links };
+}
+
 const PLAYER_SEO: Record<string, { title: string; description: string }> = {
   'irel-odisha-sand-complex-oscom-chhatrapur': {
     title: 'IREL OSCOM Odisha: Chhatrapur Plant & Mineral Products',
@@ -39,10 +107,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // generic words and truncated in the SERP, throttling CTR on page-1 entity queries.
   const ov = PLAYER_SEO[slug];
   const canonicalSlug = playerSlug(p.id);
-  const title = ov?.title || `${p.name} — profile, capabilities & India supply chain`;
+  // Type-aware and short: the old "— profile, capabilities & India supply chain"
+  // tail added 44 characters to every title and described technologies, schemes
+  // and standards as if they were companies.
+  const tail = ORG_TYPES.includes(p.type_code) ? 'India Supply Chain Profile'
+    : DEPENDENCY_TYPES.includes(p.type_code) ? 'India Import Dependency & Suppliers'
+    : p.type;
+  const longTitle = `${p.name} — ${tail}`;
+  const title = ov?.title || (longTitle.length <= 62 ? longTitle : p.name);
+  const summary = playerSummary(p, relationshipsFor(p.id));
   const descRaw = ov?.description || ((p.description && p.description.length >= 110)
     ? p.description
-    : `${p.name} (${p.type}) in India's industrial ecosystem: manufacturing footprint, capabilities, corridor links and key relationships.`);
+    : [isStubDescription(p.description) ? '' : p.description, summary.intro, summary.links].filter(Boolean).join(' '));
   const description = clampDesc(descRaw);
 
   return {
@@ -87,11 +163,13 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
   const edges = relationshipsFor(p.id);
   const corridors = (p.corridors ?? []);
   const isOrg = ['company', 'psu', 'jv', 'foreign_supplier', 'research_institution', 'industry_body', 'financial_institution'].includes(p.type_code);
+  const summary = playerSummary(p, edges);
+  const stub = isStubDescription(p.description);
 
   const orgLd = isOrg ? {
     '@context': 'https://schema.org', '@type': 'Organization',
     '@id': `${SITE}/research/players/${playerSlug(p.id)}/#org`,
-    name: p.name, description: p.description || undefined,
+    name: p.name, description: (stub ? [summary.intro, summary.links].filter(Boolean).join(' ') : p.description) || undefined,
     url: `${SITE}/research/players/${playerSlug(p.id)}/`,
     address: p.country ? { '@type': 'PostalAddress', addressCountry: p.country } : undefined,
     knowsAbout: corridors.map((code) => corridorByCode(code)?.label).filter(Boolean),
@@ -115,7 +193,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             <span className="ply-type">{p.type}</span>
             <span className={`ply-flag ${p.country === 'IN' ? 'dom' : 'frn'}`}>{p.country}</span>
           </div>
-          {p.description && <p className="lede" style={{ marginTop: 14 }}>{p.description}</p>}
+          {!stub && <p className="lede" style={{ marginTop: 14 }}>{p.description}</p>}
+          <p className={stub ? 'lede' : undefined} style={{ marginTop: 14 }}>{summary.intro}{summary.links ? ` ${summary.links}` : ''}</p>
           {playerSlug(p.id) === 'irel-odisha-sand-complex-oscom-chhatrapur' && (
             <p><Link href="/research/explainers/oscom-odisha/">What is OSCOM? Read its full form, location and mineral products.</Link></p>
           )}

@@ -15,26 +15,31 @@ export function loadCompanyDossier(
     ? entries.find((entry) => entry.vertical === vertical) ?? null
     : entries[0] ?? null;
   if (!entry) return null;
-  // Older military-company manifests used /military-aerospace/<slug>/,
-  // but the public route is /military-aerospace/company/<slug>/.
+  // Older company manifests used /research/<vertical>/<slug>/, but the public
+  // routes are /research/military-aerospace/company/<slug>/ and
+  // /research/space/company/<slug>/. The legacy path 404s, so a canonical
+  // pointing at it tells Google the only indexable copy does not exist.
+  // Applies to pointer dossiers too: they render at the /company/ route and
+  // must self-canonicalise rather than point at a dead URL.
   // Resolve metadata and structured data together without editing generated maps.
-  const legacyMilitaryCompany = entry.vertical === "military-aerospace"
-    && !entry.isPointer
+  const LEGACY_COMPANY_VERTICALS = ["military-aerospace", "space"];
+  const legacyCompanyPath = LEGACY_COMPANY_VERTICALS.includes(entry.vertical)
     && ["company", "manufacturer"].includes(entry.dossier.entity_type)
-    && /^\/research\/military-aerospace\/[^/]+\/$/.test(entry.path);
-  const canonicalPath = legacyMilitaryCompany
-    ? `/research/military-aerospace/company/${slug}/`
+    && new RegExp(`^/research/${entry.vertical}/[^/]+/$`).test(entry.path);
+  const hubPath = `/research/${entry.vertical}/`;
+  const canonicalPath = legacyCompanyPath
+    ? `${hubPath}company/${slug}/`
     : entry.path;
   const dossier = normaliseDossier(entry.dossier);
-  if (legacyMilitaryCompany) {
+  if (legacyCompanyPath) {
     dossier.seo = { ...dossier.seo, canonical_path: canonicalPath };
     dossier.header = { ...dossier.header, entity_path: canonicalPath };
     if (dossier.parent_hub_path === entry.path) {
-      dossier.parent_hub_path = "/research/military-aerospace/";
+      dossier.parent_hub_path = hubPath;
     }
     dossier.cta = {
       ...dossier.cta,
-      track_ecosystem: "/research/military-aerospace/",
+      track_ecosystem: hubPath,
     };
   }
   return {

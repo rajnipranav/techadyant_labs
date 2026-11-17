@@ -24,7 +24,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://labs.techadyant.com'),
   title: {
     default: 'Techadyant Labs — Strategic intelligence on India’s industrial systems',
-    template: '%s — Techadyant Labs',
+    // No brand suffix: Google already shows the site name above every result, and
+    // the 18-character suffix pushed 87% of page titles past the ~60-character
+    // truncation point (Nov 2026 audit). Pages that want the brand name it themselves.
+    template: '%s',
   },
   description:
     'Independent strategic intelligence on India’s industrial transformation, infrastructure systems, semiconductors, AI infrastructure and second-order economic change.',

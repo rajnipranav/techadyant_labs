@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { clampMeta } from '../../../../lib/seoText';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import platform from '../../../_platform.json';
@@ -27,13 +28,15 @@ export async function generateMetadata({ params }: { params: Promise<{ kind: str
   const { kind, slug } = await params;
   const e = find(kind, slug);
   if (!e) return {};
-  const desc = (e.description || `${e.name} — ${e.kind_label} in India's industrial systems.`).slice(0, 200);
+  const desc = clampMeta(e.description || `${e.name} — ${e.kind_label} in India's industrial systems.`);
   const url = `${SITE}/research/e/${kind}/${slug}/`;
   return {
     title: `${e.name} — ${e.kind_label}`,
     description: desc,
     alternates: { canonical: url },
-    openGraph: { title: e.name, description: desc, url, type: 'article', siteName: 'Techadyant Labs' },
+    // 144 of these pages shipped with no og:image, so shares rendered as bare links.
+    openGraph: { title: e.name, description: desc, url, type: 'article', siteName: 'Techadyant Labs', images: [{ url: '/og/default.png', width: 1200, height: 630, alt: e.name }] },
+    twitter: { card: 'summary_large_image', title: e.name, description: desc, images: ['/og/default.png'] },
   };
 }
 

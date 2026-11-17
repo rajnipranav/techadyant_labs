@@ -7858,6 +7858,146 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Technology Development Board (TDB-DST) committed ₹64.05 crore of RDI debt toward Astrome Technologies’ ₹128.11-crore space-based AI-ELINT project.', 'The programme finances the technology leap from TRL-4 (laboratory validation) to TRL-9 (space-proven operational capability).', 'The planned architecture combines 50 kg-class LEO microsatellites, wideband ELINT signal payloads, AI-driven edge/ground processing, and inter-satellite communication links.', 'The agreement parallels S-185’s ₹151-crore loan to ideaForge: both use the national RDI Fund to absorb high-risk development capex before formal armed forces procurement.', 'Space-based ELINT has historically been restricted to high-cost institutional platforms like EMISAT; the project tests whether private microsatellites can provide responsive electronic intelligence.', 'TDB’s debt backing does not constitute a defence purchase order, guaranteed launch manifest, or confirmed operational contract from the Defence Space Agency.'],
   sources: ['Ministry of Science & Technology / Press Information Bureau (12 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2334812&reg=3&lang=1', 'Department of Science & Technology / TDB (12 Nov 2026): https://tdb.gov.in/press-release/astrome-technologies-ai-elint-satellite-constellation', 'DD India (13 Nov 2026): https://ddindia.co.in/science-tech/tdb-funds-astrome-64-crore-ai-elint-constellation/']
+}, {
+  slug: 'nibe-suryastra-multi-range-rocket-launcher-trials-300km-2026',
+  no: 'S-198',
+  title: 'Suryastra’s 300 km Trial Is a Test Milestone—Not Yet a Fully Qualified Long-Range Fire System',
+  domain: 'Defence & Long-Range Fires',
+  date: '2026-11-17',
+  dateLabel: '17 Nov 2026',
+  status: 'live',
+  excerpt: 'Pune-based NIBE Limited is reported to have completed a fresh Suryastra Universal Rocket Launcher System firing series at Chandipur on 11 November, engaging reported distance brackets of 30, 50, 150 and 300 kilometres. The trial matters because it tests one launcher concept across a broad range envelope. But public evidence remains limited: the number of rockets, test conditions, separate accuracy results, formal qualification status and delivery schedule have not been disclosed. The right read is a reported validation step on a system with an Army procurement pathway—not proof of full operational induction.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'A new firing milestone on an already contracted system',
+  type: 'h'
+}, {
+  text: 'NIBE Limited is reported to have conducted a fresh series of Suryastra Universal Rocket Launcher System firing trials at the Integrated Test Range in Chandipur, Odisha, on 11 November 2026. The reported series covered 30, 50, 150 and 300 kilometre distance brackets.',
+  type: 'p'
+}, {
+  text: 'The event is distinct from the Indian Army’s reported January 2026 emergency-procurement contract with NIBE, valued at about ₹292.69 crore. That contract created a procurement pathway. The November firing series is a later test milestone. It does not, by itself, establish that all variants have completed qualification, that deliveries have begun or that the system is operationally inducted.',
+  type: 'p'
+}, {
+  note: 'A test-range claim, not a public declaration of operational availability',
+  type: 'stat',
+  label: 'Headline reported range',
+  value: '300 km'
+}, {
+  text: 'What the launcher is intended to do',
+  type: 'h'
+}, {
+  text: 'Suryastra is described as a universal, multi-calibre launcher: one platform intended to fire different rocket types across varying ranges. In principle, that architecture could give the Army a common mobile launcher for more than one conventional-fires mission instead of maintaining a separate launcher for every distance class.',
+  type: 'p'
+}, {
+  text: 'The practical benefit depends on more than maximum range. It depends on ammunition availability, fire-control integration, target-data quality, reload time, mobility, survivability after firing and the ability to sustain the system in field conditions. None of these parameters is disclosed in the latest public report.',
+  type: 'p'
+}, {
+  rows: [['Trial event', 'Fresh firing series at Chandipur on 11 November 2026', 'Official detailed test report, number of firings and test conditions'], ['Range envelope', '30, 50, 150 and 300 km brackets are reported', 'Separate performance and accuracy for every rocket and distance'], ['Accuracy', 'CEP below five metres is reported', 'Shot count, dispersal data, instrumentation and formal acceptance criteria'], ['Procurement', 'A January 2026 Army contract was reported at about ₹292.69 crore', 'Delivery schedule, quantity received, acceptance status and induction date'], ['Technology lineage', 'NIBE has a technology-collaboration relationship with Elbit Systems’ PULS architecture', 'Domestic content, intellectual-property transfer and Indian manufacture of ammunition components']],
+  type: 'table',
+  headers: ['Evidence layer', 'What is reported or established', 'What remains unverified']
+}, {
+  text: 'The made-in-India question is below the launcher',
+  type: 'h'
+}, {
+  text: 'The Suryastra programme is presented as an Indian-made launcher, but public reporting links it to NIBE’s July 2025 technology collaboration with Israel’s Elbit Systems and the PULS family. Local manufacture can still build domestic fabrication, integration and sustainment capacity. The strategic question is how much of the launcher, fire-control stack, rocket motors, guidance, electronics and ammunition supply chain is controlled and produced in India.',
+  type: 'p'
+}, {
+  text: 'The latest trial report does not disclose the domestic-content share of the tested system or the extent of technology transfer. That matters because a launcher assembled in India and a long-range fire system with Indian design and ammunition depth are different industrial outcomes.',
+  type: 'p'
+}, {
+  text: 'The accuracy claim needs careful reading',
+  type: 'h'
+}, {
+  text: 'The reported CEP of less than five metres should be treated as a statistical performance claim, not as a guarantee that every rocket landed within five metres. Circular error probable describes the radius within which half of a group of projectiles is expected to land. Without shot count, test conditions and separate results by range, the public figure cannot be independently assessed.',
+  type: 'p'
+}, {
+  text: 'Earlier reporting on Suryastra’s May demonstrations described 150-kilometre and 300-kilometre rockets meeting their objectives and cited lower CEP figures for those demonstrations. The November series therefore appears to be a further trial milestone, but public information does not establish whether the new result supersedes, repeats or formally qualifies those earlier demonstrations.',
+  type: 'p'
+}, {
+  text: 'Why the multi-range test matters',
+  type: 'h'
+}, {
+  text: 'A launcher that can use multiple rocket types could simplify parts of the Army’s long-range fires architecture. It could allow a common platform to be assigned different ammunition according to target distance and mission. That flexibility is valuable only if the system can reliably switch between ammunition types, maintain accuracy across the range envelope and operate within the Army’s command-and-control and logistics networks.',
+  type: 'p'
+}, {
+  text: 'The four reported brackets are therefore more significant than the 300-kilometre headline alone. They point to an attempt to validate a family-level launcher concept rather than a single maximum-range firing. But the evidence remains a reported trial result, not a published acceptance report.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'The next meaningful evidence would be an official test statement, formal user evaluation, acceptance or qualification certificate, delivery of contracted launchers and rockets, a disclosed quantity, or a demonstrated operational exercise. For industrial self-reliance, the important disclosures will be domestic content, rocket production, guidance and fire-control ownership, reload systems and support arrangements.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Suryastra’s reported Chandipur series is a credible signal of India’s private defence sector moving a long-range launcher through repeated test and procurement stages. It should not be inflated into an operational 300-kilometre capability before the Army publishes acceptance and delivery evidence. The strategic value will be determined by whether NIBE converts a launcher trial into a dependable, multi-range fires system with Indian control of the production and sustainment layers below the vehicle.',
+  type: 'p'
+}],
+  takeaways: ['NIBE Limited is reported to have conducted a fresh Suryastra launcher firing series at Chandipur on 11 November 2026.', 'The reported distance brackets were 30, 50, 150 and 300 kilometres, suggesting a multi-range launcher validation effort.', 'A reported CEP below five metres lacks public shot count, test-condition and range-specific data and should not be treated as independently verified system accuracy.', 'The November firing is a later test milestone than the reported January 2026 Army procurement contract; it is not proof of completed induction.', 'The Suryastra industrial question is how much launcher, fire-control, rocket and sustainment capability is Indian-controlled beneath the vehicle-level assembly claim.', 'The next decisive evidence is formal qualification, delivery, user evaluation, acceptance or operational deployment.'],
+  sources: ['Raksha Anirveda (16 Nov 2026): https://raksha-anirveda.com/suryastra-rocket-launcher-tests-to-300-km/', 'NIBE Limited (16 Nov 2026): https://www.instagram.com/reel/DfxKe6BzvVA/', 'Press Information Bureau (23 May 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2264604&reg=48&lang=1', 'The Hindu (3 Jan 2026): https://www.thehindu.com/news/national/army-to-procure-long-range-rocket-launchers-in-major-deal-backed-by-israeli-technology/article70468168.ece', 'NIBE Limited (17 Nov 2026): https://nibelimited.com/']
+}, {
+  slug: 'niti-aayog-texmin-critical-minerals-secondary-recovery-2026',
+  no: 'S-199',
+  title: 'NITI Aayog and TEXMiN Partner on Secondary Critical Mineral Extraction: Coal Fly Ash and Tailings Enter the Feedstock Strategy',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-11-17',
+  dateLabel: '17 Nov 2026',
+  status: 'live',
+  excerpt: 'NITI Aayog has signed a Joint Statement of Intent with TEXMiN at IIT (ISM) Dhanbad to establish a technology translation framework for recovering critical and strategic minerals from secondary sources. Coinciding with the CMRE 2026 symposium, the initiative moves India’s mineral security strategy beyond primary mine leasing toward industrial waste streams: coal fly ash, red mud, mine tailings, and e-waste. Following the black mass export ban (S-192) and the processing capex scheme (S-179), the partnership seeks to unlock domestic rare earths, scandium, and gallium without waiting for 7-to-10-year mining lease gestations.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'The shift from ore to waste streams',
+  type: 'h'
+}, {
+  text: 'NITI Aayog and TEXMiN (Technology Innovation in Exploration & Mining Foundation), a Technology Innovation Hub established at IIT (ISM) Dhanbad under the Department of Science and Technology, have signed a Joint Statement of Intent (SoI) to establish a joint framework for critical and strategic minerals. The agreement was finalized during the National Symposium on Critical Minerals and Rare Earths (CMRE 2026) in Dhanbad.',
+  type: 'p'
+}, {
+  text: 'The core thrust of the partnership is moving India’s mineral security framework beyond primary ore extraction. Rather than relying exclusively on auctioning greenfield mining leases, the initiative focuses on technology translation for recovering critical elements from industrial residues: thermal power coal fly ash, aluminium bauxite red mud, metallurgical tailings, and consumer e-waste.',
+  type: 'p'
+}, {
+  note: 'Estimated annual domestic generation of thermal power fly ash containing trace rare earths and strategic metals',
+  type: 'stat',
+  label: 'Annual fly ash feedstock base',
+  value: '270+ MT'
+}, {
+  text: 'Why primary mining alone creates a time bottleneck',
+  type: 'h'
+}, {
+  text: 'India’s mineral auction policy has been active, with over 100 critical and strategic mineral blocks offered across eight tranches. However, transforming a newly auctioned exploration licence (G4/G3) into an operational extraction mine typically requires 7 to 10 years of exploratory drilling, environmental approvals, land acquisition, and mine construction. Furthermore, as tracked in S-188, 36 out of 100 blocks went unsold due to commercial uncertainty.',
+  type: 'p'
+}, {
+  text: 'Secondary extraction sidesteps the geological gestation lag. Industrial waste piles already sit above ground, near existing transport and power logistics. Thermal power stations generate over 270 million tonnes of fly ash annually, while alumina refineries produce millions of tonnes of red mud. These stockpiles contain meaningful aggregate volumes of light and heavy rare earth elements (REEs), scandium, vanadium, and gallium, locked in fine particulates.',
+  type: 'p'
+}, {
+  rows: [['Coal fly ash', 'Rare Earth Elements (REE), Scandium, Gallium', 'Low concentration (ppm level) requiring bulk acid/alkali leaching'], ['Bauxite red mud', 'Scandium, Titanium, Vanadium, Rare Earths', 'High alkalinity and iron oxide separation costs'], ['Copper & zinc tailings', 'Cobalt, Nickel, Indium, Germanium', 'Fine grain separation and flotation recovery yields'], ['Electronic waste', 'Lithium, Cobalt, Nickel, Gold, Copper', 'Collection logistics and secondary black-mass refining (S-192)']],
+  type: 'table',
+  headers: ['Feedstock stream', 'Target critical minerals', 'Processing bottleneck']
+}, {
+  text: 'Connecting the policy stack',
+  type: 'h'
+}, {
+  text: 'The NITI Aayog–TEXMiN partnership does not operate in isolation; it slots into a rapidly converging four-part policy architecture: primary block auctions (S-188), state levy caps under MMDR 2026 to ensure processing economics (S-195), the DGFT export ban on black mass to prevent feedstock leakage (S-192), and the ₹2,814-crore processing capex subsidy scheme (S-179).',
+  type: 'p'
+}, {
+  text: 'TEXMiN’s mandate is to provide the engineering link between laboratory chemistry and commercial processing plants. The partnership covers four pillars: collaborative R&D, technical and techno-economic feasibility studies, policy inputs, and pilot-scale technology translation.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'S-199 addresses a harsh economic reality: India cannot win a global supply race solely through hard-rock mining when refining monopolies abroad control prices. Extracting strategic metals from industrial by-products offers an asymmetric route to domestic critical material security. However, recovering parts-per-million rare earths from alkaline red mud or fly ash is technically difficult and chemically intensive. The signal\'s long-term significance will depend on whether TEXMiN and industry partners can demonstrate hydrometallurgical yields that compete with primary imported oxides on a cost-per-kilogram basis.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the announcement of pilot-scale demonstration plants at major public utilities (such as NTPC fly ash sites or NALCO red mud facilities), techno-economic feasibility benchmarks for scandium and REE recovery, and whether secondary refiners qualify for the 30% capital subsidy under the Cabinet’s critical mineral processing scheme.',
+  type: 'p'
+}],
+  takeaways: ['NITI Aayog and TEXMiN (IIT (ISM) Dhanbad) signed a Statement of Intent to scale secondary critical-mineral extraction technologies.', 'The initiative shifts national strategy from a mine-centric approach to recovering strategic metals from coal fly ash, bauxite red mud, tailings, and e-waste.', 'India produces over 270 million tonnes of coal fly ash annually, holding trace concentrations of rare earths, scandium, and gallium that currently go unrecovered.', 'The agreement complements earlier policy layers: the ₹2,814-crore processing plant scheme (S-179), the black mass export ban (S-192), and the state mineral tax cap (S-195).', 'Secondary extraction bypasses lengthy 7-to-10-year mining lease exploration and environmental clearance cycles by utilizing existing industrial stockpiles.', 'The strategic test is hydrometallurgical cost: separating low-concentration rare earths from bulk industrial waste requires proven process yields before commercial viability.'],
+  sources: ['Press Information Bureau / NITI Aayog (16 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335894&reg=3&lang=1', 'IIT (ISM) Dhanbad / TEXMiN (16 Nov 2026): https://texmin.in/news/niti-aayog-texmin-soi-critical-minerals-2026', 'The Economic Times (17 Nov 2026): https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/niti-aayog-texmin-ink-pact-to-boost-critical-mineral-extraction-from-waste/articleshow/115389201.cms']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

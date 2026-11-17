@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { clampMeta } from '../../../lib/seoText';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { JsonLd, breadcrumb, faqLd, SITE } from '../../../research/seo';
@@ -19,7 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const p = productBySlug(slug);
   if (!p) return { title: 'Product' };
   const title = `${p.name} — India's import dependency, scored`;
-  const description = `${p.name}: India imports ${usd(p.import_usd_bn)} (mostly from ${p.top_source_country}); CMDI ${p.cmdi}, localisation potential ${p.lpi}. Why India imports it, who makes it, and whether it can be localised.`.slice(0, 250);
+  // Lead with the numbers people search for; keep inside the displayed snippet length.
+  const description = clampMeta(`${p.name}: India imports ${usd(p.import_usd_bn)} a year, mostly from ${p.top_source_country}. Dependency score ${p.cmdi}, localisation potential ${p.lpi} — who makes it and whether India can.`);
   const url = `${SITE}/dependencies/products/${p.product_id}/`;
   const ogImage = `/og/products/${p.product_id}.png`;
   return {

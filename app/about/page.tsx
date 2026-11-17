@@ -4,7 +4,8 @@ import { HeroCanvas } from '../components/HeroCanvas';
 import { IntroVideo } from '../components/IntroVideo';
 
 export const metadata: Metadata = {
-  title: 'About the platform',
+  title: 'About Techadyant Labs — Independent India Industrial Research',
+  alternates: { canonical: 'https://labs.techadyant.com/about/' },
   description:
     'Techadyant Labs is an independent strategic intelligence platform focused on India’s industrial transformation, infrastructure systems and emerging strategic technologies.',
 };
