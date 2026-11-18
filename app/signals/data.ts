@@ -7998,6 +7998,158 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['NITI Aayog and TEXMiN (IIT (ISM) Dhanbad) signed a Statement of Intent to scale secondary critical-mineral extraction technologies.', 'The initiative shifts national strategy from a mine-centric approach to recovering strategic metals from coal fly ash, bauxite red mud, tailings, and e-waste.', 'India produces over 270 million tonnes of coal fly ash annually, holding trace concentrations of rare earths, scandium, and gallium that currently go unrecovered.', 'The agreement complements earlier policy layers: the ₹2,814-crore processing plant scheme (S-179), the black mass export ban (S-192), and the state mineral tax cap (S-195).', 'Secondary extraction bypasses lengthy 7-to-10-year mining lease exploration and environmental clearance cycles by utilizing existing industrial stockpiles.', 'The strategic test is hydrometallurgical cost: separating low-concentration rare earths from bulk industrial waste requires proven process yields before commercial viability.'],
   sources: ['Press Information Bureau / NITI Aayog (16 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335894&reg=3&lang=1', 'IIT (ISM) Dhanbad / TEXMiN (16 Nov 2026): https://texmin.in/news/niti-aayog-texmin-soi-critical-minerals-2026', 'The Economic Times (17 Nov 2026): https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/niti-aayog-texmin-ink-pact-to-boost-critical-mineral-extraction-from-waste/articleshow/115389201.cms']
+}, {
+  slug: 'india-pax-silica-san-francisco-declaration-ai-supply-chains-2026',
+  no: 'S-200',
+  title: 'India Joins Pax Silica: The AI Supply-Chain Framework Now Needs an Industrial Test',
+  domain: 'AI, Semiconductors & Strategic Supply Chains',
+  date: '2026-11-18',
+  dateLabel: '18 Nov 2026',
+  status: 'live',
+  excerpt: 'India joined the United States and eight other governments in signing the San Francisco Declaration on 15 November under the US-led Pax Silica initiative. The declaration treats AI infrastructure, semiconductors, critical minerals, energy, ports, logistics and digital systems as one security-linked supply chain, and proposes five working groups to turn that common view into coordination. It does not create a binding procurement obligation, a technology-transfer guarantee or a new Indian funding programme. Its value will be measured by what follows: trusted industrial partnerships, resilient inputs and actual capacity built in India.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'A new definition of the AI supply chain',
+  type: 'h'
+}, {
+  text: 'India has signed the San Francisco Declaration on the Secure Foundations of Enduring Prosperity with the United States and eight other Pax Silica participants. The declaration was signed on 15 November 2026 at the Pax Silica Founders Retreat in San Francisco.',
+  type: 'p'
+}, {
+  text: 'Its central premise is that economic security and national security now depend on the same foundations. The text places sensitive technologies and critical infrastructure in one frame: semiconductor goods, software, materials, components, production equipment and know-how sit alongside ports, transport, communications, energy systems, ICT networks, logistics and digital platforms.',
+  type: 'p'
+}, {
+  note: 'The declaration names the United States, India, Australia, Israel, Japan, South Korea, Qatar, Singapore, the UAE and the United Kingdom',
+  type: 'stat',
+  label: 'Participating governments',
+  value: '10'
+}, {
+  text: 'What India has actually signed',
+  type: 'h'
+}, {
+  text: 'The document is a political declaration and common framework, not a procurement contract or a treaty that immediately transfers technology. It establishes a shared understanding of what needs protection and resolves to create working groups. It does not specify an Indian project, a guaranteed chip allocation, a critical-mineral purchase, a data-centre investment or a technology-transfer obligation.',
+  type: 'p'
+}, {
+  text: 'That distinction matters. The declaration can make coordination easier, but it cannot by itself create semiconductor process expertise, advanced packaging capacity, rare-earth separation, reliable power or high-performance computing. Those outcomes require commercial agreements, capital, engineering capability and implementation by the participating governments and companies.',
+  type: 'p'
+}, {
+  rows: [['Sensitive technologies', 'A shared category covering goods, software, materials, components, production means and know-how', 'Which Indian firms and facilities will receive trusted-partner access or protection?'], ['Critical infrastructure', 'Ports, transport, communications, energy, ICT, logistics and digital platforms are treated as strategic foundations', 'Can India make physical and digital infrastructure resilient enough for advanced manufacturing and AI compute?'], ['Supply-chain cooperation', 'A proposed group to coordinate across the AI or super-intelligence stack', 'Will cooperation become joint investment, sourcing arrangements or only information exchange?'], ['Secure industrial hubs', 'A proposed safe-harbour and supply-chain-security mechanism', 'Will trusted hubs bring new fabs, packaging, materials, data centres or only policy dialogue?'], ['Security and resilience', 'A proposed group on infrastructure resilience and protection from disruption or hostile control', 'What standards, exercises, incident-sharing and domestic safeguards will be implemented?']],
+  type: 'table',
+  headers: ['Framework element', 'What the declaration provides', 'Industrial question for India']
+}, {
+  text: 'The five working groups are the real test',
+  type: 'h'
+}, {
+  text: 'The declaration proposes five working groups: pro-innovation policy frameworks; AI adoption in key sectors; supply-chain cooperation across the AI stack; safe harbours and supply-chain-security hubs; and AI security and resilience. These groups are intended to carry the coalition’s common principles into common practice.',
+  type: 'p'
+}, {
+  text: 'For India, the supply-chain group is the most directly relevant to semiconductors and critical minerals. The industrial value will depend on whether it identifies specific bottlenecks and matches them with investors, equipment suppliers, technology partners, offtake agreements and financing. A list of shared vulnerabilities would be useful, but it would not be equivalent to new capacity.',
+  type: 'p'
+}, {
+  text: 'Where the framework meets India’s existing programmes',
+  type: 'h'
+}, {
+  text: 'India already has domestic programmes aimed at semiconductors, electronics, AI compute and critical minerals. The Semicon India programme and its newer 2.0 phase seek to extend capability beyond fabs into design, equipment and materials. IndiaAI is building access to compute and models. Critical-mineral auctions, processing incentives and recycling initiatives address upstream resource risk.',
+  type: 'p'
+}, {
+  text: 'Pax Silica could complement those efforts by connecting Indian programmes to trusted partners across the full stack. The benefit would be greatest where India has a capability gap but a credible industrial base: semiconductor design and packaging, specialty gases and materials, AI data-centre infrastructure, critical-mineral processing, recycling and secure logistics.',
+  type: 'p'
+}, {
+  text: 'Trusted supply chains are not the same as indigenous supply chains',
+  type: 'h'
+}, {
+  text: 'The declaration aims to reduce excessive dependencies through diversified and trusted supply chains. Diversification can improve resilience, but it does not automatically create Indian ownership of technology or production. Replacing a concentrated import with imports from several friendly countries may reduce geopolitical exposure while leaving India dependent on foreign process knowledge, equipment and materials.',
+  type: 'p'
+}, {
+  text: 'The Made by India test is therefore deeper than partner selection. It is whether Indian firms gain process control, design authority, manufacturing experience, qualified customers and the ability to maintain systems when supply conditions deteriorate. International cooperation is valuable when it accelerates those capabilities rather than only relocating final assembly.',
+  type: 'p'
+}, {
+  text: 'Critical minerals enter the AI-security conversation',
+  type: 'h'
+}, {
+  text: 'The declaration’s definition of the strategic stack reaches beyond chips. It includes the materials and means of production needed for advanced technology and the infrastructure required to operate it. That brings critical-mineral processing, rare-earth magnets, energy systems and transport networks into the same security conversation as AI hardware.',
+  type: 'p'
+}, {
+  text: 'This is strategically useful for India because semiconductor and AI policies can otherwise be treated as separate from mineral and energy constraints. But the declaration does not identify a mineral, processing plant, stockpile, investment or supply agreement. Those concrete milestones remain to be negotiated and verified.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'The first evidence of implementation should come from the working groups. Watch for named Indian companies, joint ventures, technology licences, trusted-hub locations, semiconductor-equipment access, critical-mineral recycling projects, AI-compute partnerships, secure data-centre standards and shared infrastructure-resilience exercises.',
+  type: 'p'
+}, {
+  text: 'A useful Indian scorecard would track new domestic capacity, the number of firms integrated into trusted supply chains, the share of local value addition, access to advanced equipment and materials, and whether partnerships survive commercial due diligence. Diplomatic participation is the input; industrial capability is the output.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'Pax Silica gives India a seat in a coalition treating AI, semiconductors, minerals, energy and logistics as one strategic system. That is a meaningful change in the frame. It is not yet a factory, a chip allocation or a technology-transfer agreement. The declaration becomes strategically valuable only when India converts its five working groups into specific industrial partnerships and uses trusted external access to deepen, rather than substitute for, domestic capability.',
+  type: 'p'
+}],
+  takeaways: ['India signed the San Francisco Declaration on 15 November 2026 with the United States and eight other Pax Silica participants.', 'The framework treats AI, semiconductor technologies, critical minerals, energy, ports, logistics and digital infrastructure as interconnected security foundations.', 'Five proposed working groups cover innovation policy, AI adoption, supply-chain cooperation, trusted industrial hubs and resilience.', 'The declaration is a political framework, not a binding procurement agreement or technology-transfer commitment.', 'India’s opportunity is to connect Pax Silica partners to concrete domestic needs in chip design, packaging, materials, compute, mineral processing and recycling.', 'The implementation test is whether the framework produces Indian process ownership and capacity, rather than only diversified imports or diplomatic coordination.'],
+  sources: ['U.S. Department of State (16 Nov 2026): https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity', 'Economic Times Government (17 Nov 2026): https://government.economictimes.indiatimes.com/news/digital-india/india-joins-us-led-ai-supply-chain-alliance-can-it-break-chinas-grip-on-ai-and-semiconductor-supply-chains/135907716', 'India Strategic (17 Nov 2026): https://www.indiastrategic.in/india-joins-us-led-pax-silica-pact-to-secure-ai-chain/', 'Techadyant Labs (18 Nov 2026): https://labs.techadyant.com/signals/indiaai-mission-gpu-compute-expansion/', 'Techadyant Labs (18 Nov 2026): https://labs.techadyant.com/signals/vendor-economy-behind-semiconductor-fabs/']
+}, {
+  slug: 'tdb-rdi-10-crore-neo-seekermetals-e-waste-battery-recycling-2026',
+  no: 'S-201',
+  title: 'TDB Backs Neo Seekermetals with Rs 10 Crore RDI Debt to Scale Battery and E-Waste Metal Extraction from TRL-5 to TRL-9',
+  domain: 'Critical Minerals & Materials',
+  date: '2026-11-18',
+  dateLabel: '18 Nov 2026',
+  status: 'live',
+  excerpt: 'The Technology Development Board (TDB-DST) has approved ₹10 crore in financial assistance under the RDI Fund toward a ₹20-crore commercialisation project by Hyderabad-based Neo Seekermetals. The project aims to transition an indigenous integrated recycling technology for lithium-ion batteries and e-waste from TRL-5 to TRL-9. Following the DGFT’s export prohibition on battery black mass (S-192) and NITI Aayog’s secondary extraction framework (S-199), the agreement finances the engineering scale-up needed to convert domestic scrap into refined critical minerals.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'The capital intervention',
+  type: 'h'
+}, {
+  text: 'The Technology Development Board (TDB), a statutory body under the Department of Science & Technology, has entered into an agreement with Hyderabad-based Neo Seekermetals Private Limited to support the commercial scaling of an indigenous recycling technology. TDB is providing ₹10 crore under the Research, Development and Innovation (RDI) Fund, financing exactly half of the ₹20-crore project.',
+  type: 'p'
+}, {
+  text: 'The support is structured as Optionally Convertible Debt (OCD), continuing a defined institutional pattern: using patient state-backed loan capital to bridge capital expenditure bottlenecks in high-technology manufacturing. TDB previously deployed this instrument for ideaForge’s heavy-lift drone development (S-185) and Astrome’s AI-ELINT satellite constellation (S-197). In this tranche, the funding targets chemical process engineering for secondary critical-mineral recovery.',
+  type: 'p'
+}, {
+  note: '50% co-funding of the ₹20-crore total project outlay to commercialize indigenous recycling technology',
+  type: 'stat',
+  label: 'TDB RDI loan support',
+  value: '₹10 Cr'
+}, {
+  text: 'Closing the loop on the black mass export ban',
+  type: 'h'
+}, {
+  text: 'The project directly operationalises India\'s recent trade-policy intervention in battery materials. On 10 November, the Directorate General of Foreign Trade (DGFT) amended the export policy for lithium-ion battery scrap and black mass from \'Free\' to \'Prohibited\' (covered in S-192). The policy intention was to prevent secondary feedstock containing lithium, cobalt, and nickel from leaving the country to feed overseas refiners.',
+  type: 'p'
+}, {
+  text: 'However, restricting black-mass exports only succeeds if domestic recyclers possess the chemical capability to refine raw shredded powder into high-purity chemical salts. Most Indian recyclers historically stopped at mechanical dismantling—shredding spent cells into black mass and shipping it abroad. Neo Seekermetals’ project aims to deploy an integrated hydrometallurgical circuit that refines mixed e-waste and battery black mass into individual, high-purity battery-grade compounds.',
+  type: 'p'
+}, {
+  rows: [['Feedstock retention', 'Unrefined black mass exported for overseas processing', 'Retained domestically under DGFT export prohibition (S-192)'], ['Recycling stage', 'Mechanical shredding and black-mass powder separation', 'Integrated hydrometallurgical extraction to refined metal salts'], ['Technology readiness', 'TRL-5 (demonstrated in pilot/relevant industrial environment)', 'TRL-9 (full commercial qualification and market deployment)'], ['Output materials', 'Mixed scrap / unseparated metal concentrate', 'Battery-grade lithium carbonate, cobalt sulfate, nickel sulfate'], ['Downstream linkage', 'Export dependence for refined cathode precursor chemicals', 'Direct domestic supply to CAM manufacturing units (S-183)']],
+  type: 'table',
+  headers: ['Value-chain tier', 'Pre-ban / Pre-funding status', 'Target commercial architecture']
+}, {
+  text: 'Bridging the TRL-5 to TRL-9 boundary',
+  type: 'h'
+}, {
+  text: 'The stated objective of the TDB-Seekermetals agreement is to advance the proprietary process from Technology Readiness Level 5 (validation in a relevant industrial environment) to TRL-9 (full commercial deployment and operational yield).',
+  type: 'p'
+}, {
+  text: 'Scaling hydrometallurgy involves complex chemical engineering: continuous leaching reactors, multi-stage solvent extraction (SX) batteries to separate chemically similar transition metals (nickel and cobalt), impurity scrubbing, and precipitation circuits for lithium salts. Financing these specialized reactor vessels and automated process controls is the primary hurdle for deep-tech recycling start-ups before reaching bankable commercial revenue.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h'
+}, {
+  text: 'S-201 reflects the practical execution layer of India\'s circular-mineral doctrine. Diplomatic coalitions like Pax Silica (S-200) highlight the geopolitical necessity of secure mineral supply chains, while domestic export bans (S-192) retain the physical scrap. But the actual bottleneck is chemical refining. A ₹10-crore RDI loan is a targeted catalyst; its strategic value will be proven if Neo Seekermetals can deliver battery-grade salts that meet the tight purity tolerances required by domestic cathode manufacturing units (such as those cleared under ECMS in S-183).',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h'
+}, {
+  text: 'Watch for the commissioning of the commercial-scale extraction facility in Telangana, verified daily processing capacity (measured in tonnes of battery scrap and e-waste per day), recovery yield percentages for lithium and cobalt, and the announcement of offtake agreements with Indian battery-cell manufacturers competing under the ACC PLI scheme (S-196).',
+  type: 'p'
+}],
+  takeaways: ['The Technology Development Board approved ₹10 crore of RDI debt toward Neo Seekermetals’ ₹20-crore critical metal extraction project.', 'The funding targets the commercial scaling of indigenous hydrometallurgical recycling, advancing the process from TRL-5 to TRL-9.', 'The facility focuses on recovering lithium, cobalt, nickel, and precious metals from lithium-ion battery waste and complex e-waste.', 'The agreement operationalises the domestic feedstock policy established by the DGFT’s recent export ban on battery black mass (S-192).', 'Like TDB’s loans to ideaForge (S-185) and Astrome (S-197), the government is using patient Optionally Convertible Debt to de-risk high-capex process engineering.', 'The commercial hurdle is purity and cost: secondary salts must achieve battery-grade certification to enter domestic cathode manufacturing (S-183).'],
+  sources: ['Ministry of Science & Technology / Press Information Bureau (16 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335688&reg=3&lang=1', 'Department of Science & Technology / TDB (16 Nov 2026): https://tdb.gov.in/press-release/neo-seekermetals-critical-minerals-rdi-fund', 'The Financial Express (17 Nov 2026): https://www.financialexpress.com/business/industry-tdb-funds-neo-seekermetals-rs-10-crore-for-e-waste-and-battery-recycling-tech/3667412/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
