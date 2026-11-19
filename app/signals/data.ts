@@ -8150,6 +8150,85 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Technology Development Board approved ₹10 crore of RDI debt toward Neo Seekermetals’ ₹20-crore critical metal extraction project.', 'The funding targets the commercial scaling of indigenous hydrometallurgical recycling, advancing the process from TRL-5 to TRL-9.', 'The facility focuses on recovering lithium, cobalt, nickel, and precious metals from lithium-ion battery waste and complex e-waste.', 'The agreement operationalises the domestic feedstock policy established by the DGFT’s recent export ban on battery black mass (S-192).', 'Like TDB’s loans to ideaForge (S-185) and Astrome (S-197), the government is using patient Optionally Convertible Debt to de-risk high-capex process engineering.', 'The commercial hurdle is purity and cost: secondary salts must achieve battery-grade certification to enter domestic cathode manufacturing (S-183).'],
   sources: ['Ministry of Science & Technology / Press Information Bureau (16 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335688&reg=3&lang=1', 'Department of Science & Technology / TDB (16 Nov 2026): https://tdb.gov.in/press-release/neo-seekermetals-critical-minerals-rdi-fund', 'The Financial Express (17 Nov 2026): https://www.financialexpress.com/business/industry-tdb-funds-neo-seekermetals-rs-10-crore-for-e-waste-and-battery-recycling-tech/3667412/']
+}, {
+  slug: 'india-navy-barak-point-defence-missile-upgrade-iai-1976-crore-2026',
+  no: 'S-202',
+  title: 'India’s Barak Upgrade Is an Availability Signal: Keeping Naval Air Defence Relevant as the System Ages',
+  domain: 'Defence & Naval Air Defence',
+  date: '2026-11-19',
+  dateLabel: '19 Nov 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Defence has signed a ₹1,976.40 crore contract with Israel Aerospace Industries to upgrade and manage obsolescence in the Barak Point Defence Missile System deployed aboard Indian Navy ships. The contract covers a comprehensive hardware and software upgrade under the Other Capital Procurement Procedure. This is not a new missile-battery acquisition or an indigenous replacement. It is a sustainment decision: India is extending the relevance of a shipboard air-defence layer while improving its features and engagement range, with the harder industrial question still being how much of the upgrade can be absorbed and supported domestically.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'A signed contract to keep an existing defence layer viable',
+  type: 'h2'
+}, {
+  text: 'The Ministry of Defence signed a ₹1,976.40 crore contract with Israel Aerospace Industries on 18 November 2026 for the upgradation and obsolescence management of the Barak Point Defence Missile System deployed aboard Indian Navy ships. The agreement was signed in New Delhi in the presence of Defence Secretary Rajesh Kumar Singh.',
+  type: 'p'
+}, {
+  text: 'The contract is being processed under the Other Capital Procurement Procedure. The official description says the upgrade will deliver enhanced features and a more potent range of anti-air defence capability for Indian naval platforms, through a comprehensive hardware and software upgrade.',
+  type: 'p'
+}, {
+  note: 'The value includes the reported upgrade and obsolescence-management scope; the release does not break out hardware, software or support costs',
+  type: 'stat',
+  label: 'Signed sustainment and upgrade contract',
+  value: '₹1,976.40 crore'
+}, {
+  text: 'Why obsolescence management is strategically important',
+  type: 'h2'
+}, {
+  text: 'A shipboard air-defence system is not only a missile in a launcher. It is a chain of sensors, command software, fire-control electronics, datalinks, launch equipment, maintenance tools and tested interceptors. When one component becomes obsolete, the operational problem can spread through the system even if the missile itself remains effective.',
+  type: 'p'
+}, {
+  text: 'Obsolescence management is therefore an availability decision. It is intended to keep a deployed system supportable, interoperable and useful against changing aerial threats. The Barak contract appears to address that layer rather than announce a new standalone missile acquisition.',
+  type: 'p'
+}, {
+  rows: [['Contract', '₹1,976.40 crore signed with Israel Aerospace Industries on 18 November', 'Payment profile, delivery schedule and contract duration'], ['System', 'Barak Point Defence Missile System aboard Indian Navy ships', 'Number and classes of ships covered'], ['Upgrade', 'Comprehensive hardware and software upgrade', 'Specific components, software baseline and new subsystem names'], ['Operational outcome', 'Enhanced features and stronger range anti-air defence capability are intended', 'Range increase, engagement envelope, test results and acceptance criteria'], ['Industrial content', 'A foreign OEM is the contracting partner', 'Indian workshare, local manufacturing, maintenance ownership and technology transfer']],
+  type: 'table',
+  headers: ['Layer', 'What is confirmed', 'What remains undisclosed']
+}, {
+  text: 'This is not a new air-defence shield',
+  type: 'h2'
+}, {
+  text: 'The public announcement should not be read as a new fleet-wide air-defence purchase. It does not disclose additional missiles, new launchers, ship quantities or a new naval platform. It describes an upgrade to a system already deployed on Indian Navy ships.',
+  type: 'p'
+}, {
+  text: 'That distinction does not make the contract minor. Naval air defence has to operate continuously in a constrained environment where a ship cannot easily replace a degraded subsystem at sea. Extending the system’s useful life and improving its engagement capability can protect the value of existing warships, radars, combat-management systems and training pipelines.',
+  type: 'p'
+}, {
+  text: 'The Indian industrial question sits in the support chain',
+  type: 'h2'
+}, {
+  text: 'The contract is with Israel Aerospace Industries, and the official release does not disclose an indigenous-content percentage or a transfer-of-technology arrangement. The Made by India test is therefore not whether the Navy buys from a foreign OEM. It is whether the upgrade creates Indian competence in integration, depot repair, software support, test equipment, electronic components and future obsolescence management.',
+  type: 'p'
+}, {
+  text: 'A foreign-led upgrade can still strengthen Indian capability if local shipyards, electronics firms and maintenance organisations gain repeatable authority over installation, diagnostics, spares and through-life support. Without those details, the contract should be treated as a capability-preservation decision, not proof of deeper domestic ownership.',
+  type: 'p'
+}, {
+  text: 'Why the range language needs restraint',
+  type: 'h2'
+}, {
+  text: 'The Ministry says the upgrade will provide a more potent range anti-air defence capability. Neither the official release nor the corroborating reports reviewed for this signal state a new maximum range, engagement envelope, interceptor variant or test date. The signal therefore does not assign a numerical range improvement.',
+  type: 'p'
+}, {
+  text: 'The material question will be whether the upgrade improves detection-to-engagement time, resistance to electronic attack, multi-target handling, interoperability with ship sensors and combat-management systems, and the reliability of the complete kill chain. Those are the performance dimensions to watch when acceptance data emerge.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h2'
+}, {
+  text: 'The next evidence should include the ships covered, the hardware and software baseline, installation and acceptance milestones, any new interceptor or launcher elements, Indian workshare, and the support model after the upgrade. A future firing or operational exercise would show whether the contract has moved from modernisation paperwork to tested fleet capability.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'The Barak contract is a reminder that strategic capability is often preserved through upgrades rather than announced through new platforms. India is spending to keep a naval air-defence layer relevant and supportable. The immediate result is capability continuity. The longer-term industrial result will depend on whether India gains control of the integration and sustainment layers instead of remaining dependent on an overseas prime whenever the next component becomes obsolete.',
+  type: 'p'
+}],
+  takeaways: ['The Ministry of Defence signed a ₹1,976.40 crore contract with Israel Aerospace Industries on 18 November 2026.', 'The contract covers comprehensive hardware and software upgrades and obsolescence management for the Barak Point Defence Missile System aboard Indian Navy ships.', 'The announcement is an upgrade and sustainment decision, not a new missile-battery acquisition or a disclosed indigenous replacement.', 'The official release does not disclose ship quantity, delivery schedule, new numerical range, interceptor variant or indigenous-content share.', 'The strategic value is preserving naval air-defence availability and improving the deployed system’s relevance against evolving aerial threats.', 'The Made by India test is whether Indian firms gain integration, depot repair, software, diagnostics and through-life-support capability from the contract.'],
+  sources: ['Press Information Bureau / Ministry of Defence (18 Nov 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2338016', 'The Hindu (18 Nov 2026): https://www.thehindu.com/news/national/mod-signs-1976-crore-contract-with-israel-to-upgrade-barak-missile-system/article71716628.ece', 'The New Indian Express (18 Nov 2026): https://www.newindianexpress.com/india/2026/Nov/18/mod-signs-rs-1976-crore-deal-with-israel-aerospace-industries-to-upgrade-navys-barak-surface-to-air-missile', 'Economic Times (18 Nov 2026): https://m.economictimes.com/news/defence/india-signs-rs-1976-crore-deal-with-israel-to-upgrade-navys-barak-missile-systems/articleshow/135963546.cms']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

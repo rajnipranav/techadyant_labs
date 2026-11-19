@@ -76,5 +76,6 @@ export const SIGNAL_TO_REPORTS: Record<string, string[]> = {
   'indian-army-orders-840-one-way-attack-drones-tata-nibe': ['india-loitering-munitions-market'],
   'divyastra-mk3-india-first-indigenous-jet-powered-loitering-munition': ['india-loitering-munitions-market'],
   'india-leases-two-mq-9b-seaguardian-indian-navy-indian-ocean-surveillance': ['indian-navy-autonomous-maritime'],
+  'india-navy-barak-point-defence-missile-upgrade-iai-1976-crore-2026': ['indian-navy-autonomous-maritime'],
   'indian-army-orders-indrajaal-ranger-mobile-counter-drone-system': ['india-battlefield-automation-gap'],
 };
