@@ -8229,6 +8229,85 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Ministry of Defence signed a ₹1,976.40 crore contract with Israel Aerospace Industries on 18 November 2026.', 'The contract covers comprehensive hardware and software upgrades and obsolescence management for the Barak Point Defence Missile System aboard Indian Navy ships.', 'The announcement is an upgrade and sustainment decision, not a new missile-battery acquisition or a disclosed indigenous replacement.', 'The official release does not disclose ship quantity, delivery schedule, new numerical range, interceptor variant or indigenous-content share.', 'The strategic value is preserving naval air-defence availability and improving the deployed system’s relevance against evolving aerial threats.', 'The Made by India test is whether Indian firms gain integration, depot repair, software, diagnostics and through-life-support capability from the contract.'],
   sources: ['Press Information Bureau / Ministry of Defence (18 Nov 2026): https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2338016', 'The Hindu (18 Nov 2026): https://www.thehindu.com/news/national/mod-signs-1976-crore-contract-with-israel-to-upgrade-barak-missile-system/article71716628.ece', 'The New Indian Express (18 Nov 2026): https://www.newindianexpress.com/india/2026/Nov/18/mod-signs-rs-1976-crore-deal-with-israel-aerospace-industries-to-upgrade-navys-barak-surface-to-air-missile', 'Economic Times (18 Nov 2026): https://m.economictimes.com/news/defence/india-signs-rs-1976-crore-deal-with-israel-to-upgrade-navys-barak-missile-systems/articleshow/135963546.cms']
+}, {
+  slug: 'india-japan-firing-ranges-live-fire-unicorn-design-make-in-india-2026',
+  no: 'S-203',
+  title: 'India–Japan Defence Ties Move from Range Talks to a Signed Live-Fire Framework',
+  domain: 'Defence, Naval Systems & Strategic Technology',
+  date: '2026-11-20',
+  dateLabel: '20 Nov 2026',
+  status: 'live',
+  excerpt: 'India and Japan have moved the use of Indian defence ranges from exploratory talks to a signed Letter of Intent. At the 19 November two-plus-two meeting in Tokyo, the ministers welcomed an arrangement under which Japan’s Self-Defence Forces would conduct live-fire training in India for the first time, including activity involving surface-to-ship missiles. The same meeting set an early-2027 target for India’s Acceptance of Necessity on Japan’s UNICORN naval antenna system and reaffirmed a ‘Design with Japan, Make in India’ framework. This is a material step-up from the earlier exploratory range discussions, but it is still an implementation framework rather than a completed firing schedule or production contract.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The status changed on 19 November',
+  type: 'h2'
+}, {
+  text: 'India and Japan have signed a Letter of Intent towards the utilisation of firing ranges in India. The announcement came from the fourth India–Japan 2+2 Foreign and Defence Ministerial Meeting in Tokyo, where India’s Defence Minister Rajnath Singh and External Affairs Minister S. Jaishankar met Japan’s Foreign Minister Toshimitsu Motegi and Defence Minister Shinjiro Koizumi.',
+  type: 'p'
+}, {
+  text: 'The joint statement says Japan Self-Defence Forces will, for the first time, conduct live-fire training at Indian firing ranges, including training involving surface-to-ship missiles. The two sides also agreed to accelerate coordination between their defence authorities towards early implementation.',
+  type: 'p'
+}, {
+  note: 'The statement describes the milestone; it does not yet disclose the range, date, missile type or exercise schedule',
+  type: 'stat',
+  label: 'Japanese Self-Defence Forces’ live-fire training in India',
+  value: 'First time'
+}, {
+  text: 'This is a material update, not a duplicate of the earlier range story',
+  type: 'h2'
+}, {
+  text: 'Techadyant’s S-173 recorded reports from late October that Japanese officials had explored Indian ranges for long-range missile and attack-drone training. That earlier signal explicitly recorded the talks as exploratory, with no Indian agreement, named range, schedule or confirmed arrangement.',
+  type: 'p'
+}, {
+  text: 'The 19 November development changes the status. A bilateral Letter of Intent has now been signed and welcomed by the ministers. The use of Indian ranges is no longer only a reported possibility. It remains short of a completed exercise because the public statement does not provide the range, dates, safety arrangements, costs or weapon-specific plan.',
+  type: 'p'
+}, {
+  rows: [['Status', 'Exploratory discussions and site visits', 'Signed Letter of Intent welcomed by both governments'], ['Indian government position', 'No Indian agreement had been reported', 'India and Japan jointly confirmed the range-utilisation framework'], ['Training', 'Possible long-range missile and attack-drone training', 'First Japanese live-fire training in India, including surface-to-ship missiles'], ['Implementation', 'No range, schedule or terms disclosed', 'Defence authorities instructed to accelerate coordination, but detailed schedule remains undisclosed'], ['Industrial cooperation', 'Not yet a ministerial milestone', '‘Design with Japan, Make in India’ reaffirmed alongside UNICORN and broader defence-technology cooperation']],
+  type: 'table',
+  headers: ['Layer', 'Earlier position in S-173', '19 November update']
+}, {
+  text: 'Indian ranges become part of the partnership’s operational infrastructure',
+  type: 'h2'
+}, {
+  text: 'The arrangement gives India a role beyond buying or selling defence equipment. Its ranges, safety systems, instrumentation, airspace coordination and range-management procedures could become part of a partner’s training and validation ecosystem. For Japan, the value is access to larger and safer training space for systems that are difficult to exercise domestically.',
+  type: 'p'
+}, {
+  text: 'For India, the strategic value depends on whether the arrangement produces repeatable range services, test-data competence and industrial partnerships. A single exercise would be a diplomatic milestone. A regular, governed range-access framework could become a defence-service capability, provided safety, scheduling, data rights and environmental controls are resolved.',
+  type: 'p'
+}, {
+  text: 'UNICORN is the industrial track running in parallel',
+  type: 'h2'
+}, {
+  text: 'The ministers expected early formulation of arrangements related to UNICORN and India’s Acceptance of Necessity by February 2027. UNICORN is associated with integrated antenna masts for Indian Navy warships. The ministers also reaffirmed defence-industrial cooperation under the ‘Design with Japan, Make in India’ framework.',
+  type: 'p'
+}, {
+  text: 'The statement does not say that a UNICORN production contract has been signed or that the system has entered Indian service. It sets a policy and acquisition milestone to be pursued. The key industrial question is whether the framework supports Indian integration, shipyard installation, maintenance and future design authority rather than only importing a finished mast.',
+  type: 'p'
+}, {
+  text: 'The partnership is widening across strategic technology',
+  type: 'h2'
+}, {
+  text: 'The 2+2 statement links the defence step to a broader economic-security and technology agenda. India and Japan said they would promote project-based cooperation in semiconductors, critical minerals, information and communication technology, clean energy and pharmaceuticals. They also reaffirmed cooperation on AI ecosystems, AI-enabled cybersecurity, space situational awareness, maritime domain awareness and resilient undersea cable networks.',
+  type: 'p'
+}, {
+  text: 'These are not all signed industrial projects. Most are areas of cooperation or mechanisms to be convened. The concrete milestones in this signal are the firing-range Letter of Intent and the target for India’s UNICORN Acceptance of Necessity. The wider list shows where the two governments intend to turn strategic alignment into projects.',
+  type: 'p'
+}, {
+  text: 'What remains to be confirmed',
+  type: 'h2'
+}, {
+  text: 'The public sources do not identify the Indian range, the surface-to-ship missile, the exercise date, the number of Japanese personnel, the cost model, the safety and environmental conditions, or the treatment of test data. They also do not disclose a UNICORN contract value, production schedule, Indian workshare or technology-transfer terms.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'India–Japan defence cooperation has crossed an important administrative threshold. S-173 described a possibility; S-203 records a signed framework for first-use live-fire training in India. The next test is execution: a named range, a scheduled exercise, a safe and repeatable operating model, and industrial workshare under ‘Design with Japan, Make in India’. Until those details emerge, the development is a credible strategic step-up, not yet a completed capability or production contract.',
+  type: 'p'
+}],
+  takeaways: ['India and Japan welcomed a signed Letter of Intent for Japan Self-Defence Forces to use Indian firing ranges.', 'The arrangement would allow Japan’s forces to conduct live-fire training in India for the first time, including surface-to-ship missile activity.', 'The ministers instructed defence authorities to accelerate coordination, but the range, date, missile type and operating terms remain undisclosed.', 'India’s Acceptance of Necessity for UNICORN-related arrangements is targeted for February 2027.', 'The two sides reaffirmed the ‘Design with Japan, Make in India’ framework for defence-industrial cooperation.', 'This is a material status change from S-173’s exploratory range talks, but not yet evidence of a completed exercise or UNICORN production contract.'],
+  sources: ['Press Information Bureau / Ministry of Defence (19 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338564', 'Japan Ministry of Defense (19 Nov 2026): https://www.mod.go.jp/en/article/2026/11/d9c0d66ca2caa24209a22a32c43f1e28f85d53ad.html', 'The Indian Express (19 Nov 2026): https://indianexpress.com/article/india/india-japan-22-dialogue-drills-indian-firing-ranges-rajnath-singh-jaishankar-shinjiro-koizumi-toshimitsu-motegi-10970647/', 'The Hindu (19 Nov 2026): https://www.thehindu.com/news/national/in-a-first-japanese-forces-will-use-indian-facilities-for-live-fire-training/article71721191.ece', 'Techadyant Labs (31 Oct 2026): https://labs.techadyant.com/signals/japan-explores-indian-test-ranges-long-range-missiles-attack-drones-2026/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
