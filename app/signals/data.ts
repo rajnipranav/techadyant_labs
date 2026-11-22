@@ -8308,6 +8308,134 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['India and Japan welcomed a signed Letter of Intent for Japan Self-Defence Forces to use Indian firing ranges.', 'The arrangement would allow Japan’s forces to conduct live-fire training in India for the first time, including surface-to-ship missile activity.', 'The ministers instructed defence authorities to accelerate coordination, but the range, date, missile type and operating terms remain undisclosed.', 'India’s Acceptance of Necessity for UNICORN-related arrangements is targeted for February 2027.', 'The two sides reaffirmed the ‘Design with Japan, Make in India’ framework for defence-industrial cooperation.', 'This is a material status change from S-173’s exploratory range talks, but not yet evidence of a completed exercise or UNICORN production contract.'],
   sources: ['Press Information Bureau / Ministry of Defence (19 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338564', 'Japan Ministry of Defense (19 Nov 2026): https://www.mod.go.jp/en/article/2026/11/d9c0d66ca2caa24209a22a32c43f1e28f85d53ad.html', 'The Indian Express (19 Nov 2026): https://indianexpress.com/article/india/india-japan-22-dialogue-drills-indian-firing-ranges-rajnath-singh-jaishankar-shinjiro-koizumi-toshimitsu-motegi-10970647/', 'The Hindu (19 Nov 2026): https://www.thehindu.com/news/national/in-a-first-japanese-forces-will-use-indian-facilities-for-live-fire-training/article71721191.ece', 'Techadyant Labs (31 Oct 2026): https://labs.techadyant.com/signals/japan-explores-indian-test-ranges-long-range-missiles-attack-drones-2026/']
+}, {
+  slug: 'ministry-of-mines-overseas-critical-minerals-investment-framework-kabil-2026',
+  no: 'S-204',
+  title: 'India Pivots Overseas Critical Mineral Strategy: Concept Paper Outlines Shift from Diplomatic MoUs to Bankable Project Delivery',
+  domain: 'Critical Minerals & Advanced Materials',
+  date: '2026-11-22',
+  dateLabel: '22 Nov 2026',
+  status: 'live',
+  excerpt: 'The Ministry of Mines has unveiled a policy and institutional concept paper titled \'Enabling Overseas Investment in Critical Minerals\', signaling an operational shift from exploratory diplomatic Memorandums of Understanding toward structured, bankable asset execution. Released during an industry interaction with FICCI on 20 November, the paper addresses the financing, sovereign de-risking, and off-take mechanisms needed for Khanij Bidesh India Ltd (KABIL) and domestic industrial consortia to secure lithium, cobalt, nickel, and rare-earth assets abroad. Following domestic auction relaxations, scrap export curbs, and secondary tailings extraction mandates, this framework acknowledges that India\'s clean-energy and semiconductor buildout cannot achieve resource security through domestic geology alone.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'A shift in register: Moving past the MoU era',
+  type: 'h2'
+}, {
+  text: 'On 20 November 2026, the Ministry of Mines, in collaboration with the Federation of Indian Chambers of Commerce and Industry (FICCI), unveiled a concept paper titled \'Enabling Overseas Investment in Critical Minerals: Policy, Financial and Institutional Framework for Securing India’s Critical Mineral Supply Chains\'. Speaking at the closed-door industry interaction in New Delhi, Mines Secretary Keshav Chandra explicitly articulated the objective: India must pivot from broad, non-binding government-to-government Memorandums of Understanding toward active, bankable project delivery.',
+  type: 'p'
+}, {
+  text: 'The launch marks an official recognition of a strategic bottleneck. Over the past three years, India signed diplomatic MoUs across Latin America, Australia, and Africa. However, translating exploratory goodwill into actual mineral shipments to Indian ports has been constrained by sovereign political risks, complex cross-border joint venture structuring, high cost of capital for mining development, and competing bids from Chinese state-backed conglomerates.',
+  type: 'p'
+}, {
+  note: 'The framework seeks to replace non-binding bilateral MoUs with funded equity participation, off-take agreements, and multi-lateral risk guarantees for overseas mining assets',
+  type: 'stat',
+  label: 'Operational pivot',
+  value: 'From diplomacy to equity'
+}, {
+  text: 'The institutional puzzle: Why KABIL needs private balance sheets',
+  type: 'h2'
+}, {
+  text: 'India’s primary overseas vehicle, Khanij Bidesh India Ltd (KABIL)—a joint venture of NALCO, HCL, and MECL—has made initial inroads, most notably its exploration pact for five lithium brine blocks in Argentina\'s Catamarca province. Yet KABIL\'s capital base remains constrained compared to global mining primes. Developing brine extraction and hard-rock lithium mining requires deep technical risk capital, hydrometallurgical processing access, and multi-year environmental permitting.',
+  type: 'p'
+}, {
+  text: 'The concept paper recommends establishing a blended-finance architecture that combines sovereign credit enhancements, Exim Bank project debt, and co-investment frameworks with domestic private industrial players—particularly battery gigafactory developers, electric vehicle manufacturers, and advanced electronics primes.',
+  type: 'p'
+}, {
+  rows: [['Asset Acquisition', 'Government-to-government bilateral MoUs and exploratory visits', 'Direct equity acquisition, commercial off-take rights, and joint consortia with private balance sheets'], ['Financing Architecture', 'Limited budgetary equity from PSUs (NALCO/HCL/MECL)', 'Blended finance models combining sovereign risk insurance, concessional EXIM debt, and commercial capital'], ['Processing & Refining', 'Assumed overseas raw concentrate would be toll-refined', 'Targeting integrated processing to avoid intermediary choke-points in third countries'], ['Domestic Linkage', 'Uncoordinated with downstream domestic battery PLI beneficiaries', 'Direct off-take pipelines feeding domestic cell manufacturing and semiconductor chemical plants']],
+  type: 'table',
+  headers: ['Strategic Dimension', 'Prior Diplomatic Posture', 'November 2026 Framework']
+}, {
+  text: 'How the overseas framework fits the wider critical minerals strategy',
+  type: 'h2'
+}, {
+  text: 'The overseas concept paper is the external counterpart to an aggressive domestic overhaul. Over the preceding fortnight, India restricted state-level mineral cess uncertainty through the MMDR Amendment Act 2026 (S-195), barred the export of unprocessed battery black mass to force domestic recycling (S-192), partnered NITI Aayog with TEXMiN to extract minerals from coal fly ash and mine tailings (S-199), and financed hydrometallurgical recycling through TDB debt (S-201).',
+  type: 'p'
+}, {
+  text: 'Secretary Chandra noted during the interaction that domestic reforms are also advancing: the Ministry has relaxed minimum bidder requirements for critical mineral block auctions to prevent cancellations and introduced automated Letters of Intent (LoIs). Furthermore, the Ministry urged the industry to accelerate extraction from industrial residues such as red mud generated during bauxite-to-alumina refining.',
+  type: 'p'
+}, {
+  text: 'The hard constraints that paper frameworks cannot resolve',
+  type: 'h2'
+}, {
+  text: 'While the concept paper provides a coherent policy blueprint, several critical operational hurdles remain unanswered. The public disclosure does not establish a dedicated sovereign wealth fund or a multi-billion dollar capital facility comparable to Japan\'s JOGMEC or South Korea\'s KORES. Without substantial sovereign risk-absorption capacity, private Indian miners will remain hesitant to commit large equity investments into jurisdictions with resource-nationalism risks or volatile legal regimes.',
+  type: 'p'
+}, {
+  text: 'Second, resource ownership without refining dominance solves only half the problem. If Indian firms acquire equity in overseas spodumene or nickel mines but lack domestic commercial-scale hydrometallurgical refineries, raw ores must still be shipped to third countries—predominantly China—for conversion into battery-grade chemical salts, preserving the precise supply-chain vulnerability the policy seeks to eliminate.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'The Ministry of Mines concept paper is a pragmatic admission that India\'s domestic geological endowments cannot alone support the 2030 targets for electric mobility, grid storage, and electronics manufacturing. Moving beyond performative MoUs is essential. However, the true test of this framework will not be another white paper or industry seminar. It will be measured by whether the Union Cabinet approves a capitalized sovereign overseas minerals fund, provides political risk guarantees for private consortia, and ties overseas off-take directly to domestic chemical refineries on Indian soil.',
+  type: 'p'
+}],
+  takeaways: ['The Ministry of Mines and FICCI launched a concept paper on 20 November 2026 titled \'Enabling Overseas Investment in Critical Minerals\'.', 'Mines Secretary Keshav Chandra articulated a deliberate policy shift from non-binding diplomatic MoUs to bankable project delivery.', 'The framework proposes blended-finance, sovereign credit guarantees, and joint PSU-private consortia to acquire foreign upstream mining assets.', 'The overseas push complements domestic auction relaxations (relaxed bidder thresholds, automated LoIs) and circular extraction initiatives like red mud utilization.', 'Without a capitalized sovereign mineral fund and domestic chemical-grade refining capacity, acquiring raw foreign mining equity will leave supply-chain vulnerabilities unresolved.'],
+  sources: ['Press Information Bureau / Ministry of Mines (20 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338914', 'Ministry of Mines (20 Nov 2026): https://mines.gov.in/webportal/content/enabling-overseas-investment-critical-minerals-framework', 'The Economic Times (21 Nov 2026): https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/india-eyes-overseas-critical-mineral-assets-mines-ministry-launches-framework-for-project-delivery/articleshow/136012845.cms', 'Techadyant Labs (17 Nov 2026): https://labs.techadyant.com/signals/niti-aayog-texmin-critical-minerals-secondary-recovery-2026/', 'Techadyant Labs (15 Nov 2026): https://labs.techadyant.com/signals/mmdr-amendment-act-2026-state-mineral-tax-cap-predictability/']
+}, {
+  slug: 'indian-navy-delivery-dsc-a21-titagarh-catamaran-diving-support-craft-2026',
+  no: 'S-205',
+  title: 'Indian Navy Takes Delivery of DSC A21: Catamaran Diving Support Craft Tests Private-Sector Auxiliary Shipbuilding',
+  domain: 'Defence, Naval Systems & Strategic Technology',
+  date: '2026-11-22',
+  dateLabel: '22 Nov 2026',
+  status: 'live',
+  excerpt: 'The Indian Navy officially took delivery of DSC A21 (Yard 326), the second of five specialized catamaran-hull Diving Support Craft being built by Kolkata-based private shipbuilder Titagarh Rail Systems Limited (TRSL), at the Naval Dockyard in Mumbai on 20 November 2026. Designed under Indian Register of Shipping rules with hydrodynamic hull-form validation by DRDO’s Naval Science and Technological Laboratory, the vessel achieves approximately 70% indigenous content. While the delivery reflects steady execution in private-sector naval auxiliary production, it also highlights the persistent gap between indigenous steel hull fabrication and imported specialized deep-sea diving life-support equipment.',
+  readingTime: '4 min read',
+  body: [{
+  text: 'Second hull of the five-craft diving support contract enters service',
+  type: 'h2'
+}, {
+  text: 'On 20 November 2026, the Indian Navy formally accepted delivery of DSC A21 (Yard 326) at the Naval Dockyard in Mumbai. The vessel is the second ship of a five-vessel Diving Support Craft project contracted to Kolkata-based private shipyard Titagarh Rail Systems Limited (TRSL) by the Ministry of Defence.',
+  type: 'p'
+}, {
+  text: 'Constructed under the naval survey rules of the Indian Register of Shipping (IRS), DSC A21 is designed with a displacement of roughly 300 to 400 tons and a catamaran (twin-hull) form. Its hydrodynamic hull geometry, resistance characteristics, and flow dynamics were tested and validated during the design phase at the Naval Science and Technological Laboratory (NSTL), DRDO’s specialized naval research facility in Visakhapatnam.',
+  type: 'p'
+}, {
+  note: 'The Ministry of Defence confirms that approximately 70% of main propulsion, structural steel, and auxiliary machinery was sourced from domestic suppliers',
+  type: 'stat',
+  label: 'Indigenous equipment content',
+  value: '~70%'
+}, {
+  text: 'Operational value: Availability and clearance diving at fleet bases',
+  type: 'h2'
+}, {
+  text: 'While front-line combatants such as guided-missile destroyers and stealth frigates capture public procurement attention, a navy’s operational availability depends fundamentally on auxiliary infrastructure. Modern warships require regular underwater hull inspection, sonar dome checks, propeller cleaning, sea-chest clearing, and in-port explosive ordnance inspection.',
+  type: 'p'
+}, {
+  text: 'DSC A21 is configured to serve the Navy’s Command Clearance Diving Teams (CCDTs). The catamaran hull form provides a wide beam and stable work deck, significantly reducing roll motions during delicate at-sea diving and hoist operations. The platform carries specialized diving air-supply consoles, underwater communication systems, and launch-and-recovery equipment to conduct coastal salvage and submarine search-and-rescue assistance in littoral environments.',
+  type: 'p'
+}, {
+  rows: [['Contract Scope', 'Five indigenous Diving Support Craft awarded to TRSL in 2021', 'DSC A21 represents ship #2 delivered; balance three hulls under construction'], ['Hull & Naval Architecture', 'Catamaran twin-hull form validated by DRDO-NSTL', 'Enlarged deck area and superior stability during diver deployment at anchor'], ['Indigenous Content', 'Approximately 70% by equipment value', 'Structural fabrication and general shipboard machinery are domestic'], ['Classification & Standards', 'Indian Register of Shipping (IRS) Naval Rules', 'Demonstrates commercial-to-naval standards adaptation in private yards'], ['Critical Subsystems', 'Diving gas management, comms, and salvage hoists', 'Advanced saturation diving decompression chambers remain foreign-sourced']],
+  type: 'table',
+  headers: ['Parameter', 'DSC Project Specification', 'Operational Reality']
+}, {
+  text: 'The industrial signal: Diversifying naval construction beyond DPSUs',
+  type: 'h2'
+}, {
+  text: 'The successful delivery of DSC A21 carries industrial significance beyond its immediate auxiliary role. Major defence public sector shipyards—Mazagon Dock Shipbuilders (MDL), Garden Reach Shipbuilders & Engineers (GRSE), and Cochin Shipyard Limited (CSL)—are operating near full capacity with major combatant orders (Project 17B, Project 15B follow-ons, Next-Gen Corvettes, and fleet tankers).',
+  type: 'p'
+}, {
+  text: 'Channeling auxiliary vessels, survey ships, pollution control craft, and diving tenders to private yards like Titagarh Rail Systems, Chowgule, and Shoft Shipyard helps broaden India\'s shipbuilding base. It allows non-DPSU yards to master naval design tolerances, military electrical cabling standards, shock compliance, and IRS naval certification regimes.',
+  type: 'p'
+}, {
+  text: 'The import dependency behind the deck gear',
+  type: 'h2'
+}, {
+  text: 'The ~70% indigenous content milestone is genuine for structural steel, hull piping, diesel gensets, and electrical switchboards. However, the remaining ~30% represents high-value, specialized technology. Deep-sea mixed-gas diving equipment, hyperbaric decompression chambers, remotely operated underwater vehicles (ROVs), and specialized clearance diver rebreathers continue to rely heavily on European and American suppliers.',
+  type: 'p'
+}, {
+  text: 'Until Indian precision engineering and medical technology firms develop certified hyperbaric life-support systems and mixed-gas regulation consoles, India’s diving support platforms will remain reliant on foreign suppliers for their primary operational mission payload.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'The delivery of DSC A21 is a quiet but solid operational milestone. It proves that private shipbuilders can deliver IRS-classed naval auxiliary platforms to the Indian Navy with high domestic material content. The next challenge is technological depth: converting private yards from builders of steel catamarans into systems integrators of indigenous underwater clearance and hyperbaric life-support technology.',
+  type: 'p'
+}],
+  takeaways: ['The Indian Navy took delivery of DSC A21 (Yard 326) at Naval Dockyard, Mumbai on 20 November 2026.', 'The vessel is the second of five catamaran-hull Diving Support Craft built by private shipbuilder Titagarh Rail Systems Limited (TRSL).', 'Designed under IRS naval rules with hydrodynamic hull testing by DRDO-NSTL, the platform achieves ~70% indigenous content.', 'DSC A21 enhances Command Clearance Diving Team (CCDT) operational capabilities for underwater hull maintenance, salvage, and coastal clearance.', 'While structural fabrication and auxiliary machinery are domestic, specialized hyperbaric and mixed-gas diving gear remains import-dependent.'],
+  sources: ['Press Information Bureau / Ministry of Defence (20 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338872', 'Ministry of Defence / Indian Navy (20 Nov 2026): https://indiannavy.nic.in/content/delivery-diving-support-craft-dsc-a21-naval-dockyard-mumbai', 'Titagarh Rail Systems Limited (20 Nov 2026): https://titagarh.com/media/press-releases/delivery-dsc-a21-yard-326-indian-navy', 'Raksha Anirveda (21 Nov 2026): https://raksha-anirveda.com/indian-navy-receives-indigenous-dsc-a21-from-titagarh/', 'Techadyant Labs (19 Nov 2026): https://labs.techadyant.com/signals/india-navy-barak-point-defence-missile-upgrade-iai-1976-crore-2026/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
