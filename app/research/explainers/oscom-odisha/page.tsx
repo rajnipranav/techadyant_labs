@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AtlasNav } from '../../AtlasNav';
 import { JsonLd, breadcrumb, SITE, ORG_REF } from '../../seo';
+import { OscomLocatorMap, OscomValueChain } from '../../OscomVisuals';
 
 export const metadata: Metadata = {
   title: 'OSCOM Odisha: Full Form, Location & IREL Plant Products',
@@ -115,6 +116,10 @@ export default function OscomOdishaPage() {
             </div>
           </div>
 
+          <div style={{ margin: '8px 0 24px' }}>
+            <OscomLocatorMap />
+          </div>
+
           <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>1. What is the full form of OSCOM?</h2>
           <p>
             IREL’s official name is <strong>Orissa Sands Complex (OSCOM)</strong>, a unit of <strong>IREL (India) Limited</strong> (formerly Indian Rare Earths Limited), a Central Public Sector Undertaking under the Department of Atomic Energy (DAE).
@@ -145,12 +150,16 @@ export default function OscomOdishaPage() {
             manufactures finished permanent magnets or individual high-purity rare-earth metals.
           </p>
 
+          <div style={{ margin: '28px 0' }}>
+            <OscomValueChain />
+          </div>
+
           <h2 style={{ fontSize: '1.5rem', marginTop: 32 }}>4. Related Atlas Research & Reports</h2>
           <p>
             To dive deeper into India’s critical minerals and rare earths supply chain, explore our dedicated intelligence resources:
           </p>
           <div style={{ display: 'grid', gap: 12, marginTop: 16 }}>
-            <Link href="/research/entities/irel-india-limited/" className="atlas-path" style={{ display: 'block' }}>
+            <Link href="/research/players/irel-india-limited/" className="atlas-path" style={{ display: 'block' }}>
               <strong>IREL (India) Limited Company Profile →</strong>
               <p style={{ margin: '4px 0 0 0', fontSize: '0.9rem', color: 'var(--fg-dim)' }}>Trace IREL’s corporate structure, facility locations, and mineral processing output.</p>
             </Link>

@@ -9,6 +9,9 @@ import { JsonLd, breadcrumb, SITE } from '../../seo';
 import { MicroFeedback } from '../../../components/MicroFeedback';
 import { RelatedReportsLinks, ENTITY_TO_REPORTS } from '../../report-links';
 import { PlayerIndustrialLinks } from '../../industrial/Backlinks';
+import { OscomLocatorMap, OscomValueChain } from '../../OscomVisuals';
+
+const OSCOM_SLUG = 'irel-odisha-sand-complex-oscom-chhatrapur';
 
 export function generateStaticParams() {
   const slugs = allPlayers.map((p) => ({ slug: playerSlug(p.id) }));
@@ -210,6 +213,36 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
           </div>
         </div>
       </header>
+
+      {playerSlug(p.id) === OSCOM_SLUG && (
+        <section className="wrap inner" style={{ paddingTop: 28, paddingBottom: 4 }}>
+          <style>{`.oscom-hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,0.95fr);gap:20px;align-items:start}.oscom-facts{border:1px solid var(--border);border-radius:12px;background:var(--surface);padding:20px}.oscom-facts dl{margin:0}.oscom-facts dt{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-dim);margin-bottom:2px}.oscom-facts dd{margin:0 0 12px;color:var(--text)}.oscom-facts dd:last-child{margin-bottom:0}@media (max-width:720px){.oscom-hero{grid-template-columns:1fr}}`}</style>
+          <div className="oscom-hero">
+            <OscomLocatorMap />
+            <div className="oscom-facts">
+              <h2 className="player-h2" style={{ marginTop: 0, marginBottom: 14, fontSize: '0.78rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--text-dim)' }}>OSCOM at a glance</h2>
+              <dl>
+                <dt>Operator</dt><dd>IREL (India) Limited — a Department of Atomic Energy public-sector undertaking</dd>
+                <dt>Location</dt><dd>Chhatrapur, Ganjam district, Odisha</dd>
+                <dt>Corridor</dt><dd>Critical Minerals</dd>
+                <dt>Feedstock</dt><dd>Beach heavy-mineral sand</dd>
+                <dt>Strategic output</dt><dd>Mixed rare-earth chloride (an intermediate)</dd>
+              </dl>
+            </div>
+          </div>
+
+          <div style={{ maxWidth: 820, marginTop: 28 }}>
+            <p className="lede" style={{ marginTop: 0 }}>The Odisha Sands Complex (OSCOM) is IREL (India) Limited’s largest mineral-sands operation, on the Bay of Bengal coast near Chhatrapur in Ganjam district. It dredges beach heavy-mineral sand and separates it into ilmenite, rutile, zircon, sillimanite, garnet and — the fraction that makes the site strategically important — monazite.</p>
+            <p>Monazite carries India’s light rare-earth elements (neodymium, praseodymium, lanthanum, cerium) together with thorium. Because thorium is radioactive, monazite processing is reserved under the Atomic Energy Act for state undertakings, which is why OSCOM anchors India’s domestic rare-earth and atomic-minerals chain rather than sitting as one plant among many.</p>
+            <p>What OSCOM’s Rare Earth Extraction Plant yields is mixed rare-earth chloride — an intermediate, not finished magnets or high-purity individual metals. Separating that concentrate into single oxides, reducing it to NdPr metal and sintering NdFeB magnets are the higher-value steps downstream, and the ones India is only now building out under its 2025–26 magnet programme. Reading OSCOM as a finished-magnet source overstates how far the domestic chain currently reaches.</p>
+            <p>The diagram below traces that route and marks the gap. For OSCOM’s full product list, location and primary sources, see the <Link href="/research/explainers/oscom-odisha/">OSCOM explainer</Link>.</p>
+          </div>
+
+          <div style={{ marginTop: 24 }}>
+            <OscomValueChain />
+          </div>
+        </section>
+      )}
 
       <section className="wrap-narrow">
         {edges.length > 0 ? (
