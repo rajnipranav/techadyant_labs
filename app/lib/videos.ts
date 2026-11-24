@@ -27,6 +27,54 @@ const SITE = 'https://labs.techadyant.com';
 
 export const VIDEOS: ResearchVideoEntry[] = [
   {
+    id: 'TYWId8h_zI0',
+    slug: '10-technologies-india-cannot-afford-to-depend-on',
+    title: '10 Technologies India Cannot Afford to Depend on Others For',
+    description:
+      'India is building capabilities across semiconductors, aerospace, energy, quantum, defence and advanced manufacturing, but building a system is not the same as controlling every critical technology inside it. Ten technology layers, from chip-making tools and rare-earth magnets to aero engines, sonar and machine tools, tested against the evidence.',
+    localThumb: '/video/10-technologies-india-cannot-afford-to-depend-on.jpg',
+    uploadDate: '2026-11-24',
+    duration: 'PT16M5S',
+    durationSec: 965,
+    durationLabel: '16 min',
+    chapters: [
+      { t: 0, label: 'Opening and the claim' },
+      { t: 61, label: 'Exhibit A: Chip-making tools' },
+      { t: 140, label: 'Exhibit B: Rare-earth magnets' },
+      { t: 223, label: 'Exhibit C: Aero engines' },
+      { t: 319, label: 'Exhibit D: Infrared detectors' },
+      { t: 387, label: 'Exhibit E: Quantum technologies' },
+      { t: 451, label: 'Exhibit F: Laser weapons' },
+      { t: 515, label: 'Exhibit G: Propulsion' },
+      { t: 592, label: 'Exhibit H: Battery cells' },
+      { t: 654, label: 'Exhibit I: Sonar' },
+      { t: 723, label: 'Exhibit J: Machine tools' },
+      { t: 810, label: 'Evidence that does not fit' },
+      { t: 864, label: 'Our read' },
+      { t: 896, label: 'What would change the verdict' },
+      { t: 919, label: 'Back to the opening question' },
+      { t: 941, label: 'Close' },
+    ],
+    takeaways: [
+      'Ten technology layers where India’s capability, manufacturing depth, qualification capacity and design authority are uneven: chip-making tools, rare-earth magnets, aero engines, infrared detectors, quantum, laser weapons, propulsion, battery cells, sonar and machine tools.',
+      'The distinction that matters is between research, prototypes, testing, manufacturing, qualification, scale and control of the underlying supply chain.',
+      'The argument is not that India has no capability; it is that building a system is not the same as controlling every technology inside it.',
+      'The free report and a companion Excel data workbook carry the full evidence behind each layer.'
+    ],
+    placements: [
+      {
+        type: 'report',
+        slug: '10-technologies-india-cannot-afford-to-depend-on',
+        heading: '10 Technologies India Cannot Afford to Depend on Others For',
+        note: 'The full 74-page report behind the video, free to read, with a companion Excel data workbook.',
+        related: {
+          label: 'Read: 10 Technologies India Cannot Afford to Depend on Others For',
+          href: '/reports/10-technologies-india-cannot-afford-to-depend-on/'
+        }
+      }
+    ],
+  },
+  {
     id: 'OVhdiEwsLCY',
     slug: 'india-semiconductor-reality-check-2026',
     title: 'India Makes Chips Now. So Why Are the Wafers Still Imported?',

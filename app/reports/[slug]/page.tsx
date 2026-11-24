@@ -56,6 +56,7 @@ import { ReportContent as StrategicWeaponsContent, toc as strategicWeaponsToc } 
 import { ReportContent as ElectronicWarfareContent, toc as electronicWarfareToc } from '../content/india-electronic-warfare-market-2026-2035';
 import { ReportContent as ElectronicChemicalsContent, toc as electronicChemicalsToc } from '../content/india-electronic-grade-chemicals-2026-2035';
 import { ReportContent as GoverningLogisticsContent, toc as governingLogisticsToc } from '../content/governing-logistics-s3-logic';
+import { ReportContent as TenTechContent, toc as tenTechToc } from '../content/10-technologies-india-cannot-afford-to-depend-on';
 import { ReportContent as MagnetGapContent, toc as magnetGapToc } from '../content/closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035';
 import { ReportContent as BessContent, toc as bessToc } from '../content/india-grid-scale-bess-supply-chain-2026-2035';
 
@@ -104,6 +105,7 @@ const registry: Record<string, ReportModule> = {
   'india-electronic-warfare-market-2026-2035': { toc: electronicWarfareToc, Content: ElectronicWarfareContent },
   'india-electronic-grade-chemicals-2026-2035': { toc: electronicChemicalsToc, Content: ElectronicChemicalsContent },
   'governing-logistics-s3-logic': { toc: governingLogisticsToc, Content: GoverningLogisticsContent },
+  '10-technologies-india-cannot-afford-to-depend-on': { toc: tenTechToc, Content: TenTechContent },
   'closing-the-magnet-gap-india-rare-earth-ecosystem-2026-2035': { toc: magnetGapToc, Content: MagnetGapContent },
   'india-grid-scale-bess-supply-chain-2026-2035': { toc: bessToc, Content: BessContent },
 };
@@ -351,8 +353,10 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
   if (meta.preview_object && !meta.seo?.externalPublication) whatsInside.push('Free condensed preview edition');
 
   // Report + Data tier (CMS: has_data / price_with_data). Present only when the report ships a data pack.
-  const hasData = Boolean((meta as any).has_data ?? (meta as any).hasData);
-  const dataPriceRaw = (meta as any).price_with_data ?? (meta as any).priceWithData;
+  // FREE reports sell only their Excel workbook, priced by `workbookPrice`; paid reports use the Report + Data tier.
+  const workbookPrice = meta.access === 'free' ? (Number((meta as any).workbookPrice ?? (meta as any).workbook_price ?? 0) || 0) : 0;
+  const hasData = meta.access === 'free' ? workbookPrice > 0 : Boolean((meta as any).has_data ?? (meta as any).hasData);
+  const dataPriceRaw = meta.access === 'free' ? (workbookPrice || undefined) : ((meta as any).price_with_data ?? (meta as any).priceWithData);
   const dataPriceLabel = dataPriceRaw ? `₹${Number(dataPriceRaw).toLocaleString('en-IN')}` : undefined;
   if (hasData) whatsInside.push('Optional data pack — the full underlying dataset (Excel)');
 

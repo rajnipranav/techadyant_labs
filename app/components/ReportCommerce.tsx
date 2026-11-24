@@ -20,7 +20,7 @@ function loadRazorpay(): Promise<boolean> {
   });
 }
 
-type Tier = 'report' | 'report_plus_data';
+type Tier = 'report' | 'report_plus_data' | 'data_only';
 const DATA_TIERS = ['report_plus_data', 'data_only', 'bundle'];
 
 interface CommerceCtx {
@@ -57,7 +57,18 @@ export function ReportCommerceProvider({
   const [message, setMessage] = useState<CommerceCtx['message']>(null);
 
   const refresh = useCallback(async () => {
-    if (access === 'free') { setEntitled(true); setChecking(false); return; }
+    if (access === 'free') {
+      // Free report: always readable. Its Excel workbook (if sold separately) is a data entitlement.
+      setEntitled(true); setChecking(false);
+      const sb = getSupabase();
+      if (hasData && sb && user) {
+        const { data: wb } = await sb
+          .from('entitlements').select('id,tier').eq('user_id', user.id).eq('report_slug', slug).limit(1);
+        const wrow = wb && wb.length ? wb[0] : null;
+        setDataEntitled(Boolean(wrow && DATA_TIERS.includes((wrow as any).tier)));
+      } else { setDataEntitled(false); }
+      return;
+    }
     const supabase = getSupabase();
     if (!supabase || !user) { setEntitled(false); setDataEntitled(false); setChecking(false); return; }
     setChecking(true);
@@ -67,7 +78,7 @@ export function ReportCommerceProvider({
     setEntitled(Boolean(row));
     setDataEntitled(Boolean(row && DATA_TIERS.includes((row as any).tier)));
     setChecking(false);
-  }, [access, slug, user]);
+  }, [access, slug, user, hasData]);
 
   useEffect(() => { refresh(); }, [refresh]);
 
@@ -114,7 +125,7 @@ export function ReportCommerceProvider({
     setBusy(true); setMessage(null);
     try {
       const headers: Record<string, string> = {};
-      if (access === 'paid' && accessToken) headers.Authorization = `Bearer ${accessToken}`;
+      if (accessToken) headers.Authorization = `Bearer ${accessToken}`;
       const res = await fetch(`/api/download?report=${encodeURIComponent(slug)}&asset=data`, { headers });
       let data: any = null;
       try { data = await res.json(); } catch {}
@@ -170,7 +181,7 @@ export function ReportCommerceProvider({
           });
           if (v.ok) {
             setEntitled(true);
-            if (tier === 'report_plus_data') setDataEntitled(true);
+            if (tier === 'report_plus_data' || tier === 'data_only') setDataEntitled(true);
             setMessage({ kind: 'success', text: 'Payment confirmed — your report is unlocked.' });
             // GA4 ecommerce conversion. order.amount is in paise → rupees.
             try {
@@ -184,7 +195,7 @@ export function ReportCommerceProvider({
                   items: [{
                     item_id: slug,
                     item_name: order.reportTitle || title,
-                    item_category: tier === 'report_plus_data' ? 'Report + Data' : 'Report',
+                    item_category: tier === 'report_plus_data' ? 'Report + Data' : tier === 'data_only' ? 'Data workbook' : 'Report',
                     price: value,
                     quantity: 1,
                   }],
@@ -203,7 +214,7 @@ export function ReportCommerceProvider({
           const value = (Number(order.amount) || 0) / 100;
           g('event', 'begin_checkout', {
             value, currency: order.currency || 'INR',
-            items: [{ item_id: slug, item_name: order.reportTitle || title, item_category: tier === 'report_plus_data' ? 'Report + Data' : 'Report', price: value, quantity: 1 }],
+            items: [{ item_id: slug, item_name: order.reportTitle || title, item_category: tier === 'report_plus_data' ? 'Report + Data' : tier === 'data_only' ? 'Data workbook' : 'Report', price: value, quantity: 1 }],
           });
         }
       } catch {}

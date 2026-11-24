@@ -182,7 +182,9 @@ export async function onRequestGet({ request, env }) {
     }
 
     // ── Paid: auth + entitlement (Supabase), then presigned R2 URL ──
-    if (entry.access === 'paid') {
+    // Free report whose Excel workbook is sold separately: the workbook (asset=data) needs sign-in + entitlement.
+    const freeWorkbook = entry.access === 'free' && url.searchParams.get('asset') === 'data' && Boolean(entry.dataObject);
+    if (entry.access === 'paid' || freeWorkbook) {
       const auth = request.headers.get('authorization') || '';
       const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
       if (!token) return json(401, { error: 'auth_required', message: 'Please sign in to download this report.' });

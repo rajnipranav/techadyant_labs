@@ -52,6 +52,27 @@ export function ReportAccess({ pages, readingTime, previewObject, previewPages, 
         ) : (
           <p className="ra-fine">The PDF is being prepared.</p>
         )}
+        {hasData ? (
+          <div className="ra-preview">
+            {dataEntitled ? (
+              <button className="btn-ed btn-ed-primary ra-btn" onClick={() => downloadData()} disabled={busy}>
+                {busy ? 'Preparing…' : 'Download the Excel workbook'} <span className="arr">↓</span>
+              </button>
+            ) : (
+              <button className="btn-ed btn-ed-primary ra-btn" onClick={() => purchase('data_only')} disabled={busy}>
+                {busy ? 'Opening checkout…' : `Excel data workbook${dataPriceLabel ? ` — ${dataPriceLabel}` : ''}`} <span className="arr">→</span>
+              </button>
+            )}
+            <p className="ra-fine ra-preview-fine">
+              {dataEntitled
+                ? 'You own the workbook · lifetime access.'
+                : 'The report is free. The workbook adds the full underlying dataset behind it (Excel) — figures, scores and sources. One-time purchase · lifetime access · Razorpay. Digital product, non-refundable once downloaded.'}
+            </p>
+            {message && (
+              <p className={`ra-msg ${message.kind === 'error' ? 'ra-msg-error' : ''}`} role="status">{message.text}</p>
+            )}
+          </div>
+        ) : null}
       </div>
     );
   }

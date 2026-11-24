@@ -123,6 +123,17 @@ export const REPORTS = {
     dataObject: 'data/India-Lunar-Economy.xlsx',
     dataFilename: 'India-Lunar-Economy-Data-Pack-Techadyant-Labs.xlsx',
   },
+  '10-technologies-india-cannot-afford-to-depend-on': {
+    access: 'free',
+    publicBucket: true,
+    object: 'free reports/Techadyant-10-Technologies-India-Cannot-Afford-to-Depend-On.pdf',
+    filename: 'Techadyant-10-Technologies-India-Cannot-Afford-to-Depend-On.pdf',
+    title: '10 Technologies India Cannot Afford to Depend on Others For',
+    // Free report + paid Excel workbook (private bucket). Workbook-only sale.
+    dataObject: 'data/10-technologies-india-cannot-afford-to-depend-on.xlsx',
+    dataFilename: 'Techadyant-10-Technologies-Data-Workbook.xlsx',
+    dataOnlyPriceInr: 4999,
+  },
   'q-day-india': {
     access: 'free',
     publicBucket: true,

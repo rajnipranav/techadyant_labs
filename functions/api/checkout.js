@@ -22,18 +22,21 @@ export async function onRequestPost(context) {
     try { body = await request.json(); } catch { return json(400, { error: 'bad_request', message: 'Bad request.' }); }
     const slug = body?.report;
     const entry = slug && REPORTS[slug];
-    if (!entry || entry.access !== 'paid' || !entry.priceInr) {
+    // A FREE report may still sell its Excel workbook on its own (tier 'data_only').
+    const wantsWorkbookOnly = body?.tier === 'data_only';
+    const workbookSale = Boolean(entry && entry.access === 'free' && wantsWorkbookOnly && entry.dataObject && entry.dataOnlyPriceInr);
+    if (!workbookSale && (!entry || entry.access !== 'paid' || !entry.priceInr)) {
       return json(404, { error: 'not_purchasable', message: 'This report is not purchasable.' });
     }
 
     // Tier selection. Only the report / report+data tiers are offered here; the
     // data tier requires the report to actually have a data pack + a data price.
-    const wantsData = body?.tier === 'report_plus_data';
+    const wantsData = !workbookSale && body?.tier === 'report_plus_data';
     if (wantsData && (!entry.dataObject || !entry.priceWithDataInr)) {
       return json(400, { error: 'no_data_tier', message: 'This report has no data pack.' });
     }
-    const tier = wantsData ? 'report_plus_data' : 'report';
-    const priceInr = wantsData ? entry.priceWithDataInr : entry.priceInr;
+    const tier = workbookSale ? 'data_only' : wantsData ? 'report_plus_data' : 'report';
+    const priceInr = workbookSale ? entry.dataOnlyPriceInr : wantsData ? entry.priceWithDataInr : entry.priceInr;
     const amountPaise = priceInr * 100;
     // Razorpay receipt must be <= 40 chars. Report + user live in `notes`.
     const receipt = `r_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
