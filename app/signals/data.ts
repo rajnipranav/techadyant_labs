@@ -8436,6 +8436,85 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['The Indian Navy took delivery of DSC A21 (Yard 326) at Naval Dockyard, Mumbai on 20 November 2026.', 'The vessel is the second of five catamaran-hull Diving Support Craft built by private shipbuilder Titagarh Rail Systems Limited (TRSL).', 'Designed under IRS naval rules with hydrodynamic hull testing by DRDO-NSTL, the platform achieves ~70% indigenous content.', 'DSC A21 enhances Command Clearance Diving Team (CCDT) operational capabilities for underwater hull maintenance, salvage, and coastal clearance.', 'While structural fabrication and auxiliary machinery are domestic, specialized hyperbaric and mixed-gas diving gear remains import-dependent.'],
   sources: ['Press Information Bureau / Ministry of Defence (20 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2338872', 'Ministry of Defence / Indian Navy (20 Nov 2026): https://indiannavy.nic.in/content/delivery-diving-support-craft-dsc-a21-naval-dockyard-mumbai', 'Titagarh Rail Systems Limited (20 Nov 2026): https://titagarh.com/media/press-releases/delivery-dsc-a21-yard-326-indian-navy', 'Raksha Anirveda (21 Nov 2026): https://raksha-anirveda.com/indian-navy-receives-indigenous-dsc-a21-from-titagarh/', 'Techadyant Labs (19 Nov 2026): https://labs.techadyant.com/signals/india-navy-barak-point-defence-missile-upgrade-iai-1976-crore-2026/']
+}, {
+  slug: 'adani-defence-bagheera-at1-anti-tank-missile-pokhran-trials-2026',
+  no: 'S-206',
+  title: 'Bagheera AT1: Adani’s Private-Sector Anti-Tank System Reaches Live-Fire Evaluation',
+  domain: 'Defence & Land Systems',
+  date: '2026-11-24',
+  dateLabel: '24 Nov 2026',
+  status: 'live',
+  excerpt: 'Adani Defence & Aerospace has demonstrated Bagheera AT1, a vehicle-mounted anti-tank guided missile system, at Pokhran in a No Cost No Commitment evaluation witnessed by senior Army, Department of Military Affairs and Ministry of Defence representatives. Four missiles were fired across day and night engagements, a two-missile tandem sequence against an armoured-vehicle target and an extended-range aerial-target engagement. The result is a real system-validation milestone. It is not yet an Army order, an induction or proof of performance beyond the company’s reported demonstration claims.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'A private anti-tank system enters the evaluation lane',
+  type: 'h2'
+}, {
+  text: 'Adani Defence & Aerospace demonstrated Bagheera AT1 at the Pokhran Field Firing Ranges in Rajasthan on 20 November 2026. The event was conducted under a No Cost No Commitment framework and was witnessed by senior representatives of the Indian Army, the Department of Military Affairs and the Ministry of Defence.',
+  type: 'p'
+}, {
+  text: 'The company reported four missile firings covering day and night engagements, a two-missile tandem firing along a single laser beam against a target representing an armoured vehicle, and an engagement against an aerial target at extended range. A static display of the complete system followed.',
+  type: 'p'
+}, {
+  note: 'The event tested multiple engagement modes; it was not reported as a user trial or procurement acceptance',
+  type: 'stat',
+  label: 'Reported in the Pokhran demonstration',
+  value: '4 missiles'
+}, {
+  text: 'What Bagheera AT1 is designed to be',
+  type: 'h2'
+}, {
+  text: 'Bagheera AT1 combines a missile, automated launcher and day-and-night sights mounted on an Adani Defence-designed 4×4 high-mobility armoured vehicle. The company says the complete system was developed and customised for Indian terrain, climate and operational requirements over 18 months.',
+  type: 'p'
+}, {
+  text: 'Adani describes an anti-armour engagement range of up to 8 kilometres. It separately says the wider missile architecture can support guided engagements of up to 10 kilometres. These are company claims and refer to different descriptions of the architecture; the signal keeps the 8-kilometre figure for the named Bagheera AT1 anti-armour role and does not treat the 10-kilometre statement as a demonstrated system range.',
+  type: 'p'
+}, {
+  rows: [['Platform', 'Adani-designed 4×4 high-mobility armoured vehicle with automated launcher', 'Mobility performance, protection level and field-maintenance burden'], ['Missile guidance', 'Laser beam-riding guidance is claimed, with high resistance to electronic jamming', 'Independent electronic-warfare testing and performance under contested conditions'], ['Anti-armour engagement', 'Two-missile tandem firing against a representative armoured-vehicle target', 'Defeat of a real active-protection system, armour penetration and repeatability'], ['Sights and tracking', 'Day television and thermal-imaging sights with automated target tracking are claimed', 'Sensor specifications, identification range and night-weather performance'], ['Firepower', 'Four ready-to-fire missiles and eight reloads are claimed per vehicle', 'Reload time, crew requirement, logistics and sustained-fire performance'], ['Acquisition', 'NCNC demonstration witnessed by government and military representatives', 'Army selection, contract, quantity, induction and delivery schedule']],
+  type: 'table',
+  headers: ['System layer', 'What the demonstration or company release establishes', 'What remains unverified']
+}, {
+  text: 'Tandem firing is the important systems claim',
+  type: 'h2'
+}, {
+  text: 'The demonstration’s most consequential feature is not simply the number of missiles fired. Adani says two missiles can be launched in quick succession along the same beam. The first is intended to engage a tank’s active-protection system, while the second is intended to penetrate the target’s defences.',
+  type: 'p'
+}, {
+  text: 'That is a systems problem involving seeker or guidance behaviour, launcher timing, beam control, target tracking and the target’s defensive response. The Pokhran event demonstrates that the firing sequence was attempted against a representative target. It does not independently establish active-protection defeat in a live combat-representative test.',
+  type: 'p'
+}, {
+  text: 'The aerial-target claim broadens the concept, not yet the mission set',
+  type: 'h2'
+}, {
+  text: 'The company also reported an extended-range engagement against an aerial target. This suggests an effort to give the vehicle a broader battlefield role than conventional anti-armour work, but the available sources do not identify the aerial target, altitude, speed, range, seeker mode or hit criteria.',
+  type: 'p'
+}, {
+  text: 'The signal therefore records the aerial engagement as a demonstrated test activity, not as proof that Bagheera AT1 is an operational air-defence system. The evidence is not sufficient to compare it with dedicated counter-UAS or short-range air-defence systems.',
+  type: 'p'
+}, {
+  text: 'Why the private-sector milestone matters',
+  type: 'h2'
+}, {
+  text: 'India’s land-based anti-tank inventory has historically relied on a mix of imported and licensed systems alongside domestic production and integration. A private Indian company developing the missile, launcher, sights and vehicle as a complete combat system addresses a different industrial problem from assembling a single component.',
+  type: 'p'
+}, {
+  text: 'The industrial value will be determined by what happens after the demonstration. A user evaluation, independent test data, repeat production, seeker and guidance qualification, warhead validation, maintainability trials and a procurement decision would convert a promising system demonstration into a defence capability. None of those later milestones has been announced yet.',
+  type: 'p'
+}, {
+  text: 'What to watch next',
+  type: 'h2'
+}, {
+  text: 'The next useful evidence is a formal Army evaluation, a stated test objective and result set, repeat firing under varied conditions, independent confirmation of the 8-kilometre anti-armour performance, and a procurement or development contract. The supply chain also matters: guidance electronics, thermal sights, actuators, warhead production and vehicle integration will determine how much of the system is genuinely controlled and supportable in India.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'Bagheera AT1 marks a shift from a private company showing a subsystem to showing a complete vehicle-mounted combat system in a live-fire environment. That is the meaningful milestone. It remains an evaluation result, not an induction order. The strategic test is whether the Pokhran demonstration leads to independently assessed performance, repeatable manufacturing and an Indian support chain capable of sustaining the system in the field.',
+  type: 'p'
+}],
+  takeaways: ['Adani Defence & Aerospace demonstrated Bagheera AT1 at Pokhran on 20 November 2026 under a No Cost No Commitment framework.', 'The company reported four missile firings across day/night, tandem anti-armour and extended-range aerial-target engagements.', 'Bagheera AT1 combines a missile, automated launcher, day/night sights and a 4×4 high-mobility armoured vehicle.', 'Adani states an anti-armour engagement range of up to 8 kilometres and laser beam-riding guidance; these remain company-reported claims.', 'The tandem sequence is intended to defeat an armoured vehicle’s active-protection system, but the demonstration did not establish combat-representative APS defeat.', 'No Army order, induction, quantity or delivery schedule has been announced; the milestone is system evaluation, not procurement.'],
+  sources: ['Adani Defence & Aerospace (21 Nov 2026): https://www.adani.com/newsroom/media-releases/adani-defence-successfully-fires-four-anti-tank-missiles-in-pokhran-test-range', 'The Hindu (21 Nov 2026): https://www.thehindu.com/news/national/adani-defence-fires-four-anti-tank-missiles-in-pokhran-test-range/article71728171.ece', 'Jane’s (23 Nov 2026): https://www.janes.com/defence-intelligence-insights/defence-news/defence/adani-demonstrates-bagheera-anti-tank-system', 'Raksha Anirveda (22 Nov 2026): https://raksha-anirveda.com/adani-defence-tests-bagheera-at1-missile-system-at-pokhran/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {

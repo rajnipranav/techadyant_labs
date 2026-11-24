@@ -65,6 +65,57 @@ export const reports: ReportMeta[] = [{
 
 }
 }, {
+  slug: '10-technologies-india-cannot-afford-to-depend-on',
+  title: '10 Technologies India Cannot Afford to Depend on Others For',
+  subtitle: 'An independent assessment of the industrial stack beneath India’s most critical technology domains — free report, with a companion Excel data workbook',
+  domain: 'Strategic Technology',
+  edition: 'Free Edition · November 2026',
+  published: '2026-11-24',
+  publishedLabel: 'November 2026',
+  readingTime: '~ 90 min read',
+  status: 'published',
+  summary: 'India\'s strategic technology challenge is not a list of imported products; it is the depth of the industrial stack beneath them. Policy targets and announced investments are strong signals, but they are not outcomes. This free 74-page report assesses ten technology domains where India depends on others, with a companion Excel data workbook.',
+  accent: '#38E1C4',
+  access: 'free',
+  price: undefined,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 74,
+  cover: '/covers/10-technologies-india-cannot-afford-to-depend-on.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Techadyant-10-Technologies-India-Cannot-Afford-to-Depend-On.pdf',
+  previewPages: 74,
+  hasData: true,
+  priceWithData: undefined,
+  dataFilename: 'Techadyant-10-Technologies-Data-Workbook.xlsx',
+  keywords: ['India critical technologies', 'technology dependence India', 'industrial capability', 'rare earth magnets', 'semiconductor fabs', 'ACC battery', 'machine tools', 'aero engines', 'Semicon 2.0', 'strategic technology India'],
+  faq: [{
+  a: 'In FY2024-25, China accounted for 81.3% of India\'s metallic permanent-magnet imports by value and 90.4% by quantity (HS 85051190). This represents a sharp increase from 70.9% by value in FY2022-23.',
+  q: 'What is India\'s import dependence on rare-earth permanent magnets?'
+}, {
+  a: 'As of 30 June 2026, only 1.4 GWh of cell capacity has been commissioned against a 50 GWh programme target. This represents 2.8% of the target and belongs to a single beneficiary.',
+  q: 'How much ACC battery capacity is actually commissioned in India?'
+}, {
+  a: 'The Semicon 2.0 outlay is ₹1,27,500 crore (approved July 2026). The National Quantum Mission has an approved outlay of ₹6,003.65 crore for the period 2023-24 to 2030-31, funding four thematic hubs.',
+  q: 'What is the total outlay for India\'s semiconductor and quantum missions?'
+}, {
+  a: 'Not established from public evidence. Current capability consists of licensed manufacture and overhaul (e.g., AL-31FP), while indigenous design (e.g., Kaveri) remains in the testing phase without full flight qualification data disclosed.',
+  q: 'Does India have indigenous design authority for fighter aero engines?'
+}, {
+  a: 'Imports represent approximately 59.4% of domestic consumption by value in FY2025-26. While domestic production is broad, high-end segments like five-axis machining and CNC controls show probable import dependence.',
+  q: 'What percentage of machine tools does India import?'
+}],
+  sources: [],
+  dateModified: '2026-11-24',
+  seo: {
+  entities: ['Techadyant Labs', 'India', 'Semicon 2.0', 'ACC PLI', 'REPM scheme'],
+  metaTitle: '10 Technologies India Cannot Afford to Depend on Others For | Techadyant Labs',
+  schemaType: 'Report',
+  focusKeyword: 'technologies India cannot afford to depend on others for',
+  workbookPrice: 4999,
+  metaDescription: 'Free 74-page report on 10 strategic technology domains where India depends on others: capability assessments, programme pipelines and evidence. Excel data workbook available.'
+}
+}, {
   slug: 'india-industrial-machine-vision',
   title: 'Industrial Machine Vision in India',
   subtitle: 'The automated eye of Indian manufacturing',
@@ -1031,6 +1082,56 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'India’s green-hydrogen industrial reality — the NGHM and SIGHT money, electrolyser manufacturing, iridium/platinum catalysts, PFSA membranes, LCOH, and three 2035 scenarios (Mirage, Muddle, Machine).'
 }
 }, {
+  slug: 'beyond-solar-panels',
+  title: 'Beyond Solar Panels',
+  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
+  domain: 'Solar & Clean-Energy Manufacturing',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-08-02',
+  publishedLabel: 'August 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty — with an investment-intelligence playbook. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
+  accent: '#E8A33D',
+  access: 'paid',
+  price: 6999,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 144,
+  cover: '/covers/beyond-solar-panels.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
+  previewPages: 22,
+  hasData: true,
+  priceWithData: 9999,
+  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
+  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
+  faq: [{
+  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker. The report maps that hidden industrial stack.',
+  q: 'Why does India need to look beyond solar panels?'
+}, {
+  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity. India’s dependence is deepest in the upstream layers — polysilicon, wafers, cells and production equipment.',
+  q: 'How dependent is India on China for solar manufacturing?'
+}, {
+  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.',
+  q: 'What is India’s installed solar capacity and 2030 target?'
+}, {
+  a: 'The report ranks industrial opportunity surfaces across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells, and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.',
+  q: 'Where are the biggest industrial opportunities in solar manufacturing?'
+}, {
+  a: 'The edition uses the latest official releases — MNRE physical-progress data to 30 June 2026, the ALMM manufacturing-capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.',
+  q: 'How current are the figures in this report?'
+}],
+  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
+  dateModified: '2026-08-02',
+  seo: {
+  entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
+  metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
+  schemaType: 'Report',
+  focusKeyword: 'india solar manufacturing',
+  metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
+}
+}, {
   slug: 'indian-navy-autonomous-maritime',
   title: 'The Indian Navy’s Autonomous Maritime Transformation 2026–2035',
   subtitle: 'Platforms are downstream of ecosystems. What industrial substrate must India build to field an autonomous fleet — and who captures the ₹1.2 lakh crore market beneath USVs, UUVs, XLUUVs and naval UAVs?',
@@ -1080,56 +1181,6 @@ export const reports: ReportMeta[] = [{
   focusKeyword: 'india naval autonomous systems market',
   metaDescription: 'India’s naval autonomous transformation to 2035 — fleet forecasts, the industrial substrate constraints, 58 opportunity surfaces and a ₹1.2 lakh crore market across USVs, UUVs, XLUUVs and naval UAVs.',
   related_reports: ['beyond-sea-drones-india-autonomous-maritime-systems', 'indias-unmanned-warfare-transformation', 'iaf-autonomous-air-power']
-}
-}, {
-  slug: 'beyond-solar-panels',
-  title: 'Beyond Solar Panels',
-  subtitle: 'India built the world’s largest solar-deployment machine — but value and vulnerability live upstream of the panel. Mapping the hidden industrial stack: polysilicon, wafers, cells, glass, gases, chemicals and manufacturing equipment.',
-  domain: 'Solar & Clean-Energy Manufacturing',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-08-02',
-  publishedLabel: 'August 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'India has built one of the world’s largest solar-deployment machines — 162.15 GW of installed solar capacity by 30 June 2026 (MNRE), against a 2030 objective of 280 GW of solar within 500 GW of non-fossil capacity. But deployment has outrun manufacturing depth. This report reframes the question away from module assembly toward the industrial system beneath it: capability inverts value across the stack — India is strongest downstream in modules (~172 GW of ALMM-listed capacity) and materially weaker upstream in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and production equipment, where China holds roughly 85% of solar supply-chain capacity and about 95% of wafer capacity (IEA 2026). Across thirteen chapters it maps the manufacturing stack, the hidden material and equipment foundations, localisation economics, the industrial opportunity surfaces, state-level clusters, technology transitions and a roadmap to solar-manufacturing sovereignty — with an investment-intelligence playbook. Fifty-three tables, twenty-two figures and seven appendices; a companion data workbook is available with the data tier.',
-  accent: '#E8A33D',
-  access: 'paid',
-  price: 6999,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 144,
-  cover: '/covers/beyond-solar-panels.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/Beyond-Solar-Panels-Indian-Industrial-Intelligence-Free.pdf',
-  previewPages: 22,
-  hasData: true,
-  priceWithData: 9999,
-  dataFilename: 'Beyond-Solar-Panels-Data-Pack-Techadyant-Labs.xlsx',
-  keywords: ['india solar manufacturing', 'solar polysilicon india', 'solar wafer manufacturing india', 'india solar cell manufacturing', 'solar manufacturing equipment india', 'ALMM india', 'solar PLI india', 'solar supply chain china dependence', 'solar glass india', 'india solar sovereignty', 'solar manufacturing opportunity india', 'beyond solar panels'],
-  faq: [{
-  a: 'India’s module-assembly base has scaled fast (~172 GW of ALMM-listed capacity), but the value and the vulnerability sit upstream — in cells, wafers, polysilicon, specialty chemicals, industrial gases, solar glass and manufacturing equipment, where domestic depth is materially weaker. The report maps that hidden industrial stack.',
-  q: 'Why does India need to look beyond solar panels?'
-}, {
-  a: 'Structurally. The IEA’s 2026 estimates place China at roughly 85% of solar supply-chain production capacity and about 95% of PV wafer capacity. India’s dependence is deepest in the upstream layers — polysilicon, wafers, cells and production equipment.',
-  q: 'How dependent is India on China for solar manufacturing?'
-}, {
-  a: 'India had 162.15 GW of installed solar capacity as at 30 June 2026 (MNRE). The national 2030 objective is 280 GW of solar within 500 GW of non-fossil capacity.',
-  q: 'What is India’s installed solar capacity and 2030 target?'
-}, {
-  a: 'The report ranks industrial opportunity surfaces across the stack — upstream materials (polysilicon, wafers, specialty chemicals, industrial gases, solar glass), cells, and manufacturing equipment — with localisation economics, state-level clusters and an investment-intelligence playbook.',
-  q: 'Where are the biggest industrial opportunities in solar manufacturing?'
-}, {
-  a: 'The edition uses the latest official releases — MNRE physical-progress data to 30 June 2026, the ALMM manufacturing-capacity update, the PLI tranche outlays (Tranche I ₹4,500 crore / 8,737 MW; Tranche II ₹19,500 crore / 39,600 MW) and the 2025 BCD/AIDC duty structure. Modelled value-share figures are labelled as Techadyant Labs illustrative models.',
-  q: 'How current are the figures in this report?'
-}],
-  sources: ['MNRE physical-progress data (30 June 2026)', 'PIB / Government of India releases on ALMM and PLI', 'IEA 2026 solar supply-chain estimates', 'Techadyant Labs analysis'],
-  dateModified: '2026-08-02',
-  seo: {
-  entities: ['solar manufacturing', 'polysilicon', 'solar wafer', 'solar cell', 'ALMM', 'PLI', 'solar glass', 'IEA', 'MNRE', 'photovoltaics'],
-  metaTitle: 'Beyond Solar Panels: India’s Solar Manufacturing Stack & Opportunity (2026)',
-  schemaType: 'Report',
-  focusKeyword: 'india solar manufacturing',
-  metaDescription: 'India’s solar manufacturing beyond module assembly — polysilicon, wafers, cells, glass, equipment. Localisation economics, China dependence, opportunity surfaces and a roadmap to solar-manufacturing sovereignty.'
 }
 }, {
   slug: 'q-day-india',
@@ -1840,56 +1891,6 @@ export const reports: ReportMeta[] = [{
   metaDescription: 'Around 90% of small-drone flight controllers come from China. The market, the silicon, and how India builds a trusted flight-controller and drone-electronics stack.'
 }
 }, {
-  slug: 'india-drone-sensors-payloads-imaging-market',
-  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
-  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
-  domain: 'Defence & Dual-Use',
-  edition: 'Strategic Opportunity · Edition 1 · v1.0',
-  published: '2026-06-16',
-  publishedLabel: 'June 2026',
-  readingTime: '~ 2h read',
-  status: 'published',
-  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
-  accent: '#2BC5B4',
-  access: 'paid',
-  price: 4900,
-  currency: 'INR',
-  hasPdf: true,
-  hasDeck: false,
-  pages: 143,
-  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
-  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
-  previewPages: 6,
-  hasData: false,
-  priceWithData: undefined,
-  dataFilename: undefined,
-  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
-  faq: [{
-  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
-  q: 'How big is India’s drone sensors and payloads market?'
-}, {
-  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
-  q: 'How dependent is India on imported drone sensors?'
-}, {
-  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
-  q: 'What is germanium-free thermal imaging and why does it matter?'
-}, {
-  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
-  q: 'Which business model is winning in India’s drone-sensing market?'
-}, {
-  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
-  q: 'Who are the leading players in India’s drone sensor and payload market?'
-}],
-  sources: [],
-  dateModified: '2026-07-02',
-  seo: {
-  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
-  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
-  schemaType: 'Report',
-  focusKeyword: 'India drone sensors market',
-  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
-}
-}, {
   slug: 'the-end-of-the-application-era',
   title: 'Who Captures Computing When the Application Disappears?',
   subtitle: 'The End of the Application Era — How Agentic AI Forces the First Operating-System Redesign Since the Cloud, and Where India Can Capture the Next Layer',
@@ -1938,6 +1939,56 @@ export const reports: ReportMeta[] = [{
   schemaType: 'Report',
   focusKeyword: 'AI agents replacing applications',
   metaDescription: 'As AI agents replace applications, value moves to inference, identity, memory and orchestration. IndiaAI compute, sovereign cloud and API-first infrastructure.'
+}
+}, {
+  slug: 'india-drone-sensors-payloads-imaging-market',
+  title: 'India Drone Sensors, Payloads & Imaging Systems Market',
+  subtitle: 'Market Size, Segmentation, Supply-Chain Dependence and 2026–2035 Forecast for the Sensing Layer Inside India’s Drones',
+  domain: 'Defence & Dual-Use',
+  edition: 'Strategic Opportunity · Edition 1 · v1.0',
+  published: '2026-06-16',
+  publishedLabel: 'June 2026',
+  readingTime: '~ 2h read',
+  status: 'published',
+  summary: 'A drone is only as capable as what it can sense, and India imports most of that capability. The market for drone sensors, payloads and imaging systems is valued at roughly US$190–210 million in 2026 and modelled to reach US$1.1–1.5 billion by 2035 at a 22–26% CAGR — but 70–80% of high-grade sensor demand is met by imports: LiDAR is about 85% imported, thermal about 80%, and inertial measurement units about 70%, sourced mainly from China, Taiwan and the United States. This report sizes the market segment by segment (sensor type, end-use sector, UAV class, component tier and region), maps the import-dependence and localisation roadmap, profiles the competitive landscape — ideaForge, Eon Space Labs, Garuda Aerospace, BEL and the international suppliers — and runs a ten-year forecast across three scenarios. It tracks the structural shifts now reshaping value capture: the move from discrete sensors to integrated, pre-calibrated payloads, the rise of Drone-as-a-Service and data monetisation over hardware, and indigenous breakthroughs such as Eon Space Labs’ germanium-free thermal imaging that cuts system cost 60–70%. Thirteen chapters, 50 figures, 137 tables, and a full segmentation and forecast model.',
+  accent: '#2BC5B4',
+  access: 'paid',
+  price: 4900,
+  currency: 'INR',
+  hasPdf: true,
+  hasDeck: false,
+  pages: 143,
+  cover: '/covers/india-drone-sensors-payloads-imaging-market.jpg',
+  previewObject: 'https://library.techadyant.com/free%20reports/India-Drone-Sensors-Payloads-Imaging-Free-Edition.pdf',
+  previewPages: 6,
+  hasData: false,
+  priceWithData: undefined,
+  dataFilename: undefined,
+  keywords: ['India drone sensors', 'drone payloads India', 'drone imaging systems India', 'LiDAR drones India', 'thermal imaging drones India', 'germanium-free thermal imaging', 'drone sensor market India', 'drone payload integration', 'Eon Space Labs', 'drone sensor import dependence', 'drone-as-a-service India', 'multispectral drone sensors'],
+  faq: [{
+  a: 'About US$190–210 million in 2026, modelled to reach US$1.1–1.5 billion by 2035 — a 22–26% CAGR. LiDAR is the fastest-growing category at over 35% CAGR, driven by infrastructure inspection, mining volumetrics and corridor mapping.',
+  q: 'How big is India’s drone sensors and payloads market?'
+}, {
+  a: 'Heavily. Roughly 70–80% of high-grade drone-sensor demand is imported — about 85% of LiDAR, 80% of thermal cores and 70% of inertial measurement units — sourced mainly from China, Taiwan and the United States. The localisation gap, not the platform, is where the strategic exposure sits.',
+  q: 'How dependent is India on imported drone sensors?'
+}, {
+  a: 'It is an indigenous thermal-imaging approach pioneered by Eon Space Labs that avoids germanium optics, whose 2024 supply crisis brought seven-month lead times and ten-fold cost spikes. The germanium-free architecture lowers system cost by 60–70% and reaches roughly 80% local manufacturing, proving import dependence can be engineered around rather than simply replicated.',
+  q: 'What is germanium-free thermal imaging and why does it matter?'
+}, {
+  a: 'Drone-as-a-Service. Value is shifting from selling hardware to monetising the data the sensors capture, with DaaS margins of 50–65% against hardware margins of 25–35%. Buyers increasingly want actionable intelligence — orthomosaics, point clouds, NDVI layers — not raw sensors.',
+  q: 'Which business model is winning in India’s drone-sensing market?'
+}, {
+  a: 'ideaForge leads on certification and integrated payload ecosystems; Eon Space Labs holds proprietary germanium-free thermal with about 80% localisation; Garuda Aerospace runs the largest agricultural DaaS fleet; and BEL brings defence-PSU radar capability. International suppliers still hold the high-spec LiDAR and thermal cores.',
+  q: 'Who are the leading players in India’s drone sensor and payload market?'
+}],
+  sources: [],
+  dateModified: '2026-07-02',
+  seo: {
+  entities: ['EO/IR sensors', 'LiDAR', 'thermal imaging', 'drone payloads', 'remote sensing', 'gimbals'],
+  metaTitle: 'India Drone Sensors, Payloads & Imaging Systems Market 2026',
+  schemaType: 'Report',
+  focusKeyword: 'India drone sensors market',
+  metaDescription: 'India\'s drone sensor and payload market mapped: EO/IR gimbals, LiDAR, thermal and multispectral imaging, remote-sensing payloads — market structure, import dependence and the localisation opportunity.'
 }
 }, {
   slug: 'osat-and-the-packaging-frontier',
