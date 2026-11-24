@@ -354,7 +354,7 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
 
   // Report + Data tier (CMS: has_data / price_with_data). Present only when the report ships a data pack.
   // FREE reports sell only their Excel workbook, priced by `workbookPrice`; paid reports use the Report + Data tier.
-  const workbookPrice = meta.access === 'free' ? (Number((meta as any).workbookPrice ?? (meta as any).workbook_price ?? 0) || 0) : 0;
+  const workbookPrice = meta.access === 'free' ? (Number((meta as any).workbookPrice ?? (meta as any).seo?.workbookPrice ?? 0) || 0) : 0;
   const hasData = meta.access === 'free' ? workbookPrice > 0 : Boolean((meta as any).has_data ?? (meta as any).hasData);
   const dataPriceRaw = meta.access === 'free' ? (workbookPrice || undefined) : ((meta as any).price_with_data ?? (meta as any).priceWithData);
   const dataPriceLabel = dataPriceRaw ? `₹${Number(dataPriceRaw).toLocaleString('en-IN')}` : undefined;
