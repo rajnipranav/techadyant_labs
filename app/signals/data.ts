@@ -8515,6 +8515,79 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['Adani Defence & Aerospace demonstrated Bagheera AT1 at Pokhran on 20 November 2026 under a No Cost No Commitment framework.', 'The company reported four missile firings across day/night, tandem anti-armour and extended-range aerial-target engagements.', 'Bagheera AT1 combines a missile, automated launcher, day/night sights and a 4×4 high-mobility armoured vehicle.', 'Adani states an anti-armour engagement range of up to 8 kilometres and laser beam-riding guidance; these remain company-reported claims.', 'The tandem sequence is intended to defeat an armoured vehicle’s active-protection system, but the demonstration did not establish combat-representative APS defeat.', 'No Army order, induction, quantity or delivery schedule has been announced; the milestone is system evaluation, not procurement.'],
   sources: ['Adani Defence & Aerospace (21 Nov 2026): https://www.adani.com/newsroom/media-releases/adani-defence-successfully-fires-four-anti-tank-missiles-in-pokhran-test-range', 'The Hindu (21 Nov 2026): https://www.thehindu.com/news/national/adani-defence-fires-four-anti-tank-missiles-in-pokhran-test-range/article71728171.ece', 'Jane’s (23 Nov 2026): https://www.janes.com/defence-intelligence-insights/defence-news/defence/adani-demonstrates-bagheera-anti-tank-system', 'Raksha Anirveda (22 Nov 2026): https://raksha-anirveda.com/adani-defence-tests-bagheera-at1-missile-system-at-pokhran/']
+}, {
+  slug: 'ptc-industries-400-tonne-titanium-defence-order-2026',
+  no: 'S-207',
+  title: 'PTC’s 400-Tonne Titanium Order Tests India’s Defence-Materials Depth',
+  domain: 'Defence Industrial Base & Critical Materials',
+  date: '2026-11-25',
+  dateLabel: '25 Nov 2026',
+  status: 'live',
+  excerpt: 'PTC Industries has secured a domestic Indian defence-sector contract to supply approximately 400 tonnes of titanium ingots, bars and rods over 12 months. The order is more revealing than a routine materials purchase: it tests whether an Indian company can move a strategically important metal through melting, ingot production, forging and mill products at meaningful volume. The customer, contract value and end-platforms remain undisclosed, so the signal is about materials capability and supply-chain depth—not proof that every upstream input is Indian or that a specific weapon system has been localised.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The order is a materials signal, not a platform headline',
+  type: 'h2'
+}, {
+  text: 'PTC Industries said on 23 November 2026 that it had secured a domestic contract from the Indian defence sector for approximately 400 tonnes of titanium ingots, bars and rods. The order is scheduled for execution over 12 months. The company has not disclosed the customer, end-platforms, contract value or delivery schedule within that period.',
+  type: 'p'
+}, {
+  text: 'That missing information matters. The evidence supports a real commercial order and a meaningful volume commitment. It does not identify whether the material is for naval, aerospace, missile, armoured or other defence applications, and it does not show that the order covers a complete component rather than material supplied into a downstream manufacturing chain.',
+  type: 'p'
+}, {
+  note: 'The company’s exchange filing describes ingots, bars and rods for critical defence applications',
+  type: 'stat',
+  label: 'Approximate titanium quantity',
+  value: '400 tonnes'
+}, {
+  text: 'Why titanium is a strategic input',
+  type: 'h2'
+}, {
+  text: 'Titanium combines high specific strength with corrosion resistance and dimensional stability. Those properties make it useful in demanding defence, aerospace, marine and nuclear environments, where weight, fatigue, temperature and corrosion can constrain design. The metal is not itself a weapon or sensor, but material quality can limit the performance and availability of the systems built around it.',
+  type: 'p'
+}, {
+  text: 'For defence manufacturing, the hard part is not simply buying titanium sponge or melting a billet. It is maintaining alloy chemistry, traceability, cleanliness, repeatable thermal processing, forging quality, dimensional control, non-destructive inspection and certification across batches. A 12-month order at approximately 400 tonnes provides a commercial test of that production and quality system.',
+  type: 'p'
+}, {
+  rows: [['Commercial demand', 'A domestic Indian defence-sector buyer has placed an approximately 400-tonne order', 'Customer identity, end-platforms, quantities by product and acceptance criteria'], ['Products', 'Titanium ingots, bars and rods are in scope', 'Specific alloys, grades, dimensions, standards and downstream component designs'], ['Manufacturing', 'PTC says its group covers alloy melting, ingot production, forging and mill products', 'Which stages will be used for this order and what capacity is already qualified'], ['Quality', 'PTC describes inspection, testing, traceability and process control as part of its integrated platform', 'Independent qualification data, rejection rates, audit status and defence certification'], ['Supply sovereignty', 'The order strengthens domestic conversion and supply of titanium products', 'Origin of ore, sponge, alloying elements, furnaces, tooling and other imported inputs'], ['Scale', 'Execution is planned over 12 months', 'Monthly run-rate, plant loading, repeat orders and whether this becomes a sustained programme']],
+  type: 'table',
+  headers: ['Layer', 'What the new order establishes', 'What remains unknown']
+}, {
+  text: 'The ‘from melt to mission’ claim needs a supply-chain reading',
+  type: 'h2'
+}, {
+  text: 'PTC and its wholly owned subsidiary Aerolloy Technologies describe an integrated materials platform covering specialised alloy melting, ingot production, forging, mill products, precision casting, inspection and testing. That integration can reduce hand-offs between suppliers and improve control over chemistry, traceability and delivery reliability.',
+  type: 'p'
+}, {
+  text: 'It should not be read as complete materials sovereignty. The order announcement does not establish domestic mining, titanium sponge production, alloying-element independence, furnace-tooling localisation or freedom from imported process equipment. A domestic mill-product order is a step down the value chain; it is not the same as controlling every upstream input.',
+  type: 'p'
+}, {
+  text: 'Volume is the useful part of the announcement',
+  type: 'h2'
+}, {
+  text: 'PTC has previously announced smaller or more specialised titanium and defence-related development work. The approximately 400-tonne order is different in character because it tests repeatable production and delivery rather than only design capability. The relevant benchmark is not the headline tonnage alone, but whether the company can meet specification, quality and schedule requirements over the full 12-month execution window.',
+  type: 'p'
+}, {
+  text: 'The order could also improve the economics of Indian downstream defence manufacturing. Reliable domestic bars and rods can shorten lead times and reduce the need to qualify every batch through an overseas supplier. But that benefit appears only if the products are accepted into production and followed by repeat demand from system integrators.',
+  type: 'p'
+}, {
+  text: 'What cannot yet be claimed',
+  type: 'h2'
+}, {
+  text: 'The contract does not reveal the customer or platform. It therefore cannot be linked to a named fighter, missile, warship, engine or armoured vehicle. It also does not disclose the order value, alloy grades, indigenous-content percentage, imported-material exposure or whether the customer is the Ministry of Defence, a public-sector undertaking or a private defence prime.',
+  type: 'p'
+}, {
+  text: 'The company’s statements about strategic independence are directionally relevant, but they are not independent proof that imported titanium has been displaced across the defence sector. The hard evidence will be delivery completion, qualification and repeat orders.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'India’s defence-industrial debate often counts platforms while undercounting the materials beneath them. PTC’s 400-tonne order is a useful signal because it places advanced titanium processing inside a real defence supply chain at commercial volume. It is not yet proof of end-to-end materials sovereignty. The next milestones are disclosed grades and applications, completed deliveries, independent qualification, domestic-content visibility and a repeat order large enough to show that the capability is becoming infrastructure rather than a one-off contract.',
+  type: 'p'
+}],
+  takeaways: ['PTC Industries has secured a domestic Indian defence-sector contract for approximately 400 tonnes of titanium ingots, bars and rods.', 'The contract is scheduled for execution over 12 months, while its value, customer and end-platforms remain undisclosed.', 'PTC’s Aerolloy subsidiary has built capabilities spanning alloy melting, ingots, forging, mill products, precision casting, inspection and testing.', 'The order tests commercial-scale conversion and supply reliability more than it proves complete upstream titanium sovereignty.', 'The material cannot yet be linked to a named fighter, missile, warship, engine or armoured platform.', 'Delivery completion, qualification data, disclosed grades and repeat orders will determine whether this becomes durable defence-materials infrastructure.'],
+  sources: ['BSE India / PTC Industries exchange filing (23 Nov 2026): https://www.bseindia.com/xml-data/corpfiling/AttachLive/d137c215-8abb-46aa-9787-8e78557a7247.pdf', 'Business Standard (23 Nov 2026): https://www.business-standard.com/companies/news/ptc-industries-bags-major-defence-order-for-400-tonnes-of-titanium-126112300547_1.html', 'CNBC-TV18 (23 Nov 2026): https://www.cnbctv18.com/market/ptc-industries-share-price-secures-400-tonne-titanium-order-defence-sector-20039905.htm', 'Economic Times Manufacturing (24 Nov 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/ptc-industries-bags-defence-contract-to-supply-400-tonnes-of-titanium-products/136100086']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
