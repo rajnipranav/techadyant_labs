@@ -69,6 +69,36 @@ async function resendOne(env, { to, subject, html, text }) {
   return r.ok;
 }
 
+const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
+
+// Send one email with retry on 429 (rate limit) and 5xx. Resend's default limit
+// is 2 requests/second, so bulk sends must be paced; this also backs off and
+// honours Retry-After when a 429 still slips through. Returns {ok,status}.
+async function sendWithRetry(env, { to, subject, html, text }, tries = 4) {
+  const u = await unsubUrl(env, to);
+  const payload = {
+    from: `Techadyant Labs <${env.FROM_EMAIL || 'labs@techadyant.com'}>`,
+    to: [to], subject, html, text,
+    reply_to: env.FROM_EMAIL || 'labs@techadyant.com',
+    headers: { 'List-Unsubscribe': `<${u}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' },
+  };
+  for (let attempt = 0; attempt < tries; attempt++) {
+    const r = await fetch('https://api.resend.com/emails', {
+      method: 'POST', headers: { Authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    if (r.ok) return { ok: true, status: r.status };
+    if (r.status === 429 || r.status >= 500) {
+      const ra = Number(r.headers.get('retry-after'));
+      await sleep(Number.isFinite(ra) && ra > 0 ? ra * 1000 : 700 * (attempt + 1));
+      continue;
+    }
+    let body = ''; try { body = (await r.text()).slice(0, 200); } catch {}
+    return { ok: false, status: r.status, error: body };
+  }
+  return { ok: false, status: 429, error: 'rate-limited after retries' };
+}
+
 function b64urlDecode(s) {
   s = s.replace(/-/g, '+').replace(/_/g, '/');
   while (s.length % 4) s += '=';
@@ -395,17 +425,26 @@ export async function onRequest(context) {
       }
       if (!recipients.length) return json(400, { error: 'no active recipients for this segment' });
       if (recipients.length > 500) return json(400, { error: `segment has ${recipients.length} recipients (>500). Use Resend Broadcasts for lists this large.` });
+      // Send sequentially, paced to stay under Resend's 2 req/sec limit, with
+      // retry/backoff per message. The old code fired 20 in parallel, which
+      // tripped the rate limit and silently dropped the 429s — the cause of the
+      // "15/25 sent" partial broadcasts. ~550ms between sends ≈ 1.8/sec.
       let sent = 0;
-      for (let i = 0; i < recipients.length; i += 20) {
-        const chunk = recipients.slice(i, i + 20);
-        const results = await Promise.all(chunk.map(async (to) => {
-          const u = await unsubUrl(env, to);
-          return resendOne(env, { to, subject: bc.subject, html: emailShell(mdToHtml(bc.body_md), u), text: textVersion(bc.body_md, u) });
-        }));
-        sent += results.filter(Boolean).length;
+      const failures = [];
+      for (let i = 0; i < recipients.length; i++) {
+        const to = recipients[i];
+        const u = await unsubUrl(env, to);
+        const res = await sendWithRetry(env, {
+          to, subject: bc.subject,
+          html: emailShell(mdToHtml(bc.body_md), u),
+          text: textVersion(bc.body_md, u),
+        });
+        if (res.ok) sent++;
+        else failures.push(to);
+        if (i < recipients.length - 1) await sleep(550);
       }
       const marked = await rpc(S, SK, 'broadcast_mark_sent', { p_id: bc.id, p_recipients: recipients.length, p_sent: sent });
-      return json(200, { ok: true, recipients: recipients.length, sent, broadcast: marked.data });
+      return json(200, { ok: true, recipients: recipients.length, sent, failed: failures.length, failures: failures.slice(0, 100), broadcast: marked.data });
     }
 
     if (route === '/site') {
