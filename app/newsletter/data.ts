@@ -16,6 +16,21 @@ export interface IssueMeta {
 }
 
 export const issues: IssueMeta[] = [{
+  slug: 'sanket-november-2026',
+  no: 'Issue 07',
+  month: 'November 2026',
+  date: '26 November 2026',
+  published: '2026-11-26',
+  title: 'The Missing Middle',
+  standfirst: 'India has the ore at the bottom and the orders at the top. In between - the separation plant, the magnet line, the cell factory - almost nothing runs yet. November’s money finally reached that middle; the output has not. The Index holds at 36, and Sanket goes live on YouTube.',
+  readingTime: '13-min read',
+  card: 'https://library.techadyant.com/covers/sanket_nov_2026.jpg',
+  cover: 'https://library.techadyant.com/covers/sanket_nov_2026.jpg',
+  ogImage: 'https://library.techadyant.com/covers/sanket_nov_2026.jpg',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-nov-26.pdf',
+  pdfReady: true,
+  status: 'live'
+}, {
   slug: 'sanket-october-2026',
   no: 'Issue 06',
   month: 'October 2026',
@@ -76,21 +91,6 @@ export const issues: IssueMeta[] = [{
   pdfReady: true,
   status: 'live'
 }, {
-  slug: 'sanket-june-2026',
-  no: 'Issue 02',
-  month: 'June 2026',
-  date: '30 June 2026',
-  published: '2026-06-30',
-  title: 'Assembly Is Not Sovereignty',
-  standfirst: 'Nine reports this month, one structural finding: India assembles — but the value lives upstream, in the layers it does not own. From the parts inside its drones to the software it runs on.',
-  readingTime: '9-min read',
-  card: '/covers/sanket-june-2026.png',
-  cover: '/newsletter/june-at-a-glance.png',
-  ogImage: '/newsletter/june-at-a-glance.png',
-  pdf: 'https://library.techadyant.com/free%20reports/sanket-june-26.pdf',
-  pdfReady: true,
-  status: 'live'
-}, {
   slug: 'sanket-may-2026',
   no: 'Issue 01',
   month: 'May 2026',
@@ -103,6 +103,21 @@ export const issues: IssueMeta[] = [{
   cover: '/newsletter/strategic-intelligence.svg',
   ogImage: '/newsletter/global_stack.png',
   pdf: 'https://library.techadyant.com/free%20reports/sanket-may-26.pdf',
+  pdfReady: true,
+  status: 'live'
+}, {
+  slug: 'sanket-june-2026',
+  no: 'Issue 02',
+  month: 'June 2026',
+  date: '30 June 2026',
+  published: '2026-06-30',
+  title: 'Assembly Is Not Sovereignty',
+  standfirst: 'Nine reports this month, one structural finding: India assembles — but the value lives upstream, in the layers it does not own. From the parts inside its drones to the software it runs on.',
+  readingTime: '9-min read',
+  card: '/covers/sanket-june-2026.png',
+  cover: '/newsletter/june-at-a-glance.png',
+  ogImage: '/newsletter/june-at-a-glance.png',
+  pdf: 'https://library.techadyant.com/free%20reports/sanket-june-26.pdf',
   pdfReady: true,
   status: 'live'
 }];
