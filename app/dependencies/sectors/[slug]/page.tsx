@@ -7,7 +7,7 @@ import {
   pliSchemes, DEP_TIER_COLOR, TIER_COLOR, inr, usd,
 } from '../../data';
 import { ResearchVideo } from '../../../components/ResearchVideo';
-import { videosFor, videoLd } from '../../../lib/videos';
+import { videosFor } from '../../../lib/videos';
 
 export function generateStaticParams() {
   return sectors.map((s) => ({ slug: s.sector_id }));
@@ -43,7 +43,6 @@ export default async function SectorPage({ params }: { params: Promise<{ slug: s
         breadcrumb([{ name: 'Home', path: '/' }, { name: 'Dependencies', path: '/dependencies/' }, { name: 'Sectors', path: '/dependencies/' }, { name: s.name, path: `/dependencies/sectors/${s.sector_id}/` }]),
         datasetLd({ name: `India ${s.name} import dependency`, description: s.narrative, path: `/dependencies/sectors/${s.sector_id}/`, keywords: [`India ${s.name}`, 'import dependency', 'localisation'] }),
         faqLd(faqs),
-        ...secVideos.map(({ video }) => videoLd(video, `/dependencies/sectors/${s.sector_id}/`)),
       ]} />
       <header className="ed-page-head">
         <div className="wrap inner">

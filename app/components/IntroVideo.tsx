@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { INTRO_VIDEO, YOUTUBE_CHANNEL, fmtTime } from '../lib/introVideo';
 
 /**
@@ -45,7 +46,10 @@ export function IntroVideo({ showChapters = true }: { showChapters?: boolean }) 
           ))}
         </ol>
       )}
-      <p className="iv-foot">
+      <p className="iv-foot" style={{ display: 'flex', gap: 16, flexWrap: 'wrap', alignItems: 'center' }}>
+        <Link href="/videos/techadyantlabs-intro/" style={{ color: 'var(--brass, #f5b544)' }}>
+          Dedicated player &amp; summary <span className="arr">→</span>
+        </Link>
         <a href={YOUTUBE_CHANNEL} target="_blank" rel="noopener">Subscribe on YouTube <span className="arr">→</span></a>
       </p>
     </div>

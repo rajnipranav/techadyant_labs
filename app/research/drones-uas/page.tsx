@@ -4,7 +4,7 @@ import { AtlasNav } from '../AtlasNav';
 import { DronesView } from './DronesView';
 import { DronesTrack } from './DronesTrack';
 import { ResearchVideo } from '../../components/ResearchVideo';
-import { videosFor, videoLd } from '../../lib/videos';
+import { videosFor } from '../../lib/videos';
 import { companies, platforms } from './data';
 import dronesData from '../_drones.json';
 import droneExpo2026 from '../../../data/osint/drone-expo-2026/site_index.json';
@@ -33,7 +33,6 @@ const dronesVideos = videosFor('atlas', 'drones-uas');
 
 export default function DronesPage() {
   const ld = [
-    ...dronesVideos.map(({ video }) => videoLd(video, '/research/drones-uas/')),
     {
       '@context': 'https://schema.org', '@type': 'Dataset',
       name: 'India Unmanned Aerial Systems (UAS) Ecosystem',

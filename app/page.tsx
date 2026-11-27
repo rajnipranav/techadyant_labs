@@ -16,7 +16,6 @@ import { atlas } from './research/atlas';
 import { allCorridorNodePairs, corridorDeep } from './corridors/node-data';
 import { issues as newsletterIssues } from './newsletter/data';
 import { IntroVideo } from './components/IntroVideo';
-import { introVideoLd } from './lib/introVideo';
 
 export const metadata: Metadata = {
   title: 'Industrial intelligence on India: corridors, dependency maps & signals',
@@ -110,7 +109,6 @@ const HOME_LD = {
         url: `https://labs.techadyant.com${p.href}`,
       })),
     },
-    introVideoLd,
   ],
 };
 

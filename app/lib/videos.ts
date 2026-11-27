@@ -6,7 +6,7 @@ import { YOUTUBE_CHANNEL } from './introVideo';
 
 export { YOUTUBE_CHANNEL };
 
-export type VideoPlacementType = 'atlas' | 'dependencies' | 'report' | 'corridor' | 'pillar';
+export type VideoPlacementType = 'atlas' | 'dependencies' | 'report' | 'corridor' | 'pillar' | 'home';
 
 export type ResearchVideoEntry = {
   id: string;
@@ -281,7 +281,45 @@ export const VIDEOS: ResearchVideoEntry[] = [
     placements: [
     ],
   },
-
+  {
+    id: 'fimU1mYpfu4',
+    slug: 'techadyantlabs-intro',
+    title: 'Techadyant Labs: Independent Intelligence on India’s Industrial Transformation',
+    description:
+      'A three-minute introduction to Techadyant Labs — the ten industrial pillars we track, the six surfaces that deliver our work, and a short tour of the platform.',
+    localThumb: '/video/techadyantlabs-intro.jpg',
+    uploadDate: '2026-10-27',
+    duration: 'PT3M10S',
+    durationSec: 190,
+    durationLabel: '3 min',
+    chapters: [
+      { t: 0, label: 'Welcome to Techadyant Labs' },
+      { t: 64, label: 'The ten industrial pillars' },
+      { t: 83, label: 'Six surfaces, including Sanket' },
+      { t: 99, label: 'Platform tour: the Atlas' },
+      { t: 120, label: 'Dependencies' },
+      { t: 130, label: 'Corridors' },
+      { t: 139, label: 'Signals' },
+      { t: 149, label: 'Reports' },
+      { t: 164, label: 'Commissioned research' },
+    ],
+    takeaways: [
+      'A three-minute guide to Techadyant Labs: independent strategic intelligence on India’s industrial transformation.',
+      'Ten industrial pillars tracked across high-reliability systems, semiconductors, critical minerals and infrastructure.',
+      'Six analytical surfaces: Reports, Corridors, Dependencies, Signals, the Atlas, and Sanket.',
+      'Explore the research platform, methodologies and free open workbooks.'
+    ],
+    placements: [
+      {
+        type: 'home',
+        slug: 'home',
+        related: {
+          label: 'Explore the Atlas',
+          href: '/research/'
+        }
+      }
+    ],
+  },
 ];
 
 export const videosFor = (type: VideoPlacementType, slug: string) =>
@@ -289,6 +327,8 @@ export const videosFor = (type: VideoPlacementType, slug: string) =>
     video: v,
     related: v.placements.find((p) => p.type === type && p.slug === slug)?.related,
   }));
+
+export const getVideoBySlug = (slug: string) => VIDEOS.find((v) => v.slug === slug);
 
 export const videoWatchUrl = (id: string, t = 0) => `https://www.youtube.com/watch?v=${id}${t ? `&t=${t}s` : ''}`;
 

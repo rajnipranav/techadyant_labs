@@ -21,6 +21,7 @@ import { EXEC_SUMMARIES } from './reports/executive-summaries/registry';
 import { entities as defenceEntities, entitySlug as defenceEntitySlug } from './research/pillars/defence/data';
 import { loadCompanyDossier } from '../lib/companyDossier';
 import { getThinRecordBySlug } from '../lib/thinRegistry';
+import { VIDEOS } from './lib/videos';
 
 // The project uses `output: 'export'` for Cloudflare Pages static deploy;
 // route handlers must be marked static so they're generated at build time.
@@ -50,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...reports.filter((r) => r.status === 'published').map((r) => toTime(r.published)),
     ...signals.filter((s) => s.status !== 'placeholder').map((s) => toTime(s.date)),
     ...issues.map((i) => toTime(i.date)),
+    ...VIDEOS.map((v) => toTime(v.uploadDate)),
     toTime(atlasUpdated),
   ];
   const maxContent = Math.max(0, ...contentDates);
@@ -59,6 +61,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${SITE}/`,          lastModified: now, changeFrequency: 'weekly',  priority: 1.0 },
     { url: `${SITE}/reports/`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${SITE}/videos/`,    lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
+    ...VIDEOS.map((v) => ({
+      url: `${SITE}/videos/${v.slug}/`,
+      lastModified: new Date(v.uploadDate),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
     { url: `${SITE}/signals/`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
     { url: `${SITE}/newsletter/`,lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
     { url: `${SITE}/briefings/`, lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },

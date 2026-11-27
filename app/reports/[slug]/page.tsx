@@ -13,7 +13,7 @@ import { ShareBar } from '../../components/ShareBar';
 import { RelatedContent } from '../../components/RelatedContent';
 import { Comments } from '../../components/Comments';
 import { ResearchVideo } from '../../components/ResearchVideo';
-import { videosFor, videoLd } from '../../lib/videos';
+import { videosFor } from '../../lib/videos';
 import { ReportContent as FabContent, toc as fabToc } from '../content/india-fab-ecosystem';
 import { ReportContent as AiTransitionContent, toc as aiTransitionToc } from '../content/india-ai-industrial-transition-2026-2035';
 import { ReportContent as MineralsContent, toc as mineralsToc } from '../content/who-actually-captures-the-india-us-minerals-alliance';
@@ -386,14 +386,6 @@ export default async function ReportPage({ params }: { params: Promise<{ slug: s
           dangerouslySetInnerHTML={{ __html: faqJson }}
         />
       )}
-      {repVideos.map(({ video }) => (
-        <script
-          key={`ld-${video.id}`}
-          type="application/ld+json"
-          // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd(video, `/reports/${meta.slug}/`)) }}
-        />
-      ))}
       {productJson && (
         <script
           type="application/ld+json"

@@ -56,6 +56,11 @@ export function ResearchVideo({ video, related }: { video: ResearchVideoEntry; r
         {related && (
           <p className="iv-foot"><Link href={related.href}>{related.label} <span className="arr">→</span></Link></p>
         )}
+        <p className="iv-foot" style={{ marginTop: 6 }}>
+          <Link href={`/videos/${video.slug}/`} style={{ color: 'var(--brass, #f5b544)' }}>
+            Watch on dedicated player with chapters <span className="arr">→</span>
+          </Link>
+        </p>
       </div>
     </div>
   );
