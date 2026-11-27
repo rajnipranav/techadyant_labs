@@ -8588,6 +8588,164 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['PTC Industries has secured a domestic Indian defence-sector contract for approximately 400 tonnes of titanium ingots, bars and rods.', 'The contract is scheduled for execution over 12 months, while its value, customer and end-platforms remain undisclosed.', 'PTC’s Aerolloy subsidiary has built capabilities spanning alloy melting, ingots, forging, mill products, precision casting, inspection and testing.', 'The order tests commercial-scale conversion and supply reliability more than it proves complete upstream titanium sovereignty.', 'The material cannot yet be linked to a named fighter, missile, warship, engine or armoured platform.', 'Delivery completion, qualification data, disclosed grades and repeat orders will determine whether this becomes durable defence-materials infrastructure.'],
   sources: ['BSE India / PTC Industries exchange filing (23 Nov 2026): https://www.bseindia.com/xml-data/corpfiling/AttachLive/d137c215-8abb-46aa-9787-8e78557a7247.pdf', 'Business Standard (23 Nov 2026): https://www.business-standard.com/companies/news/ptc-industries-bags-major-defence-order-for-400-tonnes-of-titanium-126112300547_1.html', 'CNBC-TV18 (23 Nov 2026): https://www.cnbctv18.com/market/ptc-industries-share-price-secures-400-tonne-titanium-order-defence-sector-20039905.htm', 'Economic Times Manufacturing (24 Nov 2026): https://manufacturing.economictimes.indiatimes.com/news/aerospace-defence/ptc-industries-bags-defence-contract-to-supply-400-tonnes-of-titanium-products/136100086']
+}, {
+  slug: 'india-uae-defence-co-development-co-production-jdcc-2026',
+  no: 'S-208',
+  title: 'India–UAE Defence Ties Move from Strategic Framework to an Execution Test',
+  domain: 'Defence Industry & Partnerships',
+  date: '2026-11-27',
+  dateLabel: '27 Nov 2026',
+  status: 'live',
+  excerpt: 'At the 14th India–UAE Joint Defence Cooperation Committee in Abu Dhabi, both sides agreed to accelerate co-development and co-production of next-generation defence equipment. The meeting also brought Indian defence companies into business-to-business discussions and sent the delegation to Tawazun Industrial Park. This is a meaningful move from diplomatic framework to industrial matchmaking, but it is not yet a contract, named platform or technology-transfer agreement. The value of the decision will be measured by which programme reaches design authority, production and delivery first.',
+  readingTime: '5 min read',
+  body: [{
+  text: 'The decision is about execution, not another statement of intent',
+  type: 'h2'
+}, {
+  text: 'India and the United Arab Emirates agreed on 26 November 2026 to accelerate co-development and co-production partnerships in next-generation defence equipment. The decision was taken at the 14th meeting of the India–UAE Joint Defence Cooperation Committee in Abu Dhabi, co-chaired by India’s Defence Secretary Rajesh Kumar Singh and UAE Ministry of Defence Under Secretary Lieutenant General Ibrahim Nasser M. Al Alawi.',
+  type: 'p'
+}, {
+  text: 'The meeting gave strategic direction to initiatives under the India–UAE Strategic Defence Partnership Framework signed in May 2026. Defence industry, innovation and advanced technology, artificial intelligence, cyber security, military training and maritime safety were identified as cooperation areas.',
+  type: 'p'
+}, {
+  note: 'The 14th committee meeting linked the May strategic framework to an accelerated co-development and co-production agenda',
+  type: 'stat',
+  label: 'JDCC milestone',
+  value: '26 November 2026'
+}, {
+  text: 'The industrial signal is the delegation around the table',
+  type: 'h2'
+}, {
+  text: 'An Indian defence-industry delegation accompanied the official delegation. A business-to-business interaction was held with UAE defence industries, and the Indian group visited Tawazun Industrial Park to meet the Tawazun Economic Council and explore cooperation areas.',
+  type: 'p'
+}, {
+  text: 'That matters because bilateral defence relationships often remain at the level of ministerial language unless companies, acquisition agencies and industrial parks are connected to a specific work package. The B2B meeting and Tawazun visit create an execution channel. They do not, by themselves, prove that a joint product has been selected or funded.',
+  type: 'p'
+}, {
+  rows: [['Political direction', 'Both sides agreed to accelerate co-development and co-production of next-generation defence equipment', 'Named programmes, legal instruments, budgets and approval timelines'], ['Industrial interface', 'Indian defence companies engaged UAE counterparts in a B2B interaction', 'Company names, matched partners, work shares and signed MoUs or contracts'], ['UAE manufacturing node', 'The delegation visited Tawazun Industrial Park and met the Tawazun Economic Council', 'Facilities selected, production lines, investment commitments and capacity'], ['Technology areas', 'Defence industry, advanced technology, AI, cyber and maritime safety are in the cooperation frame', 'Specific technologies, intellectual-property arrangements and export-control treatment'], ['Maritime dimension', 'Maritime safety is an identified cooperation area', 'Any vessel design, construction, refit or maintenance programme'], ['Implementation', 'The co-chairs will review progress at regular intervals before the next JDCC', 'First review date, milestones, accountable entities and measurable deliverables']],
+  type: 'table',
+  headers: ['Layer', 'What the 26 November outcome establishes', 'What remains unverified']
+}, {
+  text: 'Why the UAE is an industrial partner rather than only a customer',
+  type: 'h2'
+}, {
+  text: 'The UAE brings capital, procurement access, industrial zones and a defence-industry ecosystem organised around the Tawazun Economic Council. India brings a larger design and production base across missiles, drones, electronics, vehicles, naval systems and aerospace. A productive partnership would therefore need to divide more than assembly work: it would need to define design authority, test responsibility, intellectual property, component sourcing, export rights and sustainment.',
+  type: 'p'
+}, {
+  text: 'The practical opportunity is a two-way model. Indian companies could gain a route into Gulf procurement and regional maintenance networks, while UAE partners could add capital, market access and industrial infrastructure to Indian product development. The risk is a shallow arrangement in which one side supplies finished systems and the other supplies financing or a final-assembly label.',
+  type: 'p'
+}, {
+  text: 'What the public evidence does—and does not—name',
+  type: 'h2'
+}, {
+  text: 'The Ministry of Defence statement does not name a weapon system, vehicle, ship, drone, missile, radar or AI product. Independent reporting says the cooperation could include naval and coastal drones, precision-guided munitions, missile systems and naval-vessel construction or maintenance, but these are reported areas of interest rather than announced programmes.',
+  type: 'p'
+}, {
+  text: 'The distinction is important for industrial analysis. A framework can unlock projects, but it does not allocate a budget, certify a design, settle intellectual property or create a production order. S-208 therefore records an execution mechanism and not a completed capability.',
+  type: 'p'
+}, {
+  text: 'The next test is a named work package',
+  type: 'h2'
+}, {
+  text: 'The first meaningful follow-up would be a signed company-to-company agreement or government-backed project that names the product, work share, investment, testing authority and production location. A second milestone would be prototype hardware or a jointly completed test. A procurement order or export authorisation would show that the partnership has crossed from industrial diplomacy into a demand-backed programme.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'India–UAE defence relations have moved one step closer to an industrial operating model. The important change is not the phrase ‘co-production’ by itself; it is the attempt to connect the strategic framework to Indian companies, UAE industrial infrastructure and a review mechanism. The partnership will become strategically meaningful only when a named system, a defensible division of technology and a funded production pathway appear.',
+  type: 'p'
+}],
+  takeaways: ['India and the UAE agreed at the 14th JDCC to accelerate co-development and co-production of next-generation defence equipment.', 'The outcome builds on the Strategic Defence Partnership Framework signed in May 2026.', 'An Indian defence-industry delegation held B2B discussions and visited Tawazun Industrial Park and the Tawazun Economic Council.', 'The public statement names broad areas including advanced technology, AI, cyber security and maritime safety, but no specific platform or project.', 'Independent reports identify possible areas such as drones, precision-guided munitions, missiles and naval support, but these are not announced contracts.', 'The decisive next milestone is a named, funded work package with defined technology ownership, production location and delivery responsibility.'],
+  sources: ['Press Information Bureau / Ministry of Defence (26 Nov 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2342210&reg=6&lang=1', 'The Hindu (26 Nov 2026): https://www.thehindu.com/news/national/india-and-uae-to-accelerate-joint-development-and-production-of-next-generation-defence-equipment/article71747827.ece', 'Economic Times (26 Nov 2026): https://m.economictimes.com/news/defence/india-uae-agree-to-accelerate-co-development-co-production-of-next-gen-defence-equipment/articleshow/136198669.cms', 'Times of India (26 Nov 2026): https://timesofindia.indiatimes.com/india/india-and-uae-agree-to-accelerate-co-development-co-production-of-next-generation-defence-equipment/amp_articleshow/136199134.cms']
+}, {
+  slug: 'indiaai-chariot-1-foundation-models-sovereign-ai-2026',
+  no: 'S-209',
+  title: 'Chariot-1: IndiaAI’s Model Release Becomes a Test of Sovereign AI Usability',
+  domain: 'Artificial Intelligence & Compute',
+  date: '2026-11-27',
+  dateLabel: '27 Nov 2026',
+  status: 'live',
+  excerpt: 'The IndiaAI Mission has launched Chariot-1 Foundation Models, developed by Chariot Artificial Intelligence as one of the first four teams selected to build sovereign Indian models. The release combines an 11-billion-parameter mixture-of-experts language model with a multilingual text-to-speech system covering English and 10 Indian languages. The industrial significance is real, but the next test is harder than launch: public access, reproducible benchmarks, affordable inference and deployment on India’s available compute will determine whether Chariot-1 becomes infrastructure or remains a government-supported demonstration.',
+  readingTime: '6 min read',
+  body: [{
+  text: 'This is a model release, not only an AI policy announcement',
+  type: 'h2'
+}, {
+  text: 'MeitY Secretary S. Krishnan launched the Chariot-1 Foundation Models under the IndiaAI Mission on 26 November 2026. Chariot Artificial Intelligence Pvt. Ltd. is one of the first four teams selected under the mission to develop sovereign foundation models.',
+  type: 'p'
+}, {
+  text: 'The suite combines a large language model and a text-to-speech model. Both are described as pre-trained from scratch in India. That makes the event more concrete than a strategy paper or a compute-allocation announcement: a named team has presented working model artefacts with stated sizes, languages and benchmark results.',
+  type: 'p'
+}, {
+  note: 'The model is described as having 4B active parameters per token',
+  type: 'stat',
+  label: 'Reported Chariot-1 MoE language model',
+  value: '11B parameters'
+}, {
+  text: 'A model family designed for more than one machine class',
+  type: 'h2'
+}, {
+  text: 'The Chariot-1 language model is reported as an 11-billion-parameter mixture-of-experts system, with approximately 4 billion parameters active for each token. It is available in three reported sizes: 10.7 billion, 1.7 billion and 745 million parameters.',
+  type: 'p'
+}, {
+  text: 'The multi-size approach matters because sovereign AI is not only about building the largest model. A 745-million-parameter model can target local servers, edge deployments or lower-cost inference, while larger variants can serve more demanding workloads. The public release does not yet disclose memory requirements, throughput, quantisation options, context length, licence terms or hardware targets.',
+  type: 'p'
+}, {
+  rows: [['Institutional', 'Chariot AI is one of the first four IndiaAI Mission foundation-model teams', 'Grant size, compute allocation, project milestones and government rights'], ['Language model', 'An 11B mixture-of-experts model with 4B active parameters per token is reported', 'Independent evaluation, context length, safety testing, licence and training-data documentation'], ['Model family', '10.7B, 1.7B and 745M variants are reported', 'Download/API access, quantisation, memory footprint, latency and deployment cost'], ['Indic capability', 'IndicShift is reported to use 2.5× fewer tokens on Indian text', 'Corpus, tokenizer comparison, languages tested and reproducible evaluation'], ['Training efficiency', 'IndiaAI reports nested training at 62% faster training and mixture-of-vocabularies at 38% faster training', 'Baseline definition, hardware conditions, total training time and independent replication'], ['Speech', 'TTS covers English and 10 Indian languages and reports over 97% verbalisation accuracy', 'Independent benchmark run, naturalness, speaker diversity, latency and production access']],
+  type: 'table',
+  headers: ['Layer', 'What the release establishes', 'What remains to be verified']
+}, {
+  text: 'The speech model may be the more immediately useful asset',
+  type: 'h2'
+}, {
+  text: 'The Chariot-1 TTS model is reported to generate speech in English and 10 Indian languages: Hindi, Bengali, Marathi, Tamil, Telugu, Kannada, Malayalam, Gujarati, Punjabi and Odia. It is designed to interpret how numbers, dates, currencies, units, URLs and abbreviations should be pronounced rather than reading them mechanically.',
+  type: 'p'
+}, {
+  text: 'That is a practical deployment problem for public services, call centres, education, accessibility and local-language interfaces. India’s language challenge is not solved by translation alone; speech systems must handle mixed scripts, names, abbreviations, numbers and code-switching. Chariot’s reported focus on verbalisation is therefore a useful product-level signal, provided the model is made available for testing and deployment.',
+  type: 'p'
+}, {
+  text: 'The technical claims are promising but not yet a leaderboard result',
+  type: 'h2'
+}, {
+  text: 'IndiaAI reports over 97 per cent verbalisation accuracy on the Async TTS Pronunciation Benchmark, which contains 1,029 real-world sentences and 2,251 instances of non-standard text across 42 categories. It also reports a 7.60 per cent Hindi character error rate and a 6.47 per cent average character error rate across nine other Indian languages.',
+  type: 'p'
+}, {
+  text: 'These figures are useful because they identify a test and numerical result. They are not yet independently reproducible comparisons. The public evidence reviewed for this signal does not establish the competing systems, test protocol, confidence intervals, audio-quality scores or whether the model weights and evaluation scripts are available.',
+  type: 'p'
+}, {
+  text: 'IndicShift and the economics of Indian-language AI',
+  type: 'h2'
+}, {
+  text: 'IndiaAI says Chariot’s IndicShift approach uses a shared alphabet for Indian scripts and achieves 2.5 times fewer tokens on Indian text. If robust across languages and datasets, fewer tokens could reduce memory movement, serving cost and context pressure for Indic-language workloads.',
+  type: 'p'
+}, {
+  text: 'The claimed efficiency is strategically relevant because Indian-language AI will be constrained not only by model quality but also by inference economics. However, token-count savings do not automatically translate into lower end-to-end cost. The result depends on tokenizer quality, sequence length, accelerator utilisation, memory bandwidth, batching and the workload mix.',
+  type: 'p'
+}, {
+  text: 'What ‘indigenous’ means—and what it does not',
+  type: 'h2'
+}, {
+  text: 'Chariot-1 is described as developed and pre-trained from scratch in India. That is a meaningful model-development milestone. It does not, by itself, establish Indian control of the accelerators, networking equipment, data-centre supply chain, training data, open-source software stack or advanced semiconductor layer used in training and deployment.',
+  type: 'p'
+}, {
+  text: 'The right reading is sovereign model capability within a globally dependent compute stack. That is still valuable. A model can provide more control over language behaviour, data governance, deployment choices and adaptation than an API-only foreign model. The strategic value rises if the weights, training recipe, safety process and serving stack are accessible to Indian institutions.',
+  type: 'p'
+}, {
+  text: 'The next test is access and adoption',
+  type: 'h2'
+}, {
+  text: 'The decisive follow-up evidence is a public model card, downloadable weights or an API, transparent licensing, benchmark scripts, documented training data and deployment guidance. After that comes usage: Indian-language applications, public-sector pilots, enterprise integration, local inference and evidence that the smaller variants run economically on available Indian compute.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'Chariot-1 is one of India’s more substantive sovereign-AI milestones because it joins a named IndiaAI Mission team, a model family, multilingual speech capability and measurable technical claims. It is not yet proof that India has solved foundation-model scale or AI hardware dependence. The signal to watch is whether Chariot-1 becomes an inspectable, affordable and adopted Indian model layer rather than ending at a launch event.',
+  type: 'p'
+}],
+  takeaways: ['MeitY has launched Chariot-1 Foundation Models under the IndiaAI Mission, developed by one of the first four selected teams.', 'The suite includes an 11B mixture-of-experts LLM with 4B active parameters per token and three reported model sizes.', 'The TTS model supports English and 10 Indian languages and reports over 97% verbalisation accuracy on the Async TTS Pronunciation Benchmark.', 'IndiaAI reports IndicShift, nested training and mixture-of-vocabularies as efficiency innovations, but independent replication is not yet available.', '‘Developed from scratch in India’ establishes model-development capability, not complete control of compute hardware, software or data inputs.', 'Public access, licensing, reproducible benchmarks, affordable inference and actual deployments will determine whether Chariot-1 becomes strategic infrastructure.'],
+  sources: ['Press Information Bureau / MeitY (26 Nov 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2341725&reg=3&lang=1', 'IndiaAI Mission (25 Nov 2026): https://x.com/OfficialINDIAai/status/2125557983153422356', 'Economic Times (26 Nov 2026): https://m.economictimes.com/tech/artificial-intelligence/india-launches-indigenous-chariot-1-foundation-models-to-strengthen-sovereign-ai-capabilities/articleshow/136185840.cms', 'The Tribune / ANI (26 Nov 2026): https://www.tribuneindia.com/news/business/india-launches-indigenous-chariot-1-foundation-models-to-strengthen-sovereign-ai-capabilities/', 'Inc42 (26 Nov 2026): https://inc42.com/buzz/indiaai-mission-backed-chariot-ai-unveils-11-bn-parameter-llm-speech-models/']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
