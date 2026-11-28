@@ -8810,6 +8810,70 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['GRSE delivered Vindhyagiri, the seventh and final Project 17A / Nilgiri-class frigate, to the Indian Navy on 27 November 2026.', 'The seven-ship programme was completed within 23 months of the first-of-class INS Nilgiri delivery.', 'Vindhyagiri’s reported 68-month build period was shorter than the 84 months taken for INS Nilgiri.', 'The Ministry of Defence reports 75% indigenous content and participation by more than 200 MSMEs.', 'The handover proves programme completion and shipyard execution, not complete domestic control of every high-value subsystem.', 'The next test is repeatability: whether the learning curve transfers to larger classes, upgrades and through-life sustainment.'],
   sources: ['Press Information Bureau / Ministry of Defence (27 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342700', 'The Hindu (27 Nov 2026): https://www.thehindu.com/news/national/navy-project-17a-programme-completed-as-grse-hands-over-final-stealth-frigate-vindhyagir/article71751558.ece', 'India Today (27 Nov 2026): https://www.indiatoday.in/india/story/vindhyagiri-delivery-grse-completes-p17a-frigate-programme-indian-navy-brahmos-armed-final-ship-of-stealth-frigate-trio-3048346-2026-11-27']
+}, {
+  slug: 'isro-lox-methane-gas-generator-200-second-test-nglv-2026',
+  no: 'S-211',
+  title: 'ISRO’s 200-Second LOX–Methane Test Moves NGLV Propulsion Beyond First Ignition',
+  domain: 'Space & Launch Systems',
+  date: '2026-11-28',
+  dateLabel: '28 Nov 2026',
+  status: 'live',
+  excerpt: 'ISRO has completed a 200-second ignition test of the gas-generator subsystem for its high-thrust liquid-oxygen/methane engine at Mahendragiri. The run reached a simulated 31.5-bar gas-generator chamber pressure, corresponding to roughly 60% engine thrust, and followed the first cold-flow test of the LOX pump assembly. This is a real propulsion-development milestone, but it is not yet an integrated full-engine hot test or a flight result: the next challenge is proving the complete engine across its operating envelope.',
+  readingTime: '6 min read',
+  body: [{
+  text: 'The test is one subsystem milestone in a larger engine campaign',
+  type: 'h2'
+}, {
+  text: 'ISRO announced on 27 November 2026 that it had completed a 200-second long-duration ignition test of the gas-generator subsystem for a high-thrust liquid-oxygen/methane engine at the ISRO Propulsion Complex in Mahendragiri. The engine is being developed by the Liquid Propulsion Systems Centre with participation from the Vikram Sarabhai Space Centre for the Next Generation Launch Vehicle.',
+  type: 'p'
+}, {
+  text: 'A gas generator burns a portion of the propellants to produce hot, high-pressure gas. That gas drives a turbine, which powers the turbopumps that feed propellant to the thrust chamber. It is therefore a critical engine subsystem, but it is not the complete engine.',
+  type: 'p'
+}, {
+  note: 'The run was conducted on 14 November and announced by ISRO on 27 November',
+  type: 'stat',
+  label: 'Long-duration gas-generator ignition test',
+  value: '200 seconds'
+}, {
+  text: 'What ISRO demonstrated',
+  type: 'h2'
+}, {
+  text: 'The test simulated a steady-state gas-generator chamber pressure of 31.5 bar, corresponding to approximately 60% of engine thrust. ISRO reported smooth ignition and stable combustion, and said the hardware’s design adequacy had been demonstrated for that operating condition.',
+  type: 'p'
+}, {
+  text: 'The gas generator was fabricated through additive manufacturing by Indian industry. That fact is relevant to development agility and part complexity, but it does not by itself establish production qualification, serial manufacturing economics or the reliability of the finished engine in an integrated vehicle.',
+  type: 'p'
+}, {
+  rows: [['Gas generator', '200-second ignition with stable combustion at 31.5 bar and about 60% thrust', 'Performance across the remaining operating conditions and repeated runs'], ['LOX pump', 'First cold-flow test completed on 12 November; prior spin test reached maximum operating speed', 'Integrated pump behaviour with the complete engine and long-duration hot operation'], ['Engine campaign', 'Spark torch, scaled thrust chamber, full-scale gas generator and LOX pump have completed reported development tests', 'Full-engine hot test, margins, restart behaviour and qualification evidence'], ['Manufacturing', 'Gas generator fabricated additively by Indian industry', 'Inspection, repeatability, material qualification and production throughput'], ['Launch vehicle', 'Subsystem work supports the planned Next Generation Launch Vehicle', 'Vehicle integration, stage tests, flight qualification and launch performance']],
+  type: 'table',
+  headers: ['Development layer', 'What the latest update establishes', 'What remains to be verified']
+}, {
+  text: 'Why LOX–methane is strategically relevant',
+  type: 'h2'
+}, {
+  text: 'Methane-based propulsion is being pursued for the Next Generation Launch Vehicle. Compared with hypergolic propellants, liquid oxygen and methane are associated with cleaner combustion and potential reusability advantages, although the engineering trade-offs include cryogenic handling, combustion stability, turbomachinery and ground infrastructure.',
+  type: 'p'
+}, {
+  text: 'The programme matters because launch capability is ultimately constrained by repeatable engine production and test discipline, not by a single successful ignition. A gas-generator run at a partial operating point reduces uncertainty in one layer of the engine, while leaving integrated thermal, turbomachinery and thrust-chamber performance to be demonstrated.',
+  type: 'p'
+}, {
+  text: 'The next evidence should be integrated, not merely longer',
+  type: 'h2'
+}, {
+  text: 'ISRO says the gas-generator hardware will be used to establish design adequacy at different operating conditions. The next decisive milestone would be a full-engine hot test that combines the gas generator, turbopumps, thrust chamber, ignition system, controls and feed systems under representative conditions.',
+  type: 'p'
+}, {
+  text: 'The independent report reviewed for this signal corroborates the 200-second test, pressure point, LOX-pump milestone and NGLV application. It also notes that ISRO has not announced a full-engine hot-test date. The numerical results in this signal remain participant-reported until test data or independent replication is released.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'ISRO’s gas-generator test is a substantive propulsion step because it demonstrates long-duration operation at a quantified partial-power condition and advances multiple engine subsystems together. It should be read neither as a routine laboratory firing nor as proof of a flight-ready NGLV engine. The strategic question is whether the campaign can convert subsystem confidence into an integrated, manufacturable and repeatedly tested 1,100-kilonewton-class propulsion system.',
+  type: 'p'
+}],
+  takeaways: ['ISRO completed a 200-second gas-generator ignition test for its high-thrust LOX–methane engine on 14 November 2026.', 'The run simulated 31.5 bar chamber pressure, corresponding to approximately 60% engine thrust, with reported smooth ignition and stable combustion.', 'The gas generator was additively manufactured by Indian industry, while the LOX pump also completed a first cold-flow test on 12 November.', 'The campaign advances propulsion for the Next Generation Launch Vehicle but does not constitute an integrated full-engine hot test or flight qualification.', 'The next evidence to watch is operation across other conditions, followed by full-engine testing and repeatable manufacturing proof.'],
+  sources: ['Indian Space Research Organisation (27 Nov 2026): https://www.isro.gov.in/Gas_Generator_for_high_thrust_LOX_Methane_engine.html', 'MapMyTimes (28 Nov 2026): https://mapmytimes.com/articles/isro-lox-methane-gas-generator-200-second-test-mahendragiri-27-november-2026', 'ISRO programme overview (16 Oct 2026): https://www.isro.gov.in/LOX_Methane_engine.html']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
