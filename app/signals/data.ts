@@ -8746,6 +8746,70 @@ export const signals: SignalMeta[] = [{
 }],
   takeaways: ['MeitY has launched Chariot-1 Foundation Models under the IndiaAI Mission, developed by one of the first four selected teams.', 'The suite includes an 11B mixture-of-experts LLM with 4B active parameters per token and three reported model sizes.', 'The TTS model supports English and 10 Indian languages and reports over 97% verbalisation accuracy on the Async TTS Pronunciation Benchmark.', 'IndiaAI reports IndicShift, nested training and mixture-of-vocabularies as efficiency innovations, but independent replication is not yet available.', '‘Developed from scratch in India’ establishes model-development capability, not complete control of compute hardware, software or data inputs.', 'Public access, licensing, reproducible benchmarks, affordable inference and actual deployments will determine whether Chariot-1 becomes strategic infrastructure.'],
   sources: ['Press Information Bureau / MeitY (26 Nov 2026): https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2341725&reg=3&lang=1', 'IndiaAI Mission (25 Nov 2026): https://x.com/OfficialINDIAai/status/2125557983153422356', 'Economic Times (26 Nov 2026): https://m.economictimes.com/tech/artificial-intelligence/india-launches-indigenous-chariot-1-foundation-models-to-strengthen-sovereign-ai-capabilities/articleshow/136185840.cms', 'The Tribune / ANI (26 Nov 2026): https://www.tribuneindia.com/news/business/india-launches-indigenous-chariot-1-foundation-models-to-strengthen-sovereign-ai-capabilities/', 'Inc42 (26 Nov 2026): https://inc42.com/buzz/indiaai-mission-backed-chariot-ai-unveils-11-bn-parameter-llm-speech-models/']
+}, {
+  slug: 'grse-vindhyagiri-final-project-17a-frigate-delivery-2026',
+  no: 'S-210',
+  title: 'Vindhyagiri Delivery Closes Project 17A — and Tests India’s Warship-Building Rhythm',
+  domain: 'Defence & Shipbuilding',
+  date: '2026-11-28',
+  dateLabel: '28 Nov 2026',
+  status: 'live',
+  excerpt: 'Garden Reach Shipbuilders and Engineers has delivered Vindhyagiri, the seventh and final Nilgiri-class Project 17A frigate, to the Indian Navy. The milestone is larger than one ship handover: all seven frigates were delivered within 23 months of the first-of-class ship, while the final vessel’s build period fell to 68 months from 84 months for INS Nilgiri. The strategic question now shifts from whether India can design and build complex warships to whether this execution rhythm can be repeated across larger programmes.',
+  readingTime: '6 min read',
+  body: [{
+  text: 'A completed programme, not another launch headline',
+  type: 'h2'
+}, {
+  text: 'Garden Reach Shipbuilders and Engineers Limited (GRSE) delivered Vindhyagiri (Yard 3024) to the Indian Navy at Kolkata on 27 November 2026. It is the seventh and final Nilgiri-class Project 17A frigate, and the third and final ship of the class built by GRSE.',
+  type: 'p'
+}, {
+  text: 'The distinction matters. Project 17A has moved through design, construction, launch, trials and handover for the full seven-ship set. Vindhyagiri’s delivery therefore provides evidence of programme completion and shipyard execution, rather than only a new order or a stated production ambition.',
+  type: 'p'
+}, {
+  note: 'The Indian Navy has now received the complete Nilgiri-class frigate set',
+  type: 'stat',
+  label: 'Project 17A delivery milestone',
+  value: '7 ships'
+}, {
+  text: 'The learning curve is visible in the build time',
+  type: 'h2'
+}, {
+  text: 'The Ministry of Defence says all seven Project 17A ships were delivered within 23 months of INS Nilgiri, the first-of-class vessel, being delivered on 20 December 2024. Vindhyagiri’s build period was 68 months, compared with 84 months for INS Nilgiri.',
+  type: 'p'
+}, {
+  text: 'That 16-month difference is not proof that every future warship will be built at the same speed. It does show how a yard can accumulate design, planning, supplier and integration knowledge across a class. The next test is whether the learning survives a change in ship type, propulsion package, combat system and production scale.',
+  type: 'p'
+}, {
+  rows: [['Programme', 'All seven Project 17A frigates have been delivered to the Navy', 'Operational availability, maintenance cycle and sustained fleet readiness'], ['Shipyard execution', 'GRSE completed its third and final Project 17A ship', 'Whether the shorter build period can be reproduced on later classes'], ['Schedule learning', 'Vindhyagiri took 68 months versus 84 months for INS Nilgiri', 'Whether the gain reflects repeatable process capability or class-specific learning'], ['Industrial base', 'The project reports 75% indigenous content and more than 200 MSMEs', 'Depth of domestic ownership in propulsion, sensors, weapons and high-value subsystems'], ['Capability', 'Project 17A provides stealthy multi-mission frigates with modern weapons and sensors', 'Sea trials, induction, availability and operational performance over time']],
+  type: 'table',
+  headers: ['Layer', 'What the handover establishes', 'What remains to be tested']
+}, {
+  text: 'What 75% indigenous content does—and does not—tell us',
+  type: 'h2'
+}, {
+  text: 'The Ministry of Defence reports 75% indigenisation for the Project 17A programme and involvement of more than 200 MSMEs. Those figures indicate a broad domestic industrial footprint, but they do not reveal the value share or technology depth of each subsystem. A meaningful assessment would separate hull construction and integration from propulsion, radar, electronic warfare, weapons, software and sustainment content.',
+  type: 'p'
+}, {
+  text: 'That distinction is important for strategic autonomy. A ship can be locally designed and assembled while still depending on imported items at the most difficult layers. The handover is evidence of Indian programme execution; it is not, by itself, evidence that every critical subsystem is domestically controlled.',
+  type: 'p'
+}, {
+  text: 'The fleet effect is the next measure',
+  type: 'h2'
+}, {
+  text: 'Project 17A frigates are multi-mission platforms configured for anti-surface, anti-air and anti-submarine warfare. They use Combined Diesel or Gas propulsion and an Integrated Platform Management System, alongside an advanced weapons and sensors suite.',
+  type: 'p'
+}, {
+  text: 'The strategic value will now be judged in service. Delivery closes the shipbuilder’s programme milestone, but the Navy still has to complete induction, train crews, sustain availability and generate operational output from seven ships. The industrial question is whether the same suppliers and processes can support upgrades and through-life maintenance without recreating foreign bottlenecks.',
+  type: 'p'
+}, {
+  text: 'The Techadyant view',
+  type: 'h2'
+}, {
+  text: 'Vindhyagiri is a meaningful Indian shipbuilding milestone because it closes a complete seven-ship frigate programme and shows measurable schedule improvement inside the class. Its deeper significance is institutional: India has generated a reference production run for a complex surface combatant. The next signal to watch is whether that reference run becomes a repeatable production system for larger, more technically demanding naval programmes.',
+  type: 'p'
+}],
+  takeaways: ['GRSE delivered Vindhyagiri, the seventh and final Project 17A / Nilgiri-class frigate, to the Indian Navy on 27 November 2026.', 'The seven-ship programme was completed within 23 months of the first-of-class INS Nilgiri delivery.', 'Vindhyagiri’s reported 68-month build period was shorter than the 84 months taken for INS Nilgiri.', 'The Ministry of Defence reports 75% indigenous content and participation by more than 200 MSMEs.', 'The handover proves programme completion and shipyard execution, not complete domestic control of every high-value subsystem.', 'The next test is repeatability: whether the learning curve transfers to larger classes, upgrades and through-life sustainment.'],
+  sources: ['Press Information Bureau / Ministry of Defence (27 Nov 2026): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342700', 'The Hindu (27 Nov 2026): https://www.thehindu.com/news/national/navy-project-17a-programme-completed-as-grse-hands-over-final-stealth-frigate-vindhyagir/article71751558.ece', 'India Today (27 Nov 2026): https://www.indiatoday.in/india/story/vindhyagiri-delivery-grse-completes-p17a-frigate-programme-indian-navy-brahmos-armed-final-ship-of-stealth-frigate-trio-3048346-2026-11-27']
 }];
 
 export function getSignal(slug: string): SignalMeta | undefined {
